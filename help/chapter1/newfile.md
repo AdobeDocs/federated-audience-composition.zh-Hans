@@ -2,10 +2,10 @@
 title: 新建文件
 description: 描述
 keywords: 新建文件，添加文件，文件
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="工作流属性"
->abstract="在此屏幕中，选择要用于创建工作流的模板并指定标签。展开“其他选项”部分以配置更多设置，例如工作流内部名称、其文件夹、时区和主管组等。强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
 
 
 >[!CONTEXTUALHELP]
