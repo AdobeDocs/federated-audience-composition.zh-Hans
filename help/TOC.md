@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: 430b856b1c5ab9c52e572c7a3a789567f3c90a04
+source-git-commit: 2a22a536ac3a13c4e44774126a6d691612268a20
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 44%
+source-wordcount: '99'
+ht-degree: 45%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 44%
 + 合成 {#compositions}
    + [合成快速入门](compositions/gs-compositions.md)
    + [创建组合](compositions/create-composition.md)
-   + [访问和管理合成](compositions/manage-compositions.md)
    + 使用活动 {#activities}
       + [活动列表](compositions/activities/about-activities.md)
       + [And — 连接](compositions/activities/and-join.md)
