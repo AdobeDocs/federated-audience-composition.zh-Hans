@@ -2,10 +2,10 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 2%
+source-wordcount: '1034'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 ### 初始化脚本
 
-此 **初始化脚本** 用于初始化变量或修改活动属性。 单击 **编辑代码** 按钮并键入要执行的代码片段。 活动执行时将调用脚本。 请参阅与 [事件变量](../workflows/event-variables.md).
+此 **初始化脚本** 用于初始化变量或修改活动属性。 单击 **编辑代码** 按钮并键入要执行的代码片段。 活动执行时将调用脚本。
 
 ## 示例 {#example}
 
@@ -108,4 +108,4 @@ ht-degree: 2%
 
 完成工作流后，添加 **[!UICONTROL 结束]** 活动位于图表末尾。 此活动允许您以可视方式标记工作流的结尾，对功能没有影响。
 
-成功设计工作流图后，您可以执行工作流并跟踪其各种任务的进度。 [了解如何启动工作流并监控其执行情况](start-monitor-workflows.md)
+成功设计工作流图后，您可以执行工作流并跟踪其各种任务的进度。
