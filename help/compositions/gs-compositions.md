@@ -2,7 +2,7 @@
 audience: end-user
 title: 合成快速入门
 description: 了解如何开始使用合成
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 ## 访问组合 {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="构成"
 >abstract="在此屏幕中，您可以访问组合的完整列表，检查其当前状态、上次/下次执行日期，以及创建新组合。"
 
