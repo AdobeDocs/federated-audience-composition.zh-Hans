@@ -2,9 +2,9 @@
 audience: end-user
 title: 合成快速入门
 description: 了解如何开始使用合成
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 
 要优化列表并轻松查找要查找的合成，您可以搜索列表并按合成的状态或上次处理日期过滤合成。
 
-您还可以通过添加或删除列来自定义列表。 为此，请单击“配置列”按钮并管理
+您还可以通过添加或删除列来自定义列表。 要执行此操作，请单击 **配置列** s按钮并添加或删除所需的输出列。
 
 ![](assets/compositions-columns.png)
 
