@@ -2,12 +2,13 @@
 audience: end-user
 title: 使用组合活动
 description: 了解如何使用组合活动
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 70%
 
 ---
+
 
 # 合并 {#combine}
 
@@ -22,9 +23,7 @@ ht-degree: 70%
 * **交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。
 * **差集**&#x200B;可根据特定条件从一个群体中排除某些元素。
 
-
 此 **合并** 活动可以放在任何其他活动之后，但不得放置在合成的开头。 任何活动都可以放在 **合并**.
-
 
 ## 配置“合并”活动 {#combine-configuration}
 

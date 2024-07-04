@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用等待活动
 description: 了解如何使用等待活动
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 60%
@@ -27,4 +27,5 @@ ht-degree: 60%
 1. 指定集客过渡和叫客过渡之间等待的&#x200B;**持续时间**。
 
 1. 选择时间单位 **期间** 字段：秒、分钟、小时、天。
+
 

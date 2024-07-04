@@ -2,22 +2,24 @@
 audience: end-user
 title: 使用活动
 description: 了解如何使用活动
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 32%
+source-wordcount: '274'
+ht-degree: 16%
 
 ---
 
 
 # 使用活动 {#activities}
 
-## 活动列表 {#activity-list}
+在联合受众合成中，您可以使用两种类型的活动创建合成：
 
-在联合受众构成中，活动特定于定位。 利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
+* **定位活动** 允许您通过定义受众并使用交集、并集或排除操作拆分或组合这些受众来构建一个或多个目标。
+* **流量控制** 活动特定于组织和执行合成。 他们的主要任务是协调其他活动。
 
-<!--to update -->
+## 定位活动
 
+* [构建受众活动](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建构成时更改定向维度。
 * [合并](combine.md)：对集客群体执行分段。 您可以使用并集、交集或差集。
 * [删除重复项](deduplication.md)：删除集客活动结果中的重复项。
@@ -26,3 +28,10 @@ ht-degree: 32%
 * [保存受众](save-audience.md)：更新现有受众，或从构成中上游计算的群体创建新受众。
 * [Split](split.md)：将传入群体分段为多个子集。
 
+## 流量控制活动
+
+* [AND — 连接](and-join.md)：同步工作流的多个执行分支。
+* **结束** ：以图形方式标记工作流的结尾。 此活动没有功能影响，因此是可选的。
+* [分支](fork.md)：创建叫客过渡以同时启动多个活动。
+* [计划程序](scheduler.md)：安排工作流何时启动。
+* [等待](wait.md)：暂时暂停执行部分工作流。

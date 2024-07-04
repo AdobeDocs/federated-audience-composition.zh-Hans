@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用分支活动
 description: 了解如何使用分支活动
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -32,4 +32,5 @@ ht-degree: 81%
 1. 添加 **分支** 活动添加到合成。
 1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
 1. 请为每个过渡添加标签。
+
 

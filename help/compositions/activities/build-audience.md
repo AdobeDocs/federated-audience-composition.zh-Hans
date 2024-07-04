@@ -2,12 +2,13 @@
 audience: end-user
 title: 使用构建受众活动
 description: 了解如何使用构建受众活动
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # 构建受众 {#build-audience}
 
@@ -24,10 +25,7 @@ ht-degree: 37%
 * 选择 Adobe Experience Platform 受众。
 * 通过定义和组合筛选条件，使用查询建模器生成器构建新受众。
 
-
-
 此 **构建受众** 活动可以放置在合成的开头或任何其他活动之后。 任何活动都可以放在 **构建受众**.
-
 
 ## 配置“构建受众”活动 {#build-audience-configuration}
 
