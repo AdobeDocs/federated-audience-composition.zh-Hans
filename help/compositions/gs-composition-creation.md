@@ -2,10 +2,10 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 36%
+source-wordcount: '229'
+ht-degree: 41%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 36%
 >title="组合属性"
 >abstract="在此屏幕中，选择要用于创建构图并指定标签的模板。 展开“其他OPTIONS”部分以配置更多设置，如构成内部名称、文件夹、时区和主管组。 强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
 
-联合数据构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
-
 ## 作文内有什么？ {#gs-composition-inside}
+
+联合数据构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
 
 组合图是应发生情况的表示形式。 它描述要执行的各种任务及其如何链接在一起。
 
@@ -29,8 +29,6 @@ ht-degree: 36%
 
 * **活动**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
 
-  在构成图中，给定活动可以生成多个任务，尤其是当存在循环或重复操作时。
-
 * **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
 
 * **工作表**：工作表包含了过渡所携带的所有信息。每个构成都使用多个工作台。 这些表中传送的数据可在整个合成生命周期中使用。
@@ -39,7 +37,6 @@ ht-degree: 36%
 
 创建合成的主要步骤如下：
 
-1. [创建合成](#create)
-1. [配置构成设置](#starting-audience)
-1. [添加和配置活动](#action-activities)
-1. [执行构成并监视其执行](#save)
+1. [创建和配置合成](../compositions/create-composition.md)
+1. [安排活动](../compositions/orchestrate-activities.md)
+1. [执行构成并监视其执行](../compositions/start-monitor-composition.md)

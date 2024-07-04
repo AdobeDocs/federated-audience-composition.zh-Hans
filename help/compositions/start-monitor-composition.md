@@ -2,9 +2,9 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: b946f8821d965fb00f79f6f5557adcfff1ee2387
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 启动合成 {#start}
 
-要启动构成，请导航至 **[!UICONTROL 合成]** 菜单或关联的营销活动，然后单击 **[!UICONTROL 开始]** 按钮来显示画布的右上角。
-
-一旦构成正在运行，就会按顺序执行画布中的每个活动，直到构成结束。
+要启动合成，请单击 **[!UICONTROL 开始]** 按钮来打开屏幕。 当合成运行时，按顺序执行画布中的每个活动，直到达到合成结束为止。
 
 您可以使用可视流量实时跟踪目标用户档案的进度。 这允许您快速识别每个活动的状态以及它们之间转换的用户档案数。
+
+![](assets/composition-visual-flow.png)
 
 ## 合成过渡 {#transitions}
 
@@ -29,36 +29,53 @@ ht-degree: 0%
 * 单击 **[!UICONTROL 预览架构]** 显示工作表的模式。
 * 单击 **[!UICONTROL 预览结果]** 对在所选过渡中传输的数据进行可视化。
 
+![](assets/transition-preview.png)
+
 ## 监测活动执行 {#activities}
 
 通过每个活动框右上角的视觉指示器，可检查其执行情况：
 
 | 视觉指示器 | 描述 |
 |-----|------------|
-|  | 当前正在执行活动。 |
-|  | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
-|  | 活动遇到错误。 要解决此问题，请打开组合日志以获取更多信息。 |
-|  | 已成功执行活动。 |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 当前正在执行活动。 |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。 要解决此问题，请打开组合日志以获取更多信息。 |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功执行活动。 |
 
 ## 监测日志和任务 {#logs-tasks}
 
-监测合成日志和任务是分析合成并确保它们正常运行的关键步骤。 可从以下位置访问它们 **[!UICONTROL 日志]** 图标，该图标位于操作工具栏和每个活动的属性窗格中。
+监测合成日志和任务是分析合成并确保它们正常运行的关键步骤。 可从以下位置访问它们 **[!UICONTROL 日志]** 按钮，该按钮位于操作工具栏和每个活动的属性窗格中。
 
-此 **[!UICONTROL 日志和任务]** 菜单提供合成执行的历史记录，记录所有用户操作和遇到的错误。 此历史记录会保存至构成中指定的持续时间 [执行选项](composition-settings.md). 在此持续时间内，将保存所有消息，即使在重新开始撰写之后也是如此。 如果不想保存先前执行的消息，请单击 **[!UICONTROL 清除历史记录]** 按钮。
+![](assets/logs-button.png)
 
-提供了两种类型的信息：
+此 **[!UICONTROL 组合日志和任务]** 屏幕提供合成执行的历史记录，记录所有用户操作和遇到的错误。
+
+<!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
+
+历史记录将整理到多个选项卡中，详细信息如下：
 
 * 此 **[!UICONTROL 日志]** 选项卡包含所有构成活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
-* 此 **[!UICONTROL 任务]** 选项卡详细列出了活动的执行顺序。
+* 此 **[!UICONTROL 任务]** 选项卡详细列出了活动的执行顺序。 利用每个任务末尾的按钮，可列出通过活动传递的事件变量。
+* 此 **[!UICONTROL 变量]** 选项卡列出了构成中传递的所有变量。 仅从构成画布访问日志和任务时可用。 现在，当从活动的属性窗格访问日志时，它可用。  <!-- à confirmer-->
 
-在这两个选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。
+![](assets/logs-tasks.png)
+
+在所有选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。
 
 ## 组合执行命令 {#execution-commands}
 
-右上角的操作栏提供了用于管理合成执行的命令。 您可以：
+右上角的操作栏提供了用于管理合成执行的命令。
 
-* **[!UICONTROL 开始]** / **[!UICONTROL 继续]** 构成的执行过程，构成随后会呈现“进行中”状态。 如果合成暂停，则会恢复合成，否则会启动合成，然后激活初始活动。
+![](assets/execution-actions.png)
 
-* **[!UICONTROL 暂停]** 构成的执行将呈现“已暂停”状态。 在恢复之前，不会激活任何新活动，但不会暂停正在进行的操作。
+可用的操作包括：
 
-* **[!UICONTROL 停止]** 正在执行的合成，随后将呈现“已完成”状态。 如果可能，正在执行的操作会被中断。 您无法从停止的同一位置恢复合成。
+* **开始**：开始执行合成，然后使用 **进行中** 状态。 开始构成并激活初始活动。
+
+* **[!UICONTROL 继续]**：恢复执行已暂停的合成。 构成将采用 **进行中** 状态。
+
+* **[!UICONTROL 暂停]** 执行合成，然后构成 **已暂停** 状态。 在恢复之前，不会激活任何新活动，但不会暂停正在进行的操作。
+
+* **[!UICONTROL 停止]** 正在执行的合成，随后将采用 **已完成** 状态。 如果可能，正在执行的操作会被中断。 您无法从停止的同一位置恢复合成。
+
+* **重新启动**：停止然后重新启动合成。 在大多数情况下，由于停止操作需要花费一定的时间，因此可让您更快地重新启动， **开始** 仅当停止生效时，按钮才可用。

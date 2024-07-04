@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 36%
+source-wordcount: '118'
+ht-degree: 37%
 
 ---
 
@@ -25,9 +25,8 @@ ht-degree: 36%
    + [合成快速入门](compositions/gs-compositions.md)
    + 创建并运行您的第一个合成 {#create-composition}
       + [构成创建的主要原则](compositions/gs-composition-creation.md)
-      + [创建合成](compositions/create-composition.md)
+      + [创建和配置合成](compositions/create-composition.md)
       + [安排活动](compositions/orchestrate-activities.md)
-      + [配置合成设置](compositions/composition-settings.md)
       + [启动并监视合成](compositions/start-monitor-composition.md)
    + 使用活动 {#activities}
       + [活动列表](compositions/activities/about-activities.md)
