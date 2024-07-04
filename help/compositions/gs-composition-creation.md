@@ -2,7 +2,7 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 41%
@@ -28,9 +28,7 @@ ht-degree: 41%
 每个构成都包含：
 
 * **活动**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
-
 * **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
-
 * **工作表**：工作表包含了过渡所携带的所有信息。每个构成都使用多个工作台。 这些表中传送的数据可在整个合成生命周期中使用。
 
 ## 创建合成的关键步骤 {#gs-composition-steps}
