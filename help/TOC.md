@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 37%
+source-wordcount: '117'
+ht-degree: 36%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 37%
       + [删除重复项](compositions/activities/deduplication.md)
       + [扩充](compositions/activities/enrichment.md)
       + [分叉](compositions/activities/fork.md)
-      + [增量查询](compositions/activities/incremental-query.md)
       + [协调](compositions/activities/reconciliation.md)
       + [保存受众](compositions/activities/save-audience.md)
+      + [调度程序](compositions/activities/scheduler.md)
       + [拆分](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)
 + 查询数据库 {#query-database}
