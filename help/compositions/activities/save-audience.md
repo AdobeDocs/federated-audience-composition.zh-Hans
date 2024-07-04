@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: 使用保存受众活动
-description: 了解如何使用分支活动
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: 了解如何使用保存受众活动
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '358'
 ht-degree: 12%
 
 ---
+
 
 # 保存受众 {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 12%
 >abstract="选择用于配置文件的主要身份。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="请参阅Experience Platform文档以了解详情"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="标识命名空间"
 >abstract="选择用于配置文件的命名空间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="请参阅Experience Platform文档以了解详情"
-
-
 
 此 **保存受众** 利用活动，可使用合成上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 
@@ -46,21 +44,23 @@ ht-degree: 12%
 
 1. 添加 **保存受众** 活动添加到合成。
 
-1. 在 **模式** 在下拉列表中，选择要执行的操作：
+   ![](../assets/save-audience.png)
 
-   * **创建或更新现有受众**：定义 **受众标签**. 如果受众已存在，则将更新受众，否则将创建新受众。
+1. 指定要创建的受众的标签。
 
-   * **更新现有受众**：选择 **受众** 您希望在现有受众列表中更新。
+1. 单击 **添加受众映射** 然后选择源受众和目标受众字段：
 
-1. 选择 **更新模式** ，这些规则将应用于现有受众：
+   * **Source受众字段**：
+   * **目标受众字段**：
 
-   * **使用新数据替换受众内容**：替换所有受众内容。 旧数据会丢失。仅保留来自保存受众活动之集客过渡的数据。 此选项会清除已更新受众的受众类型和定向维度。
+   重复该操作，根据需要添加任意数量的受众映射。
 
-   * **使用新数据完成受众**：保留旧受众内容，并将来自保存受众活动之集客过渡的数据添加到旧内容中。
+1. 选择用于标识数据库中的目标用户档案的主要身份和命名空间：
 
-1. 查看 **生成叫客过渡** 选项，如果您希望在 **保存受众** 活动。
+   * **主要标识字段**：选择用于标识用户档案的字段。 例如，其电子邮件地址或电话号码。
+   * **身份命名空间**：选择用于标识用户档案的命名空间，即用作标识键的数据类型。 例如，如果已选择电子邮件地址作为主身份字段，则身份命名空间 **电子邮件** 应选中。 如果唯一标识符是电话号码，则身份命名空间 **电话** 应选中。
 
-随后，受众的详细视图中会提供所保存受众的内容，可通过访问 **受众** 菜单。 此视图中可用的列，对应于集客过渡的列 **保存受众** 活动。
+执行合成后，生成的受众将保存在Adobe Experience Platform中，并可在中访问 **受众** 菜单。
 
 <!--
 
