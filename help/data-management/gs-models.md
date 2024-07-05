@@ -2,7 +2,7 @@
 audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
-source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
+source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 37%
@@ -38,9 +38,9 @@ ht-degree: 37%
 
 数据模型是一组架构、受众以及它们之间的链接。
 
-了解有关 [架构](customer/schemas.md).
+了解有关 [架构](../customer/schemas.md).
 
-了解有关 [受众](customer/audiences.md).
+了解有关 [受众](../customer/audiences.md).
 
 ## 如何创建数据模型？ {#data-model-create}
 
