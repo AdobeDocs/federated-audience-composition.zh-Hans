@@ -5,7 +5,7 @@ description: 了解如何使用扩充活动
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 40%
+ht-degree: 47%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="“扩充”活动"
->abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用在分段活动后的构成中。"
+>abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。通常在分段活动之后的构成中使用它。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="“扩充”活动"
->abstract="将扩充数据添加到构成后，即可在之后添加的活动中使用 **扩充** 活动根据用户档案的行为、偏好和选择将其划分为不同的组。"
+>abstract="一旦将扩充数据添加到构成中，它就可以在 **扩充** 活动之后添加的活动中使用，以根据行为、偏好和选择将轮廓划分为不同的组。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="链接定义"
->abstract="在工作表数据和联合数据库之间创建链接。"
+>abstract="在表数据和联合数据库之间创建链接。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
 >title="扩充协调"
->abstract="设置协调参数。"
+>abstract="设置协调参数"
 
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于丰富合成的数据。 可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 此 **扩充** 利用活动，可使用联合数据库中的其他信息来增强目标数据。 它通常用在分段活动后的合成中。
 

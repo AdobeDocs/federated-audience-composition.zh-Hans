@@ -5,7 +5,7 @@ description: 了解如何创建合成
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 1%
    * [了解如何编排活动](#action-activities)
    * [了解如何启动和监控合成](#save)
 
-## 配置构成设置 {#settings}
+## 配置构成设置。 {#settings}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="组合属性"
->abstract="本节提供了创建合成时也可以访问的一般合成属性。"
+>title="构成属性"
+>abstract="此部分提供了通用构成属性，在创建构成时也可以访问这些属性。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
->title="组合分段"
->abstract="默认情况下，仅保留最后一次执行合成的工作表。 可启用此选项以保留工作表以进行测试。 必须使用 **仅限** 在开发或暂存环境中。 在生产环境中绝不能对其进行检查。"
+>title="构成分段"
+>abstract="通过默认，仅保留最后一次构成执行的工作表。您可以启用此选项来保留工作表以供测试目的。它必须 **仅** 在开发或登台环境中使用。绝不能在生产环境中检查它。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="错误管理设置"
->abstract="在此部分中，您可以定义如何管理执行过程中的错误。 您可以选择暂停进程、忽略特定数量的错误或停止合成执行。"
+>abstract="在本部分中，您可以定义在执行期间应如何管理错误。您可以选择暂停流程、忽略一定数量的错误或停止构成执行。"
 
 在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。
 

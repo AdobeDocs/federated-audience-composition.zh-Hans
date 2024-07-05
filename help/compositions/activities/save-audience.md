@@ -5,7 +5,7 @@ description: 了解如何使用保存受众活动
 source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="保存受众"
->abstract="使用此活动可更新现有受众，或从构成中上游计算的群体创建新受众。 创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
+>abstract="使用此活动更新现有受众或从构成中的上游计算得出的群体创建新受众。创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -25,14 +25,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
 >title="主要标识字段"
->abstract="选择用于配置文件的主要身份。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="请参阅Experience Platform文档以了解详情"
+>abstract="选择要用于轮廓的主要标识。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="在 Experience Platform 文档中了解详情。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="标识命名空间"
->abstract="选择用于配置文件的命名空间。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="请参阅Experience Platform文档以了解详情"
+>abstract="选择要用于轮廓的命名空间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="在 Experience Platform 文档中了解详情。"
 
 此 **保存受众** 利用活动，可使用合成上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众的列表，并可通过以下方式使用： **受众** 菜单。
 

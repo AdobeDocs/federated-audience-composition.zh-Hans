@@ -5,7 +5,7 @@ description: 了解如何使用拆分活动
 source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 59%
+ht-degree: 62%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始合成之前，请确保已使用箭头按钮按适合您的需要的顺序对子集排序。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始构成之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

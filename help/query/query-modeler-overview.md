@@ -5,7 +5,7 @@ description: 了解如何使用查询建模器。
 source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="查询建模器"
->abstract="从数据库为收件人或其他任何定向维度定义筛选条件。"
+>abstract="为收件人或数据库中的任何其他定位维度定义过滤条件。"
 
 查询建模器简化了根据各种条件筛选数据库的过程。 此外，查询建模器可以高效地管理非常复杂和长的查询，提供增强的灵活性和精确度。 此外，它支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 

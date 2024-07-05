@@ -5,7 +5,7 @@ description: 了解如何使用构建受众活动
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="“构建受众”活动"
->abstract="此 **构建受众** 利用活动，可定义将进入构成的受众。"
+>abstract="通过&#x200B;**构建受众**&#x200B;活动，可定义将进入构成的受众。"
 
-此 **构建受众** 利用活动，可定义将进入构成的受众。
+通过&#x200B;**构建受众**&#x200B;活动，可定义将进入构成的受众。
 
 要定义受众群体，您可以：
 
@@ -32,7 +32,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="受众"
->abstract="选择您的受众。"
+>abstract="选择受众。"
 
 请按照以下步骤配置&#x200B;**生成受众**&#x200B;活动：
 

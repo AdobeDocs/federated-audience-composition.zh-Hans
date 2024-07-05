@@ -5,7 +5,7 @@ description: 了解如何开始使用合成
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="构成"
->abstract="在此屏幕中，您可以访问组合的完整列表，检查其当前状态、上次/下次执行日期，以及创建新组合。"
+>abstract="在此屏幕中可访问整个构成列表、检查他们当前的状态、上次/下次执行日期以及创建新构成。"
 
 可从Adobe Experience Platform访问合成 **[!UICONTROL 受众]** 菜单，在 **联合组合** 选项卡。
 

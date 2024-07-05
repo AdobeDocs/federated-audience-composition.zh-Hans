@@ -5,7 +5,7 @@ description: 了解如何使用组合活动
 source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 61%
+ht-degree: 73%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 61%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
->title="交集合并选项"
->abstract="此 **交叉** 允许您仅保留活动中不同集客群体的共有元素。 在 **要连接的集** 部分中，选中之前要加入的所有活动。"
+>title="交叉合并选项"
+>abstract="**交叉**&#x200B;可仅在活动中保留不同入站群体的共有元素。在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
->title="差集合并选项"
->abstract="此 **排除** 允许您根据特定条件从一个群体中排除某些元素。 在 **要连接的集** 部分中，选中之前要加入的所有活动。"
+>title="排除合并选项"
+>abstract="**排除**&#x200B;可根据特定条件从一个群体中排除某些元素。在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择如何合并受众：并集、交集或排除。"
+>abstract="选择如何合并受众：并集、交叉或排除。"
 
 请按照以下常见步骤操作，开始配置&#x200B;**合并**&#x200B;活动：
 
@@ -87,7 +87,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的定位维度。为此，请单击 **添加规则** 在E **排除规则** 并指定尺寸更改条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的定位维度。为此，请单击&#x200B;**排除规则**&#x200B;部分中的&#x200B;**添加规则**，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -102,7 +102,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="合并生成补集"
->abstract="打开 **生成补码** 用于在附加过渡中处理剩余群体的选项。"
+>abstract="开启&#x200B;**生成补集**&#x200B;选项以在额外的过渡中处理剩余群体。"
 
 在 **合并** 活动，您可以配置 **排除项**.
 

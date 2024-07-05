@@ -14,7 +14,7 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
->title="组合属性"
+>title="构成属性"
 >abstract="在此屏幕中，选择要用于创建构图并指定标签的模板。 展开“其他OPTIONS”部分以配置更多设置，如构成内部名称、文件夹、时区和主管组。 强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
 
 ## 作文内有什么？ {#gs-composition-inside}

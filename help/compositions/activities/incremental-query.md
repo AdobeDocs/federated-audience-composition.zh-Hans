@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="增量查询"
->abstract="此 **增量查询** 活动允许您使用查询建模器查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
+>abstract="**增量查询** 活动允许您使用查询建模器查询数据库。每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"

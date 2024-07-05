@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: 联合数据库入门
+title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# 联合数据库入门 {#federated-db}
+# 开始使用联合数据库 {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="联合数据库"
->abstract="此屏幕中列出了到联合数据库的现有连接。 要创建新连接，请单击 **添加联合数据库** 按钮。"
+>abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击 **添加联合数据库** 按钮。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="联合数据库属性"
->abstract="输入新联合数据库的名称，然后选择其类型。"
+>abstract="输入新的联合数据库的名称，并选择其类型。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="联合数据库详细信息"
->abstract="输入要连接到新联合数据库的设置。 使用 **测试连接** 按钮以验证您的配置。"
+>abstract="输入设置以连接到新的联合数据库。使用 **测试连接** 按钮验证您的配置。"
 
 创建、配置、测试和保存与外部数据库的连接。
 

@@ -5,7 +5,7 @@ description: 了解如何使用协调活动
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="协调活动"
->abstract="此 **调解** 活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
+>abstract=" **协调** 活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -68,7 +68,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="协调属性"
->abstract="选择要用于协调数据的属性，然后进行确认。"
+>abstract="选择用于协调数据的属性并“确认”。"
 
 按照以下步骤配置 **调解** 活动：
 

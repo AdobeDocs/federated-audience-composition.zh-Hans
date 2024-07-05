@@ -5,7 +5,7 @@ description: 了解如何使用AND — 连接活动
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 44%
+ht-degree: 57%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="AND-join 活动"
->abstract="此 **And — 连接** 利用活动，可同步合成的多个执行分支。 一旦完成所有之前的活动，即触发该活动。这允许您在继续执行合成之前确保已完成某些活动。"
+>abstract="利用 **And-join** 活动，允许你同步构成的多个执行分支。一旦完成所有之前的活动，即触发该活动。这使您能够在继续执行构成之前确保某些活动已完成。"
 
 此 **AND — 连接** 利用活动，可同步合成的多个执行分支。
 
