@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 26%
@@ -60,7 +60,7 @@ ht-degree: 26%
    * **主要标识字段**：选择用于标识用户档案的字段。 例如，其电子邮件地址或电话号码。
    * **身份命名空间**：选择用于标识用户档案的命名空间，即用作标识键的数据类型。 例如，如果已选择电子邮件地址作为主身份字段，则身份命名空间 **电子邮件** 应选中。 如果唯一标识符是电话号码，则身份命名空间 **电话** 应选中。
 
-执行合成后，生成的受众将保存在Adobe Experience Platform中，并可在中访问 **受众** 菜单。
+执行合成后，生成的受众将保存在Adobe Experience Platform中 <!-- to check-->，并可在中访问 **受众** 菜单。
 
 <!--
 
