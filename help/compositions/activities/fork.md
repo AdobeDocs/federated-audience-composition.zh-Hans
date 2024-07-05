@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用分支活动
 description: 了解如何使用分支活动
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -16,7 +16,6 @@ ht-degree: 81%
 >id="dc_orchestration_fork"
 >title="“分叉”活动"
 >abstract="利用&#x200B;**分叉**&#x200B;活动，可创建叫客过渡以同时开始若干活动。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ ht-degree: 81%
 1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
 1. 请为每个过渡添加标签。
 
-
+   ![](../assets/fork.png)
