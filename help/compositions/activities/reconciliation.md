@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用协调活动
 description: 了解如何使用协调活动
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 32%
+source-wordcount: '518'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="架构"
->abstract="选择要应用于数据的新架构。 利用模式（也称为“定向维度”），可定义定向群体：收件人、应用程序订阅者、操作员、订阅者等。 默认情况下，将选择构成当前定向维度。"
+>abstract="选择要应用于数据的新架构。 利用模式（也称为定向维度），可定义定向群体：收件人、应用程序订阅者、操作员、订阅者等。 默认情况下，将选择构成当前架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
->abstract="选择要协调的入站数据的定位维度。"
+>abstract="为要协调的入站数据选择架构（也称为定向维度）。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ ht-degree: 32%
 
 1. 添加 **调解** 将活动添加到合成中。
 
-1. 选择 **新建架构**. 利用模式（也称为“定向维度”），可定义定向群体：收件人、应用程序订阅者、操作员、订阅者等。
+1. 选择 **新建架构**. 利用模式（也称为定向维度），可定义定向群体：收件人、应用程序订阅者、操作员、订阅者等。
 
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 

@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用活动
 description: 了解如何使用活动
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 16%
 ## 定位活动
 
 * [构建受众活动](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
-* [更改维度](change-dimension.md)：在构建构成时更改定向维度。
+* [更改维度](change-dimension.md)：在构建构成时更改架构，也称为定向维度。
 * [合并](combine.md)：对集客群体执行分段。 您可以使用并集、交集或差集。
 * [删除重复项](deduplication.md)：删除集客活动结果中的重复项。
 * [扩充](enrichment.md)：定义要在组合中处理的附加数据。 通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。

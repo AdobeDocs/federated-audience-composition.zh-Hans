@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用扩充活动
 description: 了解如何使用扩充活动
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 56%
+source-wordcount: '395'
+ht-degree: 44%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择用于扩充您的构成的数据。您可以选择两种类型的扩充数据：从方案中选择单个扩充属性（也称为定向维度）或收集链接（表之间具有1-N基数的链接）。"
 
 此 **扩充** 利用活动，可使用联合数据库中的其他信息来增强目标数据。 它通常用在分段活动后的合成中。
 
@@ -84,7 +84,7 @@ ht-degree: 56%
 我们在此处只添加单个扩充属性，例如出生日期。执行以下步骤：
 
 1. 在&#x200B;**属性**&#x200B;字段内单击。
-1. 从定位维度中选择一个简单的字段，在我们的示例中是出生日期。
+1. 从架构中选择一个简单字段，也称为定向维度，在本例中是出生日期。
 1. 单击&#x200B;**确认**。
 
 <!--### Collection link {#collection-link}

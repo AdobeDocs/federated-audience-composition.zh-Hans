@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询。
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 53%
+source-wordcount: '2100'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 53%
 表达式编辑器提供：
 
 * An **输入字段(1)** 在其中定义表达式。
-* 可用列表 **字段(2)** 该维度可用于表达式中，并与查询的定向维度相对应。
+* 可用列表 **字段(2)** 该维度可用于表达式中，并与查询的架构（也称为定向维度）相对应。
 * **辅助函数(3)**，按类别排序。
 
 通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
