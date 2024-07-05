@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用拆分活动
 description: 了解如何使用拆分活动
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 59%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract="启用输出群体的重叠"
+>abstract="此 **[!UICONTROL 启用输出群体的重叠]** 利用选项，可管理属于多个子集的群体。 如果未勾选该框，则拆分活动将确保即使收件人满足多个子集的条件，也无法存在于多个输出转换中。 它们将位于第一个选项卡的目标中，并带有匹配条件。 选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 Adobe Campaign建议使用排除条件。"
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
@@ -75,9 +75,13 @@ ht-degree: 73%
 
 1. 添加子集后，活动将显示与子集一样多的输出转换。我们强烈建议更改每个子集的标签以便在合成画布中轻松识别它们。
 
+   ![](../assets/split.png)
+
 1. 配置每个子集筛选传入群体的方式。为此，请执行以下步骤：
 
-   1. 打开子集以显示其属性。
+   1. 展开子集以显示其属性。
+
+      ![](../assets/split-subset.png)
 
    1. 要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包含来自其电子邮件地址存在于数据库中的传入群体的用户档案。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ ht-degree: 73%
    >[!NOTE]
    >
    >此 **[!UICONTROL 在同一张表中生成所有子集]** 选项允许将所有子集分组到单个输出转换中。
+
+1. 此 **[!UICONTROL 启用输出群体的重叠]** 利用选项，可管理属于多个子集的群体：
+
+   * 如果未勾选该框，则拆分活动将确保即使收件人满足多个子集的条件，也无法存在于多个输出转换中。 它们将位于第一个选项卡的目标中，并带有匹配条件。
+   * 选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 Adobe Campaign建议使用排除条件。
 
 现已配置该活动。在执行时，群体将按照其添加到活动的顺序划分为不同的子集。
 
