@@ -4,9 +4,9 @@ title: 使用增量查询活动
 description: 了解如何使用增量查询活动
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '598'
 ht-degree: 21%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 21%
 
    通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，将从收件人中选择目标。 <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
 1. 在 **[!UICONTROL 处理过的数据]** 部分，选择要使用的增量模式：
 

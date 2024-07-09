@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用协调活动
 description: 了解如何使用协调活动
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 29%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 29%
 
       ![](../assets/reconciliation-rules.png)
 
-   1. 要使用其他属性协调数据，请选择 **高级协调条件** 选项，然后单击 **创建条件** 按钮。 然后，您可以使用查询建模器创建自己的协调条件。
+   1. 要使用其他属性协调数据，请选择 **高级协调条件** 选项，然后单击 **创建条件** 按钮。 然后，您可以使用查询建模器创建自己的协调条件。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

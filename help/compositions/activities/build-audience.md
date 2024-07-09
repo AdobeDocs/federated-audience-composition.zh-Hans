@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用构建受众活动
 description: 了解如何使用构建受众活动
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 50%
+source-wordcount: '237'
+ht-degree: 39%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 50%
 
 1. 添加一个&#x200B;**生成受众**&#x200B;活动。
 1. 定义一个标签。
-1. 定义受众类型：**创建您自己的**&#x200B;或&#x200B;**读取受众**。
+1. 指定是要创建受众还是选择现有受众。
 1. 按照以下选项卡中详述的步骤配置受众。
 
 >[!BEGINTABS]
 
->[!TAB 创建您自己的（查询）]
+>[!TAB 创建受众]
 
-要创建自己的查询，请执行以下步骤：
+要创建您自己的受众，请执行以下步骤：
 
-1. 选择&#x200B;**创建您自己的（查询）**。
-1. 选择&#x200B;**定位维度**。通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，将从收件人中选择目标。<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. 选择 **创建受众**.
+1. 选择 **架构**，也称为定位维度。 利用模式，您可以定义操作所针对的群体：收件人、合同受益人、操作员、订阅者等。 默认情况下，从收件人中选择架构。
 1. 单击&#x200B;**继续**。
-1. 使用查询建模器定义查询，与设计新电子邮件时创建受众的方式相同。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. 使用查询建模器定义您的查询。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
 >[!TAB 读取受众]
 
@@ -58,7 +58,7 @@ ht-degree: 50%
 
 1. 选择&#x200B;**读取受众**。
 1. 单击&#x200B;**继续**。
-1. 选择受众，与设计新投放时使用受众的方式相同。 <!--Refer to this [section](../../audience/add-audience.md).-->
+1. 选择受众。
 
 >[!ENDTABS]
 
