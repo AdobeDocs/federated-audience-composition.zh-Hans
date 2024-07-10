@@ -5,7 +5,7 @@ description: 了解如何开始使用合成
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 
 ![](assets/composition-example.png)
 
-## 访问和管理合成 {#access}
+## 访问和管理构成 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
