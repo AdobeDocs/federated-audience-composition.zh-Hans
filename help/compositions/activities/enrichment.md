@@ -5,7 +5,7 @@ description: 了解如何使用扩充活动
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 44%
+ht-degree: 52%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充您的构成的数据。您可以选择两种类型的扩充数据：从方案中选择单个扩充属性（也称为定向维度）或收集链接（表之间具有1-N基数的链接）。"
+>abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：模式（也称为目标选择维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
-此 **扩充** 利用活动，可使用联合数据库中的其他信息来增强目标数据。 它通常用在分段活动后的合成中。
+利用&#x200B;**扩充**&#x200B;活动，可使用联合数据库中的附加信息增强目标数据。 它通常用在分段活动后的合成中。
 
 扩充数据可来自：
 
-* **从同一工作表** 作为合成中的目标：
+* **来自与组合中目标工作表相同的工作表**：
 
-  *定位一组客户并将“出生日期”字段添加到当前工作表*.
+  *定位一组客户并将“出生日期”字段添加到当前工作表*。
 
 * **另一个工作表**：
 
   *定位一组客户，并添加“采购”表中的“金额”和“产品类型”字段*。
 
-将扩充数据添加到构成后，即可在之后添加的活动中使用 **扩充** 活动根据客户的行为、偏好和选择将客户划分为不同的组。
+将扩充数据添加到组合后，即可在在&#x200B;**扩充**&#x200B;活动之后添加的活动中使用，以根据客户的行为、偏好和选择将客户划分到不同的组中。
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,15 +62,15 @@ ht-degree: 44%
 
    ![](../assets/enrichment.png)
 
-1. 如果在构成中配置了多个过渡，则可以使用 **[!UICONTROL 主集]** 字段来定义哪个过渡应用作主集以扩充数据。
+1. 如果您的构成中配置了多个过渡，则可以使用&#x200B;**[!UICONTROL 主集]**&#x200B;字段定义应将哪个过渡用作主集以扩充数据。
 
-1. 单击 **添加扩充数据** 并选择要用于扩充数据的属性。
+1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >此 **“编辑表达式”按钮** 在属性选择屏幕中，您可以构建高级表达式以选择属性。
+   >属性选择屏幕中的&#x200B;**编辑表达式按钮**&#x200B;允许您构建高级表达式以选择属性。
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
