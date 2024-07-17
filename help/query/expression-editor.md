@@ -19,25 +19,25 @@ ht-degree: 52%
 
 ## 使用表达式编辑器 {#edit}
 
-可以从查询建模器中获取表达式编辑器 **[!UICONTROL 编辑表达式]** 按钮，可用于 **[!UICONTROL 属性]** 和 **[!UICONTROL 值]** 配置自定义条件时的字段。
+表达式编辑器可从查询建模器&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮获得，在配置自定义条件时，该按钮可用于&#x200B;**[!UICONTROL 属性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
-| 从访问 **属性** 字段 | 从访问 **值** 字段 |
+| 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 表达式编辑器提供：
 
-* An **输入字段(1)** 在其中定义表达式。
-* 可用列表 **字段(2)** 该维度可用于表达式中，并与查询的架构（也称为定向维度）相对应。
+* 定义了表达式的&#x200B;**输入字段(1)**。
+* 可用&#x200B;**字段(2)**&#x200B;的列表，这些字段可用于表达式中，并与查询的架构（也称为定向维度）相对应。
 * **辅助函数(3)**，按类别排序。
 
 通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-表达式就绪后，单击 **[!UICONTROL 确认]** 按钮。 表达式将显示在所选字段中。 要对其进行编辑，请打开表达式编辑器并进行所需的更改。
+表达式就绪后，单击&#x200B;**[!UICONTROL 确认]**&#x200B;按钮。 表达式将显示在所选字段中。 要对其进行编辑，请打开表达式编辑器并进行所需的更改。
 
-以下示例显示了为配置的表达式 **[!UICONTROL 值]** 字段。 要编辑它，您需要使用打开表达式编辑器 **[!UICONTROL 编辑表达式]** 按钮。
+以下示例显示为&#x200B;**[!UICONTROL 值]**&#x200B;字段配置的表达式。 要编辑它，您需要使用&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮打开表达式编辑器。
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
@@ -58,48 +58,48 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>平均</strong><br /> </td> 
-   <td> 返回数字类型列的平均值<br /> </td> 
-   <td> 平均(&lt;value&gt;)<br /></td> 
+   <td> 返回数字类型列<br />的平均值 </td> 
+   <td> Avg（&lt;值&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>计数</strong><br /> </td> 
-   <td> 计算列的非空值<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
+   <td> 计算列<br />的非空值 </td> 
+   <td> Count（&lt;值&gt;）<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>全部计数</strong><br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
    <td> 计算返回的值（所有字段）<br /> </td> 
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> 计算列的不同非空值<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
+   <td> 计算列<br />的不同非空值 </td> 
+   <td> Countdistinct（&lt;值&gt;）<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> 返回数字、字符串或日期类型列的最大值<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
+   <td> <strong>最大</strong><br /> </td> 
+   <td> 返回数字、字符串或日期类型列<br />的最大值 </td> 
+   <td> Max（&lt;值&gt;）<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>最小值</strong><br /> </td> 
-   <td> 返回数字、字符串或日期类型列的最小值<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
+   <td> <strong>分钟</strong><br /> </td> 
+   <td> 返回数字、字符串或日期类型列<br />的最小值 </td> 
+   <td> Min（&lt;值&gt;）<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>标准开发</strong><br /> </td> 
-   <td> 返回数字、字符串或日期列的标准偏差<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
+   <td> <strong>StdDev</strong><br /> </td> 
+   <td> 返回数字、字符串或日期列<br />的标准偏差 </td> 
+   <td> StdDev（&lt;值&gt;）<br /></td> 
   </tr>
   <tr> 
-   <td> <strong>字符串聚合</strong><br /> </td> 
-   <td> 返回字符串类型列的值的连接，在第二个参数中用字符分隔<br /> </td> 
-   <td> StringAgg(&lt;value&gt;， &lt;string&gt;)<br /></td> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> 返回字符串类型列的值的串联，由第二个参数<br />中的字符分隔 </td> 
+   <td> StringAgg（&lt;值&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>总和</strong><br /> </td> 
-   <td> 返回数字、字符串或日期类型列的值的总和<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
+   <td> 返回数字、字符串或日期类型列<br />的值的总和 </td> 
+   <td> Sum（&lt;值&gt;）<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,8 +147,8 @@ ht-degree: 52%
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> 应用定义的会话TZ，将时间戳NTZ（不带时区的时间戳）转换为TZ（带时区的时间戳）<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> 应用定义的会话TZ<br/>，将时间戳NTZ（不带时区的时间戳）转换为TZ（带有时区的时间戳） </td> 
+   <td> ConvertNTZ （&lt;日期+时间&gt;）<br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -158,11 +158,11 @@ ht-degree: 52%
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
    <td> 比较两个日期<br/> </td> 
-   <td> DateCmp(&lt;date&gt;，&lt;date&gt;)<br /> </td>  
+   <td> DateCmp（&lt;日期&gt;，&lt;日期&gt;）<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 仅返回日期（且时间为00:00）*<br /> </td> 
+   <td> 仅返回日期（时间为00:00）*<br /> </td> 
    <td> DateOnly(&lt;日期&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -172,17 +172,17 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> 返回日期年份中的天数<br /> </td> 
+   <td> 返回日期<br />年中的天数 </td> 
    <td> DayOfYear(&lt;日期&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> 返回对应于当前日期n天的日期<br /> </td> 
+   <td> 返回与当前日期对应的日期减去n天<br /> </td> 
    <td> DaysAgo(&lt;数字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 返回对应于当前日期n天的日期（整数yyyymmdd）<br /> </td> 
+   <td> 返回对应于当前日期减去n天<br />的日期（整数yyyymmdd） </td> 
    <td> DaysAgoInt(&lt;数字&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -242,8 +242,8 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> 返回范围内最早的日期<br /> </td> 
-   <td> 最旧(&lt;date date=""&gt;)<br /> </td>  
+   <td> 返回范围<br />中最早的日期 </td> 
+   <td> 最旧（&lt;日期，日期&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -298,12 +298,12 @@ ht-degree: 52%
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
    <td> 将字符串转换为时间戳<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+   <td> ToTimestamp（&lt;字符串&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> 将日期+时间转换为时区<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;，&lt;time zone=""&gt;)<br /> </td>  
+   <td> ToTimeZone（&lt;日期&gt;，&lt;时区&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -323,7 +323,7 @@ ht-degree: 52%
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> 将时间部分舍入到最接近的秒<br /> </td> 
-   <td> TruncTim(e)&lt;date&gt;， &lt;number of="" seconds=""&gt;)<br /> </td>  
+   <td> TruncTim（e&lt;日期&gt;， &lt;秒数&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -351,9 +351,9 @@ ht-degree: 52%
    <td> YearAndMonth(&lt;日期&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>YearAgo</strong><br /> </td> 
-   <td> 返回给定日期与当前日期之间的年数之差<br /> </td> 
-   <td> YearAgo(&lt;date&gt;)<br /> </td>  
+   <td> <strong>年前</strong><br /> </td> 
+   <td> 返回给定日期与当前日期之间的年数<br /> </td> 
+   <td> YearsAgo（&lt;日期&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -370,7 +370,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->请注意 **Dateonly** 函数会考虑服务器的时区，而不是运算符的时区。
+>请注意，**Dateonly**&#x200B;函数考虑的是服务器的时区，而不是运算符的时区。
 
 ### 地理位置营销
 
@@ -414,7 +414,7 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 返回大于或等于某个数字的最大整数<br /> </td> 
+   <td> 返回大于或等于数字<br />的最大整数 </td> 
    <td> Floor(&lt;数字&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -429,7 +429,7 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> 返回n1除以n2的整数除余数<br /> </td> 
+   <td> 返回n1除以n2<br />的整数除余数 </td> 
    <td> Mod(&lt;数字 1&gt;, &lt;数字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -488,12 +488,12 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> 加密参数中提供的字符串<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> 加密参数<br />中提供的字符串 </td> 
+   <td> AESEncrypt（&lt;值&gt;）<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 如果条件为true，则返回值1。 如果不存在，则返回值2。<br /> </td> 
+   <td> 如果条件为true，则返回值1。 如果不存在，则返回值2.<br /> </td> 
    <td> Case(When(&lt;条件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -508,7 +508,7 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值1 =值2，则返回值3。 如果不返回，则返回值4。<br /> </td> 
+   <td> 如果值1 =值2，则返回值3。 如果未返回值4.<br /> </td> 
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -519,7 +519,7 @@ ht-degree: 52%
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 返回值 1（只能用作 case 函数的参数）<br /> </td> 
-   <td> Else(&lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> Else（&lt;值1&gt;， &lt;值2&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -544,7 +544,7 @@ ht-degree: 52%
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> 如果字符串1为空，则返回值2，否则返回值3<br /> </td> 
-   <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> IsEmptyString（&lt;值1&gt;， &lt;值2&gt;， &lt;值3&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -573,7 +573,7 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果表达式为true，则返回值1。 如果不存在，则返回值2（只能用作case函数的参数）<br /> </td> 
+   <td> 如果表达式为true，则返回值1。 如果不是，则返回值2（只能用作case函数的参数）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;值 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -593,42 +593,42 @@ ht-degree: 52%
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> 指示所有参数是否为非 null 且不为空<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> AllNonNull2（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> 指示所有参数是否为非 null 且不为空<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> AllNonNull3（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
    <td> 返回字符串中第一个字符的ASCII值。<br /> </td> 
-   <td> Ascii(&lt;string&gt;)<br /></td> 
+   <td> Ascii（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> 返回与 ASCII 代码"n"对应的字符<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
+   <td> Char（&lt;数字&gt;）<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> 返回字符串1中字符串2的位置。<br /> </td> 
-   <td> Charindex(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> Charindex（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 返回字符串的大小（以字节为单位）<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> <strong>数据长度</strong><br /> </td> 
+   <td> 返回字符串<br />的大小（以字节为单位） </td> 
+   <td> dataLength（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 返回字符串的 n（从 1 到 n）行<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /></td> 
+   <td> GetLine（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前两个参数相等，则返回第三个参数。 如果不能，则返回最后一个参数<br /> </td> 
-   <td> IfEquals(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> 如果前两个参数相等，则返回第三个参数。 如果不是，则返回最后一个参数<br /> </td> 
+   <td> IfEquals（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
@@ -638,62 +638,62 @@ ht-degree: 52%
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> 将作为参数传递的字符串连接起来。 如有必要，在字符串之间添加空格。<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> JuxtWords（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> 将作为参数传递的字符串连接起来。 如有必要，在字符串之间添加空格<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 返回字符串的前 n 个字符<br /> </td> 
-   <td> Left(&lt;string&gt;， &lt;number&gt;)<br /></td> 
+   <td> Left（&lt;字符串&gt;， &lt;数字&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 返回字符串的长度<br /> </td> 
-   <td> Length(&lt;string&gt;)<br /></td> 
+   <td> 返回字符串<br />的长度 </td> 
+   <td> Length（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>折线图</strong><br /> </td> 
-   <td> 从字符串中提取行n<br /> </td> 
-   <td> Line(&lt;string&gt;，&lt;number&gt;)<br /></td> 
+   <td> <strong>行</strong><br /> </td> 
+   <td> 从字符串<br />中提取行n </td> 
+   <td> Line（&lt;字符串&gt;，&lt;数字&gt;）<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 以小写形式返回字符串<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
+   <td> Lower（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 返回左侧的已完成字符串<br /> </td> 
-   <td> LPad (&lt;string&gt;， &lt;number&gt;， &lt;char&gt;)<br /></td> 
+   <td> LPad （&lt;字符串&gt;， &lt;数字&gt;， &lt;字符&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 删除字符串左侧的空格<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
+   <td> Ltrim（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 返回字符串以十六进制表示的 MD5 键值<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+   <td> Md5Digest（&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> 指定 Memo 是否包含作为参数传递的字符串<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;， &lt;string&gt;)<br /></td> 
+   <td> MemoContains（&lt;memo&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>节点值</strong><br /> </td> 
    <td> 从其XPath和字段数据提取XML字段的值<br /> </td> 
-   <td> 节点值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> NodeValue （&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> 将所有出现的指定字符串值替换为其他字符串值。<br /> </td> 
-   <td> Replace(&lt;string&gt;，&lt;string&gt;，&lt;string&gt;)<br /></td> 
+   <td> 将指定字符串值的所有匹配项替换为其他字符串值。<br /> </td> 
+   <td> Replace（&lt;字符串&gt;，&lt;字符串&gt;，&lt;字符串&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -703,7 +703,7 @@ ht-degree: 52%
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 返回右侧的已完成字符串<br /> </td> 
-   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+   <td> RPad（&lt;字符串&gt;， &lt;数字&gt;， &lt;字符&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -713,12 +713,12 @@ ht-degree: 52%
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> 字符串的SHA256键的十六进制表示形式。<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest （&lt;字符串&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> 字符串的SHA512键的十六进制表示形式。<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest （&lt;字符串&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -727,13 +727,13 @@ ht-degree: 52%
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 提取从字符串的字符n1开始且长度为n2的子字符串<br /> </td> 
+   <td> 提取从字符串的字符n1开始的、长度为n2<br />的子字符串 </td> 
    <td> Substring(&lt;字符串&gt;, &lt;偏移&gt;, &lt;长度&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> 将数字转换为字符串<br /> </td> 
-   <td> ToString(&lt;number&gt;， &lt;number&gt;)<br /> </td>  
+   <td> ToString（&lt;数字&gt;， &lt;数字&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -763,9 +763,9 @@ ht-degree: 52%
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>超过(_O)__</strong><br /> </td> 
-   <td> 执行作为第1参数输入的SQL函数调用，通过作为第2参数输入的字段“分区”或“排序依据”<br /> </td> 
-   <td> 超过(_O)&lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> <strong>_超过__</strong><br /> </td> 
+   <td> 执行作为第1参数输入的SQL函数调用，通过Partition或Order By作为第2参数<br />输入的字段 </td> 
+   <td> 超过_ （&lt;值&gt;， &lt;值&gt;）<br />(_Over_) </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

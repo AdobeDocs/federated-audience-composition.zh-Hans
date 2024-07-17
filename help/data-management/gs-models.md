@@ -38,17 +38,17 @@ ht-degree: 37%
 
 数据模型是一组架构、受众以及它们之间的链接。
 
-了解有关 [架构](../customer/schemas.md).
+了解有关[架构](../customer/schemas.md)的更多信息。
 
-了解有关 [受众](../customer/audiences.md).
+了解有关[受众](../customer/audiences.md)的更多信息。
 
 ## 如何创建数据模型？ {#data-model-create}
 
-在 **[!UICONTROL 联合数据]** 部分，转到 **[!UICONTROL 模型]** 链接。 您将在其中找到 **[!UICONTROL 数据模型]** 选项卡。
+在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，转到&#x200B;**[!UICONTROL 模型]**&#x200B;链接。 您将在其中找到&#x200B;**[!UICONTROL 数据模型]**&#x200B;选项卡。
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-通过单击 **[!UICONTROL 创建数据模型]** 按钮，您可以命名数据模型，然后单击 **[!UICONTROL 创建]** 按钮。
+通过单击&#x200B;**[!UICONTROL 创建数据模型]**&#x200B;按钮，您可以命名数据模型，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮。
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

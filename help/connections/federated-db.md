@@ -49,52 +49,53 @@ ht-degree: 10%
 
 * **[!UICONTROL 数据库]**：
 
-* **[!UICONTROL 工作模式]**：
+* **[!UICONTROL 工作架构]**：
 
-* **[!UICONTROL 私钥]**：仅接受.pem文件
+* **[!UICONTROL 私钥]**：
+仅接受.pem文件
 
-* **[!UICONTROL 选项]**：该连接器支持下表详述的选项。
+* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
 
 | 选项 | 描述 |
 |---|---|
 | 工作模式 | 用于工作表的数据库模式 |
 | 仓库 | 要使用的默认仓库的名称。 它将覆盖用户的默认值。 |
-| 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 <br>有关详细信息，请参见 [此页面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| weekstart | WEEK_START会话参数。 默认设置为0。 <br>有关详细信息，请参见 [此页面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | USE_CACHED_RESULTS会话参数。 默认设置为TRUE。 此选项可用于禁用Snowflake缓存的结果。 <br>有关详细信息，请参见 [此页面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 <br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
+| weekstart | WEEK_START会话参数。 默认设置为0。 <br>有关详情，请参阅[本页](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)。 |
+| UseCachedResult | USE_CACHED_RESULTS会话参数。 默认设置为TRUE。 此选项可用于禁用Snowflake缓存的结果。 <br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
 | bulkthreads | 用于Snowflake批量加载器的线程数，线程越多，批量加载越大，性能越好。 默认设置为1。 根据计算机线程数，可以调整该数字。 |
-| chunkSize | 确定批量加载程序块的文件大小。 默认设置为128MB。 当与bulkThreads一起使用时，可以修改以获得更佳的性能。 更多并发活动线程意味着更好的性能。 <br>有关详细信息，请参见 [Snowflake文档](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | 确定批量加载程序块的文件大小。 默认设置为128MB。 当与bulkThreads一起使用时，可以修改以获得更佳的性能。 更多并发活动线程意味着更好的性能。 <br>有关详细信息，请参阅[Snowflake文档](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)。 |
 | 阶段名称 | 预配置的内部阶段的名称。 它将用于批量加载，而不是创建新的临时阶段。 |
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL 服务帐户]**：您的电子邮件 **[!UICONTROL 服务帐户]**. 有关详情，请参阅 [Google Cloud文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+* **[!UICONTROL 服务帐户]**： **[!UICONTROL 服务帐户]**&#x200B;的电子邮件。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
 
-* **[!UICONTROL 项目]**：您的名称 **[!UICONTROL 项目]**. 有关详情，请参阅 [Google Cloud文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+* **[!UICONTROL 项目]**： **[!UICONTROL 项目]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
 
-* **[!UICONTROL 数据集]**：您的名称 **[!UICONTROL 数据集]**. 有关详情，请参阅 [Google Cloud文档](https://cloud.google.com/bigquery/docs/datasets-intro).
+* **[!UICONTROL 数据集]**： **[!UICONTROL 数据集]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/bigquery/docs/datasets-intro)。
 
-* **[!UICONTROL 密钥文件路径]**：将您的密钥文件上传到服务器。 仅接受.json文件。
+* **[!UICONTROL 密钥文件路径]**：将您的密钥文件上载到服务器。 仅接受.json文件。
 
-* **[!UICONTROL 选项]**：该连接器支持下表详述的选项。
+* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
 
 | 选项 | 描述 |
 |:-:|:-:|
-| 代理类型 | 用于通过ODBC和SDK连接器连接到BigQuery的代理类型。 </br>当前支持HTTP（默认）、http_no_tunnel、socks4和socks5。 |
+| 代理类型 | 用于通过ODBC和SDK连接器连接到BigQuery的代理类型。 当前支持</br>HTTP（默认）、http_no_tunnel、socks4和socks5。 |
 | 代理主机 | 可访问代理的主机名或IP地址。 |
 | 代理端口 | 代理正在运行的端口号，如8080 |
 | ProxyUid | 用于经过身份验证的代理的用户名 |
 | ProxyPdw | ProxyUid密码 |
-| bqpath | 请注意，这仅适用于批量加载工具(Cloud SDK)。 </br> 要避免使用PATH变量或必须将google-cloud-sdk目录移动到其他位置，您可以使用此选项指定服务器上云sdk bin目录的精确路径。 |
-| GCloudConfigName | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br> Google Cloud SDK使用配置将数据加载到BigQuery表中。 指定的配置 `accfda` 存储用于加载数据的参数。 但是，此选项允许用户为配置指定不同的名称。 |
-| GCloudDefaultConfigName | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br> 必须先将活动标记转移到新配置，然后才能删除活动的Google Cloud SDK配置。 此临时配置是重新创建用于加载数据的主配置所必需的。 临时配置的默认名称为 `default`，可根据需要更改此设置。 |
-| GCloudRecreateConfig | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br> 当设置为 `false`，批量加载机制不会尝试重新创建、删除或修改Google Cloud SDK配置。 相反，它会使用计算机上的现有配置继续加载数据。 当其他操作依赖于Google Cloud SDK配置时，此功能很有价值。 </br> 如果用户在没有正确配置的情况下启用此引擎选项，则批量加载机制将发出警告消息： `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. 为了防止进一步的错误，它随后将恢复为使用默认的ODBC数组插入批量加载机制。 |
+| bqpath | 请注意，这仅适用于批量加载工具(Cloud SDK)。 </br>为避免使用PATH变量或必须将google-cloud-sdk目录移动到其他位置，您可以使用此选项指定服务器上云sdk bin目录的精确路径。 |
+| GCloudConfigName | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br> Google Cloud SDK使用配置将数据加载到BigQuery表中。 名为`accfda`的配置存储用于加载数据的参数。 但是，此选项允许用户为配置指定不同的名称。 |
+| GCloudDefaultConfigName | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br>必须先将活动标记转移到新配置，然后才能删除活动的Google Cloud SDK配置。 此临时配置是重新创建用于加载数据的主配置所必需的。 临时配置的默认名称为`default`，如果需要，可以更改此名称。 |
+| GCloudRecreateConfig | 请注意，这从7.3.4版本开始适用，并且仅适用于批量加载工具(Cloud SDK)。</br>设置为`false`时，批量加载机制不会尝试重新创建、删除或修改Google Cloud SDK配置。 相反，它会使用计算机上的现有配置继续加载数据。 当其他操作依赖于Google Cloud SDK配置时，此功能很有价值。 </br>如果用户在没有适当配置的情况下启用此引擎选项，则批量加载机制将发出警告消息： `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。 为了防止进一步的错误，它随后将恢复为使用默认的ODBC数组插入批量加载机制。 |
 
 ## azure synapseRedshift {#azure-synapse-redshift}
 
 * **[!UICONTROL 服务器]**：Azure synapse服务器的URL
 
-* **[!UICONTROL 帐户]**：用户名称
+* **[!UICONTROL 帐户]**：用户的名称
 
 * **[!UICONTROL 密码]**：用户帐户密码
 
@@ -104,17 +105,17 @@ ht-degree: 10%
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL 服务器]**：的URL [!DNL Vertica Analytics] 服务器
+* **[!UICONTROL 服务器]**： [!DNL Vertica Analytics]服务器的URL
 
-* **[!UICONTROL 帐户]**：用户名称
+* **[!UICONTROL 帐户]**：用户的名称
 
 * **[!UICONTROL 密码]**：用户帐户密码
 
 * **[!UICONTROL 数据库]**：数据库的名称
 
-* **[!UICONTROL 工作模式]**：工作模式的名称。
+* **[!UICONTROL 工作架构]**：工作架构的名称。
 
-* **[!UICONTROL 选项]**：该连接器支持下表详述的选项。
+* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
 
 连接器支持以下选项：
 
@@ -125,13 +126,13 @@ ht-degree: 10%
 
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL 服务器]**：DNS的名称
+* **[!UICONTROL 服务器]**： DNS的名称
 
-* **[!UICONTROL 帐户]**：用户名称
+* **[!UICONTROL 帐户]**：用户的名称
 
 * **[!UICONTROL 密码]**：用户帐户密码
 
 * **[!UICONTROL 数据库]**：如果未在DSN中指定数据库的名称。 如果在DSN中指定，它可以留空
 
-* **[!UICONTROL 工作模式]**：工作模式的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+* **[!UICONTROL 工作架构]**：工作架构的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
 
