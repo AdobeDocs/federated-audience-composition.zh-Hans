@@ -2,9 +2,10 @@
 audience: end-user
 title: 合成快速入门
 description: 了解如何开始使用合成
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 10%
 
 ---
@@ -24,7 +25,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 >title="构成"
 >abstract="在此屏幕中可访问整个构成列表、检查他们当前的状态、上次/下次执行日期以及创建新构成。"
 
-可从&#x200B;**Federated Compositions**&#x200B;选项卡的Adobe Experience Platform **[!UICONTROL 受众]**&#x200B;菜单访问合成。
+可从&#x200B;**[!UICONTROL Federated Compositions]**&#x200B;选项卡的Adobe Experience Platform **[!UICONTROL 受众]**&#x200B;菜单访问合成。
 
 在此屏幕中，您可以创建新构图并访问现有构图。 您还可以通过单击现有合成名称旁边的省略号按钮来复制或删除现有合成。
 
@@ -32,7 +33,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 
 要优化列表并轻松查找要查找的合成，您可以搜索列表并按合成的状态或上次处理日期过滤合成。
 
-您还可以通过添加或删除列来自定义列表。 为此，请单击&#x200B;**配置列**&#x200B;按钮，然后添加或删除所需的输出列。
+您还可以通过添加或删除列来自定义列表。 为此，请单击**[!UICONTROL 配置列]**按钮，然后添加或删除所需的输出列。
 
 ![](assets/compositions-columns.png)
 

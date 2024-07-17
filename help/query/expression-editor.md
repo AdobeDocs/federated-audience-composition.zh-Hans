@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询。
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2102'
 ht-degree: 52%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 52%
 
 表达式编辑器可从查询建模器&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮获得，在配置自定义条件时，该按钮可用于&#x200B;**[!UICONTROL 属性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
-| 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
+| 从&#x200B;**[!UICONTROL 属性]**&#x200B;字段访问 | 从&#x200B;**[!UICONTROL 值]**&#x200B;字段访问 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 

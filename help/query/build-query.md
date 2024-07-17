@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2068'
 ht-degree: 10%
 
 ---
@@ -45,13 +46,13 @@ ht-degree: 10%
 
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 自定义条件]**。 自定义条件属性窗格将在右侧打开。
 
-1. 在&#x200B;**Attribute**&#x200B;字段中，从数据库中选择要用于创建条件的属性。 属性列表包含数据库中的所有属性，包括链接表中的属性。
+1. 在&#x200B;**[!UICONTROL Attribute]**&#x200B;字段中，从数据库中选择要用于创建条件的属性。 属性列表包含数据库中的所有属性，包括链接表中的属性。
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >使用&#x200B;**Edit expression**&#x200B;按钮，您可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](expression-editor.md)
+   >使用&#x200B;**[!UICONTROL Edit expression]**&#x200B;按钮，您可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](expression-editor.md)
 
 1. 从下拉列表中选择要应用的运算符。 可以使用各种运算符。 请注意，下拉列表中可用的运算符取决于属性的数据类型。
 
@@ -78,7 +79,7 @@ ht-degree: 10%
 
 +++
 
-1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以利用表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击&#x200B;**编辑表达式**&#x200B;按钮。 [了解如何编辑表达式](expression-editor.md)
+1. 在&#x200B;**[!UICONTROL 值]**&#x200B;字段中，定义预期值。 您还可以利用表达式编辑器，使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮。 [了解如何编辑表达式](expression-editor.md)
 
    *返回所有年龄为21岁或以上的用户档案的查询示例：*
 
@@ -90,13 +91,13 @@ ht-degree: 10%
 
 对于&#x200B;**1-1链接**，导航到链接表，选择所需属性并定义预期值。
 
-您还可以直接选择&#x200B;**值**&#x200B;选取器中的表链接并进行确认。 在这种情况下，需要使用专用选取器来选择对所选表可用的值，如下面的示例所示。
+您还可以直接选择&#x200B;**[!UICONTROL 值]**&#x200B;选取器中的表链接并进行确认。 在这种情况下，需要使用专用选取器来选择对所选表可用的值，如下面的示例所示。
 
 +++查询示例
 
 在本例中，查询的目标品牌标签为“正在运行”。
 
-1. 在&#x200B;**Brand**&#x200B;表中导航并选择&#x200B;**标签**&#x200B;属性。
+1. 在&#x200B;**[!UICONTROL Brand]**&#x200B;表中导航并选择&#x200B;**[!UICONTROL 标签]**&#x200B;属性。
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ ht-degree: 10%
 
 在本例中，查询将定向购买与BrewMaster产品相关的收件人，购买总额至少为100$。
 
-1. 选择&#x200B;**购买**&#x200B;表并进行确认。
+1. 选择&#x200B;**[!UICONTROL 购买]**&#x200B;表并进行确认。
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ ht-degree: 10%
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. 选择&#x200B;**价格**&#x200B;属性，目标购买金额不少于1000$
+1. 选择&#x200B;**[!UICONTROL 价格]**&#x200B;属性，目标购买金额不少于1000$
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ ht-degree: 10%
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. 在属性窗格中，打开&#x200B;**聚合数据**&#x200B;选项并选择所需的聚合函数。
+1. 在属性窗格中，打开&#x200B;**[!UICONTROL 聚合数据]**&#x200B;选项并选择所需的聚合函数。
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="选择受众"
->abstract="通过使用&#x200B;**选择受众**&#x200B;选项，您可以选择想要用来过滤查询的受众。"
+>abstract="通过使用&#x200B;**[!UICONTROL 选择受众]**&#x200B;选项，您可以选择想要用来过滤查询的受众。"
 
 要使用现有受众筛选查询，请执行以下步骤：
 
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 选择受众]**。
 
-1. 将在右侧打开&#x200B;**选择受众**&#x200B;属性窗格。 选择要用于筛选查询的受众。
+1. 将在右侧打开&#x200B;**[!UICONTROL 选择受众]**&#x200B;属性窗格。 选择要用于筛选查询的受众。
 
    *返回属于“节日出席者”受众的所有用户档案的查询示例：*
 
@@ -168,13 +169,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="预定义过滤器"
->abstract="通过使用&#x200B;**预定义过滤器**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
+>abstract="通过使用&#x200B;**[!UICONTROL 预定义过滤器]**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
 
 要使用预定义过滤器过滤查询，请执行以下步骤：
 
 1. 单击所需节点上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 预定义过滤器]**。
 
-1. 将在右侧打开&#x200B;**预定义过滤器**&#x200B;属性窗格。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
+1. 将在右侧打开&#x200B;**[!UICONTROL 预定义过滤器]**&#x200B;属性窗格。 从自定义筛选器列表或收藏夹中选择一个预定义筛选器。
 
    *查询示例返回与“非活动客户”预定义筛选器对应的所有用户档案：*
 
@@ -198,7 +199,7 @@ ht-degree: 10%
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择&#x200B;**粘贴n个项目**。
+1. 要粘贴组件，请单击所需过渡末尾的+按钮，然后选择&#x200B;**[!UICONTROL 粘贴n个项目]**。
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ ht-degree: 10%
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-若要更改用于将筛选条件链接在一起的运算符，请单击该运算符，然后在右侧打开的&#x200B;**组**&#x200B;窗格中选择所需的运算符。
+若要更改用于将筛选条件链接在一起的运算符，请单击该运算符，然后在右侧打开的&#x200B;**[!UICONTROL 组]**&#x200B;窗格中选择所需的运算符。
 
 可用的运算符包括：
 
@@ -236,14 +237,14 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="规则属性"
->abstract="在画布中生成查询后，即可使用位于右侧的&#x200B;**规则属性**&#x200B;窗格检查该查询。<br/>通过此窗格，可显示所得的数据、检索该查询的某个 SQL 代码版本以及检查目标记录的数量。<br/>使用&#x200B;**选择或保存过滤器**&#x200B;按钮将您的查询另存为预定义的过滤器，或将画布内容替换为某个现有的过滤器。"
+>abstract="在画布中生成查询后，即可使用位于右侧的&#x200B;**[!UICONTROL 规则属性]**&#x200B;窗格检查该查询。<br/>通过此窗格，可显示所得的数据、检索该查询的某个 SQL 代码版本以及检查目标记录的数量。<br/>使用&#x200B;**[!UICONTROL 选择或保存过滤器]**&#x200B;按钮将您的查询另存为预定义的过滤器，或将画布内容替换为某个现有的过滤器。"
 
-在画布中构建查询后，可以使用右侧的&#x200B;**规则属性**&#x200B;窗格检查查询。 构建查询以创建受众时，显示此窗格。 可用的操作包括：
+在画布中构建查询后，可以使用右侧的&#x200B;**[!UICONTROL 规则属性]**&#x200B;窗格检查查询。 构建查询以创建受众时，显示此窗格。 可用的操作包括：
 
-* **查看结果：**&#x200B;显示查询产生的数据。
-* **代码视图**：显示SQL中查询的基于代码的版本。
-* **计算**：更新并显示查询所定向的记录数。
-* **选择或保存筛选器**：选择要在画布中使用的现有预定义筛选器，或将查询另存为预定义筛选器以供将来重用。
+* **[!UICONTROL 查看结果]：**&#x200B;显示查询产生的数据。
+* **[!UICONTROL 代码视图]**：显示SQL中查询的基于代码的版本。
+* **[!UICONTROL 计算]**：更新并显示查询所定向的记录数。
+* **[!UICONTROL 选择或保存筛选器]**：选择要在画布中使用的现有预定义筛选器，或将查询另存为预定义筛选器以供将来重用。
 
   >[!IMPORTANT]
   >

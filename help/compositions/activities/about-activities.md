@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用活动
 description: 了解如何使用活动
-source-git-commit: 9f84502684c7cd0e174b1fcad4b9c811f50965f1
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 

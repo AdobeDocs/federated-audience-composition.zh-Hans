@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用AND — 连接活动
 description: 了解如何使用AND — 连接活动
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 57%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="配置 AND-join 活动"
->abstract="选择您要参加的活动。在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
+>abstract="选择您要参加的活动。在&#x200B;**[!UICONTROL 主要集合]**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
 
 请按照以下步骤操作，配置 **AND-连接**&#x200B;活动：
 
@@ -34,5 +35,5 @@ ht-degree: 57%
 
    ![](../assets/and-join.png)
 
-1. 在&#x200B;**合并选项**&#x200B;部分中，检查要同步的所有先前活动。
-1. 在&#x200B;**主集**&#x200B;下拉列表中，选择您要保留的集客过渡群体。叫客过渡只能包含其中一个集客过渡群体。 如果未配置活动，则叫客过渡将随机选择一个集客群体。
+1. 在&#x200B;**[!UICONTROL 合并选项]**&#x200B;部分中，检查要同步的所有先前活动。
+1. 在&#x200B;**[!UICONTROL 主集]**&#x200B;下拉列表中，选择您要保留的集客过渡群体。叫客过渡只能包含其中一个集客过渡群体。 如果未配置活动，则叫客过渡将随机选择一个集客群体。

@@ -2,10 +2,11 @@
 audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
-source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 37%
+source-wordcount: '165'
+ht-degree: 38%
 
 ---
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
-source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '360'
 ht-degree: 26%
 
 ---

@@ -2,9 +2,10 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 21%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 21%
 
 在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。
 
-要访问合成的其他选项，请单击位于合成创建屏幕上部的&#x200B;**设置**&#x200B;按钮。
+要访问合成的其他选项，请单击位于合成创建屏幕上部的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
 
 ![](assets/composition-create-settings.png)
 

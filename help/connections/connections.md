@@ -2,10 +2,11 @@
 audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
-source-git-commit: afcc9203b55eeb72a71cb8a82ea9e0dda5dfc683
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 

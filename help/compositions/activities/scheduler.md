@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用调度程序活动
 description: 了解如何使用调度程序活动
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 31%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="“调度程序”活动"
->abstract="通过&#x200B;**调度程序**&#x200B;活动，可安排何时开始工作流。应将此活动视为已安排的一次开始。只能将它用作工作流的第一个活动。"
+>abstract="**调度程序**&#x200B;活动允许您安排受众组合何时启动。 应将此活动视为已安排的一次开始。它只能用作组合物的第一个活动。"
 
 **调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时开始合成。 应将此活动视为已安排的一次开始。它只能用作组成的第一个活动。
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 按照以下步骤配置&#x200B;**调度程序**&#x200B;活动：
 
-1. 将&#x200B;**调度程序**&#x200B;活动添加到您的工作流。
+1. 将&#x200B;**调度程序**&#x200B;活动添加到合成。
 
 1. 配置&#x200B;**执行频率**：
 

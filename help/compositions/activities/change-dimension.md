@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用更改维度活动
 description: 了解如何使用更改维度活动
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 42%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="生成补集"
->abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**生成补集**&#x200B;选项"
+>abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

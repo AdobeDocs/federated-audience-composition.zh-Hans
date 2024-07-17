@@ -2,9 +2,10 @@
 audience: end-user
 title: 创建合成
 description: 了解如何创建合成
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 59%
 
 ---
@@ -27,9 +28,9 @@ ht-degree: 59%
 
 每个构成都包含：
 
-* **活动**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
-* **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
-* **工作表**：工作表包含了过渡所携带的所有信息。每个构成都使用多个工作台。 这些表中传送的数据可在整个合成生命周期中使用。
+* **[!UICONTROL 活动]**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
+* **[!UICONTROL 过渡]**：过渡将源活动链接到目标活动并定义它们的顺序。
+* **[!UICONTROL 工作表]**：工作表包含了过渡所携带的所有信息。每个构成都使用多个工作台。 这些表中传送的数据可在整个合成生命周期中使用。
 
 ## 创建合成的关键步骤 {#gs-composition-steps}
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用构建受众活动
 description: 了解如何使用构建受众活动
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 39%
+source-wordcount: '239'
+ht-degree: 40%
 
 ---
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用拆分活动
 description: 了解如何使用拆分活动
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="限量发布版" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 76%
 
 ---
