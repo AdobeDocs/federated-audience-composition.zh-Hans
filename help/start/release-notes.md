@@ -2,9 +2,9 @@
 title: 联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 >
 >联合受众构成当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 >
->目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加产品的客户。
+>目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;附加产品的客户。
 
 
 ## 先决条件和护栏 {#rn-guardrails}
