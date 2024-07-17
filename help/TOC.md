@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 38%
+source-wordcount: '134'
+ht-degree: 35%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 38%
 # Federated受众组合文档 {#using}
 
 + [Federated受众组合文档](home.md)
-+ [快速入门](start/get-started.md)
++ 联合受众组合入门{#start}
+   + [快速入门](start/get-started.md)
+   + [发行说明](start/release-notes.md)
 + 配置步骤{#config}
    + [将AEP与联合受众组合连接](connections/destinations.md)
    + [配置联合数据库](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 38%
    + [编辑表达式](query/expression-editor.md)
 + 审核记录{#audit-trail}
    + [监测数据库](admin/audit-trail.md)
++ [&lt;返回Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
