@@ -2,10 +2,10 @@
 title: 联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 4%
 
 现在，您可以使用Federated Audience Composition减少从Adobe Experience Platform复制到Adobe Experience Platform的数据量，方法是：从数据仓库中提取某些分段或激活用例所需的特定受众和属性，并确保敏感数据不会保留在仓库之外。
 
+在[此页面](get-started.md)和[常见问题解答](get-started.md#faq)中了解有关联合受众组合功能的更多信息。
 
 >[!AVAILABILITY]
 >
@@ -27,6 +28,14 @@ ht-degree: 4%
 >
 >目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;附加产品的客户。
 
+## 访问联合受众组合 {#rn-guardrails}
+
+联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
+
+>[!AVAILABILITY]
+>
+>收到Adobe的欢迎电子邮件通知后，可能需要几个小时才能更新界面和可用的功能。
+>
 
 ## 先决条件和护栏 {#rn-guardrails}
 
