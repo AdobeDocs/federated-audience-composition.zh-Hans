@@ -3,15 +3,14 @@ audience: end-user
 title: 开始使用审计跟踪
 description: 了解如何使用审核跟踪监测数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 52%
+source-wordcount: '366'
+ht-degree: 12%
 
 ---
 
 # 开始使用审计跟踪 {#audit-trail}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -19,3 +18,48 @@ ht-degree: 52%
 >abstract="新的审核记录功能按时间顺序详细记录了实时发生在你的环境中的事件。"
 
 审核记录功能提供了对您的环境实时执行的所有操作和事件的详细时间顺序记录
+
+**[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe数据组合实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
+
++++ 了解有关审核记录可用实体的更多信息
+
+* **Source架构审核跟踪**&#x200B;允许您在Adobe数据组合实例中监视活动以及最近对架构所做的修改。
+
+  有关架构的详细信息，请参阅此[页面](../customer/schemas.md)。
+
+* **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
+
+   * 开始
+   * 暂停
+   * 停止
+   * 重新启动
+   * 清除等于操作清除历史记录
+   * 模拟在模拟模式下等于操作“开始”的项
+   * 唤醒等于操作立即执行待处理任务
+   * 无条件停止
+
+  有关工作流的详细信息，请参阅此[页面](../compositions/gs-compositions.md)。
+
+* **外部帐户**&#x200B;允许您检查对Adobe数据组合实例中的外部帐户所做的修改。
+
+  有关外部帐户的详细信息，请参阅此[页面](../connections/federated-db.md)。
+
++++
+
+## 访问审核记录 {#accessing-audit-trail}
+
+要访问实例的&#x200B;**[!UICONTROL 审核跟踪]**，请执行以下操作：
+
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 审核跟踪]**。
+
+1. 将打开&#x200B;**[!UICONTROL 审核跟踪]**&#x200B;窗口，其中包含实体列表。 Adobe Campaign Web用户界面审核工作流、选项、投放和架构的创建、编辑和删除操作。
+
+   ![](assets/audit_trail.png)
+
+1. **[!UICONTROL 审核实体]**&#x200B;窗口为您提供有关所选实体的更多详细信息，例如：
+
+   * **[!UICONTROL 类型]** ：工作流、选项、投放或架构。
+   * **[!UICONTROL 实体]** ：活动的内部名称。
+   * **[!UICONTROL 修改者]** ：上次修改此实体的人员的用户名。
+   * **[!UICONTROL 操作]** ：对此实体执行的最后一个操作，已创建、已修改或已删除。
+   * **[!UICONTROL 修改日期]** ：对此实体执行的上次操作的日期。
