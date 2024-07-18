@@ -2,7 +2,7 @@
 title: 联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
-source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 发行说明 {#rn-new}
 
-## 联合受众构成(LA) {#rn-la}
+## 联合受众构成(LA) {#fac-la}
 
 联合受众构成是一个插件，可提供灵活的访问和到企业数据仓库的扩展范围，以支持个性化用例。
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 >
 >目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;附加产品的客户。
 
-## 访问联合受众组合 {#rn-guardrails}
+## 访问联合受众组合 {#fac-access}
 
 联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 >收到Adobe的欢迎电子邮件通知后，可能需要几个小时才能更新界面和可用的功能。
 >
 
-## 先决条件和护栏 {#rn-guardrails}
+## 先决条件和护栏 {#fac-guardrails}
 
 * 必须将您的IP地址添加到允许列表中，才能启用对Data Warehouse的访问并使用联合受众合成。 要将您的IP地址添加到允许列表，请联系您的Adobe代表。
 
