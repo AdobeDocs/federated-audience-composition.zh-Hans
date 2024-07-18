@@ -3,27 +3,24 @@ audience: end-user
 title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 10%
+source-wordcount: '1419'
+ht-degree: 6%
 
 ---
 
 # 开始使用联合数据库 {#federated-db}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="联合数据库"
 >abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击 **[!UICONTROL 添加联合数据库]** 按钮。"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="联合数据库属性"
 >abstract="输入新的联合数据库的名称，并选择其类型。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ ht-degree: 10%
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL 服务器]**：
+使用联合数据库处理存储在外部数据库中的信息。 按照以下步骤配置对Snowflake的访问权限。
 
-* **[!UICONTROL 用户]**：用户的名称。
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-* **[!UICONTROL 密码]**：用户帐户密码。
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-* **[!UICONTROL 数据库]**：
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作架构]**：
+1. 输入联合数据库的&#x200B;**[!UICONTROL 名称]**。
 
-* **[!UICONTROL 私钥]**：
-仅接受.pem文件
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Snowflake。
 
-* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+   ![](assets/federated_database_2.png)
+
+1. 配置Snowflake身份验证设置：
+
+   * **[!UICONTROL 服务器]**：输入您的服务器名称。
+
+   * **[!UICONTROL 用户]**：输入用户名。
+
+   * **[!UICONTROL 密码]**：输入帐户密码。
+
+   * **[!UICONTROL 数据库]**（可选）：如果未在DSN中指定，请输入数据库的名称。
+
+   * **[!UICONTROL 工作架构]**（可选）：输入工作架构的名称。
+
+   * **[!UICONTROL 私钥]**：单击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从区域设置文件夹中选择.pem文件。
+
+   * **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
+
+1. 单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮以创建函数。
+
+1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
+
+连接器支持以下选项：
 
 | 选项 | 描述 |
 |---|---|
@@ -70,15 +90,37 @@ ht-degree: 10%
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL 服务帐户]**： **[!UICONTROL 服务帐户]**&#x200B;的电子邮件。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
+使用联合数据库处理存储在外部数据库中的信息。 请按照以下步骤配置对Google Big Query的访问权限。
 
-* **[!UICONTROL 项目]**： **[!UICONTROL 项目]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-* **[!UICONTROL 数据集]**： **[!UICONTROL 数据集]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/bigquery/docs/datasets-intro)。
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-* **[!UICONTROL 密钥文件路径]**：将您的密钥文件上载到服务器。 仅接受.json文件。
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+1. 输入联合数据库的&#x200B;**[!UICONTROL 名称]**。
+
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Google Big Query。
+
+   ![](assets/federated_database_3.png)
+
+1. 配置Google Big Query身份验证设置：
+
+   * **[!UICONTROL 服务帐户]**：输入&#x200B;**[!UICONTROL 服务帐户]**&#x200B;的电子邮件。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
+
+   * **[!UICONTROL 项目]**：输入&#x200B;**[!UICONTROL 项目]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
+
+   * **[!UICONTROL 数据集]**：输入&#x200B;**[!UICONTROL 数据集]**&#x200B;的名称。 有关详细信息，请参阅[Google Cloud文档](https://cloud.google.com/bigquery/docs/datasets-intro)。
+
+   * **[!UICONTROL 密钥文件路径]**：将您的密钥文件上载到服务器。 仅接受.json文件。
+
+   * **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
+
+1. 单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮以创建函数。
+
+1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
 
 | 选项 | 描述 |
 |:-:|:-:|
@@ -94,29 +136,77 @@ ht-degree: 10%
 
 ## azure synapseRedshift {#azure-synapse-redshift}
 
-* **[!UICONTROL 服务器]**：Azure synapse服务器的URL
+使用联合数据库处理存储在外部数据库中的信息。 按照以下步骤配置对Azure synapseRedshift的访问权限。
 
-* **[!UICONTROL 帐户]**：用户的名称
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-* **[!UICONTROL 密码]**：用户帐户密码
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-* **[!UICONTROL 数据库]**：数据库的名称
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 选项]**
+1. 输入联合数据库的&#x200B;**[!UICONTROL 名称]**。
+
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Azure synapseRedshift。
+
+   ![](assets/federated_database_4.png)
+
+1. 配置Azure synapseRedshift身份验证设置：
+
+   * **[!UICONTROL 服务器]**：输入Azure synapse服务器的URL。
+
+   * **[!UICONTROL 帐户]**：输入用户名。
+
+   * **[!UICONTROL 密码]**：输入帐户密码。
+
+   * **[!UICONTROL 数据库]**（可选）：如果未在DSN中指定，请输入数据库的名称。
+
+   * **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
+
+1. 单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮以创建函数。
+
+1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
+
+| 选项 | 描述 |
+|:-:|:-:|
+| 身份验证 | 连接器支持的身份验证类型。 当前支持的值： ActiveDirectoryMSI。 有关详细信息，请参阅[SQL文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)（连接字符串n°8示例） |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL 服务器]**： [!DNL Vertica Analytics]服务器的URL
+使用联合数据库处理存储在外部数据库中的信息。 请按照以下步骤配置对Vertica analytics的访问权限。
 
-* **[!UICONTROL 帐户]**：用户的名称
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-* **[!UICONTROL 密码]**：用户帐户密码
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-* **[!UICONTROL 数据库]**：数据库的名称
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作架构]**：工作架构的名称。
+1. 输入联合数据库的&#x200B;**[!UICONTROL 名称]**。
 
-* **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Vertica analytics。
+
+   ![](assets/federated_database_5.png)
+
+1. 配置Vertica analytics身份验证设置：
+
+   * **[!UICONTROL 服务器]**：添加[!DNL Vertica Analytics]服务器的URL。
+
+   * **[!UICONTROL 帐户]**：添加用户名。
+
+   * **[!UICONTROL 密码]**：添加帐户密码。
+
+   * **[!UICONTROL 数据库]**（可选）：如果未在DSN中指定，请输入数据库的名称。
+
+   * **[!UICONTROL 工作架构]**（可选）：输入工作架构的名称。
+
+   * **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
+
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
+
+1. 单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮以创建函数。
+
+1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
 
 连接器支持以下选项：
 
@@ -124,16 +214,36 @@ ht-degree: 10%
 |---|---|
 | 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL 服务器]**： DNS的名称
+使用联合数据库处理存储在外部数据库中的信息。 执行以下步骤以配置对Amazon Redshift的访问权限。
 
-* **[!UICONTROL 帐户]**：用户的名称
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-* **[!UICONTROL 密码]**：用户帐户密码
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-* **[!UICONTROL 数据库]**：如果未在DSN中指定数据库的名称。 如果在DSN中指定，它可以留空
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作架构]**：工作架构的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. 输入联合数据库的&#x200B;**[!UICONTROL 名称]**。
 
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Amazon Redshift。
+
+   ![](assets/federated_database_6.png)
+
+1. 配置Amazon Redshift身份验证设置：
+
+   * **[!UICONTROL 服务器]**：添加DNS的名称。
+
+   * **[!UICONTROL 帐户]**：添加用户名。
+
+   * **[!UICONTROL 密码]**：添加帐户密码。
+
+   * **[!UICONTROL 数据库]**：如果未在DSN中指定数据库的名称。 如果在DSN中指定，它可以留空
+
+   * **[!UICONTROL 工作架构]**：工作架构的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
+
+1. 单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮以创建函数。
+
+1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
