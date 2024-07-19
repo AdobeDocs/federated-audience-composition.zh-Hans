@@ -3,9 +3,9 @@ audience: end-user
 title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 6%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 6%
 >title="联合数据库详细信息"
 >abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 测试连接]** 按钮验证您的配置。"
 
-创建、配置、测试和保存与外部数据库的连接。
+联合受众构成允许客户从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
 
+在此页面中了解如何创建、配置、测试和保存与外部数据库的连接。
 
+## 支持的数据库 {#supported-db}
 
-支持的外部数据库：
+使用联合受众合成，您可以连接到以下数据库：
 
 * Amazon Redshift
 * azure synapse
