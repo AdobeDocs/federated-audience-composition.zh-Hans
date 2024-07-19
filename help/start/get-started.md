@@ -2,9 +2,9 @@
 title: 联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 6%
 
 ---
@@ -67,10 +67,11 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 
 对于此版本，联合受众组合与以下兼容：
 
-* Snowflake
-* Google Big Query
-* azure synapse
 * Amazon Redshift
+* azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 
