@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 6%
@@ -28,6 +28,8 @@ ht-degree: 6%
 >abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 测试连接]** 按钮验证您的配置。"
 
 创建、配置、测试和保存与外部数据库的连接。
+
+
 
 支持的外部数据库：
 

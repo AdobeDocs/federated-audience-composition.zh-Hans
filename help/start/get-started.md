@@ -2,19 +2,19 @@
 title: 联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 7%
+source-wordcount: '1320'
+ht-degree: 6%
 
 ---
 
 
 # 联合受众组合入门 {#gs-fac}
 
-Adobe Experience Platform Federated Audience Composition提供了一个简单而强大的解决方案，用于直接在Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer中连接企业数据仓库，并对Data Warehouse的表执行查询。
+联合受众构成是一个Adobe Real-time Customer Data Platform和Adobe Journey Optimizer加载项，允许客户从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
 
-Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访问其客户数据，这些数据已存储到其数据仓库和云存储平台(例如Amazon Redshift、Azure synapse Analytics、Google BigQuery、Snowflake)中。 客户数据可以存放在多个数据仓库中，现在无需复制即可即时访问。
+Adobe Experience Platform Federated Audience Composition提供了一个简单而强大的解决方案，用于直接在Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer中连接企业数据仓库，并对Data Warehouse的表执行查询。 Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访问其客户数据，这些数据已存储到其数据仓库和云存储平台(例如Amazon Redshift、Azure synapse Analytics、Google BigQuery、Snowflake)中。 客户数据可以存放在多个数据仓库中，现在无需复制即可即时访问。
 
 
 ## 用例 {#rn-uc}
