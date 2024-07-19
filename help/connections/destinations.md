@@ -3,9 +3,9 @@ audience: end-user
 title: 将受众发送到Adobe联合受众合成
 description: 了解如何将Adobe Experience Platform受众发送到联合受众合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 5%
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 警报]**&#x200B;部分允许您启用警报，以接收有关流向目标的数据流状态的通知。 有关警报的详细信息，请参阅[使用UI订阅目标警报的指南](../../ui/alerts.md)。
+   **[!UICONTROL 警报]**&#x200B;部分允许您启用警报，以接收有关流向目标的数据流状态的通知。 有关警报的详细信息，请参阅[使用UI订阅目标警报的指南](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)。
 
 1. 在&#x200B;**[!UICONTROL 治理策略和实施操作]**&#x200B;步骤中，您可以定义数据治理策略，并确保在发送和激活受众时使用的数据是合规的。
 
