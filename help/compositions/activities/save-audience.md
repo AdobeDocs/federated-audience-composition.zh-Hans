@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 26%
+source-wordcount: '380'
+ht-degree: 25%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 26%
    ![](../assets/save-audience.png)
 
 1. 指定要创建的受众的标签。
+
+   >[!IMPORTANT]
+   >
+   >受众标签在当前沙盒中必须是唯一的。 标签不能与任何现有受众相同。
 
 1. 单击&#x200B;**添加受众映射**，然后选择源受众和目标受众字段：
 
