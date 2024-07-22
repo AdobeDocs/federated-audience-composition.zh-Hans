@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 了解有关[架构](../customer/schemas.md#schema-start)的更多信息。
 
-了解有关[受众](../customer/audiences.md)的更多信息。
+了解有关[受众](../start/audiences.md)的更多信息。
 
 ## 创建数据模型 {#data-model-create}
 

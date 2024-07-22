@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: 将受众发送到Adobe联合受众合成
-description: 了解如何将Adobe Experience Platform受众发送到联合受众合成
+title: 使用外部数据丰富Adobe Experience Platform受众
+description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 badge: label="限量发布版" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# 将Adobe Experience Platform发送到Adobe联合受众构成 {#connect-aep-fac}
+# 使用外部数据丰富Adobe Experience Platform受众 {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="创建目标"
 >abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 连接到目标]** 按钮来验证您的配置。"
 
-利用Adobe Experience Platform，可将受众从受众门户发送到Adobe联合受众合成。 这样，您就可以将现有受众利用到组合中，并将其与外部数据库中的数据相结合，从而创建新受众或更新现有受众。
+Adobe Experience Platform允许使用Adobe联合受众组合目标将受众从受众门户无缝集成到外部数据库。 这样，您就可以将现有受众利用到组合中，并使用外部数据库中的数据扩充或优化这些受众，从而创建新受众或更新现有受众。
 
-为此，您需要在Adobe Experience Platform中设置与Adobe联合受众组合目标的新连接。 您可以使用调度程序以固定频率发送给定受众，选择要与受众一起发送的字段，如要协调数据的ID。 如果您已将治理和隐私政策应用于受众，则更新受众后，这些政策将被保留并发送回受众门户。
+为此，您需要在Adobe Experience Platform中设置与Adobe联合受众组合目标的新连接。 您可以使用调度程序以固定频率发送给定受众，并选择要包含的特定属性，例如用于数据协调的ID。 如果您已将治理和隐私政策应用于受众，则更新受众后，这些政策将被保留并发送回受众门户。
+
+例如，如果您在数据仓库中存储客户信用分数，并拥有一个Adobe Experience Platform受众，该受众针对过去两个月中对特定产品感兴趣的客户，则可以使用联合受众构成目标根据信用分数优化此受众。 通过此流程，您可以筛选受众以仅包含具有高信用分数的用户档案，而无需从您的数据仓库传输敏感的信用分数数据。
 
 将Adobe Experience Platform受众发送到Adobe联合受众组合的主要步骤如下：
 
