@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 数据模型是一组架构、受众以及它们之间的链接。
 
-了解有关[架构](../customer/schemas.md)的更多信息。
+了解有关[架构](../customer/schemas.md#schema-start)的更多信息。
 
 了解有关[受众](../customer/audiences.md)的更多信息。
 
@@ -61,3 +61,16 @@ ht-degree: 39%
 
 ### 创建链接 {#data-model-links}
 
+可以通过两种方式在数据模型的表之间创建链接：
+- 直接单击某个表的&#x200B;**[!UICONTROL 创建链接]**&#x200B;菜单
+- 单击&#x200B;**[!UICONTROL 创建链接]**&#x200B;按钮，然后选择2个表
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+填写给定的表单以定义链接：
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+为数据模型定义的所有链接将如下所示：
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
