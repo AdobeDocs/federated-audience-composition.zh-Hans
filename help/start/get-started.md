@@ -2,10 +2,10 @@
 title: 联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 
 关键步骤：
 
-* **配置**
+1. **数据集成**：将来自各种源的数据合并到一个统一的数据集中。 [本节](../connections/federated-db.md)详细介绍了如何连接Adobe Experience Platform应用和您的企业数据仓库、支持的数据库以及如何配置它们。
 
-   1. 连接Adobe Experience Platform和您的企业数据仓库。
-支持以下数据库：Snowflake、Google Big Query、Azure synapse、Redshift。
-在[此页面](../connections/federated-db.md)中了解详情
-   1. 创建架构以选择可从用户界面访问的数据。
-在[此页面](../customer/schemas.md)中了解详情
-   1. 为数据模型创建链接。
-在[此页面](../data-management/gs-models.md)中了解详情
+2. **数据建模**：设计和创建定义数据结构、关系和约束的数据模型和架构。 在[此页面](../customer/schemas.md)中了解有关架构的更多信息。 在[此页面](../data-management/gs-models.md)中了解如何为数据模型创建链接。
 
-* **撰写受众**
+3. **数据转换**：应用数据操作技术来修改数据元素的格式、结构或值，使其兼容或适用于特定的分析或应用程序。
 
-   1. 设计和执行合成以创建受众。
-在[此页面](../compositions/gs-compositions.md)中了解详情
-   1. 通过Adobe Experience Platform受众门户和目标更新或重用现有受众。
-在[此页面](../connections/destinations.md)中了解详情
+4. **数据使用情况**：创建、编排和构建受众。 了解如何在[此页面](../compositions/gs-compositions.md)中组合受众。 您还可以通过Adobe Experience Platform受众门户和目标更新或重用现有受众。 在[此页面](../connections/destinations.md)中了解详情
+
 
 ## 常见问题 {#faq}
 
