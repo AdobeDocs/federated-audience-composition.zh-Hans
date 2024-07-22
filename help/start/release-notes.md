@@ -2,10 +2,10 @@
 title: 联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
-source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
+source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '327'
+ht-degree: 4%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 ## 联合受众构成(LA) {#fac-la}
 
-联合受众构成是一个插件，可提供灵活的访问和到企业数据仓库的扩展范围，以支持个性化用例。
+>[!AVAILABILITY]
+>
+>* 联合受众构成当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+>
+>* 目前，此功能不适用于已购买&#x200B;**Healthcare Shield**&#x200B;附加产品的客户。 [了解详情](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 
 联合受众组合允许企业组合数据以更好地在各种用例中使用。 使用此新方法，作为[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}和/或[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}用户，您可以直接从现有数据仓库联合数据集，以在一个系统中扩充Adobe Experience Platform受众和属性。
 
+联合受众构成是一个附加组件，它提供了对企业数据仓库的灵活访问和扩展范围，从而支持个性化用例。
 现在，您可以使用Federated Audience Composition减少从Adobe Experience Platform复制到Adobe Experience Platform的数据量，方法是：从数据仓库中提取某些分段或激活用例所需的特定受众和属性，并确保敏感数据不会保留在仓库之外。
 
 在[此页面](get-started.md)和[常见问题解答](get-started.md#faq)中了解有关联合受众组合功能的更多信息。
-
->[!AVAILABILITY]
->
->联合受众构成当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
->
->目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;附加产品的客户。
 
 ## 访问联合受众组合 {#fac-access}
 
