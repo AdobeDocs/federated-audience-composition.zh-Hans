@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 了解有关[受众](../customer/audiences.md)的更多信息。
 
-## 如何创建数据模型？ {#data-model-create}
+## 创建数据模型 {#data-model-create}
 
 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，转到&#x200B;**[!UICONTROL 模型]**&#x200B;链接。 您将在其中找到&#x200B;**[!UICONTROL 数据模型]**&#x200B;选项卡。
 
