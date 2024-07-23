@@ -3,7 +3,7 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 badge: label="限量发布版" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ ht-degree: 5%
 ![](assets/connections_details.png){zoomable="yes"}
 
 根据数据库的类型，在下面的链接中了解设置连接所需的信息：
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)

@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ ht-degree: 29%
 ### 创建链接 {#data-model-links}
 
 可以通过两种方式在数据模型的表之间创建链接：
+
 - 直接单击某个表的&#x200B;**[!UICONTROL 创建链接]**&#x200B;菜单
 - 单击&#x200B;**[!UICONTROL 创建链接]**&#x200B;按钮，然后选择2个表
 
