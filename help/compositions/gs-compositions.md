@@ -3,18 +3,18 @@ audience: end-user
 title: 合成快速入门
 description: 了解如何开始使用合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '287'
 ht-degree: 10%
 
 ---
 
 # 合成快速入门 {#compositions}
 
-## 什么是合成？ {#what}
+## 什么是合成 {#what}
 
-Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆分、排除……）用在可视画布中来创建受众。 完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在目标(如Journey Optimizer)中用于定位客户。
+Adobe受众合成允许您创建合成，您可以在其中将各种活动（拆分、排除……）用在可视画布中来创建受众。 完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在目标(如Journey Optimizer)中用于定位客户。 [了解如何使用受众](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Adobe数据合成允许您创建合成，您可以在其中将各种活动（拆
 
 * **[!UICONTROL 草稿]**：已创建并保存合成。
 * **[!UICONTROL 进行中]**：合成已执行，当前正在运行。
-* **[!UICONTROL 已停止]**：合成执行已停止。
+* **[!UICONTROL 已停止]**：组合执行已完成并已停止。
 * **[!UICONTROL 已暂停]**：合成执行已暂停。
 * **[!UICONTROL 错误]**：合成执行遇到错误。 打开构成并访问日志和任务以识别错误并解决它。
 

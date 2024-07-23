@@ -3,10 +3,10 @@ audience: end-user
 title: 开始使用审计跟踪
 description: 了解如何使用审核跟踪监测数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 审核记录功能提供了对您的环境实时执行的所有操作和事件的详细时间顺序记录
 
-**[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe数据组合实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
+**[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe联合组合实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
 
 +++ 了解有关审核记录可用实体的更多信息
 
-* **Source架构审核跟踪**&#x200B;允许您在Adobe数据组合实例中监视活动以及最近对架构所做的修改。
+* **Source架构审核跟踪**&#x200B;允许您在Adobe联合受众组合实例中监视活动以及最近对架构所做的修改。
 
   有关架构的详细信息，请参阅此[页面](../customer/schemas.md)。
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
   有关工作流的详细信息，请参阅此[页面](../compositions/gs-compositions.md)。
 
-* **外部帐户**&#x200B;允许您检查对Adobe数据组合实例中的外部帐户所做的修改。
+* **外部帐户**&#x200B;允许您检查对Adobe受众组合实例中的外部帐户所做的修改。
 
   有关外部帐户的详细信息，请参阅此[页面](../connections/federated-db.md)。
 

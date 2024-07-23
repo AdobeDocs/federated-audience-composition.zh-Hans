@@ -3,7 +3,7 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## 作文内有什么？ {#gs-composition-inside}
 
-联合数据构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
+联合受众构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
 
 组合图是应发生情况的表示形式。 它描述要执行的各种任务及其如何链接在一起。
 

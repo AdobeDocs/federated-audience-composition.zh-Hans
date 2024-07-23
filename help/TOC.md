@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 35%
+source-wordcount: '133'
+ht-degree: 36%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 35%
 # Federated受众组合文档 {#using}
 
 + [Federated受众组合文档](home.md)
++ [发行说明](start/release-notes.md)
 + 联合受众组合入门{#start}
-   + [快速入门](start/get-started.md)
-   + [发行说明](start/release-notes.md)
+   + [什么是联合受众构成](start/get-started.md)
    + [使用受众](start/audiences.md)
 + 配置步骤{#config}
    + [创建和管理连接](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 35%
       + [创建和配置架构](customer/schemas.md)
       + [配置数据模型](data-management/gs-models.md)
    + [使用外部数据丰富Adobe Experience Platform受众](connections/destinations.md)
-+ 合成{#compositions}
++ 组合受众{#compositions}
    + [合成快速入门](compositions/gs-compositions.md)
    + 创建并运行您的第一个合成{#create-composition}
       + [创建构成的主要原则](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 35%
    + [编辑表达式](query/expression-editor.md)
 + 审核记录{#audit-trail}
    + [监测数据库](admin/audit-trail.md)
-+ [&lt;返回Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
