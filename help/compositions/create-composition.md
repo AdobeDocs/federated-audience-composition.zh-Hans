@@ -3,9 +3,9 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 21%
 
 ---
@@ -47,9 +47,7 @@ ht-degree: 21%
 >title="错误管理设置"
 >abstract="在本部分中，您可以定义在执行期间应如何管理错误。您可以选择暂停流程、忽略一定数量的错误或停止构成执行。"
 
-在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。
-
-要访问合成的其他选项，请单击位于合成创建屏幕上部的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
+在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。 要访问这些其他选项，请单击位于合成创建屏幕上部的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
 
 ![](assets/composition-create-settings.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 25%
+source-wordcount: '420'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="保存受众"
->abstract="使用此活动更新现有受众或从构成中的上游计算得出的群体创建新受众。创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
+>abstract="使用此活动可根据构成中上游计算的群体创建新受众。 创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 25%
 >abstract="选择要用于轮廓的命名空间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="在 Experience Platform 文档中了解详情。"
 
-利用&#x200B;**保存受众**&#x200B;活动，可使用合成中上游计算的群体更新现有受众或创建新受众。 创建的受众将添加到应用程序受众列表中，并可通过&#x200B;**受众**&#x200B;菜单使用。
+利用&#x200B;**保存受众**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 
 此活动主要用于通过将同一构成中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，如&#x200B;**构建受众**&#x200B;或&#x200B;**合并**&#x200B;活动。
 
@@ -53,10 +53,7 @@ ht-degree: 25%
    >
    >受众标签在当前沙盒中必须是唯一的。 标签不能与任何现有受众相同。
 
-1. 单击&#x200B;**添加受众映射**，然后选择源受众和目标受众字段：
-
-   * **Source受众字段**：
-   * **目标受众字段**：
+1. 使用“受众映射”部分选择要与新创建的受众一起导入的字段。 为此，请单击&#x200B;**添加受众映射**，然后选择源受众和目标受众字段。
 
    重复该操作，根据需要添加任意数量的受众映射。
 
@@ -65,7 +62,7 @@ ht-degree: 25%
    * **主标识字段**：选择用于标识用户档案的字段。 例如，其电子邮件地址或电话号码。
    * **标识命名空间**：选择要用于标识配置文件的命名空间，即要用作标识键的数据类型。 例如，如果已选择电子邮件地址作为主身份字段，则应选择身份命名空间&#x200B;**Email**。 如果唯一标识符是电话号码，则应选择身份命名空间&#x200B;**电话**。
 
-执行合成后，生成的受众将保存在Adobe Experience Platform <!-- to check-->中，并可在&#x200B;**受众**&#x200B;菜单中访问。
+执行合成后，生成的受众将保存在Adobe Experience Platform中，并可在&#x200B;**受众**&#x200B;菜单中访问。 创建的受众包含“受众映射”部分中选择的所有字段。 您可以将Audience激活到Adobe Experience Platform支持的任何目标。
 
 <!--
 
