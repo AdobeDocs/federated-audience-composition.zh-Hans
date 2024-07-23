@@ -3,10 +3,10 @@ audience: end-user
 title: 使用构建受众活动
 description: 了解如何使用构建受众活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 35%
+source-wordcount: '246'
+ht-degree: 30%
 
 ---
 
@@ -45,8 +45,11 @@ ht-degree: 35%
 
 1. 选择&#x200B;**创建受众**。
 1. 选择&#x200B;**架构**，也称为定向维度。 利用模式，您可以定义操作所针对的群体：收件人、合同受益人、操作员、订阅者等。 默认情况下，从收件人中选择架构。
+
+   ![](../assets/build-audience-create.png)
+
 1. 单击&#x200B;**继续**。
-1. 使用查询建模器定义您的查询。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
+1. 使用查询建模器定义您的查询，然后进行确认。 [了解如何使用查询建模器](../../query/query-modeler-overview.md)
 
 >[!TAB 读取受众]
 
@@ -54,9 +57,16 @@ ht-degree: 35%
 
 1. 选择&#x200B;**读取受众**。
 1. 单击&#x200B;**继续**。
+
+   ![](../assets/build-audience-read.png)
+
 1. 选择受众。
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>通过&#x200B;**生成叫客过渡**&#x200B;选项，可添加将在活动执行结束时激活的叫客过渡（如果受众群体为空）。
 
 <!--
 ## Examples{#build-audience-examples}
