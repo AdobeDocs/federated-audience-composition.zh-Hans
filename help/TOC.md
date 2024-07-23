@@ -2,10 +2,10 @@
 user-guide-title: 联合受众构成
 title: Adobe联合受众组合文档
 breadcrumb-title: 联合受众构成
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 36%
+source-wordcount: '136'
+ht-degree: 37%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 36%
 + 联合受众组合入门{#start}
    + [什么是联合受众构成](start/get-started.md)
    + [使用受众](start/audiences.md)
+   + [常见问题解答](start/faq.md)
 + 配置步骤{#config}
    + [创建和管理连接](connections/connections.md)
    + [配置联合数据库](connections/federated-db.md)
