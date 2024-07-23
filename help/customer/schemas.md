@@ -3,9 +3,9 @@ audience: end-user
 title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 架构是数据库表的表示形式。 它是应用程序中的一个对象，用于定义数据如何与数据库表绑定。
 
-通过创建架构，您可以在FAC中处理表：
+通过创建架构，您有可能在FAC中处理表的表示形式：
+
 - 为其提供友好名称和描述，以简化用户的理解
 - 根据每个字段的实际使用情况确定其可见性
 - 选择其主键，以便根据[数据模型](../data-management/gs-models.md#data-model-start)中的需要链接它们之间的架构
@@ -70,6 +71,7 @@ ht-degree: 20%
 ![](assets/schema_fields.png){zoomable="yes"}
 
 对于每个表，您可以：
+
 - 重命名给定的架构标签
 - 添加描述
 - 重命名所有字段，并决定其可见性。
@@ -91,6 +93,7 @@ ht-degree: 20%
 ![](assets/schema_edit.png){zoomable="yes"}
 
 在创建架构时，您可以使用与相同的可能性：
+
 - 重命名给定的架构标签
 - 添加描述
 - 重命名所有字段，并决定其可见性。
