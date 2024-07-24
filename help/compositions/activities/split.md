@@ -3,13 +3,13 @@ audience: end-user
 title: 使用拆分活动
 description: 了解如何使用拆分活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 76%
 
 ---
-
 
 # 拆分 {#split}
 
@@ -96,9 +96,7 @@ ht-degree: 76%
 
 1. 配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站转换中。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL 在同一表]**&#x200B;中生成所有子集选项允许您将所有子集分组到单个输出转换中。
+1. **[!UICONTROL 在同一表]**&#x200B;中生成所有子集选项允许您将所有子集分组到单个输出转换中。
 
 1. 通过&#x200B;**[!UICONTROL 启用输出群体的重叠]**&#x200B;选项，您可以管理属于多个子集的群体：
 

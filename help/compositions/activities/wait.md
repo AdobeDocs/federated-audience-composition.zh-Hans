@@ -3,10 +3,11 @@ audience: end-user
 title: 使用等待活动
 description: 了解如何使用等待活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '86'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 61%
 >title="等待活动"
 >abstract="**等待**&#x200B;活动用于将过渡从一个活动推迟另一个活动。"
 
-**等待**&#x200B;活动允许在两个执行的活动之间传递一定的时间。 例如，在执行电子邮件投放活动后，等待几天，再分析这期间产生的打开次数和点击次数，然后再执行所有后续操作（提醒电子邮件、创建受众等）。
+**等待**&#x200B;活动允许在两个执行的活动之间传递一定的时间。
 
 ## 配置{#wait-configuration}
 
@@ -29,4 +30,4 @@ ht-degree: 61%
 
 1. 在&#x200B;**期间**&#x200B;字段中选择时间单位：秒、分钟、小时、天。
 
-
+   ![](../assets/wait.png)
