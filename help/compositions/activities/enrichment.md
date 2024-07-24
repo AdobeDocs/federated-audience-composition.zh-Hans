@@ -3,13 +3,13 @@ audience: end-user
 title: 使用扩充活动
 description: 了解如何使用扩充活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 48%
 
 ---
-
 
 # 扩充 {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 52%
 >title="扩充数据"
 >abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：模式（也称为目标选择维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
-利用&#x200B;**扩充**&#x200B;活动，可使用联合数据库中的附加信息增强目标数据。 它通常用在分段活动后的合成中。
+利用&#x200B;**扩充**&#x200B;活动，可使用联合数据库中的附加信息增强目标数据。 通常在分段活动之后的构成中使用它。
+
+如果已配置与联合数据组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../../connections/destinations.md)
 
 扩充数据可来自：
 
@@ -78,16 +80,17 @@ ht-degree: 52%
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## 示例 {#example}
+<!--
+## Examples {#example}
 
-### 单个扩充属性 {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-我们在此处只添加单个扩充属性，例如出生日期。执行以下步骤：
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. 在&#x200B;**属性**&#x200B;字段内单击。
-1. 从架构中选择一个简单字段，也称为定向维度，在本例中是出生日期。
-1. 单击&#x200B;**确认**。
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
