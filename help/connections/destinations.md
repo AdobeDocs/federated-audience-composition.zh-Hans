@@ -3,7 +3,8 @@ audience: end-user
 title: 使用外部数据丰富Adobe Experience Platform受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 badge: label="限量发布版" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 >title="创建目标"
 >abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 连接到目标]** 按钮来验证您的配置。"
 
-Adobe Experience Platform允许使用&#x200B;**Adobe联合受众构成**&#x200B;目标将受众从受众门户无缝集成到外部数据库。 这样，您就可以将现有受众利用到组合中，并使用外部数据库中的数据扩充或优化这些受众以创建新受众。
+Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**，将受众门户中的受众与外部数据库无缝集成。 通过此集成，您可以将现有受众利用到组合中，并使用外部数据库中的数据扩充或优化这些受众以创建新受众。
 
 为此，您需要在Adobe Experience Platform中设置与Adobe联合受众组合目标的新连接。 您可以使用调度程序以固定频率发送给定受众，并选择要包含的特定属性，例如用于数据协调的ID。 如果您已将治理和隐私政策应用于受众，则更新受众后，这些政策将被保留并发送回受众门户。
 
