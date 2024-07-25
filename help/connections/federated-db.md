@@ -3,9 +3,10 @@ audience: end-user
 title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 6%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 6%
 >title="联合数据库详细信息"
 >abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 测试连接]** 按钮验证您的配置。"
 
-联合受众构成允许客户从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
+Experience Platform联合受众构成允许客户从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
 
 在此页面中了解如何创建、配置、测试和保存与外部数据库的连接。
 
@@ -254,4 +255,3 @@ ht-degree: 6%
 | 选项 | 描述 |
 |---|---|
 | 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 |
-

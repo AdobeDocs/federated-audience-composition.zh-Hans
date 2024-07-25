@@ -3,13 +3,13 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # 创建构成的主要原则 {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## 作文内有什么？ {#gs-composition-inside}
 
-联合受众构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
+Experience Platform联合受众构成提供了一个可视画布，通过该画布可以利用各种活动（拆分、扩充等）来创建受众。
 
 组合图是应发生情况的表示形式。 它描述要执行的各种任务及其如何链接在一起。
 

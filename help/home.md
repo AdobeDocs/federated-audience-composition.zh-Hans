@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Federated受众组合文档主页
+title: Adobe Experience Platform Federated受众组合文档主页
 description: 这是文章概述。
 badge: label="限量发布版" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # 联合受众组合文档  {#fac-home}
 
 欢迎访问Adobe Experience Platform联合受众组合文档。
 
-联合受众组合为Adobe Real-Time CDP和Adobe Journey Optimizer用户提供了数据管理灵活性和效率。 利用联合受众合成，您可以使用对营销人员友好的UI访问企业数据仓库，以构建受众并利用Adobe Experience Platform工作流中的数据集，而无需保留基础企业数据。 这有助于您在访问数据仓库以用于体验用例时减少数据移动。
+Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Optimizer用户提供了数据管理灵活性和效率。 利用联合受众合成，您可以使用对营销人员友好的UI访问企业数据仓库，以构建受众并利用Adobe Experience Platform工作流中的数据集，而无需保留基础企业数据。 这有助于您在访问数据仓库以用于体验用例时减少数据移动。
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ ht-degree: 5%
 ## 其他资源  {#additional-resources}
 
 [Real-time Customer Data Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe受众门户文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

@@ -1,18 +1,18 @@
 ---
 title: 常见问题
-description: 常见问题解答
+description: 有关Adobe Experience Platform联合受众组合的常见问题解答
 badge: label="限量发布版" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
 
 # 常见问题解答 {#faq}
 
-以下是有关联合受众组合的常见问题解答列表。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}中，Adobe Experience Platform分段服务也提供了全局常见问题解答。
+以下是有关Adobe Experience Platform联合受众组合的常见问题解答列表。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}中，Adobe Experience Platform分段服务也提供了全局常见问题解答。
 
 
 +++访问联合受众组合所需的权限是什么？
