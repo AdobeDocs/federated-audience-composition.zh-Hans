@@ -3,10 +3,11 @@ audience: end-user
 title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 架构是数据库表的表示形式。 它是应用程序中的一个对象，用于定义数据如何与数据库表绑定。
 
-通过创建架构，您有可能在FAC中处理表的表示形式：
+通过创建架构，您可以在Experience Platform联合受众构成中定义表的表示形式：
 
-- 为其提供友好名称和描述，以简化用户的理解
-- 根据每个字段的实际使用情况确定其可见性
-- 选择其主键，以便根据[数据模型](../data-management/gs-models.md#data-model-start)中的需要链接它们之间的架构
+* 为其提供友好名称和描述，以简化用户的理解
+* 根据每个字段的实际使用情况确定其可见性
+* 选择其主键，以便根据[数据模型](../data-management/gs-models.md#data-model-start)中的需要链接它们之间的架构
 
 ## 创建架构 {#schema-create}
 
-要在FAC中创建架构，请执行以下步骤：
-在**[!UICONTROL 联合数据]**&#x200B;部分中，转到&#x200B;**[!UICONTROL 模型]**&#x200B;链接。 您将在其中找到&#x200B;**[!UICONTROL 架构]**选项卡。
-单击**[!UICONTROL 创建架构]**&#x200B;按钮。
+要在联合受众构成中创建架构，请执行以下步骤：
 
-![](assets/schema_create.png){zoomable="yes"}
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，转到&#x200B;**[!UICONTROL 模型]**&#x200B;链接。 浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建架构]**&#x200B;按钮。
 
-您将有权访问一个新界面，该界面包含一个下拉列表，您将在该下拉列表中找到
-连接到应用程序的所有数据库。 了解有关[数据库连接](../connections/connections.md#connections-fdb)的更多信息。
-在列表中选择源数据库，然后单击**[!UICONTROL 添加表]**&#x200B;选项卡
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   通过此步骤，您可以使用下拉列表访问新屏幕，其中可查找连接到环境的数据库。 在[本节](../connections/connections.md#connections-fdb)中了解有关数据库连接的更多信息。
 
-您将可以访问数据库中的所有表的列表。
+1. 在列表中选择源数据库，然后单击&#x200B;**[!UICONTROL 添加表]**&#x200B;选项卡。
 
-通过添加要为其创建方案的表，您将有权访问其字段，如下所示。
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   然后，可以查看数据库中所有表的列表。
 
-对于每个表，您可以：
+1. 通过添加要为其创建方案的表，您可以访问其字段，如下所示：
 
-- 重命名给定的架构标签
-- 添加描述
-- 重命名所有字段，并决定其可见性。
-- 选择架构主键
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-例如，在添加之后导入了一个表：
+   对于每个表，您可以：
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * 更改架构的标签
+   * 添加描述
+   * 重命名所有字段，并设置其可见性
+   * 选择架构主键
 
-可以按如下方式定义架构：
+   例如，对于导入的下表：
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   可按如下方式定义架构：
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## 编辑架构 {#schema-edit}
 
-要编辑架构，请在架构文件夹中单击架构的名称。 您将有权访问以下页面。
-单击**[!UICONTROL 编辑]**&#x200B;按钮。
+要编辑方案，请执行以下操作：
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. 单击“架构”文件夹中架构的名称。
 
-在创建架构时，您可以使用与相同的可能性：
+1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 
-- 重命名给定的架构标签
-- 添加描述
-- 重命名所有字段，并决定其可见性。
-- 选择架构主键
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   您可以访问与[创建架构](#schema-create)时相同的选项。
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## 在架构中预览数据 {#schema-preview}
 
-要预览架构所代表的表中的数据，请转到&#x200B;**[!UICONTROL 数据]**选项卡，如下所示。
-通过单击**[!UICONTROL 计算]**&#x200B;链接，您可以获得录制的总数。
+要预览架构所代表的表中的数据，请浏览到&#x200B;**[!UICONTROL 数据]**&#x200B;选项卡，如下所示。
+
+单击&#x200B;**[!UICONTROL 计算]**&#x200B;链接预览录制总数。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-您可以通过单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮来更改数据概述。
+单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮更改数据显示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## 删除架构 {#schema-delete}
 
-要删除架构，请单击&#x200B;**[!UICONTROL 更多]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 删除]**。
+要删除架构，请单击“**[!UICONTROL 更多]**”按钮，然后选择“**[!UICONTROL 删除]**”。
 
 ![](assets/schema_delete.png){zoomable="yes"}
