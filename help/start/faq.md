@@ -2,13 +2,13 @@
 title: 常见问题
 description: 常见问题解答
 badge: label="限量发布版" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # 常见问题解答 {#faq}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 例如：
 
-* 在受众分段的情况下，受众是在您的仓库中创建的，在通过Adobe Experience Platform受众门户发布生成的受众和相关属性之前，您可以使用联合受众构成执行其他合成任务和数据操作。 受众定义和相关属性转到Adobe Experience Platform。
+* 在创建受众时，会在您的仓库中创建受众，在通过Adobe Experience Platform受众门户发布生成的受众和相关属性之前，您可以使用联合受众构成执行其他合成任务和数据操作。 受众定义和相关属性转到Adobe Experience Platform。
 请注意，外部生成的受众的当前数据到期时间为30天。 此数据到期可减少组织中存储的多余数据量。 在数据过期后，关联的数据集仍会在数据集清单中可见，但您无法激活受众，并且配置文件计数将显示为零。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}以了解详情。
 
 * 对于受众扩充，起始点是现有的Adobe Experience Platform受众。 我们可以在这里看到两种情况：
@@ -79,7 +79,7 @@ ht-degree: 2%
    1. 根据数据仓库中存在的其他属性优化现有Adobe Experience Platform受众。 例如，您有一个受众客户，他们在过去两个月中对网站上的特定产品表现出兴趣。 现在，您需要接受此受众，并使用联合受众构成对其进行进一步分段，以仅包含具有高信用分数的客户。 信用评分被视为敏感，且不会从数据仓库复制单个信用评分数据点。
 +++
 
-+++如果未保留受众分段和受众扩充用例模式的数据，则它是如何临时存储的？
++++如果用于受众创建和受众扩充用例模式的数据未保留，那么它是如何临时存储的？
 
 生成的受众数据不会在Adobe Experience Platform或联合受众构成中无限期保留。 它不会保留超过用例所需的时间。 作为受众有效负载的一部分引入的受众属性将仅作为受众定义的一部分保留。 持久性的持续时间基于任何受众的TTL，默认为30天。
 
