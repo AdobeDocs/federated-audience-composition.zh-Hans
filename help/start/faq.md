@@ -3,9 +3,9 @@ title: 常见问题
 description: 常见问题解答
 badge: label="限量发布版" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 +++访问联合受众组合所需的权限是什么？
 
-联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
+联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。 联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 +++联合受众构成中是否存在临时存储？
 
-否，联合受众组合仅存储元数据（架构描述）。 没有客户数据正在中转。 直接从Adobe Experience Platform Audience Portal（通过[目标](../connections/destinations.md)）到客户数据库完成受众导出流程。 创建和更新流程可直接从Data Warehouse数据库发送到Adobe Experience Platform Audience Portal。
+否，联合受众组合仅存储元数据（架构描述）。 没有客户数据正在中转。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 * 对于受众扩充，起始点是现有的Adobe Experience Platform受众。 我们可以在这里看到两种情况：
    1. 从联合数据仓库引入其他受众有效负载属性：在这种情况下，添加的其他属性将作为此受众定义的一部分提供。 外部生成的受众的数据过期时间与上述相同，即30天。
-   1. 根据数据仓库中存在的其他属性优化现有Adobe Experience Platform受众。 例如，您有一个受众客户，他们在过去两个月中对网站上的特定产品表现出兴趣。 现在，您需要接受此受众，并使用联合受众构成对其进行进一步分段，以仅包含具有高信用分数的客户。 信用评分被视为敏感，且不会从数据仓库复制单个信用评分数据点。
+   1. 根据数据仓库中存在的其他属性优化现有Adobe Experience Platform受众。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++如果用于受众创建和受众扩充用例模式的数据未保留，那么它是如何临时存储的？
