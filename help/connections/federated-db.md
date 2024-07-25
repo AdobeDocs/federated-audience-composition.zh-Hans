@@ -4,7 +4,7 @@ title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 6%
@@ -111,7 +111,7 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
 
 | 选项 | 描述 |
-|:-:|:-:|
+|---|---|
 | 身份验证 | 连接器支持的身份验证类型。 当前支持的值： ActiveDirectoryMSI。 有关详细信息，请参阅[SQL文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)（连接字符串n°8示例） |
 
 
@@ -150,7 +150,7 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 1. 完成配置后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建联合数据库。
 
 | 选项 | 描述 |
-|:-:|:-:|
+|---|---|
 | 代理类型 | 用于通过ODBC和SDK连接器连接到BigQuery的代理类型。 当前支持</br>HTTP（默认）、http_no_tunnel、socks4和socks5。 |
 | 代理主机 | 可访问代理的主机名或IP地址。 |
 | 代理端口 | 代理正在运行的端口号，如8080 |
