@@ -2,13 +2,13 @@
 title: 联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: 9397bac0fda54761b2ac3c29140d32a433cb514b
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # 联合受众组合入门 {#gs-fac}
 
@@ -39,6 +39,12 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 3. **数据转换**：应用数据操作技术来修改数据元素的格式、结构或值，使其兼容或适用于特定的分析或应用程序。
 
 4. **数据使用情况**：创建、编排和构建受众。 了解如何在[此页面](../compositions/gs-compositions.md)中组合受众。 您还可以通过Adobe Experience Platform受众门户和目标更新或重用现有受众。 在[此页面](../connections/destinations.md)中了解详情
+
+
+>[!NOTE]
+>
+>执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并可用于Adobe实时客户数据平台和/或Adobe Journey Optimizer中。 它可在&#x200B;**受众**&#x200B;菜单中访问。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
