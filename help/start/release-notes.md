@@ -2,13 +2,13 @@
 title: 联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
-
 
 # 发行说明 {#rn-new}
 
@@ -29,6 +29,8 @@ ht-degree: 4%
 在[此页面](get-started.md)和[常见问题解答](get-started.md#faq)中了解有关联合受众组合功能的更多信息。
 
 ## 访问联合受众组合 {#fac-access}
+
+联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。
 
 联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
 
