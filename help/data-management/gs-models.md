@@ -3,10 +3,11 @@ audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
+source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 29%
+source-wordcount: '227'
+ht-degree: 28%
 
 ---
 
@@ -75,3 +76,7 @@ ht-degree: 29%
 为数据模型定义的所有链接将如下所示：
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## 在视频中创建数据模型 {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)
