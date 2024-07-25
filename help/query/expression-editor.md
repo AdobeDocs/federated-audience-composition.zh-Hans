@@ -3,20 +3,17 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询。
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 52%
+source-wordcount: '2068'
+ht-degree: 53%
 
 ---
 
 # 编辑表达式 {#expression}
 
 编辑表达式需要手动输入条件以形成规则。 利用此模式，可使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
-
->[!IMPORTANT]
->
->以下部分提供了有关如何使用表达式编辑器构建规则的信息。 请记住，用于构建规则的语法与用于添加个性化的语法不同。
 
 ## 使用表达式编辑器 {#edit}
 
