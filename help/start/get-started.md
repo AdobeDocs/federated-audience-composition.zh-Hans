@@ -3,7 +3,7 @@ title: 联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 
 在此版本中，提供了两个用例：受众创建和受众扩充。
 
-![关系图](assets/fac-use-cases.png){zoomable="yes"}
+![关系图](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 关键步骤 {#gs-steps}
 
 通过Adobe联合受众合成，可直接从数据库创建和更新Adobe Experience Platform受众，而无需任何摄取过程。
 
-![关系图](assets/steps-diagram.png){zoomable="yes"}
+![关系图](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 关键步骤：
 
