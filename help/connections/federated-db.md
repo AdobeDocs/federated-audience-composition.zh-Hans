@@ -4,9 +4,9 @@ title: 开始使用联合数据库
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1566'
 ht-degree: 6%
 
 ---
@@ -68,7 +68,11 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    * **[!UICONTROL 数据库]**：如果未在DSN中指定数据库的名称。 如果在DSN中指定，它可以留空
 
-   * **[!UICONTROL 工作架构]**：工作架构的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。 [了解详情](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项以验证您的配置。
 
@@ -188,7 +192,11 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    * **[!UICONTROL 数据库]**（可选）：如果未在DSN中指定，请输入数据库的名称。
 
-   * **[!UICONTROL 工作架构]**（可选）：输入工作架构的名称。
+   * **[!UICONTROL 工作架构]**（可选）：输入要用于工作表的数据库架构的名称。
+
+     >[!NOTE]
+     >
+     >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
 
    * **[!UICONTROL 私钥]**：单击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从区域设置文件夹中选择.pem文件。
 
@@ -240,7 +248,11 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    * **[!UICONTROL 数据库]**（可选）：如果未在DSN中指定，请输入数据库的名称。
 
-   * **[!UICONTROL 工作架构]**（可选）：输入工作架构的名称。
+   * **[!UICONTROL 工作架构]**（可选）：输入要用于工作表的数据库架构的名称。
+
+     >[!NOTE]
+     >
+     >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
 
    * **[!UICONTROL 选项]**：连接器支持下表中详述的选项。
 
