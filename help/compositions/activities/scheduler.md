@@ -3,7 +3,7 @@ audience: end-user
 title: 使用调度程序活动
 description: 了解如何使用调度程序活动
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 **调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时开始合成。 应将此活动视为已安排的一次开始。它只能用作组成的第一个活动。
 
-如果已配置与联合数据组合目标的连接，则可以使用此活动定期通过Adobe Experience Platform受众发送。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../../connections/destinations.md)
+如果您已配置与联合受众组合目标的连接，则可以使用此活动定期通过Adobe Experience Platform受众发送。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

@@ -4,7 +4,7 @@ title: 使用扩充活动
 description: 了解如何使用扩充活动
 badge: label="限量发布版" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 48%
@@ -40,7 +40,7 @@ ht-degree: 48%
 
 利用&#x200B;**扩充**&#x200B;活动，可使用联合数据库中的附加信息增强目标数据。 通常在分段活动之后的构成中使用它。
 
-如果已配置与联合数据组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../../connections/destinations.md)
+如果已配置与联合受众组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../../connections/destinations.md)
 
 扩充数据可来自：
 
