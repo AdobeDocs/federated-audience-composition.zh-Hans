@@ -4,9 +4,9 @@ title: 使用外部数据丰富Adobe Experience Platform受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 badge: label="限量发布版" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
 为此，您需要在Adobe Experience Platform中设置与Adobe联合受众组合目标的新连接。 您可以使用调度程序以固定频率发送给定受众，并选择要包含的特定属性，例如用于数据协调的ID。 如果您已将治理和隐私政策应用于受众，则更新受众后，这些政策将被保留并发送回受众门户。
 
-例如，如果您在数据仓库中存储客户信用分数，并拥有一个Adobe Experience Platform受众，该受众针对过去两个月中对特定产品感兴趣的客户，则可以使用联合受众构成目标根据信用分数优化此受众。 通过此流程，您可以筛选受众以仅包含具有高信用分数的用户档案，而无需从您的数据仓库传输敏感的信用分数数据。
+例如，假设您要将购买信息存储在数据仓库中，并且最近两个月内有一个Adobe Experience Platform受众定位对特定产品感兴趣的客户。 使用联合受众合成目标，您可以：
+
+* 根据购买信息优化受众。 例如，您可以筛选受众以仅定向购买超过150$的客户。
+* 使用与购买相关的字段（如产品名称和购买数量）扩充受众。
 
 将Adobe Experience Platform受众发送到Adobe联合受众组合的主要步骤如下：
 
