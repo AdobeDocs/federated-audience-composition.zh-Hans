@@ -3,9 +3,9 @@ title: 常见问题
 description: 有关Adobe Experience Platform联合受众组合的常见问题解答
 badge: label="限量发布版" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 +++可以删除自定义上传的受众吗？
 
-只需从操作菜单中选择删除，即可直接在Audience Portal中删除未在下游激活中使用的受众。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}以了解详情。
+不可以，在当前版本中，您无法删除自定义上传的受众。<!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

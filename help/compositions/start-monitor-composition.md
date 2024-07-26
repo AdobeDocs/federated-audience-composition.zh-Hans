@@ -3,13 +3,13 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # 启动并监视合成 {#start-monitor}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 在组合中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。 可以为每个过渡显示此数据。 要实现此目的，请选择过渡以在屏幕右侧打开其属性。
 
 * 单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以显示工作表的架构。
-* 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;以可视化在所选过渡中传输的数据。
+* 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;以可视化在所选过渡中传输的数据。 仅当启用了&#x200B;**[!UICONTROL 保留两次执行之间的临时群体的结果]**&#x200B;选项时，此选项才可用。 [了解详情](create-composition.md#settings)。
 
 ![](assets/transition-preview.png)
 
