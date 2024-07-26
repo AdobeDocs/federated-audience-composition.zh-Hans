@@ -4,9 +4,9 @@ title: 使用受众
 description: 了解如何使用受众
 badge: label="限量发布版" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,11 @@ Experience Platform联合受众合成允许您[创建合成](../compositions/gs-
 
 然后，您可以将这些受众激活到Adobe Experience Platform支持的任何目标。
 
-### 使用合成创建受众 {#creation}
+## 使用合成创建受众 {#creation}
 
 要使用联合受众组合创建受众，您需要创建包含&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动的组合。 利用此活动，可将受众保存到受众门户，并从外部数据库中选择要包含在受众中的字段。 [了解如何配置保存受众活动](../compositions/activities/save-audience.md)
 
-使用Adobe联合数据组合创建的受众包括&#x200B;**{！UICONTROL保存受众}**&#x200B;活动中选择的所有字段，并与所有Adobe Experience Platform受众一起存储在受众门户中。
+使用Adobe联合数据组合创建的受众包括&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动中选择的所有字段，并与所有Adobe Experience Platform受众一起存储在受众门户中。
 
 执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并可用于Adobe实时客户数据平台和/或Adobe Journey Optimizer中。
 
