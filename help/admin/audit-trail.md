@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 开始使用审计跟踪
-description: 了解如何使用审核跟踪监测数据库
+title: 审核记录
+description: 了解如何在审核记录中记录并访问操作和事件
 badge: label="限量发布版" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
-# 开始使用审计跟踪 {#audit-trail}
+# 审核记录 {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="审核记录"
->abstract="新的审核记录功能按时间顺序详细记录了实时发生在你的环境中的事件。"
+>abstract="审核记录功能会按时间顺序详细记录对Adobe Experience Platform联合受众组合环境实时执行的所有操作和事件。"
 
 审核记录功能提供了对您的环境实时执行的所有操作和事件的详细时间顺序记录
 
