@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 开始使用联合数据库
+title: 联合数据库入门
 description: 了解如何创建和管理联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 6%
+source-wordcount: '1560'
+ht-degree: 4%
 
 ---
 
-# 开始使用联合数据库 {#federated-db}
+# 联合数据库入门 {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="联合数据库"
->abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击 **[!UICONTROL 添加联合数据库]** 按钮。"
+>abstract="此屏幕中列出了到联合数据库的现有连接。 要创建新连接，请点击 **[!UICONTROL 添加联合数据库]** 按钮。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -214,7 +214,7 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 |---|---|
 | 工作模式 | 用于工作表的数据库模式 |
 | 仓库 | 要使用的默认仓库的名称。 它将覆盖用户的默认值。 |
-| 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 <br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
+| 时区名称 | 默认情况下，为空，这意味着使用系统时区应用程序服务器。 选项可用于强制使用时区会话参数。 <br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
 | weekstart | WEEK_START会话参数。 默认设置为0。 <br>有关详情，请参阅[本页](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)。 |
 | UseCachedResult | USE_CACHED_RESULTS会话参数。 默认设置为TRUE。 此选项可用于禁用Snowflake缓存的结果。 <br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
 | bulkthreads | 用于Snowflake批量加载器的线程数，线程越多，批量加载越大，性能越好。 默认设置为1。 根据计算机线程数，可以调整该数字。 |
@@ -266,4 +266,4 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
 | 选项 | 描述 |
 |---|---|
-| 时区名称 | 默认情况下为空，这意味着使用Campaign Classic应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 |
+| 时区名称 | 默认情况下，为空，这意味着使用应用程序服务器的系统时区。 选项可用于强制使用时区会话参数。 |
