@@ -2,9 +2,9 @@
 title: 访问联合受众组合
 description: 了解如何访问联合受众合成。
 badge: label="限量发布版" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 2%
 
 ## IP允许列表 {#ip}
 
-必须将您的IP地址添加到允许列表中，才能启用对Data Warehouse的访问并使用联合受众合成。 要将您的IP地址添加到允许列表，请联系您的Adobe代表。
+要安全地启用联合受众合成以访问您的数据库，请联系您的Adobe代表以获取将访问它们的联合受众合成服务器的IP地址。
+
+将这些IP地址添加到允许列表以授予对联合受众组合的访问权限。”
 
 ## 护栏和限制 {#fac-guardrails}
 
