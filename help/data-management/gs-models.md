@@ -4,10 +4,10 @@ title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ ht-degree: 22%
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   为数据模型定义的所有链接如下所示：
+   **基数**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N：源表格的一个存在可以具有目标表格的多个对应存在，但目标表格的一个存在最多可以具有源表格的一个对应存在。
+
+   * N-1：目标表格的一个存在可以具有源表格的多个对应存在，但源表格的一个存在最多可以具有目标表格的一个对应存在。
+
+   * 1-1：源表格的一个存在最多可以具有目标表格的一个对应存在。
+
+为数据模型定义的所有链接如下所示：
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## 操作方法视频 {#data-model-video}
 
