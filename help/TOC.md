@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform联合受众构成
 title: Experience Platform联合受众组合文档
 breadcrumb-title: Experience Platform联合受众构成
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 81%
+source-wordcount: '145'
+ht-degree: 80%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 81%
    + [使用查询建模器](query/query-modeler-overview.md)
    + [生成您的第一个查询](query/build-query.md)
    + [编辑表达式](query/expression-editor.md)
-+ 审核记录 {#audit-trail}
-   + [监测数据库](admin/audit-trail.md)
++ [审核记录](admin/audit-trail.md)
