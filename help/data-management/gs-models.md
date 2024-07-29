@@ -4,10 +4,10 @@ title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## 什么是数据模型？ {#data-model-start}
 
-数据模型是一组架构、受众以及它们之间的链接。
+数据模型是一组架构、受众以及它们之间的链接。 它用于将受众与数据库数据联合起来。
 
 了解有关[架构](../customer/schemas.md#schema-start)的更多信息。
 
 了解有关[受众](../start/audiences.md)的更多信息。
+
+例如，您可以在下方看到数据模型的表示形式：表及其名称和它们之间的链接。
+
+![](assets/datamodel.png){zoomable="yes"}
+
+在联合受众组合中，可以创建许多数据模型。
+
+将根据用例创建这些表：您选择必要的表，并根据需要链接这些表。
 
 ## 创建数据模型 {#data-model-create}
 
