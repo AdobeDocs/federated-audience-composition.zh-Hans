@@ -4,7 +4,7 @@ title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 badge: label="限量发布版" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="输入数据模型的标签。"
 
 
-## 什么是数据模型？ {#data-model-start}
+## 什么是数据模型 {#data-model-start}
 
 数据模型是一组架构、受众以及它们之间的链接。 它用于将受众与数据库数据联合起来。
 

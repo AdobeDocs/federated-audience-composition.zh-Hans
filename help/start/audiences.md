@@ -4,10 +4,10 @@ title: 使用受众
 description: 了解如何使用受众
 badge: label="限量发布版" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 2%
+source-wordcount: '311'
+ht-degree: 25%
 
 ---
 
@@ -25,20 +25,20 @@ Experience Platform联合受众合成允许您[创建合成](../compositions/gs-
 
 执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并可用于Adobe实时客户数据平台和/或Adobe Journey Optimizer中。
 
-您可以将这些受众激活到Adobe Experience Platform支持的任何目标。 [了解如何使用目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+您可以将这些受众激活到Adobe Experience Platform支持的任何目标。 了解如何在[Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}中使用目标
 
 >[!NOTE]
 >
->无法编辑使用Adobe联合受众组合创建的受众。 要对其中一个受众进行修改，您需要使用合成创建新受众。
+>使用 Adobe 联合受众构成创建的受众无法编辑。要对其中一个受众进行修改，您需要使用构成来创建一个新的受众。
 
 ## 在Adobe Experience Platform中访问受众 {#access-audience}
 
 使用联合受众合成创建的受众可在受众门户中访问，该门户可从&#x200B;**受众**&#x200B;菜单访问。
 
-**[!UICONTROL 浏览]**&#x200B;选项卡列出了存储在Adobe Experience Platform中的所有现有受众。 您可以使用&#x200B;**[!UICONTROL Origin]**&#x200B;列或左侧窗格中可用的过滤器来识别列表中的联合受众组合受众。
+**[!UICONTROL 浏览]**&#x200B;选项卡列出了存储到 Adobe Experience Platform 中的所有现有受众。您可以使用&#x200B;**[!UICONTROL 来源]**&#x200B;列或左侧窗格中的过滤器来识别列表中的联合受众构成受众。
 
 ![](assets/audiences-list.png)
 
-有关如何在Adobe Experience Platform中使用受众的更多信息，请参阅[受众门户文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+有关如何在Adobe Experience Platform中使用受众的更多信息，请参阅[受众门户文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

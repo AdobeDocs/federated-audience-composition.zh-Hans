@@ -4,7 +4,7 @@ title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="构成属性"
 >abstract="在此屏幕中，选择要用于创建构成的模板并指定标签。展开“其他选项”部分以配置更多设置，例如构成的内部名称、其文件夹、时区和主管组等。强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
 
-## 作文内有什么？ {#gs-composition-inside}
+## 构成中的内容 {#gs-composition-inside}
 
 Experience Platform联合受众构成提供了一个可视画布，通过该画布可以利用各种活动（拆分、扩充等）来创建受众。
 

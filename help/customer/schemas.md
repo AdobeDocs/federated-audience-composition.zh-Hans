@@ -4,10 +4,10 @@ title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 >abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其模式。"
 
 
-## 什么是架构？ {#schema-start}
+## 什么是架构 {#schema-start}
 
 架构是数据库表的表示形式。 它是应用程序中的一个对象，用于定义数据如何与数据库表绑定。
 

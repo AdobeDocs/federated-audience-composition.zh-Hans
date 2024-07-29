@@ -4,10 +4,10 @@ title: 使用拆分活动
 description: 了解如何使用拆分活动
 badge: label="限量发布版" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 76%
+source-wordcount: '925'
+ht-degree: 73%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract="**[!UICONTROL 启用输出群体重叠]** 选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。Adobe Campaign 建议使用专属标准。"
+>abstract="**[!UICONTROL 启用输出群体重叠]** 选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 "
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
@@ -101,7 +101,7 @@ ht-degree: 76%
 1. 通过&#x200B;**[!UICONTROL 启用输出群体的重叠]**&#x200B;选项，您可以管理属于多个子集的群体：
 
    * 当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于第一个选项卡的目标中，并带有匹配条件。
-   * 选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。Adobe Campaign 建议使用专属标准。
+   * 选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。最佳实践是使用专用标准。
 
 现已配置该活动。在执行时，群体将按照其添加到活动的顺序划分为不同的子集。
 

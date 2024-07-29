@@ -3,36 +3,36 @@ title: Adobe Experience Platform Federated受众组合文档主页
 description: Federated Audience Composition附加组件文档
 badge: label="限量发布版" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 5%
+ht-degree: 85%
 
 ---
 
-# Federated受众组合文档  {#fac-home}
+# 联合受众构成文档  {#fac-home}
 
-欢迎访问Adobe Experience Platform联合受众组合文档。
+欢迎来到 Adobe Experience Platform 联合受众构成文档
 
-Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Optimizer用户提供了数据管理灵活性和效率。 利用联合受众合成，您可以使用对营销人员友好的UI访问企业数据仓库，以构建受众并利用Adobe Experience Platform工作流中的数据集，而无需保留基础企业数据。 这有助于您在访问数据仓库以用于体验用例时减少数据移动。
+Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Optimizer用户提供了数据管理灵活性和效率。 借助联合受众构成，您可以使用易于营销人员使用的 UI 访问企业数据仓库，以构建受众并利用 Adobe Experience Platform 工作流中的数据集，而无需保留底层企业数据。这有助于您在访问数据仓库以获取体验用例时减少数据移动。
 
 >[!BEGINTABS]
 
 >[!TAB 新增功能]
 
-联合受众组合允许使用来自外部数据仓库的原始数据，通过联合组合创建、优化和丰富受众。
+联合受众构成使用来自外部数据仓库的原始数据，通过联合构成来创建、细化和扩充受众。
 
 [![image](assets/learn-more-button.svg)](start/release-notes.md)
 
 >[!TAB 连接数据]
 
-创建、配置、测试和保存与外部数据库的连接。
+创建、配置、测试并保存与外部数据库的连接。
 
 [![image](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB 撰写受众]
+>[!TAB 组成受众]
 
-添加和配置活动（拆分、扩充、查询等） 构建合成和创建受众。
+添加和配置活动（拆分、扩充、查询等）创作构成并吸引受众。
 
 [![图像](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -44,33 +44,33 @@ Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Opti
   <tr style="border: 0;">
     <td>
     <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
-    <div><strong>入门</strong><br/>了解如何直接从数据库创建和更新Adobe Experience Platform受众，而无需任何引入过程。
+    <div><strong>开始使用</strong><br/>了解如何在无需任何引入过程的情况下，直接从数据库创建和更新 Adobe Experience Platform 受众。
     </div>
     </td>
     <td>
     <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>受众数据</strong><br/>在自定义的可扩展数据模型中准备并映射您的数据。
+    <div><strong>受众数据</strong><br/>在自定义且可扩展的数据模型中准备和映射您的数据。
     </div>
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>撰写受众</strong><br/>添加并配置活动（拆分、扩充、查询等） 构建组合和创建您的第一个联合受众。
+    <div><strong>组成受众</strong><br/>添加和配置活动（拆分、扩充、查询等）生成构成并创建您的第一个联合受众。
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#faq"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>常见问题解答</strong><br/>有关联合受众组合的常见问题解答。</div>
+    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
+    <div><strong>常见问题解答</strong><br/>有关联合受众构成的常见问题。</div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#faq"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
 
 ## 其他资源  {#additional-resources}
 
-[Real-time Customer Data Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe受众门户文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教程](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

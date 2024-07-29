@@ -3,13 +3,13 @@ audience: end-user
 title: 使用重复数据删除活动
 description: 了解如何使用重复数据删除活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 57%
+ht-degree: 43%
 
 ---
-
 
 # 删除重复项 {#deduplication}
 
@@ -47,13 +47,13 @@ ht-degree: 57%
 
    ![](../assets/deduplication.png)
 
-1. 在&#x200B;**[!UICONTROL 重复数据删除设置]**&#x200B;部分中，选择要保留的唯一&#x200B;**[!UICONTROL 重复项数]**。 此字段的默认值为 1。使用 0 值，可保留所有重复项。
+1. 在&#x200B;**[!UICONTROL 重复数据删除设置]**&#x200B;部分中，选择要保留的唯一&#x200B;**[!UICONTROL 重复项数]**。 此字段的默认值为&#x200B;**1**。 值&#x200B;**0**&#x200B;允许您保留所有重复项。
 
    例如，如果记录 A 和 B 被视为记录 Y 的重复项，而记录 C 被视为记录 Z 的重复项：
 
-   * 如果字段的值为 1：只保留 Y 和 Z 记录。
-   * 如果字段的值为 0：保留所有记录。
-   * 如果字段的值为 2：保留 C 和 Z 记录，并保留 A、B 和 Y 中的两个记录，具体情况取决于此后选择的重复数据删除方法。
+   * 如果该字段的值为&#x200B;**1**：只保留Y和Z记录。
+   * 如果该字段的值为&#x200B;**0**：保留所有记录。
+   * 如果该字段的值为&#x200B;**2**：保留C和Z记录，并保留A、B和Y中的两个记录，具体情况取决于此后选择的重复数据删除方法。
 
 1. 选择要使用的&#x200B;**[!UICONTROL 重复数据删除方法]**：
 

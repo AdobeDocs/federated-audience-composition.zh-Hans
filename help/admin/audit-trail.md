@@ -3,10 +3,11 @@ audience: end-user
 title: 开始使用审计跟踪
 description: 了解如何使用审核跟踪监测数据库
 badge: label="限量发布版" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 审核跟踪]**。
 
-1. 将打开&#x200B;**[!UICONTROL 审核跟踪]**&#x200B;窗口，其中包含实体列表。 Adobe Campaign Web用户界面审核工作流、选项、投放和架构的创建、编辑和删除操作。
+1. 将打开&#x200B;**[!UICONTROL 审核跟踪]**&#x200B;窗口，其中包含实体列表。 Federated Audience Composition审核工作流、选项、投放和模式的创建、编辑和删除操作。
 
    ![](assets/audit_trail.png)
 

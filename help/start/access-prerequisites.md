@@ -1,23 +1,21 @@
 ---
-title: 访问联合受众组合
-description: 了解如何访问联合受众合成。
+title: 联合受众组合的先决条件和防护
+description: 了解联合受众组合的先决条件、权限和防护
 badge: label="限量发布版" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '286'
+ht-degree: 13%
 
 ---
 
-# 访问联合受众组合 {#fac-access}
+# 先决条件和护栏 {#fac-access}
 
-## 包和加载项 {#package}
-
-联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。 要访问此功能，您必须已购买Federated Audience Composition加载项。
+联合受众组合需要Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer **Prime**&#x200B;或&#x200B;**Ultimate**&#x200B;包。 要访问此功能，您必须已购买联合受众构成加载项。
 
 >[!AVAILABILITY]
 >
->收到Adobe的欢迎电子邮件通知后，可能需要几个小时才能更新界面和可用的功能。
+>在您收到 Adobe 发来的欢迎电子邮件通知后，界面可能需要几个小时才会更新，并为您提供功能。
 
 ## 权限 {#permissions}
 
@@ -33,6 +31,6 @@ ht-degree: 2%
 
 ## 护栏和限制 {#fac-guardrails}
 
-* Federated Audience Composition与Privacy &amp; Security Shield兼容，可用于除医疗保健行业外的所有垂直行业。 目前，联合受众组合无法许可给希望摄取运行状况数据的客户。 [了解详情](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+* Federated Audience Composition与Privacy &amp; Security Shield兼容，可用于除医疗保健行业外的所有垂直行业。 目前，联合受众组合无法许可给希望摄取运行状况数据的客户。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
-* [Adobe Real-time Customer Data Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}中列出的授权、产品限制和性能护栏适用于此加载项。
+* [Adobe Real-time Customer Data Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}中列出的授权、产品限制和性能护栏适用于此加载项。
