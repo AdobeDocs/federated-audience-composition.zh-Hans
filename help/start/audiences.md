@@ -4,9 +4,9 @@ title: 使用受众
 description: 了解如何使用受众
 badge: label="限量发布版" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Experience Platform联合受众合成允许您[创建合成](../compositions/gs-compositions.md)，您可以在其中将各种活动利用到可视画布中创建受众并将它们存储到Adobe Experience Platform受众门户中。
 
-然后，您可以将这些受众激活到Adobe Experience Platform支持的任何目标。
+然后，您可以在Journey Optimizer中定位这些受众，或将其激活到Adobe Experience Platform支持的任何目标。
 
 ## 使用合成创建受众 {#creation}
 

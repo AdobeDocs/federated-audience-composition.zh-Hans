@@ -3,9 +3,10 @@ audience: end-user
 title: 合成快速入门
 description: 了解如何开始使用合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '290'
 ht-degree: 10%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 10%
 
 ## 什么是合成 {#what}
 
-Adobe受众合成允许您创建合成，您可以在其中将各种活动（拆分、排除……）用在可视画布中来创建受众。 完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在目标(如Journey Optimizer)中用于定位客户。 [了解如何使用受众](../start/audiences.md)
+Adobe受众合成允许您创建合成，您可以在其中将各种活动（拆分、排除……）用在可视画布中来创建受众。 完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在Adobe Experience Platform目标和Adobe Journey Optimizer中利用来定位客户。 [了解如何使用受众](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
