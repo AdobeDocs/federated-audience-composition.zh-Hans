@@ -3,9 +3,9 @@ title: Experience Platform联合受众组合的新增功能
 description: 最新更新和发行说明
 badge: label="限量发布版" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ ht-degree: 2%
 
 在[此页面](get-started.md)和[常见问题解答](get-started.md#faq)中了解有关联合受众组合功能的更多信息。
 
-## 访问联合受众组合 {#fac-access}
+有关访问联合受众组合和当前护栏的先决条件的详细信息，请参阅[此页面](access-prerequisites.md)。
 
-联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。
-
-联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
-
->[!AVAILABILITY]
->
->收到Adobe的欢迎电子邮件通知后，可能需要几个小时才能更新界面和可用的功能。
->
-
-## 先决条件和护栏 {#fac-guardrails}
-
-* Federated Audience Composition与Privacy &amp; Security Shield兼容，可用于除医疗保健行业外的所有垂直行业。 目前，联合受众组合无法许可给希望摄取运行状况数据的客户。 [了解详情](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* 必须将您的IP地址添加到允许列表中，才能启用对Data Warehouse的访问并使用联合受众合成。 要将您的IP地址添加到允许列表，请联系您的Adobe代表。
-
-* [Adobe Real-time Customer Data Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}中列出的授权、产品限制和性能护栏适用于此加载项。

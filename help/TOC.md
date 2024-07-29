@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform联合受众构成
 title: Experience Platform联合受众组合文档
 breadcrumb-title: Experience Platform联合受众构成
-source-git-commit: bfb13da161d966ec82d147c2d4c293b80fcf071d
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 31%
+source-wordcount: '149'
+ht-degree: 30%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 31%
 + [发行说明](start/release-notes.md)
 + 联合受众组合入门{#start}
    + [什么是联合受众构成](start/get-started.md)
+   + [访问联合受众组合](start/access-prerequisites.md)
    + [使用受众](start/audiences.md)
    + [常见问题解答](start/faq.md)
 + 配置步骤{#config}

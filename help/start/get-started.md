@@ -3,7 +3,7 @@ title: Experience Platform联合受众组合入门
 description: 了解什么是Adobe联合受众组合以及如何在Adobe Experience Platform中使用它
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 
 4. **数据使用情况**：创建、编排和构建受众。 了解如何在[此页面](../compositions/gs-compositions.md)中组合受众。 您还可以通过Adobe Experience Platform受众门户和目标更新或重用现有受众。 在[此页面](../connections/destinations.md)中了解详情
 
-
 >[!NOTE]
 >
 >执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并可用于Adobe实时客户数据平台和/或Adobe Journey Optimizer中。 它可在&#x200B;**受众**&#x200B;菜单中访问。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## 了解详情 {#learn}
 
@@ -74,9 +70,6 @@ Adobe联合受众构成可帮助Adobe Experience Platform应用程序用户访�
 >id="dc_workflow_settings_execution"
 >title="执行设置"
 >abstract="在此部分中，您可以配置与工作流执行相关的设置，如构成历史记录的保留天数。"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

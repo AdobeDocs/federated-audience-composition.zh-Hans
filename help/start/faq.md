@@ -3,9 +3,9 @@ title: 常见问题
 description: 有关Adobe Experience Platform联合受众组合的常见问题解答
 badge: label="限量发布版" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '834'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 2%
 
 +++访问联合受众组合所需的权限是什么？
 
-联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。 联合受众组合没有特定权限。 访问此功能的唯一先决条件就是已购买联合受众构成加载项。
+联合受众构成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate包。 您还需要购买联合受众构成加载项。
+
+要使用联合受众合成，必须将每个用户添加到为每个沙盒创建的特定用户档案。 有关更多信息，请参阅[访问联合受众合成](access-prerequisites.md)页面。
 
 +++
 
