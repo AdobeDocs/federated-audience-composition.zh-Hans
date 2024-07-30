@@ -3,9 +3,9 @@ title: Experience Platform联合受众组合入门
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 57%
 
 ---
@@ -44,7 +44,7 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 使用 Adobe 联合受众构成可以直接从数据库创建和更新 Adobe Experience Platform 受众，而无需任何引入过程。
 
-![图表](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
+<!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
 关键步骤：
 
