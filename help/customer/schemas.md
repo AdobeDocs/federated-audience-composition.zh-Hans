@@ -4,10 +4,10 @@ title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 22%
+source-wordcount: '438'
+ht-degree: 23%
 
 ---
 
@@ -48,10 +48,6 @@ ht-degree: 22%
 * 为其提供友好名称和描述，以简化用户的理解
 * 根据每个字段的实际使用情况确定其可见性
 * 选择其主键，以便根据[数据模型](../data-management/gs-models.md#data-model-start)中的需要链接它们之间的架构
-
->[!IMPORTANT]
->
->建议为每个沙盒使用不同的联合数据库架构。
 
 ## 创建架构 {#schema-create}
 

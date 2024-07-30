@@ -4,10 +4,10 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 76%
+source-wordcount: '1621'
+ht-degree: 74%
 
 ---
 
@@ -73,6 +73,8 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
      >[!NOTE]
      >
      >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
+     >
+     >**在使用同一数据库连接多个沙盒时，必须使用不同的工作架构**。
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
@@ -197,6 +199,8 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
      >[!NOTE]
      >
      >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
+     >
+     >**在使用同一数据库连接多个沙盒时，必须使用不同的工作架构**。
 
    * **[!UICONTROL 私钥]**：点击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从您的区域设置文件夹中选择您的 .pem 文件。
 
@@ -253,6 +257,8 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
      >[!NOTE]
      >
      >只要您具有连接到此架构所需的权限，就可以使用数据库中的任何架构，包括用于临时数据处理的架构。
+     >
+     >**在使用同一数据库连接多个沙盒时，必须使用不同的工作架构**。
 
    * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
