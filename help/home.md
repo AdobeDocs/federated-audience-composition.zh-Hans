@@ -28,7 +28,7 @@ Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Opti
 
 创建、配置、测试并保存与外部数据库的连接。
 
-[![image](assets/learn-more-button.svg)](connections/federated-db.md)
+[![图像](assets/learn-more-button.svg)](connections/federated-db.md)
 
 >[!TAB 组成受众]
 
@@ -72,4 +72,4 @@ Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Opti
 
 ## 其他资源  {#additional-resources}
 
-[Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教程](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe 受众门户文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教程](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

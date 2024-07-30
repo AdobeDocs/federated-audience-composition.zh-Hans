@@ -28,7 +28,7 @@ ht-degree: 80%
    + [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
 + 组合受众{#compositions}
    + [开始使用构成](compositions/gs-compositions.md)
-   + 创建并运行您的第一个构成 {#create-composition}
+   + 创建并运行您的第一构成 {#create-composition}
       + [创建构成的主要原则](compositions/gs-composition-creation.md)
       + [创建并配置构成](compositions/create-composition.md)
       + [安排活动](compositions/orchestrate-activities.md)

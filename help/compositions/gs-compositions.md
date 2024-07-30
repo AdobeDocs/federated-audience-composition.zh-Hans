@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 合成快速入门
-description: 了解如何开始使用合成
+title: 开始使用构成
+description: 了解如何开始使用构成
 badge: label="限量发布版" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 10%
+ht-degree: 89%
 
 ---
 
-# 合成快速入门 {#compositions}
+# 开始使用构成 {#compositions}
 
-## 什么是合成 {#what}
+## 什么是构成 {#what}
 
-Adobe受众合成允许您创建合成，您可以在其中将各种活动（拆分、排除……）用在可视画布中来创建受众。 完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在Adobe Experience Platform目标和Adobe Journey Optimizer中利用来定位客户。 [了解如何使用受众](../start/audiences.md)
+Adobe Audience Composition 允许您创建构成，并且可以将各种活动（拆分、排除等）应用到一个可视化画布中来创建受众。完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在Adobe Experience Platform目标和Adobe Journey Optimizer中利用来定位客户。 [了解如何使用受众](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -26,26 +26,26 @@ Adobe受众合成允许您创建合成，您可以在其中将各种活动（拆
 >title="构成"
 >abstract="在此屏幕中可访问整个构成列表、检查他们当前的状态、上次/下次执行日期以及创建新构成。"
 
-可从&#x200B;**[!UICONTROL Federated Compositions]**&#x200B;选项卡的Adobe Experience Platform **[!UICONTROL 受众]**&#x200B;菜单访问合成。
+构成可以从 Adobe Experience Platform 的&#x200B;**[!UICONTROL 受众]**&#x200B;菜单中访问，在&#x200B;**[!UICONTROL 联合构成]**&#x200B;选项卡中。
 
-在此屏幕中，您可以创建新构图并访问现有构图。 您还可以通过单击现有合成名称旁边的省略号按钮来复制或删除现有合成。
+从此屏幕中，您可以创建新的构成并访问现有的构成。您还可以通过单击名称旁边的省略号按钮来复制或删除现有构成。
 
 ![](assets/compositions-list.png)
 
-要优化列表并轻松查找要查找的合成，您可以搜索列表并按合成的状态或上次处理日期过滤合成。
+为了优化列表并轻松找到您正在寻找的构成，您可以搜索列表，并根据其状态或最后处理日期筛选构成。
 
-您还可以通过添加或删除列来自定义列表。 为此，请单击**[!UICONTROL 配置列]**按钮，然后添加或删除所需的输出列。
+您还可以通过添加或移除列来自定义列表。为此，请单击**[!UICONTROL 配置列]**按钮并添加或移除所需的输出列。
 
 ![](assets/compositions-columns.png)
 
-## 合成状态 {#status}
+## 构成状态 {#status}
 
-合成可以具有多种状态：
+构成可以有多种状态：
 
-* **[!UICONTROL 草稿]**：已创建并保存合成。
-* **[!UICONTROL 进行中]**：合成已执行，当前正在运行。
-* **[!UICONTROL 已停止]**：组合执行已完成并已停止。
-* **[!UICONTROL 已暂停]**：合成执行已暂停。
-* **[!UICONTROL 错误]**：合成执行遇到错误。 打开构成并访问日志和任务以识别错误并解决它。
+* **[!UICONTROL 草稿]**：该构成已创建并保存。
+* **[!UICONTROL 进行中]**：该构成已执行并且正在运行。
+* **[!UICONTROL 已停止]**：对该构成的执行已完成并停止。
+* **[!UICONTROL 已暂停]**：对该构成的执行已暂停。
+* **[!UICONTROL 错误]**： 对该构成的执行遇到错误。打开构成并访问日志和任务，以识别并解决错误。
 
-有关如何启动和监视合成的详细信息，请参阅[此部分](../compositions/start-monitor-composition.md)。
+[本节](../compositions/start-monitor-composition.md)提供了有关如何启动和监测构成的详细信息。

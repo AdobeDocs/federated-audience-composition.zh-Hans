@@ -217,7 +217,7 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 | 选项 | 描述 |
 |---|---|
 | workschema | 用于工作表的数据库模式 |
-| 仓库 | 要使用的默认仓库的名称。它将会覆盖用户的默认值。 |
+| 仓库 | 默认使用的数据仓库名称。它将会覆盖用户的默认值。 |
 | TimeZoneName | 默认情况下，为空，这意味着使用系统时区应用程序服务器。 该选项可用于强制使用 TIMEZONE 会话参数。<br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
 | WeekStart | WEEK_START 会话参数。默认设置为 0。<br>有关详情，请参阅[本页](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
 | UseCachedResult | USE_CACHED_RESULTS 会话参数。默认设置为真。此选项可用于禁用 Snowflake 缓存结果。<br>有关详情，请参阅[本页](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |

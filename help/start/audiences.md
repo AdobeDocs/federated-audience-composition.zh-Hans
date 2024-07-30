@@ -29,7 +29,7 @@ Experience Platform联合受众合成允许您[创建合成](../compositions/gs-
 
 >[!NOTE]
 >
->使用 Adobe 联合受众构成创建的受众无法编辑。要对其中一个受众进行修改，您需要使用构成来创建一个新的受众。
+>使用 Adobe 联合受众构成创建的受众无法编辑。要对这些受众之一进行修改，您需要使用构成创建一个新受众。
 
 ## 在Adobe Experience Platform中访问受众 {#access-audience}
 
