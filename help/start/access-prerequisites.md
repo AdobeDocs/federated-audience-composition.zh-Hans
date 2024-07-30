@@ -2,7 +2,7 @@
 title: 联合受众组合的先决条件和防护
 description: 了解联合受众组合的先决条件、权限和防护
 badge: label="限量发布版" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 要安全地启用联合受众合成以访问您的数据库，请联系您的Adobe代表以获取将访问它们的联合受众合成服务器的IP地址。
 
-将这些IP地址添加到允许列表以授予对联合受众组合的访问权限。”
+将这些IP地址添加到允许列表以授予对联合受众组合的访问权限。
 
 ## 护栏和限制 {#fac-guardrails}
 
