@@ -4,15 +4,14 @@ title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # 模式入门 {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="选择要过滤的源数据库"
 >abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其模式。"
 
-
 ## 什么是架构 {#schema-start}
 
 架构是数据库表的表示形式。 它是应用程序中的一个对象，用于定义数据如何与数据库表绑定。
@@ -50,6 +48,10 @@ ht-degree: 23%
 * 为其提供友好名称和描述，以简化用户的理解
 * 根据每个字段的实际使用情况确定其可见性
 * 选择其主键，以便根据[数据模型](../data-management/gs-models.md#data-model-start)中的需要链接它们之间的架构
+
+>[!IMPORTANT]
+>
+>建议为每个沙盒使用不同的联合数据库架构。
 
 ## 创建架构 {#schema-create}
 
