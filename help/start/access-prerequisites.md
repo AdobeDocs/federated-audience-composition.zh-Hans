@@ -2,9 +2,9 @@
 title: 联合受众组合的先决条件和防护
 description: 了解联合受众组合的先决条件、权限和防护
 badge: label="限量发布版" type="Informative"
-source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
+source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 13%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 ## 护栏和限制 {#fac-guardrails}
 
-* 目前，Healthcare Shield和Privacy and Security Shield无法使用来自联合受众组合的受众和属性。
+* 目前，Healthcare Shield和Privacy and Security Shield无法使用联合受众合成。
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
