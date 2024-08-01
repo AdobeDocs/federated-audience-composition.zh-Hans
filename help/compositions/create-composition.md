@@ -3,15 +3,15 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-
-# 创建和配置合成 {#create}
+# 创建并配置构成 {#create}
 
 创建构图的第一步是定义其标签并根据需要配置其他设置。
 

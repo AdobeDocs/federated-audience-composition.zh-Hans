@@ -6,7 +6,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="“调度程序”活动"
->abstract="**调度程序**&#x200B;活动允许您安排受众组合何时启动。 应将此活动视为已安排的一次开始。它只能用作组合物的第一个活动。"
+>abstract="通过&#x200B;**调度程序**&#x200B;活动，可安排何时开始受众构成。应将此活动视为已安排的一次开始。只能将它用作构成的第一个活动。"
 
 **调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时开始合成。 应将此活动视为已安排的一次开始。它只能用作组成的第一个活动。
 

@@ -3,13 +3,13 @@ audience: end-user
 title: 使用构建受众活动
 description: 了解如何使用构建受众活动
 badge: label="限量发布版" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 30%
 
 ---
-
 
 # 构建受众 {#build-audience}
 

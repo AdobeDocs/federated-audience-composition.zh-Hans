@@ -7,11 +7,11 @@ exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 启动并监视合成 {#start-monitor}
+# 启动和监测构成 {#start-monitor}
 
 创建合成并设计要在画布中执行的任务后，即可启动它并监视其执行方式。
 

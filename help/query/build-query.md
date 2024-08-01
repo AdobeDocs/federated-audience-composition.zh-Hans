@@ -3,7 +3,8 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询
 badge: label="限量发布版" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 10%
