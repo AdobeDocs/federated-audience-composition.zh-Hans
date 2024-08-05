@@ -5,9 +5,9 @@ description: 了解如何开始使用构成
 badge: label="限量发布版" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## 什么是构成 {#what}
 
-Adobe Audience Composition 允许您创建构成，并且可以将各种活动（拆分、排除等）应用到一个可视化画布中来创建受众。完成后，生成的受众将与现有受众一起保存到Adobe Experience Platform中，并可在Adobe Experience Platform目标和Adobe Journey Optimizer中利用来定位客户。 [了解如何使用受众](../start/audiences.md)
+Adobe Audience Composition 允许您创建构成，并且可以将各种活动（拆分、排除等）应用到一个可视化画布中来创建受众。完成后，生成的受众与现有受众会一起保存到 Adobe Experience Platform 中，并且可以在 Adobe Experience Platform 目标和 Adobe Journey Optimizer 等目标中加以利用以定位客户。[了解如何使用受众](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

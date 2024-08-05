@@ -1,18 +1,18 @@
 ---
-user-guide-title: Experience Platform联合受众构成
-title: Experience Platform联合受众组合文档
-breadcrumb-title: Experience Platform联合受众构成
+user-guide-title: Experience Platform 联合受众构成
+title: Experience Platform 联合受众构成文档
+breadcrumb-title: Experience Platform 联合受众构成
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform联合受众组合文档 {#using}
+# Experience Platform 联合受众构成文档 {#using}
 
-+ [Experience Platform联合受众组合文档](home.md)
++ [Experience Platform 联合受众构成文档](home.md)
 + [发行说明](start/release-notes.md)
 + 开始使用联合受众构成{#start}
    + [什么是联合受众构成](start/get-started.md)

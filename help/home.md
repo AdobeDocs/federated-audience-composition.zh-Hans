@@ -1,12 +1,12 @@
 ---
-title: Adobe Experience Platform Federated受众组合文档主页
-description: Federated Audience Composition附加组件文档
+title: Adobe Experience Platform 联合受众构成文档主页
+description: 联合受众构成附加组件文档
 badge: label="限量发布版" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 欢迎来到 Adobe Experience Platform 联合受众构成文档
 
-Experience Platform联合受众组合为Adobe Real-Time CDP和Adobe Journey Optimizer用户提供了数据管理灵活性和效率。 借助联合受众构成，您可以使用易于营销人员使用的 UI 访问企业数据仓库，以构建受众并利用 Adobe Experience Platform 工作流中的数据集，而无需保留底层企业数据。这有助于您在访问数据仓库以获取体验用例时减少数据移动。
+Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey Optimizer 用户提供了数据管理的灵活性和高效性。借助联合受众构成，您可以使用易于营销人员使用的 UI 访问企业数据仓库，以构建受众并利用 Adobe Experience Platform 工作流中的数据集，而无需保留底层企业数据。这有助于您在访问数据仓库以获取体验用例时减少数据移动。
 
 >[!BEGINTABS]
 
