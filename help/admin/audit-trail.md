@@ -7,7 +7,7 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="审核记录"
->abstract="审核记录功能会按时间顺序详细记录对Adobe Experience Platform联合受众组合环境实时执行的所有操作和事件。"
+>abstract="审核记录功能可实时按时间顺序详细记录对 Adobe Experience Platform 联合受众环境执行的所有操作和事件。"
 
 审核记录功能提供了对您的环境实时执行的所有操作和事件的详细时间顺序记录
 

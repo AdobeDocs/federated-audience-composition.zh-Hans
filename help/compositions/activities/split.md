@@ -7,7 +7,7 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract="**[!UICONTROL 启用输出群体重叠]** 选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 "
+>abstract="**[!UICONTROL 启用输出群体重叠]** 选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合过滤条件，则可以在多个子集中找到他们。 "
 
 请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
 
