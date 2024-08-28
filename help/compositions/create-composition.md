@@ -4,7 +4,7 @@ title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -23,7 +23,7 @@ ht-degree: 22%
 
    ![](assets/composition-create.png)
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为您的组合指定标签，然后单击&#x200B;**[!UICONTROL 创建]**。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为合成指定标签，然后单击&#x200B;**[!UICONTROL 创建]**。
 
 1. 组合画布随即显示。 您现在可以通过在执行构成之前根据需要添加任意数量的活动来配置构成：
 
@@ -63,6 +63,6 @@ ht-degree: 22%
 
    * **[!UICONTROL 挂起进程]**：构成自动暂停，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，使用&#x200B;**[!UICONTROL 恢复]**&#x200B;按钮恢复合成。
    * **[!UICONTROL 忽略]**：触发错误的任务状态更改为&#x200B;**[!UICONTROL 失败]**，但构成将保留&#x200B;**[!UICONTROL 已启动]**&#x200B;状态。
-   * **[!UICONTROL 中止进程]**：构成已自动停止，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，请使用&#x200B;**[!UICONTROL 开始]**&#x200B;按钮重新启动合成。
+   * **[!UICONTROL 中止进程]**：组合自动停止，其状态更改为&#x200B;**[!UICONTROL 失败]**。 问题解决后，请使用&#x200B;**[!UICONTROL 开始]**&#x200B;按钮重新启动合成。
 
 * **[!UICONTROL 连续错误]**：指定进程停止之前可以忽略的错误数。 达到此数字后，撰写状态将更改为&#x200B;**[!UICONTROL 失败]**。 如果此字段的值为0，则无论错误数量如何，合成都不会停止。

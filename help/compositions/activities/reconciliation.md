@@ -4,10 +4,10 @@ title: 使用协调活动
 description: 了解如何使用协调活动
 badge: label="限量发布版" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-它允许您将未识别的数据链接到现有资源。 协调操作意味着要加入的数据已在数据库中。 例如，如果您要协调显示购买哪个产品、购买时间、购买客户等内容的购买信息，则数据库中必须已存在该产品和客户。
+它允许您将未识别的数据链接到现有资源。 协调操作意味着要加入的数据已在数据库中。 例如，如果要协调显示购买哪个产品、购买时间、购买客户等内容的购买信息，则数据库中必须已存在该产品和客户。
 
 ## 配置协调活动 {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="协调属性"
->abstract="选择用于协调数据的属性并“确认”。"
+>abstract="选择要用于协调数据的属性，然后进行确认。"
 
 按照以下步骤配置&#x200B;**协调**&#x200B;活动：
 
