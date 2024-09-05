@@ -7,7 +7,7 @@ exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="协调属性"
->abstract="选择要用于协调数据的属性，然后进行确认。"
+>abstract="选择要用于协调数据的属性，然后确认。"
 
 按照以下步骤配置&#x200B;**协调**&#x200B;活动：
 
