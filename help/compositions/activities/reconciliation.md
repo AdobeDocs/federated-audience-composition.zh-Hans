@@ -6,8 +6,8 @@ badge: label="限量发布版" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 39%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="协调活动"
->abstract=" **协调** 活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
+>abstract=" **协调**&#x200B;活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -49,7 +49,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"

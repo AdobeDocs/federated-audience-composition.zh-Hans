@@ -6,8 +6,8 @@ badge: label="限量发布版" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="生成补集"
->abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

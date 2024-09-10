@@ -6,32 +6,32 @@ badge: label="限量发布版" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 删除重复项 {#deduplication}
+# 重复数据删除 {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。通过字段的顺序，可指定要先处理的字段。"
+>abstract="在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="“内部重复数据删除”活动"
->abstract="通过&#x200B;**内部重复数据删除**&#x200B;活动，可删除集客活动结果中的重复项。主要在目标选择活动之后且允许使用目标数据的活动之前使用它。"
+>abstract="通过&#x200B;**重复数据删除**&#x200B;活动，可删除入站活动结果中的重复项。主要在目标选择活动之后且允许使用目标数据的活动之前使用它。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="生成补集"
->abstract="可使用（已作为重复项被排除的）剩余群体生成额外的叫客过渡。为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
->title="内部重复数据删除设置"
->abstract="要删除集客数据中的重复项，请在以下字段中定义内部重复数据删除方法。默认情况下，只保留一条记录。您还应该根据表达式或属性选择内部重复数据删除模式。默认情况下，随机选择要避免重复的记录。"
+>title="重复数据删除设置"
+>abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。默认情况下，只保留一条记录。您还应该根据表达式或属性选择重复数据删除模式。默认情况下，随机选择要避免重复的记录。"
 
 利用&#x200B;**重复数据删除**&#x200B;活动，可删除集客活动结果中的重复项，例如收件人列表中重复的用户档案。 **重复数据删除**&#x200B;活动通常用在定向活动之后，以及允许使用定向数据的活动之前。
 
@@ -43,7 +43,7 @@ ht-degree: 43%
 
 1. 如果活动具有多个集客过渡，请从&#x200B;**[!UICONTROL 主集]**&#x200B;下拉列表中选择用于执行重复数据删除的过渡
 
-1. 在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。通过字段的顺序，可指定要先处理的字段。
+1. 在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
    ![](../assets/deduplication.png)
 

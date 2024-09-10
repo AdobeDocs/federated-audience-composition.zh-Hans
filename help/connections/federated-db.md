@@ -6,8 +6,8 @@ badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="联合数据库"
->abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击 **[!UICONTROL 添加联合数据库]** 按钮。"
+>abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击&#x200B;**[!UICONTROL 添加联合数据库]**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="联合数据库详细信息"
->abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 测试连接]** 按钮验证您的配置。"
+>abstract="输入设置以连接到新的联合数据库。使用&#x200B;**[!UICONTROL 测试连接]**&#x200B;按钮验证您的配置。"
 
 Experience Platform 联合受众构成允许客户从第三方数据仓库构建和扩充受众，并将受众导入到 Adobe Experience Platform 中。
 
