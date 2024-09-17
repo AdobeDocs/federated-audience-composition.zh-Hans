@@ -4,10 +4,10 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 服务帐户]**：输入您的电子邮件&#x200B;**[!UICONTROL 服务帐户]**。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 项目]**：输入您的&#x200B;**[!UICONTROL 项目]**。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
+   * **[!UICONTROL 项目]**：输入&#x200B;**[!UICONTROL 项目]**&#x200B;的ID。 有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
    * **[!UICONTROL 数据集]**：输入您的&#x200B;**[!UICONTROL 数据集]**&#x200B;的名称。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 
