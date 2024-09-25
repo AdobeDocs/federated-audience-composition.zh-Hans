@@ -4,10 +4,10 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 通过联合受众构成，您可以连接到以下数据库。每个数据库的配置详细说明如下。
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Azure Synapse Redshift 的访问权限。
+使用联合数据库处理存储在外部数据库中的信息。请按照以下步骤配置对Azure synapseAnalytics的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
@@ -94,11 +94,11 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中选择 Azure Synapse Redshift。
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Azure synapse分析。
 
    ![](assets/federated_database_4.png)
 
-1. 配置 Azure Synapse Redshift 身份验证设置：
+1. 配置Azure synapseAnalytics身份验证设置：
 
    * **[!UICONTROL 服务器]**：输入 Azure Synapse 服务器的 URL。
 
