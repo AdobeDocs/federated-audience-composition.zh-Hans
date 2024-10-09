@@ -5,9 +5,9 @@ description: 了解如何配置联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-使用联合数据库处理存储在外部数据库中的信息。请按照以下步骤配置对Azure synapseAnalytics的访问权限。
+使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Azure Synapse Analytics 的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
@@ -94,11 +94,11 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Azure synapse分析。
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中选择 Azure Synapse Analytics。
 
    ![](assets/federated_database_4.png)
 
-1. 配置Azure synapseAnalytics身份验证设置：
+1. 配置 Azure Synapse Analytics 身份验证设置：
 
    * **[!UICONTROL 服务器]**：输入 Azure Synapse 服务器的 URL。
 
@@ -141,7 +141,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 服务帐户]**：输入您的电子邮件&#x200B;**[!UICONTROL 服务帐户]**。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 项目]**：输入&#x200B;**[!UICONTROL 项目]**&#x200B;的ID。 有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
+   * **[!UICONTROL 项目]**：输入您的&#x200B;**[!UICONTROL 项目]** 的 ID。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
    * **[!UICONTROL 数据集]**：输入您的&#x200B;**[!UICONTROL 数据集]**&#x200B;的名称。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 

@@ -4,9 +4,9 @@ description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Exper
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 在此版本中，有两种用例可用：
 
-1. 受众创建：从企业数据集构建新受众，而无需复制基础数据，并使用预建目标激活这些受众。
+1. 受众创建：无需复制基础数据，即可从企业数据集构建新的受众，并使用预先构建的目标激活这些受众。&#x200B;
 
 1. 受众扩充：利用从企业数据仓库联合而来的受众数据来扩充 Adobe Experience Platform 中的现有受众。该数据不会保留在 Adobe Experience Platform 客户配置文件中。
 
