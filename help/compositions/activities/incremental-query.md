@@ -4,29 +4,16 @@ title: 使用增量查询活动
 description: 了解如何使用增量查询活动
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 21%
+source-wordcount: '546'
+ht-degree: 13%
 
 ---
 
 # 增量查询 {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="增量查询"
->abstract="**增量查询** 活动允许您使用查询建模器查询数据库。每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="增量查询历史记录"
->abstract="增量查询历史记录"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="增量查询处理后的数据"
->abstract="增量查询处理后的数据"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 **增量查询**&#x200B;活动允许您按计划查询数据库。 每次执行此活动时，都会排除先前执行得出的结果。这样可让您仅定向新元素。
 
