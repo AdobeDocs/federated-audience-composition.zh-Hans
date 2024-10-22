@@ -3,10 +3,10 @@ title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >id="dc_orchestration_build_audience_dimension"
 >title="选择目标选择维度"
 >abstract="通过目标选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="保存配置文件"
+>abstract="保存配置文件"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="保存配置文件选择AEP架构"
+>abstract="保存配置文件选择AEP架构"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="保存配置文件AEP架构列表"
+>abstract="保存配置文件AEP架构列表"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="保存配置文件AEP架构属性"
+>abstract="保存配置文件AEP架构属性"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="保存配置文件选择主要标识字段"
+>abstract="保存配置文件选择主要标识字段"
