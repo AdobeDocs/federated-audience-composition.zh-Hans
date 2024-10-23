@@ -7,7 +7,7 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="创建目标"
->abstract="输入要连接到新联合数据库的设置。 使用 **[!UICONTROL 连接到目标]** 按钮来验证您的配置。"
+>abstract="输入设置以连接到新的联合数据库。使用 **[!UICONTROL 连接到目标]** 按钮来验证您的配置。"
 
 Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**，将受众门户中的受众与外部数据库无缝集成。 通过此集成，您可以将现有受众利用到组合中，并使用外部数据库中的数据扩充或优化这些受众以创建新受众。
 

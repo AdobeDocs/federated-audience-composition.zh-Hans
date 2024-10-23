@@ -7,7 +7,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="选择要过滤的源数据库"
->abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库以显示其架构。"
+>abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其模式。"
 
 ## 什么是架构 {#schema-start}
 
