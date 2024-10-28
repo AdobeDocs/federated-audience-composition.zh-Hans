@@ -6,7 +6,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -108,12 +108,12 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
 >title="增量查询模式"
->abstract="增量查询允许您通过排除每次新执行的先前执行结果，多次执行同一查询。"
+>abstract="增量查询允许您通过每次新执行排除以前执行的结果来多次执行相同的查询。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="增量查询模式"
->abstract="通过增量查询，您只需考虑日期字段晚于或等于增量查询活动的最后执行日期的结果，即可多次执行同一查询。"
+>abstract="增量查询允许您仅考虑日期字段晚于或等于增量查询活动的上次执行日期的结果，从而多次执行相同的查询。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -125,25 +125,25 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="保存配置文件"
->abstract="保存配置文件"
+>title="保存轮廓"
+>abstract="保存轮廓"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="保存配置文件选择AEP架构"
->abstract="保存配置文件选择AEP架构"
+>title="保存轮廓选择 AEP 模式"
+>abstract="保存轮廓选择 AEP 模式"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="保存配置文件AEP架构列表"
->abstract="保存配置文件AEP架构列表"
+>title="保存轮廓 AEP 架构列表"
+>abstract="保存轮廓 AEP 架构列表"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="保存配置文件AEP架构属性"
->abstract="保存配置文件AEP架构属性"
+>title="保存轮廓 AEP 架构属性"
+>abstract="保存轮廓 AEP 架构属性"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="保存配置文件选择主要标识字段"
->abstract="保存配置文件选择主要标识字段"
+>title="保存轮廓选择主要标识字段"
+>abstract="保存轮廓选择主要标识字段"
