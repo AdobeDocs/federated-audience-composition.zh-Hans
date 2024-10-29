@@ -4,10 +4,10 @@ title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 badge: label="限量发布版" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 22%
+source-wordcount: '475'
+ht-degree: 31%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 22%
 
 此活动主要用于通过将同一构成中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，如&#x200B;**构建受众**&#x200B;或&#x200B;**合并**&#x200B;活动。
 
+>[!IMPORTANT]
+>
+>**保存受众**&#x200B;活动需要启用配置文件的架构和数据集。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+
 ## 配置保存受众活动 {#save-audience-configuration}
 
 按照以下步骤配置&#x200B;**保存受众**&#x200B;活动：
@@ -62,9 +66,9 @@ ht-degree: 22%
    * **主标识字段**：选择用于标识用户档案的字段。 例如，其电子邮件地址或电话号码。
    * **标识命名空间**：选择要用于标识配置文件的命名空间，即要用作标识键的数据类型。 例如，如果已选择电子邮件地址作为主身份字段，则应选择身份命名空间&#x200B;**Email**。 如果唯一标识符是电话号码，则应选择身份命名空间&#x200B;**电话**。
 
-## 在Adobe Experience Platform中访问受众 {#access-audience}
+## 访问 Adobe Experience Platform 中的受众 {#access-audience}
 
-执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并可用于Adobe实时客户数据平台和/或Adobe Journey Optimizer中。 它可在&#x200B;**受众**&#x200B;菜单中访问。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platorm 和/或 Adobe Journey Optimizer。它可在&#x200B;**受众**&#x200B;菜单中访问。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 创建的受众包含“受众映射”部分中选择的所有字段。 您可以在Journey Optimizer中定位此受众，或将其激活到Adobe Experience Platform支持的任何目标。
 

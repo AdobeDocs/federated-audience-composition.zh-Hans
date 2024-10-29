@@ -4,10 +4,10 @@ title: 创建合成
 description: 了解如何创建合成
 badge: label="限量发布版" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 22%
+source-wordcount: '501'
+ht-degree: 21%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 22%
 
    ![](assets/composition-create.png)
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为合成指定标签，然后单击&#x200B;**[!UICONTROL 创建]**。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为合成指定标签并选择数据模型。 只有与此数据模型关联的架构才会在合成的活动中可用。
 
-1. 组合画布随即显示。 您现在可以通过在执行构成之前根据需要添加任意数量的活动来配置构成：
+   ![](assets/composition-select-schema.png)
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。组合画布随即显示。 您现在可以通过在执行构成之前根据需要添加任意数量的活动来配置构成：
 
    * [了解如何编排活动](#action-activities)
    * [了解如何启动和监视合成](#save)

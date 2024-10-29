@@ -4,9 +4,9 @@ title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 badge: label="限量发布版" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 16%
 
 ---
@@ -40,12 +40,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [数据库](federated-db.md#databricks)
 
 1. 填写详细信息后，单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮完成连接的创建。
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮完成连接的创建。
 
    提供了联合数据库连接的概述，如下所示：
 

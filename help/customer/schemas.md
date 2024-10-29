@@ -4,10 +4,10 @@ title: 模式入门
 description: 了解如何开始使用架构
 badge: label="限量发布版" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 22%
+source-wordcount: '515'
+ht-degree: 19%
 
 ---
 
@@ -91,9 +91,9 @@ ht-degree: 22%
 
 ## 编辑架构 {#schema-edit}
 
-要编辑方案，请执行以下操作：
+要编辑架构，请执行以下步骤：
 
-1. 单击“架构”文件夹中架构的名称。
+1. 单击列表中架构的名称。
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 
@@ -102,6 +102,7 @@ ht-degree: 22%
    您可以访问与[创建架构](#schema-create)时相同的选项。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## 在架构中预览数据 {#schema-preview}
 
@@ -114,6 +115,16 @@ ht-degree: 22%
 单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮更改数据显示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## 刷新架构 {#schema-refresh}
+
+可以更新、添加或删除联合数据库中的表。 在这种情况下，您必须刷新Adobe Experience Platform中的架构以符合最新更改。 要执行此操作，请单击要更新的架构名称旁边的三个圆点，然后选择&#x200B;**刷新架构**。
+
+您也可以在编辑架构定义时更新该定义。
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## 删除架构 {#schema-delete}
 
