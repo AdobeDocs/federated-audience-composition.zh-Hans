@@ -4,7 +4,7 @@ description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Exper
 badge: label="限量发布版" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
