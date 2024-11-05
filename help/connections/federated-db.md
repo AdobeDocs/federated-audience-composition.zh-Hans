@@ -5,9 +5,9 @@ description: 了解如何配置联合数据库
 badge: label="限量发布版" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [数据库](#databricks)
+* [数据块](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -171,7 +171,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 >[!NOTE]
 >
->支持通过专用链接安全访问外部Snowflake数据仓库。 请注意，您的Snowflake帐户必须托管在Amazon Web Services (AWS)上，并且与您的联合受众构成环境位于同一区域。 请联系您的Adobe代表，以获得设置对您的Snowflake帐户的安全访问权限方面的帮助。
+>支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 >
 
 使用联合数据库处理存储在外部数据库中的信息。执行以下步骤来配置对 Snowflake 的访问权限：
@@ -271,15 +271,15 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
-连接器支持以下选项：
+该连接器支持以下选项：
 
 | 选项 | 描述 |
 |---|---|
 | TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。 |
 
-## 数据库 {#databricks}
+## 数据块 {#databricks}
 
-使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对数据库的访问。
+使用联合数据库处理存储在外部数据库中的信息。执行以下步骤来配置对 Databricks 的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
@@ -289,21 +289,21 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择“数据库”。
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中，选择 Databricks。
 
    ![](assets/databricks-config.png)
 
-1. 配置数据库身份验证设置：
+1. 配置 Databricks 身份验证设置：
 
-   * **[!UICONTROL 服务器]**：添加数据库服务器的名称。
+   * **[!UICONTROL 服务器]**：添加您的 Databricks 服务器的名称。
 
-   * **[!UICONTROL HTTP路径]**：添加群集或仓库的路径。 [了解详情](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL HTTP 路径]**：将路径添加到您的群集或仓库中。[了解详情](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL 密码]**：添加帐户访问令牌。 [了解详情](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL 密码]**：添加帐户访问令牌。[了解详情](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL 目录]**：添加数据库目录的字段。
+   * **[!UICONTROL 目录]**：为 Databricks 目录添加字段。
 
-   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。
+   * **[!UICONTROL 工作模式]**：用于工作表的数据库模式的名称。
 
      >[!NOTE]
      >

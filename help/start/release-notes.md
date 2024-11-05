@@ -4,33 +4,33 @@ description: 最新更新和发行说明。
 badge: label="限量发布版" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更已整合至本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
 
-## 2024年10月版 {#fac-24-10}
+## 2024 年 10 月版本 {#fac-24-10}
 
 ### 兼容性 {#fac-24-10-compat}
 
-在此新版本中，联合受众构成现在与下面列出的系统兼容。
+通过此新版本，联合受众构成现在与下面列出的系统兼容。
 
-* **数据库支持**
+* **Databricks 支持**
 
-  现在，您可以通过联合受众组合建立与数据库数据库的连接。 [了解详情](../connections/federated-db.md#databricks)
+  您现在可以通过联合受众构成建立与 Databricks 数据库的连接。[了解详情](../connections/federated-db.md#databricks)
 
-* **支持通过AWS PrivateLink安全访问Snowflake**
+* **支持通过 AWS PrivateLink 安全访问 Snowflake**
 
-  现在支持通过专用链接安全访问外部Snowflake数据仓库。 请注意，您的Snowflake帐户必须托管在Amazon Web Services (AWS)上，并且与您的联合受众构成环境位于同一区域。 请联系您的Adobe代表，以获得设置对您的Snowflake帐户的安全访问权限方面的帮助。 [了解详情](../connections/federated-db.md#snowflake)
+  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。[了解详情](../connections/federated-db.md#snowflake)
 
-* **Amazon Redshift无服务器支持**
+* **Amazon Redshift Serverless 支持**
 
-  在此新版本中，联合受众组合支持[Amazon Redshift无服务器](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+  通过此新版本，联合受众构成支持 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
 ### 改进 {#fac-24-10-improvements}
 
@@ -38,13 +38,13 @@ ht-degree: 53%
 
 * **刷新现有架构**
 
-  在联合数据库中创建、修改或删除列时，您现在可以通过单击相应架构中的&#x200B;**[!UICONTROL 刷新架构]**&#x200B;按钮来检测并应用更改。 [了解详情](../customer/schemas.md#schema-refresh)
+  当在联合数据库中创建、修改或删除某个列时，您现在可以通过单击相应架构中的&#x200B;**[!UICONTROL 刷新架构]**&#x200B;按钮来检测并应用更改。[了解详情](../customer/schemas.md#schema-refresh)
 
-* **将数据模型与新组合关联**
+* **将数据模型与新的构成相关联**
 
-  创建合成时，现在可以选择要与其关联的数据模型。 通过这个新选项，可更轻松地配置活动，因为只有关联数据模型的表可用。 [了解详情](../compositions/create-composition.md)
+  创建构成时，您现在可以选择要与其关联的数据模型。有了这个新选项，活动的配置会变得更加简单，因为只有相关数据模型的表可用。[了解详情](../compositions/create-composition.md)
 
-## 2024年7月版 — 同盟受众构成(LA) {#fac-la}
+## 24 年 7 月版本：联合受众构成 (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >
