@@ -4,7 +4,7 @@ title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 badge: label="限量发布版" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 5%
@@ -37,10 +37,10 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [数据块](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [数据块](federated-db.md#databricks)
 
 1. 填写详细信息后，单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮。
 
