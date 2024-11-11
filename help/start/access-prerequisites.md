@@ -2,10 +2,11 @@
 title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 badge: label="限量发布版" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >在您收到 Adobe 发来的欢迎邮件通知后，界面可能需要几个小时才能更新，功能才会对您可用。
+
+## 支持的系统 {#supported-systems}
+
+联合受众构成支持以下云仓库：
+
+* Amazon Redshift
+* Azure Synapse
+* 数据块
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+在[此页面](../connections/connections.md)中了解如何创建与这些系统的连接。
 
 ## 权限 {#permissions}
 

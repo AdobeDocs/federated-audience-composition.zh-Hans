@@ -3,10 +3,10 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 badge: label="限量发布版" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 91%
 
 ---
 
@@ -25,20 +25,14 @@ ht-degree: 100%
 
 +++支持哪些云仓库？
 
-在此版本中，联合受众构成与以下内容兼容：
-
-* Amazon Redshift
-* Azure Synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+[此页面](../start/access-prerequisites.md#supported-systems)中提供了联合受众组合支持的系统列表。
 
 +++
 
 
 +++在同一构成中可以查询多个数据仓库吗？
 
-是的，同一构成中可以查询多个仓库，并且可以组合多个来源的数据。通常情况下，每个[构成活动](../compositions/orchestrate-activities.md)（查询、扩充、拆分等）根据活动配置、目标数据库（可能有多种联合数据访问的情况）以及执行结果的一个或多个工作表的输出执行一条或多条 SQL 语句。这些工作表用作连续活动的输入。
+是的，同一构成中可以查询多个仓库，并且可以组合多个来源的数据。通常，每个[组合活动](../compositions/orchestrate-activities.md)（查询、扩充、拆分等）根据活动配置、目标数据库（可能存在多个联合数据访问的情况）以及一个或多个工作表输出和执行结果来执行一个或多个SQL语句。 这些工作表用作连续活动的输入。
 
 +++
 
@@ -46,8 +40,6 @@ ht-degree: 100%
 
 不可以，您需要配置对特定或共享数据库/模式的访问。我们建议您为联合受众构成创建一个专用模式，并仅复制/共享业务案例数据集。
 +++
-
-
 
 +++我可以访问专用模式中的所有表格吗？
 
@@ -59,7 +51,6 @@ ht-degree: 100%
 * 隐藏不必要的列
 * 保存对那些表的描述
 +++
-
 
 +++联合受众构成中是否有任何临时存储？
 
@@ -89,7 +80,7 @@ ht-degree: 100%
 
 +++我可以删除自定义上传的受众吗？
 
-不可以，在当前版本中您无法删除自定义上传的受众。 <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+不可以，在当前版本中，您无法删除自定义上传的受众。-->
 
 +++
 
@@ -98,11 +89,3 @@ ht-degree: 100%
 不，构成过程中不会利用标识服务。构成中使用的各种来源之间的数据通过用户定义的逻辑（如底层模型中所表达的）进行连接，例如 CRM ID、用户帐号等。您必须选择用作受众标识符的标识，以便在数据仓库中进行选择。在联合受众构成产生的受众中，您需要在生成的数据集中标识该标识的标识命名空间。
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->
