@@ -2,11 +2,10 @@
 audience: end-user
 title: 模式入门
 description: 了解如何开始使用架构
-badge: label="限量发布版" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '513'
 ht-degree: 19%
 
 ---

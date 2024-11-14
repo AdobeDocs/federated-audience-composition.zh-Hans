@@ -1,12 +1,11 @@
 ---
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
-badge: label="限量发布版" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 92%
 
 ---
 
@@ -14,14 +13,12 @@ ht-degree: 100%
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
 
+## 2024 年 10 月版本 {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->Adobe Experience Platform 联合受众构成目前仅对一部分组织提供（限量发布）。
+>Adobe Experience Platform联合受众构成以前可用于一组组织(LA)，但现在可供所有用户(GA)使用。 此加载项已根据您的产品激活，并且仅对关联的权限可见。 [了解详情](access-prerequisites.md)
 >
-
-
-## 2024 年 10 月版本 {#fac-24-10}
 
 ### 兼容性 {#fac-24-10-compat}
 
@@ -52,7 +49,6 @@ ht-degree: 100%
   创建构成时，您现在可以选择要与其关联的数据模型。有了这个新选项，活动的配置会变得更加简单，因为只有相关数据模型的表可用。[了解详情](../compositions/create-composition.md)
 
 ## 24 年 7 月版本：联合受众构成 (LA) {#fac-la}
-
 
 联合受众构成是一项附加功能，为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
 
