@@ -3,10 +3,10 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -40,6 +40,16 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+
+1. 对于每个支持的数据库，选择&#x200B;**[!UICONTROL 服务器IP]**&#x200B;按钮。 此时将显示与联合受众组合实例关联的所有IP列表。
+
+   ![](assets/connections_server_IPs.png){zoomable="yes"}
+
+   单击列表中的IP以将其复制到系统中，并授权此IP连接到数据库。
+
+>[!NOTE]
+>
+>要对给定数据库使用联合受众合成，必须允许列表与该数据库关联的所有IP地址。
 
 1. 填写详细信息后，单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮。
 
