@@ -3,9 +3,9 @@ title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 * Snowflake
 * Vertica Analytics
 
-在[此页面](../connections/connections.md)中了解如何创建与这些系统的连接。
+在[此页面中了解如何与这些系统建立连接](../connections/connections.md)。
 
 ## 权限 {#permissions}
 

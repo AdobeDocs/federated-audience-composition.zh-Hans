@@ -3,9 +3,9 @@ title: Adobe Experience Platform 联合受众构成文档主页
 description: 联合受众构成附加组件文档
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey 
 
 >[!TAB 组成受众]
 
-添加并配置活动（拆分、扩充、查询等）以构建组合和创建受众。
+添加和配置活动（拆分、充实、查询等），以构建作品并创建您的受众。
 
 [![图像](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey 
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>构建受众</strong><br/>添加并配置活动（拆分、扩充、查询等）以构建组合并创建第一个联合受众。
+    <div><strong>组成受众</strong><br/>添加和配置活动（拆分、充实、查询等），以构建联合受众构成并创建第一个联合受众。
     </div>
     </td>
     <td>

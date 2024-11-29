@@ -3,9 +3,9 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 91%
 
 +++支持哪些云仓库？
 
-[此页面](../start/access-prerequisites.md#supported-systems)中提供了联合受众组合支持的系统列表。
+ [此页面提供了联合受众构成支持的系统列表](../start/access-prerequisites.md#supported-systems)。
 
 +++
 
 
 +++在同一构成中可以查询多个数据仓库吗？
 
-是的，同一构成中可以查询多个仓库，并且可以组合多个来源的数据。通常，每个[组合活动](../compositions/orchestrate-activities.md)（查询、扩充、拆分等）根据活动配置、目标数据库（可能存在多个联合数据访问的情况）以及一个或多个工作表输出和执行结果来执行一个或多个SQL语句。 这些工作表用作连续活动的输入。
+是的，同一构成中可以查询多个仓库，并且可以组合多个来源的数据。通常，每个[构成活动](../compositions/orchestrate-activities.md)（查询、扩充、拆分等）根据活动配置、目标数据库（可以有多种联合数据访问的情况）以及执行结果的一个或多个工作表的输出执行一条或多条 SQL 语句。这些工作表用作连续活动的输入。
 
 +++
 
@@ -79,7 +79,7 @@ ht-degree: 91%
 
 +++我可以删除自定义上传的受众吗？
 
-不可以，在当前版本中，您无法删除自定义上传的受众。-->
+不可以，在当前版本中您无法删除自定义上传的受众。 -->
 
 +++
 
