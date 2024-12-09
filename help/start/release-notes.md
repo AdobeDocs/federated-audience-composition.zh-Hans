@@ -3,9 +3,9 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 88%
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
 
-## 2024年11月版 {#fac-24-11}
+## 2024 年 11 月版本 {#fac-24-11}
 
 ### 改进 {#fac-24-11-improvements}
 
-此版本附带以下改进。
+此版本包含以下改进。
 
-* **IP地址允许列表**
+* **IP 地址允许列表**
 
-  在Adobe Experience Platform用户界面中添加联合数据库时，您现在可以直接查看与联合受众合成实例关联的IP地址。 这使您能够轻松复制这些IP并授权它们连接到数据库，以提高安全性和灵活性。 [了解详情](../connections/connections.md)
+  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。[了解详情](../connections/connections.md)
 
 ## 2024 年 10 月版本 {#fac-24-10}
 
