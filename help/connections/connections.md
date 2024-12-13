@@ -3,7 +3,7 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -47,9 +47,9 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    单击列表中的IP以将其复制到系统中，并授权此IP连接到数据库。
 
->[!NOTE]
->
->要对给定数据库使用联合受众合成，必须允许列表与该数据库关联的所有IP地址。
+   >[!NOTE]
+   >
+   >要对给定数据库使用联合受众合成，必须允许列表与该数据库关联的所有IP地址。
 
 1. 填写详细信息后，单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 部署函数]**&#x200B;按钮。
 
