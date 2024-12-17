@@ -2,10 +2,10 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 联合受众构成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 包。您还需要购买联合受众构成插件。
 
-为了使用联合受众构成，必须将每个用户添加到为每个沙盒创建的特定配置文件中。若要了解更多信息，请参阅[访问联合受众构成](access-prerequisites.md)页面。
+为了使用联合受众构成，必须将每个用户添加到为每个沙盒创建的特定轮廓中。若要了解更多信息，请参阅[访问联合受众构成](access-prerequisites.md)页面。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 例如：
 
 * 对于受众创建，受众是在您的仓库中创建的，您可以使用联合受众构成执行其他构成任务和数据操作，然后通过 Adobe Experience Platform 众门户中发布生成的受众和相关属性。受众定义和相关属性都转移到了 Adobe Experience Platform。
-请注意，外部生成的受众的当前数据有效期限为 30 天。数据过期会减少组织内存储的多余数据量。数据过期期限过后，关联的数据集仍然在数据集库存中可见，但您无法激活受众，并且配置文件计数将显示为零。在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}中了解详情。
+请注意，外部生成的受众的当前数据有效期限为 30 天。数据过期会减少组织内存储的多余数据量。数据过期期限过后，关联的数据集仍然在数据集库存中可见，但您无法激活受众，并且轮廓计数将显示为零。在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}中了解详情。
 
 * 对于受众扩充而言，起点是现有的 Adobe Experience Platform 受众。这里可以看到两种情况：
    1. 从联合数据仓库中获取额外的受众负载属性：在这种情况下，所添加的额外属性将会作为此受众定义的一部分出现。外部生成的受众的数据有效期限与上面描述的相同，为 30 天。
@@ -79,12 +79,26 @@ ht-degree: 100%
 
 +++我可以删除自定义上传的受众吗？
 
-不可以，在当前版本中您无法删除自定义上传的受众。 -->
+不可以，在当前版本中您无法删除自定义上传的受众。 
 
 +++
 
-+++如果我合并来自多个来源的数据，我们会如何合并数据？我们使用标识服务吗？
++++如果我合并来自多个来源的数据，我们会如何合并数据？我们使用身份标识服务吗？
 
-不，构成过程中不会利用标识服务。构成中使用的各种来源之间的数据通过用户定义的逻辑（如底层模型中所表达的）进行连接，例如 CRM ID、用户帐号等。您必须选择用作受众标识符的标识，以便在数据仓库中进行选择。在联合受众构成产生的受众中，您需要在生成的数据集中标识该标识的标识命名空间。
+不，构成过程中不会利用身份标识服务。构成中使用的各种来源之间的数据通过用户定义的逻辑（如底层模型中所表达的）进行连接，例如 CRM ID、用户帐号等。您必须选择用作受众身份标识符的身份标识，以便在数据仓库中进行选择。在联合受众构成产生的受众中，您需要在生成的数据集中身份标识该身份标识的身份标识命名空间。
+
++++
+
++++对于导入到联合受众构成中的外部生成受众，如何遵循客户同意首选项？
+
+在从多个渠道捕获客户数据时，标识拼接和合并策略允许将这些数据合并到单个实时客户配置文件中。 有关客户同意偏好设置的信息在用户档案级别存储和评估。
+
+下游Real-Time CDP和Journey Optimizer目标在激活之前检查每个配置文件中的同意首选项。 每个用户档案的同意信息会与特定目标的同意要求进行比较。 如果配置文件不满足要求，则该配置文件不会发送到目标。
+
+将外部受众摄取到Federated Audience Composition后，会使用主ID（如电子邮件或ECID）与现有用户档案进行协调。 因此，现有的同意政策将在整个激活过程中保持有效。
+
+>[!NOTE]
+>
+>由于有效负载变量并非存储在配置文件中，而是存储在数据湖中，因此不应在外部生成的受众中包含同意信息。 请改用导入了配置文件数据的其他Adobe Experience Platform摄取渠道。
 
 +++
