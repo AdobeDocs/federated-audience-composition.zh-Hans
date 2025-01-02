@@ -3,7 +3,7 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
 
