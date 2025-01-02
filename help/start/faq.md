@@ -2,9 +2,9 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: ht
-source-wordcount: '1004'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -88,17 +88,18 @@ ht-degree: 100%
 不，构成过程中不会利用身份标识服务。构成中使用的各种来源之间的数据通过用户定义的逻辑（如底层模型中所表达的）进行连接，例如 CRM ID、用户帐号等。您必须选择用作受众身份标识符的身份标识，以便在数据仓库中进行选择。在联合受众构成产生的受众中，您需要在生成的数据集中身份标识该身份标识的身份标识命名空间。
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++ 将外部生成的受众导入联合受众构成后，如何满足客户同意偏好？
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-由于客户数据是从多个渠道捕获的，标识拼接和合并策略允许将此数据合并到单个实时客户轮廓中。有关客户同意偏好的信息在轮廓级别进行存储和评估。
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-下游 Real-Time CDP 和 Journey Optimizer 目标在激活之前检查每个轮廓的同意偏好。每个轮廓的同意信息都会与特定目标的同意要求进行比较。如果轮廓不满足要求，则不会将该轮廓发送到目标。
-
-当将外部受众引入联合受众构成时，它会使用主要 ID（例如电子邮件或 ECID）与现有轮廓进行协调。因此，现有的同意策略在整个激活过程中将保持有效。
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->由于有效负载变量不是存储在轮廓中而是存储在数据湖中，因此您不应在外部生成的受众中包含同意信息。相反，使用导入轮廓数据的其他 Adobe Experience Platform 引入渠道。
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
