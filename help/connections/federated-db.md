@@ -3,10 +3,10 @@ audience: end-user
 title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 100%
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 * [数据块](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
+
+>[!AVAILABILITY]
+>
+>仅支持Amazon Redshift和Amazon Redshift无服务器。
 
 使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Amazon Redshift 的访问权限。
 
