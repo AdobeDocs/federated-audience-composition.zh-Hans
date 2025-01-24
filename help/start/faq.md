@@ -2,10 +2,10 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 100%
 
 +++ 我可以使用联合受众构成访问我的整个数据库吗？
 
-不可以，您需要配置对特定或共享数据库/模式的访问。我们建议您为联合受众构成创建一个专用模式，并仅复制/共享业务案例数据集。
+不可以，您需要配置对特定或共享数据库/架构的访问。我们建议您为联合受众构成创建一个专用架构，并仅复制/共享业务案例数据集。
 +++
 
-+++我可以访问专用模式中的所有表格吗？
++++我可以访问专用架构中的所有表格吗？
 
-是的，连接后，联合受众构成可用于根据定义的初始权限发现所有表，然后您可以使用可视化模式编辑器来：
+是的，连接后，联合受众构成可用于根据定义的初始权限发现所有表，然后您可以使用可视化架构编辑器来：
 
 * 从表中发现列和主键
 * 为这些表创建易用的标签
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 +++联合受众构成中是否有任何临时存储？
 
-没有，联合受众构成仅会存储元数据（模式描述）。没有客户数据在传输。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+没有，联合受众构成仅会存储元数据（架构描述）。没有客户数据在传输。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -77,9 +77,9 @@ ht-degree: 100%
 
 +++
 
-+++我可以删除自定义上传的受众吗？
++++可以删除受众吗？
 
-不可以，在当前版本中您无法删除自定义上传的受众。 
+不能，在当前版本中，您无法删除联合受众组合受众。
 
 +++
 
