@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,14 @@ ht-degree: 100%
 + 开始使用联合受众构成{#start}
    + [什么是联合受众构成](start/get-started.md)
    + [先决条件和护栏](start/access-prerequisites.md)
+   + [访问联合受众组合](start/feature-access.md)
    + [使用受众](start/audiences.md)
    + [常见问题解答](start/faq.md)
 + 配置步骤 {#config}
    + [创建和管理连接](connections/connections.md)
    + [配置联合数据库](connections/federated-db.md)
-   + 数据模型和模式{#datamodel}
-      + [创建和配置模式](customer/schemas.md)
+   + 数据模型和架构{#datamodel}
+      + [创建和配置架构](customer/schemas.md)
       + [配置数据模型](data-management/gs-models.md)
    + [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
 + 组合受众{#compositions}
@@ -39,7 +40,7 @@ ht-degree: 100%
       + [构建受众](compositions/activities/build-audience.md)
       + [更改维度](compositions/activities/change-dimension.md)
       + [合并](compositions/activities/combine.md)
-      + [删除重复项](compositions/activities/deduplication.md)
+      + [重复数据删除](compositions/activities/deduplication.md)
       + [扩充](compositions/activities/enrichment.md)
       + [分叉](compositions/activities/fork.md)
       + [协调](compositions/activities/reconciliation.md)

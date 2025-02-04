@@ -2,10 +2,10 @@
 title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 100%
 
 ## 权限 {#permissions}
 
-当您购买联合受众构成插件时，系统会为每个活动沙盒创建一个产品轮廓。此产品轮廓是在 Admin Console 中的 **Adobe Experience Platform** 产品卡下创建的，并遵循以下命名惯例：`ACP_FAC - <<SandboxName>> - admin.`要访问特定沙盒的联合受众构成，必须将用户添加到为该沙盒创建的产品轮廓中。
-
-例如，如果激活了一个名为“fac-test”的新沙盒，则会创建相应的产品轮廓“ACP_FAC - fac-test - admin”。为了使用此沙盒访问联合受众构成，需要将用户添加到此产品轮廓中。
+要访问联合受众合成，必须将用户添加到购买时创建的特定于沙盒的产品配置文件中，并为其分配&#x200B;**[!UICONTROL 管理联合数据]**&#x200B;权限。 [了解详情](feature-access.md)
 
 ## IP 允许列表 {#ip}
 
