@@ -2,10 +2,10 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 94%
+source-wordcount: '590'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 94%
 
 ## 2025年2月更新 {#fac-25-01}
 
-从2月版开始，[!DNL Federated Audience Composition]仅供已获得&#x200B;**管理联合数据**权限的用户访问。
-要了解如何分配此权限，请参阅[详细文档](feature-access.md)。
+从2月版开始，[!DNL Federated Audience Composition]将开始强制对已获得&#x200B;**管理联合数据**&#x200B;权限的用户访问&#x200B;**联合数据管理**&#x200B;和&#x200B;**联合合成**&#x200B;接口。
 
+我们建议用户联系管理员以将此权限添加到其角色，以便继续访问[!DNL Federated Audience Composition]用户界面。
+
+要了解如何分配此权限，请参阅[详细文档](feature-access.md)。
 
 ## 2024 年 11 月版本 {#fac-24-11}
 
