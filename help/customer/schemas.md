@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 模式入门
+title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
@@ -10,7 +10,7 @@ ht-degree: 19%
 
 ---
 
-# 模式入门 {#schemas}
+# 架构入门 {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -36,7 +36,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="选择要过滤的源数据库"
->abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其模式。"
+>abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其架构。"
 
 ## 什么是架构 {#schema-start}
 

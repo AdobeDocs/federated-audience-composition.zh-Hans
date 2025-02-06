@@ -24,13 +24,13 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="主要标识字段"
->abstract="选择要用于轮廓的主要标识。"
+>title="主要身份标识字段"
+>abstract="选择要用于轮廓的主要身份标识。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="在 Experience Platform 文档中了解详情。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
->title="标识命名空间"
+>title="身份标识命名空间"
 >abstract="选择要用于轮廓的命名空间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="在 Experience Platform 文档中了解详情。"
 
