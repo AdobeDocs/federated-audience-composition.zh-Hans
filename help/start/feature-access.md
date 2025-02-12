@@ -1,7 +1,8 @@
 ---
 title: 访问联合受众组合
 description: 了解联合受众组合所需的权限
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ ht-degree: 36%
 
 >[!AVAILABILITY]
 >
->权限作为2月版本的一部分提供。
+>权限作为3月版本的一部分提供。
 
 要访问&#x200B;**联合受众合成**，您必须首先确保将&#x200B;**管理联合数据**&#x200B;权限分配给相应的角色。 然后，必须将这些角色分配给需要访问&#x200B;**联合受众合成**&#x200B;的用户。
 
@@ -53,5 +54,3 @@ ht-degree: 36%
 1. 输入用户的名称或电子邮件地址，或从可用列表中选择。 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
 随后，用户将收到一封电子邮件，其中包含访问实例的说明。 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
-
-
