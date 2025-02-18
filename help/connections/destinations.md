@@ -3,10 +3,10 @@ audience: end-user
 title: 利用外部数据丰富 Adobe Experience Platform 受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '586'
+ht-degree: 8%
 
 ---
 
@@ -34,11 +34,22 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
    ![](assets/destination-new.png)
 
-1. 为新连接提供一个名称，并选择要使用的&#x200B;**[!UICONTROL 连接类型]**&#x200B;和要连接的&#x200B;**[!UICONTROL 联合数据库]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 输入新连接的名称，然后从以下可用连接中选择&#x200B;**[!UICONTROL 连接类型]**：
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google Big Query
+   * Snowflake
+   * Vertica Analytics
+   * 数据块
+
+1. 选择要连接的&#x200B;**[!UICONTROL 联合数据库]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 警报]**&#x200B;部分允许您启用警报，以接收有关流向目标的数据流状态的通知。 有关警报的更多信息，请参阅Adobe Experience Platform关于使用UI [订阅目标警报的文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. 在&#x200B;**[!UICONTROL 警报]**&#x200B;部分中，您可以启用警报以接收有关数据流到目标的状态的通知。
+
+   有关警报的更多信息，请参阅Adobe Experience Platform关于使用UI [订阅目标警报的文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. 在&#x200B;**[!UICONTROL 治理策略和实施操作]**&#x200B;步骤中，您可以定义数据治理策略，并确保在发送和激活受众时使用的数据是合规的。
 

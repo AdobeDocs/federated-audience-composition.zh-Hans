@@ -3,10 +3,10 @@ audience: end-user
 title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '2081'
+ht-degree: 95%
 
 ---
 
@@ -41,12 +41,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [数据块](#databricks)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->仅支持Amazon Redshift和Amazon Redshift无服务器。
+>仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 
 使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Amazon Redshift 的访问权限。
 
@@ -72,13 +73,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 数据库]**：数据库的名称（如果未在 DSN 中指定）。如果已在 DSN 中指定，则可以将其留空
 
-   * **[!UICONTROL 工作模式]**：用于工作表的数据库模式的名称。请在 [Amazon 文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}中了解详情
+   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。请在 [Amazon 文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}中了解详情
 
      >[!NOTE]
      >
-     >您可以使用数据库中的任何模式，包括用于临时数据处理的模式，只要您具有连接到此模式所需的权限即可。
+     >您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限即可。
      >
-     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作模式**。
+     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作架构**。
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
@@ -201,13 +202,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 数据库]** （可选）：如果 DSN 中未指定，请输入数据库的名称。
 
-   * **[!UICONTROL 工作模式]**（可选）：输入用于工作表的数据库模式的名称。
+   * **[!UICONTROL 工作架构]**（可选）：输入用于工作表的数据库架构的名称。
 
      >[!NOTE]
      >
-     >您可以使用数据库中的任何模式，包括用于临时数据处理的模式，只要您具有连接到此模式所需的权限即可。
+     >您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限即可。
      >
-     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作模式**。
+     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作架构**。
 
    * **[!UICONTROL 私钥]**：点击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从您的区域设置文件夹中选择您的 .pem 文件。
 
@@ -223,7 +224,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 | 选项 | 描述 |
 |---|---|
-| workschema | 用于工作表的数据库模式 |
+| workschema | 用于工作表的数据库架构 |
 | 仓库 | 默认使用的数据仓库名称。它将会覆盖用户的默认值。 |
 | TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。<br>有关详细信息，请参见[此页面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
 | WeekStart | WEEK_START 会话参数。默认设置为 0。<br>有关详细信息，请参见[此页面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
@@ -258,13 +259,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 数据库]** （可选）：如果 DSN 中未指定，请输入数据库的名称。
 
-   * **[!UICONTROL 工作模式]**（可选）：输入用于工作表的数据库模式的名称。
+   * **[!UICONTROL 工作架构]**（可选）：输入用于工作表的数据库架构的名称。
 
      >[!NOTE]
      >
-     >您可以使用数据库中的任何模式，包括用于临时数据处理的模式，只要您具有连接到此模式所需的权限即可。
+     >您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限即可。
      >
-     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作模式**。
+     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作架构**。
 
    * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
@@ -306,13 +307,13 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 目录]**：为 Databricks 目录添加字段。
 
-   * **[!UICONTROL 工作模式]**：用于工作表的数据库模式的名称。
+   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。
 
      >[!NOTE]
      >
-     >您可以使用数据库中的任何模式，包括用于临时数据处理的模式，只要您具有连接到此模式所需的权限即可。
+     >您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限即可。
      >
-     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作模式**。
+     >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作架构**。
 
    * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
@@ -328,45 +329,45 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 |---|---|
 | TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。 |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric当前仅适用于一组组织（限量发布）。
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对Microsoft结构的访问。
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
-1. Click **[!UICONTROL Add federated database]**.
+1. 单击&#x200B;**[!UICONTROL 添加联合数据库]**。
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Microsoft Fabric。
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. 配置Microsoft Fabric身份验证设置：
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL 服务器]**：输入Microsoft Fabric服务器的URL。
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL 应用程序ID]**：输入您的Microsoft结构应用程序ID。
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL 客户端密码]**：输入您的客户端密码。
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. 单击&#x200B;**[!UICONTROL 服务器IP]**&#x200B;以选择要授权的服务器IP。
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-| Option   |  Description |
+1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+
+| 选项 | 描述 |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| 身份验证 | 连接器支持的身份验证类型。当前支持的值：ActiveDirectoryMSI。有关详细信息，请参阅 [Microsoft SQL 文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（示例连接字符串 n°8） |
+

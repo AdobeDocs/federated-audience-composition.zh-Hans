@@ -3,9 +3,9 @@ audience: end-user
 title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -57,19 +57,21 @@ ht-degree: 19%
 
 要在联合受众构成中创建架构，请执行以下步骤：
 
-1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，转到&#x200B;**[!UICONTROL 模型]**&#x200B;链接。 浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建架构]**&#x200B;按钮。
+1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，访问&#x200B;**[!UICONTROL 模型]**&#x200B;菜单。 浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建架构]**。
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    通过此步骤，您可以使用下拉列表访问新屏幕，其中可查找连接到环境的数据库。 在[本节](../connections/connections.md#connections-fdb)中了解有关数据库连接的更多信息。
 
-1. 在列表中选择源数据库，然后单击&#x200B;**[!UICONTROL 添加表]**&#x200B;选项卡。
+1. 在列表中选择源数据库，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    然后，可以查看数据库中所有表的列表。
 
-1. 通过添加要为其创建方案的表，您可以访问其字段，如下所示：
+1. 选择要为其创建方案的表。
+
+1. 每个选定的表都生成一个包含选定列的模式。 根据需要配置架构及其列。
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ ht-degree: 19%
 
    * 更改架构的标签
    * 添加描述
-   * 重命名所有字段，并设置其可见性
+   * 重命名所有字段标签，并设置其可见性
    * 选择架构主键
 
-   例如，对于导入的下表：
+   可以按如下方式定义架构：
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   可按如下方式定义架构：
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. 完成配置后，单击&#x200B;**[!UICONTROL 完成]**。
 
 ## 编辑架构 {#schema-edit}
 
 要编辑架构，请执行以下步骤：
 
-1. 单击列表中架构的名称。
+1. 访问您之前创建的架构。
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   您可以访问与[创建架构](#schema-create)时相同的选项。
+1. 从&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口，您可以访问和配置与[创建架构](#schema-create)时相同的选项。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## 在架构中预览数据 {#schema-preview}
 
@@ -114,7 +113,6 @@ ht-degree: 19%
 单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮更改数据显示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## 刷新架构 {#schema-refresh}
 
