@@ -3,10 +3,10 @@ audience: end-user
 title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric当前仅适用于一组组织（限量发布）。
 
 使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对Microsoft结构的访问。
 

@@ -2,7 +2,7 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 此版本附带下列更改。
 
-* **Microsoft结构支持**
+* **Microsoft Fabric支持**
 
   现在，您可以通过联合受众组合建立与Microsoft结构数据库的连接。 [了解详情](../connections/federated-db.md)
 
