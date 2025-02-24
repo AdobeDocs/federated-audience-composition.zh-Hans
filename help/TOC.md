@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + 开始使用联合受众构成{#start}
    + [什么是联合受众构成](start/get-started.md)
    + [先决条件和护栏](start/access-prerequisites.md)
-   + [访问联合受众组合](start/feature-access.md)
+   + [访问联合受众构成](start/feature-access.md)
    + [使用受众](start/audiences.md)
    + [常见问题解答](start/faq.md)
 + 配置步骤 {#config}
@@ -25,7 +25,7 @@ ht-degree: 94%
    + [配置联合数据库](connections/federated-db.md)
    + 数据模型和架构{#datamodel}
       + [创建和配置架构](customer/schemas.md)
-      + [配置数据模型（测试版）](data-management/gs-models-beta.md)
+      + [配置数据模型 (beta)](data-management/gs-models-beta.md)
       + [配置数据模型](data-management/gs-models.md)
    + [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
 + 组合受众{#compositions}

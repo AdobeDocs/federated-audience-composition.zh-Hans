@@ -4,9 +4,9 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="联合数据库"
->abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请点击&#x200B;**[!UICONTROL 添加联合数据库]**&#x200B;按钮。"
+>abstract="此屏幕列出了与联合数据库的现有连接。要创建新连接，请单击&#x200B;**[!UICONTROL 添加联合数据库]**&#x200B;按钮。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -47,7 +47,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 >[!AVAILABILITY]
 >
->仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
+>仅支持 Amazon Redshift AWS、Amazon Redshift Spectrum 和 Amazon Redshift Serverless。
 
 使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Amazon Redshift 的访问权限。
 
@@ -83,9 +83,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 ## Azure Synapse Analytics {#azure-synapse}
 
@@ -117,9 +117,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 | 选项 | 描述 |
 |---|---|
@@ -155,9 +155,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 | 选项 | 描述 |
 |---|---|
@@ -210,15 +210,15 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
      >
      >当使用同一个数据库连接多个沙盒时，必须使用&#x200B;**不同的工作架构**。
 
-   * **[!UICONTROL 私钥]**：点击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从您的区域设置文件夹中选择您的 .pem 文件。
+   * **[!UICONTROL 私钥]**：单击&#x200B;**[!UICONTROL 私钥]**&#x200B;字段，从您的区域设置文件夹中选择您的 .pem 文件。
 
    * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 该连接器支持以下选项：
 
@@ -271,9 +271,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 该连接器支持以下选项：
 
@@ -319,9 +319,9 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 该连接器支持以下选项：
 
@@ -332,7 +332,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 ## Microsoft Fabric {#microsoft-fabric}
 
 
-使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对Microsoft结构的访问。
+使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Microsoft Fabric 的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
@@ -342,27 +342,27 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Microsoft Fabric。
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中，选择 Microsoft Fabric。
 
    ![](assets/microsoft-config.png)
 
-1. 配置Microsoft Fabric身份验证设置：
+1. 配置 Microsoft Fabric 身份验证设置：
 
-   * **[!UICONTROL 服务器]**：输入Microsoft Fabric服务器的URL。
+   * **[!UICONTROL 服务器]**：输入 Microsoft Fabric 服务器的 URL。
 
-   * **[!UICONTROL 应用程序ID]**：输入您的Microsoft结构应用程序ID。
+   * **[!UICONTROL 应用程序 ID]**：输入您的 Microsoft Fabric 应用程序 ID。
 
    * **[!UICONTROL 客户端密码]**：输入您的客户端密码。
 
    * **[!UICONTROL 选项]**：该连接器支持下表中详述的选项。
 
-1. 单击&#x200B;**[!UICONTROL 服务器IP]**&#x200B;以选择要授权的服务器IP。
+1. 单击&#x200B;**[!UICONTROL 服务器 IPS]** 选择您要授权的服务器 IPS。
 
 1. 选择&#x200B;**[!UICONTROL 测试连接]**&#x200B;选项来验证您的配置。
 
-1. 点击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
+1. 单击&#x200B;**[!UICONTROL 部署功能]**&#x200B;按钮来创建函数。
 
-1. 配置完成后，点击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
+1. 配置完成后，单击&#x200B;**[!UICONTROL 添加]**&#x200B;创建您的联合数据库。
 
 | 选项 | 描述 |
 |---|---|

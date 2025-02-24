@@ -3,9 +3,9 @@ title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 >[!INFO]
 >
->遵循此[分步指南](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)，了解如何使用联合受众组合创建受众。
+>按照此[分步指南](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)了解如何使用联合受众构成创建受众。
 
 ## 功能 {#rn-capabilities}
 

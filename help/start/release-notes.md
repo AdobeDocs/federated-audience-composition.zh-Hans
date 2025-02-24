@@ -3,9 +3,9 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
 
-## 2025年2月版 {#fac-25-2}
+## 2025 年 2 月版本 {#fac-25-2}
 
-此版本附带下列更改。
+此版本包含下方列出的更改。
 
-* **Microsoft Fabric支持**
+* **Microsoft Fabric 支持**
 
-  现在，您可以通过联合受众组合建立与Microsoft结构数据库的连接。 [了解详情](../connections/federated-db.md)
+  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/federated-db.md)
 
-* **Amazon Redshift Spectrum支持**
+* **Amazon Redshift Spectrum 支持**
 
-  Amazon Redshift Spectrum现在支持Amazon Redshift数据库连接。 [了解详情](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/federated-db.md#amazon-redshift)
 
-* **增强型架构创建体验**
+* **架构创建体验增强**
 
-  架构创建流程已通过更新的用户界面得到改进，该界面设计为更直观且更易于导航。 这些增强功能为数据从业者提供了一种更顺畅、更高效的数据模型开发方式。 [了解详情](../customer/schemas.md)
+  通过更新的用户界面，创建架构的过程得到了改进，该界面设计得更加直观且易于导航。这些增强功能为数据从业者提供了一种更顺畅、更高效的数据模型开发方法。[了解详情](../customer/schemas.md)
 
-* **数据库受众扩充支持**
+* **Databricks 的受众扩充支持**
 
-  现在，您可以在读取受众流中使用数据库，启用数据库数据库活动，并允许将数据库设置为新目标。 [了解详情](../connections/destinations.md)
+  您现在可以在“读取受众”流程中使用 Databricks，从而激活 Databricks 数据库的活动，并允许将其设置为新的目标。[了解详情](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

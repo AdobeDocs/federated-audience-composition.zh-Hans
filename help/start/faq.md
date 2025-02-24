@@ -3,9 +3,9 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ ht-degree: 97%
 
 +++
 
-+++可以删除受众吗？
++++ 我可以删除受众吗？
 
-不能，在当前版本中，您无法删除联合受众组合受众。
+不可以，在当前版本中您无法删除联合受众构成的受众。
 
 +++
 
