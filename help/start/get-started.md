@@ -2,16 +2,16 @@
 title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 96%
 
 ---
 
 # 开始使用联合受众构成 {#gs-fac}
 
-联合受众构成是 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 的附加组件功能，可让您从第三方数据仓库构建和扩充受众，并将受众导入 Adobe Experience Platform。联合受众构成提供了一种简单而强大的解决方案，可直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 内连接您的企业数据仓库，并对数据仓库的表格执行查询。
+联合受众组合可用于[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}环境。 它允许您从第三方数据仓库构建和扩充受众，并将受众导入Adobe Experience Platform。 联合受众构成提供了一种简单而强大的解决方案，可直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 内连接您的企业数据仓库，并对数据仓库的表格执行查询。
 
 Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户访问存储在其数据仓库和云存储平台（例如 Amazon Redshift、Azure Synapse Analytics 等）中的客户数据。客户数据可存储在多个数据仓库中，并且现在可以立即访问，而无需复制。支持的平台列于[此页面](../connections/federated-db.md#supported-db)中。
 

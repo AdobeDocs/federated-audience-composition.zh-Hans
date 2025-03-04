@@ -2,10 +2,10 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++访问联合受众构成需要哪些权限？
 
-联合受众构成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 包。您还需要购买联合受众构成插件。
+联合受众构成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 包。您还需要购买联合受众组合。
 
 为了使用联合受众构成，必须将每个用户添加到为每个沙盒创建的特定轮廓中。若要了解更多信息，请参阅[访问联合受众构成](access-prerequisites.md)页面。
 

@@ -2,10 +2,10 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Adobe 体验平台联合受众构成（Adobe Experience Platform Federated Audience Composition）以前面向一组组织（LA），现在面向所有用户（GA）。此附加组件根据您的产品激活，并且只有具有相关权限时才可见。[了解详情](access-prerequisites.md)
+>Adobe 体验平台联合受众构成（Adobe Experience Platform Federated Audience Composition）以前面向一组组织（LA），现在面向所有用户（GA）。此功能根据您的产品被激活，并且仅对关联的权限可见。 [了解详情](access-prerequisites.md)
 >
 
 ### 兼容性 {#fac-24-10-compat}
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ## 2024 年 7 月版本：联合受众构成 (LA) {#fac-la}
 
-联合受众构成是一项附加功能，为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
+联合受众构成使企业能够灵活而扩展地访问企业数据仓库，以使用关键企业数据集和强大的品牌启动和即时的体验来构成受众。 通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
 
 联合受众构成满足了企业日益增长的市场需求，企业则需要灵活地利用仓库数据集来构成受众。这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。 
 

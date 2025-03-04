@@ -4,10 +4,10 @@ description: 了解联合受众组合所需的权限
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 hide: true
 hidefromtoc: true
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 管理对沙盒的访问 {#access-sandboxes}
 
-当您购买联合受众构成插件时，系统会为每个活动沙盒创建一个产品轮廓。此产品轮廓是在 Admin Console 中的 **Adobe Experience Platform** 产品卡下创建的，并遵循以下命名惯例：`ACP_FAC - <<SandboxName>> - admin.`要访问特定沙盒的联合受众构成，必须将用户添加到为该沙盒创建的产品轮廓中。
+购买Adobe Experience Platform联合受众组合时，将同时为每个活动沙盒创建产品配置文件。 此产品轮廓是在 Admin Console 中的 **Adobe Experience Platform** 产品卡下创建的，并遵循以下命名惯例：`ACP_FAC - <<SandboxName>> - admin.`要访问特定沙盒的联合受众构成，必须将用户添加到为该沙盒创建的产品轮廓中。
 
 例如，如果激活了一个名为“fac-test”的新沙盒，则会创建相应的产品轮廓“ACP_FAC - fac-test - admin”。为了使用此沙盒访问联合受众构成，需要将用户添加到此产品轮廓中。
 
