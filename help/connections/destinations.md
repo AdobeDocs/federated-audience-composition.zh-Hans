@@ -3,10 +3,10 @@ audience: end-user
 title: 利用外部数据丰富 Adobe Experience Platform 受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
    * Snowflake
    * Vertica Analytics
    * 数据块
+   * Microsoft Fabric
 
 1. 选择要连接的&#x200B;**[!UICONTROL 联合数据库]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
