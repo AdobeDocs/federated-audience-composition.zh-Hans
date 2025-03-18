@@ -3,10 +3,10 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## 2025年3月版 {#fac-25-3}
 
-此版本包含以下改进。
+### 改进 {#fac-25-3-improvements}
+
+此版本附带以下改进。
 
 * **联合受众组合权限**
 
@@ -34,7 +36,7 @@ ht-degree: 69%
 
   联合受众构成现在支持导出大型受众，可处理大小最大为20 GB的文件。
 
-### 兼容性{#fac-25.3-compat}
+### 兼容性 {#fac-25-3-compat}
 
 * **数据库连接**
 
