@@ -3,10 +3,11 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 65%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ ht-degree: 65%
 
   要了解如何分配此权限，请参阅[详细文档](feature-access.md)。
 
-* **数据模型画布视图**
+<!--
+* **Data model Canvas view**
 
-  数据模型部分的画布视图通过在画布布局中在现有表格视图之外启用数据模型及其链接的可视化来改善体验。 [了解详情](../data-management/gs-models.md)
-
-* **受众导出**
-
-  联合受众构成现在支持导出大型受众，可处理大小最大为20 GB的文件。
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI 助手**
 
@@ -45,7 +44,7 @@ ht-degree: 65%
 * **数据库连接**
 
   在此新版本中，联合受众组合现在支持数据库连接的专用链接连接。
-它还支持与托管在Amazon Web Services (AWS)和Azure上的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
+它还支持与托管在Amazon Web Services (AWS)和Microsoft Azure上的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
 
 * **支持B2B CDP客户**
 
@@ -53,7 +52,7 @@ ht-degree: 65%
 
 * **Snowflake安全连接**
 
-  在此新版本中，联合受众组合支持到Azure上托管的Snowflake数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#snowflake)
+  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Snowflake数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#snowflake)
 
 ## 2025 年 2 月版本 {#fac-25-2}
 
@@ -129,5 +128,3 @@ ht-degree: 65%
 若要了解有关联合受众构成功能方面的更多信息，请参阅[此页面](get-started.md)，以及[常见问题解答](faq.md)。
 
 有关访问联合受众构成的先决条件和当前护栏的详细信息，请参阅[该页面](access-prerequisites.md)。
-
-
