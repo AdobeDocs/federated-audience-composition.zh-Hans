@@ -2,10 +2,10 @@
 title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >abstract="保存轮廓"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="保存轮廓选择 AEP 架构"
->abstract="保存轮廓选择 AEP 架构"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="保存轮廓 AEP 架构列表"
 >abstract="保存轮廓 AEP 架构列表"
@@ -147,6 +142,16 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >abstract="保存轮廓 AEP 架构属性"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="保存轮廓选择主要标识字段"
->abstract="保存轮廓选择主要标识字段"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="选择主要标识字段"
+>abstract="用于用户档案的主标识字段。"
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP数据集"
+>abstract="选择要用于用户档案的AEP数据集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="保存轮廓选择 AEP 架构"
+>abstract="选择用于配置文件的AEP架构。"
