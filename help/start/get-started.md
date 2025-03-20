@@ -2,10 +2,10 @@
 title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >[!NOTE]
 >
 >执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platorm 和/或 Adobe Journey Optimizer。它可在&#x200B;**受众**&#x200B;菜单中访问。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## 治理、隐私和安全 {#governance-privacy-security}
+
+### 隐私请求 {#gov-privacy-requests}
+
+创建组合后，生成的受众将保存到Adobe Experience Platform中。
+
+然后，您可以发出隐私请求，以通过Adobe Experience Platform **Privacy Service**&#x200B;访问和/或删除与这些受众对应的配置文件数据，该应用程序提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，帮助您管理客户数据请求。
+
+>[!NOTE]
+>
+>有关Privacy Service的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
+
+您可以创建和管理单个请求，以从Adobe联合受众构成访问和删除客户数据。 [实时客户资料文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细介绍了提交&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的步骤。
+
+### 审核记录 {#gov-audit-trail}
+
+审核记录功能会按时间顺序详细记录对环境实时执行的所有操作和事件。 [了解详情](../admin/audit-trail.md)
 
 ## 了解详情 {#learn}
 

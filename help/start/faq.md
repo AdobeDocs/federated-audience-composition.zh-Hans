@@ -2,10 +2,10 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ ht-degree: 98%
 不，构成过程中不会利用身份标识服务。构成中使用的各种来源之间的数据通过用户定义的逻辑（如底层模型中所表达的）进行连接，例如 CRM ID、用户帐号等。您必须选择用作受众身份标识符的身份标识，以便在数据仓库中进行选择。在联合受众构成产生的受众中，您需要在生成的数据集中身份标识该身份标识的身份标识命名空间。
 
 +++
+
++++如何使用联合受众组合创建和管理隐私请求？
+
+您可以通过两种方式提交单个请求，以从Adobe联合受众构成访问和删除客户数据：
+
+* 通过Adobe Experience Platform **Privacy Service UI**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
+* 通过Adobe Experience Platform **Privacy Service API**。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+创建和管理&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的所有步骤均在[实时客户配置文件文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明。
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 审核记录
 description: 了解如何在审核记录中记录并访问操作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 11%
 >title="审核记录"
 >abstract="审核记录功能可实时按时间顺序详细记录对 Adobe Experience Platform 联合受众环境执行的所有操作和事件。"
 
-审核记录功能提供了对您的环境实时执行的所有操作和事件的详细时间顺序记录
-
-**[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe联合组合实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
+**[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe联合构成实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
 
 +++ 了解有关审核记录可用实体的更多信息
 
