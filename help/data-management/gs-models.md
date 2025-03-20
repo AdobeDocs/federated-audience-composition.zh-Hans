@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="使用模型"
->abstract="此屏幕列出了架构和数据模型。您可以通过 **创建** 按钮创建架构和数据模型。"
+>abstract="此屏幕列出了架构和数据模型。您可以通过&#x200B;**创建**&#x200B;按钮创建架构和数据模型。"
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
