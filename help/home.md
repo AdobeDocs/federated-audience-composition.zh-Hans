@@ -3,7 +3,7 @@ title: Adobe Experience Platform 联合受众构成文档主页
 description: 联合受众构成文档
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
