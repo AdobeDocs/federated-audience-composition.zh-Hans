@@ -4,10 +4,10 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
+source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 69%
+source-wordcount: '802'
+ht-degree: 73%
 
 ---
 
@@ -33,18 +33,19 @@ ht-degree: 69%
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
-
-* **AI 助手**
-
-  AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概念，并获得您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括联合受众合成。
 
 ### 兼容性 {#fac-25-3-compat}
 
 * **数据库连接**
 
   在此新版本中，联合受众组合现在支持数据库连接的专用链接连接。
-它还支持与托管在Amazon Web Services (AWS)和Microsoft Azure上的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
+它还支持与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
 
 * **支持B2B CDP客户**
 
