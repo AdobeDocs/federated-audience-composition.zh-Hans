@@ -2,10 +2,10 @@
 title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 88%
+source-wordcount: '311'
+ht-degree: 73%
 
 ---
 
@@ -27,12 +27,25 @@ ht-degree: 88%
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 在[此页面中了解如何与这些系统建立连接](../connections/connections.md)。
 
 ## 沙盒
 
 购买联合受众构成时，您有权使用两个沙盒。 对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
+
+要查看活动的联合受众构成沙盒列表，请执行以下步骤：
+
+1. 从联合受众合成，访问&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 许可证使用情况]**&#x200B;菜单。
+
+1. 单击&#x200B;**[!UICONTROL 总数据输出量]**&#x200B;中的![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)图标以访问沙盒属性。
+
+   ![](assets/sandbox_1.png)
+
+1. 有关沙盒的信息显示在“属性”弹出框中。
+
+   ![](assets/sandbox_2.png)
 
 ## 权限 {#permissions}
 
@@ -52,3 +65,7 @@ ht-degree: 88%
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * [Adobe Real-Time Customer Data Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}中列出的授权、产品限制和性能护栏适用于联合受众合成。
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+

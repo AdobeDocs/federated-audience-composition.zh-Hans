@@ -3,10 +3,10 @@ audience: end-user
 title: 利用外部数据丰富 Adobe Experience Platform 受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
    ![](assets/destination-activate.png)
 
-1. 选择要发送的所需受众，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 选择要发送的所需受众。
 
-1. 为所选受众配置文件名和导出计划。
+1. 选择![](assets/do-not-localize/Smock_Edit_18_N.svg)图标以编辑导出计划。
 
    ![](assets/destination-schedule.png)
+
+1. 定义导出文件选项。 要更快地激活受众，请选择&#x200B;**[!UICONTROL 区段评估后]**&#x200B;选项，以便在每日平台批量分段作业完成后立即触发激活作业。
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

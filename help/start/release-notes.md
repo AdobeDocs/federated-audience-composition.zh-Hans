@@ -2,16 +2,56 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
+
+## 2025年3月版 {#fac-25-3}
+
+### 改进 {#fac-25-3-improvements}
+
+此版本附带以下改进。
+
+* **联合受众组合权限**
+
+  从3月版本开始，[!DNL Federated Audience Composition]将开始强制对已获得&#x200B;**管理联合数据**&#x200B;权限的用户访问&#x200B;**联合数据管理**&#x200B;和&#x200B;**联合合成**&#x200B;接口。
+
+  我们建议用户联系管理员以将此权限添加到其角色，以便继续访问[!DNL Federated Audience Composition]用户界面。
+
+  要了解如何分配此权限，请参阅[详细文档](feature-access.md)。
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### 兼容性 {#fac-25-3-compat}
+
+* **数据库连接**
+
+  在此新版本中，联合受众组合现在支持数据库连接的专用链接连接。
+这包括通过专用链接与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
+
+* **支持B2B CDP客户**
+
+  联合受众组合现在可供B2B) Customer Data Platform (CDP)客户用于基于人员的受众用例。
+
+* **Snowflake安全连接**
+
+  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Snowflake数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#snowflake)
 
 ## 2025 年 2 月版本 {#fac-25-2}
 
@@ -32,16 +72,6 @@ ht-degree: 93%
 * **Databricks 的受众扩充支持**
 
   您现在可以在“读取受众”流程中使用 Databricks，从而激活 Databricks 数据库的活动，并允许将其设置为新的目标。[了解详情](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## 2024 年 11 月版本 {#fac-24-11}
 
@@ -92,9 +122,8 @@ ht-degree: 93%
 
 联合受众构成使企业能够灵活而扩展地访问企业数据仓库，以使用关键企业数据集和强大的品牌启动和即时的体验来构成受众。 通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
 
-联合受众构成满足了企业日益增长的市场需求，企业则需要灵活地利用仓库数据集来构成受众。这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。 
+联合受众构成可满足企业日益增长的市场需求，这些企业需要灵活地使用仓库数据集构成受众。 这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。
 
 若要了解有关联合受众构成功能方面的更多信息，请参阅[此页面](get-started.md)，以及[常见问题解答](faq.md)。
 
 有关访问联合受众构成的先决条件和当前护栏的详细信息，请参阅[该页面](access-prerequisites.md)。
-

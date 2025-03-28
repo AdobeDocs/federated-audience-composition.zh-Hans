@@ -2,10 +2,10 @@
 title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 81%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 * 最小化数据移动和重复：从企业数据仓库中的数据集创建受众，而无需复制基础数据来管理可操作的营销轮廓和受众。
 
 * 利用一个系统来实现由体验驱动的工作流程：在 Adobe Experience Platform 中策划摄取和联合的受众，并协调所有渠道的出站体验。
+
+* B2C和B2B CDP客户现在可以利用联合受众合成，通过集成来自受支持的企业数据仓库的数据来构建基于人员的受众。 此外，他们可以通过整合企业数据仓库中提供的相关属性来丰富现有的AEP基于人员的受众，提升其受众配置文件以实现更加个性化和有针对性的参与。
 
 ## 用例 {#rn-uc}
 
@@ -138,8 +140,8 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
->title="选择目标选择维度"
->abstract="通过目标选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+>title="选择目标市场选择维度"
+>abstract="通过目标市场选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
 
 
 <!-- save profile IDs-->
@@ -162,14 +164,14 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="选择主要标识字段"
->abstract="用于用户档案的主标识字段。"
+>abstract="用于轮廓的主要标识字段。"
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP数据集"
->abstract="选择要用于用户档案的AEP数据集。"
+>title="AEP 数据集"
+>abstract="选择用于轮廓的 AEP 数据集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="保存轮廓选择 AEP 架构"
->abstract="选择用于配置文件的AEP架构。"
+>abstract="选择用于轮廓的 AEP 架构。"

@@ -3,10 +3,10 @@ audience: end-user
 title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '2068'
-ht-degree: 100%
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 >[!NOTE]
 >
->支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
+>支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，必须将您的Snowflake帐户托管在Amazon Web Services (AWS)或Azure上，并位于与您的联合受众合成环境相同的区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 >
 
 使用联合数据库处理存储在外部数据库中的信息。执行以下步骤来配置对 Snowflake 的访问权限：
@@ -282,6 +282,10 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 | TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。 |
 
 ## 数据块 {#databricks}
+
+>[!NOTE]
+>
+>支持通过专用链接安全访问外部数据库数据仓库。 这包括通过专用链接与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 请联系您的Adobe代表以获得设置安全访问权限的帮助。
 
 使用联合数据库处理存储在外部数据库中的信息。执行以下步骤来配置对 Databricks 的访问权限。
 
