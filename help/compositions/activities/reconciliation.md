@@ -14,7 +14,7 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
->title="”协调“活动"
+>title="协调活动"
 >abstract=" **协调**&#x200B;活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
 
 >[!CONTEXTUALHELP]
@@ -38,12 +38,12 @@ ht-degree: 39%
 
 它允许您将未识别的数据链接到现有资源。 协调操作意味着要加入的数据已在数据库中。 例如，如果要协调显示购买哪个产品、购买时间、购买客户等内容的购买信息，则数据库中必须已存在该产品和客户。
 
-## 配置”协调“活动 {#reconciliation-configuration}
+## 配置协调活动 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="架构"
->abstract="选择要应用于数据的新架构。通过架构（也称为目标选择维度）可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择构成当前架构。"
+>abstract="选择要应用于数据的新架构。通过架构（也称为目标市场选择维度）可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择构成当前架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -52,8 +52,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
->title="选择目标选择维度"
->abstract="选择要协调的入站数据的架构，也称为目标选择维度。"
+>title="选择目标市场选择维度"
+>abstract="选择要协调的入站数据的架构，也称为目标市场选择维度。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"

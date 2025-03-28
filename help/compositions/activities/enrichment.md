@@ -14,7 +14,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
->title="“扩充”活动"
+>title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。通常在分段活动之后的构成中使用它。"
 
 >[!CONTEXTUALHELP]
@@ -35,7 +35,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：架构（也称为目标选择维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：架构（也称为目标市场选择维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 利用&#x200B;**扩充**&#x200B;活动，可使用联合数据库中的附加信息增强目标数据。 通常在分段活动之后的构成中使用它。
 

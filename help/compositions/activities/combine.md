@@ -14,14 +14,14 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
->title="”合并“活动"
+>title="合并活动"
 >abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体，排除部分群体或仅保留多个目标的共有数据。
 
 **组合**&#x200B;活动可以放在任何其他活动之后，但不能放在组合的开头。 任何活动都可以放在&#x200B;**合并**&#x200B;之后。
 
-## 配置“合并”活动 {#combine-configuration}
+## 配置合并活动 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
@@ -87,7 +87,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为目标选择维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请单击&#x200B;**排除规则**&#x200B;部分中的&#x200B;**添加规则**，并指定架构更改条件。数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为目标市场选择维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请单击&#x200B;**排除规则**&#x200B;部分中的&#x200B;**添加规则**，并指定架构更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为目标选择维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请单击&#x200B;**排除规则**&#x200B;部分中的&#x200B;**添加规则**，并指定架构更改条件。数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为目标市场选择维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请单击&#x200B;**排除规则**&#x200B;部分中的&#x200B;**添加规则**，并指定架构更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
