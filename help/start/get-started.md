@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
 # 开始使用联合受众构成 {#gs-fac}
 
-联合受众组合可用于[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}环境。 它允许您从第三方数据仓库构建和扩充受众，并将受众导入Adobe Experience Platform。 联合受众构成提供了一种简单而强大的解决方案，可直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 内连接您的企业数据仓库，并对数据仓库的表格执行查询。
+联合受众构成适用于 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 环境。它允许您从第三方数据仓库构建和扩充受众，并将受众导入到 Adobe Experience Platform 中。联合受众构成提供了一种简单而强大的解决方案，可直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 内连接您的企业数据仓库，并对数据仓库的表格执行查询。
 
 Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户访问存储在其数据仓库和云存储平台（例如 Amazon Redshift、Azure Synapse Analytics 等）中的客户数据。客户数据可存储在多个数据仓库中，并且现在可以立即访问，而无需复制。支持的平台列于[此页面](../connections/federated-db.md#supported-db)中。
 
@@ -65,23 +65,23 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >
 >执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platorm 和/或 Adobe Journey Optimizer。它可在&#x200B;**受众**&#x200B;菜单中访问。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-## 治理、隐私和安全 {#governance-privacy-security}
+## 管理、隐私和安全 {#governance-privacy-security}
 
 ### 隐私请求 {#gov-privacy-requests}
 
-创建组合后，生成的受众将保存到Adobe Experience Platform中。
+您创建一个构成后，生成的受众就会保存在 Adobe Experience Platform 中。
 
-然后，您可以发出隐私请求，以通过Adobe Experience Platform **Privacy Service**&#x200B;访问和/或删除与这些受众对应的配置文件数据，该应用程序提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，帮助您管理客户数据请求。
+然后，您可以通过 Adobe Experience Platform **Privacy Service** 提出隐私请求，以访问和/或删除与这些受众相对应的轮廓数据，该服务提供 [用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和 [RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"} 来帮助您管理客户数据请求。
 
 >[!NOTE]
 >
->有关Privacy Service的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
+>关于 Privacy Service 的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
 
-您可以创建和管理单个请求，以从Adobe联合受众构成访问和删除客户数据。 [实时客户资料文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细介绍了提交&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的步骤。
+您可以创建和管理单独的请求以访问和删除 Adobe 联合受众构成中的客户数据。提交&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的步骤在[实时客户轮廓文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中有详细说明。
 
 ### 审核记录 {#gov-audit-trail}
 
-审核记录功能会按时间顺序详细记录对环境实时执行的所有操作和事件。 [了解详情](../admin/audit-trail.md)
+新的审核记录功能按时间顺序详细记录了实时发生在您的环境中的事件。[了解详情](../admin/audit-trail.md)
 
 ## 了解详情 {#learn}
 

@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 73%
 
 ## 沙盒
 
-购买联合受众构成时，您有权使用两个沙盒。 对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
+购买联合受众构成时，您有权使用两个沙盒。对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
 
 要查看活动的联合受众构成沙盒列表，请执行以下步骤：
 
@@ -64,7 +64,7 @@ ht-degree: 73%
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* [Adobe Real-Time Customer Data Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}中列出的授权、产品限制和性能护栏适用于联合受众合成。
+* [Adobe Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}中列出的相关权限、产品限制和性能护栏适用于联合受众构成。
 
 <!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
 -->
