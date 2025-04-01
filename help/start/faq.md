@@ -3,9 +3,9 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 +++访问联合受众构成需要哪些权限？
 
-联合受众构成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 包。您还需要购买联合受众组合。
+联合受众构成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 包。您还需要购买联合受众构成。
 
 为了使用联合受众构成，必须将每个用户添加到为每个沙盒创建的特定轮廓中。若要了解更多信息，请参阅[访问联合受众构成](access-prerequisites.md)页面。
 
@@ -89,14 +89,14 @@ ht-degree: 91%
 
 +++
 
-+++如何使用联合受众组合创建和管理隐私请求？
++++ 如何使用联合受众构成创建和管理隐私请求？
 
-您可以通过两种方式提交单个请求，以从Adobe联合受众构成访问和删除客户数据：
+您可以通过两种方法提交单独的请求以访问和删除 Adobe 联合受众构成中的客户数据：
 
-* 通过Adobe Experience Platform **Privacy Service UI**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
-* 通过Adobe Experience Platform **Privacy Service API**。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
+* 通过 Adobe Experience Platform **Privacy Service UI**。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
+* 通过 Adobe Experience Platform **Privacy Service API**。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-创建和管理&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的所有步骤均在[实时客户配置文件文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明。
+创建和管理&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求** 的所有步骤均在 [Real-Time Customer Profile 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中有详细说明。
 
 +++
 
