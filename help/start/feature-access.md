@@ -3,7 +3,7 @@ title: 访问联合受众构成
 description: 了解联合受众组合所需的权限
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
 ht-degree: 100%
 
