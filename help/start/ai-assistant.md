@@ -1,7 +1,7 @@
 ---
 title: 使用 AI 助手
 description: 了解如何利用AI助手
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 3%
@@ -19,7 +19,7 @@ AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}中了解有关协议的更多信息。
+>在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}上了解有关协议的更多信息。
 
 在Federated Audience Composition中，您可以访问与流程各个方面相关的Adobe概念相关的产品知识问题。 此类问题的示例包括：
 

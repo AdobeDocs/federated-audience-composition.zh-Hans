@@ -3,10 +3,10 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Platform联合受众构成允许客户从第三方数据仓库构建�
 
    ![](assets/connections_name.png){zoomable="yes"}
 
-   选择其类型可让您访问要填写的其他属性。 在此处了解有关[此页面](federated-db.md)中支持的数据库的更多信息。
+   选择其类型可让您访问要填写的其他属性。 在此处了解有关[此页面](federated-db.md)上支持的数据库的更多信息。
 
    ![](assets/connections_details.png){zoomable="yes"}
 

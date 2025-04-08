@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查询建模器
 description: 了解如何使用查询建模器
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 13%
@@ -26,7 +26,7 @@ ht-degree: 13%
 | 使用情况 | 示例 |
 |  ---  |  ---  |
 | **定义受众**：指定要在合成中定位的群体，并根据您的需求轻松创建新受众。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **自定义活动**：在组合活动中应用规则（如&#x200B;**拆分**&#x200B;和&#x200B;**协调**）以符合您的特定要求。 [了解有关组合活动的更多信息](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自定义活动**：在组合活动中应用规则（如&#x200B;**拆分**&#x200B;和&#x200B;**协调**）以符合您的特定要求。 [了解有关合成活动的更多信息](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## 查询建模器接口 {#interface}
 
