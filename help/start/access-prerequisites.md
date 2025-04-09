@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 70%
+ht-degree: 86%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 70%
 
 购买联合受众构成时，您有权使用两个沙盒。对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
 
-要查看活动的联合受众构成沙盒列表，请执行以下步骤：
+要查看活跃的联合受众构成沙盒列表，请按照以下步骤操作：
 
-1. 从联合受众合成，访问&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 许可证使用情况]**&#x200B;菜单。
+1. 从联合受众构成中，访问&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 许可证使用情况]**&#x200B;菜单。
 
-1. 单击&#x200B;**[!UICONTROL 总数据输出量]**&#x200B;中的![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)图标以访问沙盒属性。
+1. 点击&#x200B;**[!UICONTROL 总数据流出量]**&#x200B;中的 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 图标，以访问您的沙盒属性。
 
    ![](assets/sandbox_1.png)
 
-1. 有关沙盒的信息显示在“属性”弹出框中。
+1. 有关您的沙盒的信息会在“属性”弹出窗口中显示。
 
    ![](assets/sandbox_2.png)
 

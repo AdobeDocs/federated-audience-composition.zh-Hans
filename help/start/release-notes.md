@@ -5,13 +5,13 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)中了解有关这些更改的详细信息。
 
 ## 2025 年 3 月版 {#fac-25-3}
 
@@ -43,7 +43,7 @@ ht-degree: 87%
 * **Databricks 连接**
 
   通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
-这包括通过专用链接与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 [了解详情](../connections/federated-db.md#databricks)
+这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/federated-db.md#databricks)
 
 * **为 B2B CDP 客户提供支持**
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 
 * **Amazon Redshift Serverless 支持**
 
-  在此新版本中，联合受众组合支持[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+  在此新版本中，联合受众组合支持[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/)。
 
 ### 改进 {#fac-24-10-improvements}
 
@@ -120,7 +120,7 @@ ht-degree: 87%
 
 ## 2024 年 7 月版本：联合受众构成 (LA) {#fac-la}
 
-联合受众构成为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。使用此新方法，作为[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"}和/或[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充Adobe Experience Platform受众。
+联合受众构成为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。使用此新方法，作为[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)和/或[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充Adobe Experience Platform受众。
 
 联合受众构成满足了企业日益增长的市场需求，企业则需要灵活地利用仓库数据集来构成受众。这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。
 
