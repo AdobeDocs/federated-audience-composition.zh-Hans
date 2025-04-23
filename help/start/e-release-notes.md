@@ -4,16 +4,44 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 90%
+source-wordcount: '969'
+ht-degree: 77%
 
 ---
 
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
+
+## 2025年4月版 {#fac-25-4}
+
+### 改进 {#fac-25-4-improvements}
+
+此版本包含以下改进。
+
+* **数据模型画布视图**
+
+  数据模型部分的画布视图通过在画布布局中在现有表格视图之外启用数据模型及其链接的可视化来改善体验。 [了解详情](../data-management/gs-models.md)
+
+* **AI 助手**
+
+  AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概念，并获得您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括联合受众合成。 [了解详情](../start/audiences.md)
+
+* **数据模型名称**
+
+  从“受众”菜单中，**Federated Compositions**&#x200B;选项卡现在显示数据模型名称而不是ID，从而提高清晰度和整体可用性。
+
+* **受众**
+
+  现在，当用户选择没有关联受众的数据模型时，“受众”菜单会显示所选数据模型的名称或标签。
+
+### 兼容性 {#fac-25-4-compat}
+
+* **Snowflake 安全连接**
+
+  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Amazon Redshift数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#amazon-redshift)
 
 ## 2025 年 3 月版 {#fac-25-3}
 
@@ -34,11 +62,11 @@ ht-degree: 90%
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### 兼容性 {#fac-25-3-compat}
 
