@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Experience Platform 联合受众构成文档](home.md)
 + [发行说明](start/release-notes.md)
 + [发行说明](start/e-release-notes.md)
-+ 开始使用联合受众构成{#start}
++ 联合受众组合入门 {#start}
    + [什么是联合受众构成](start/get-started.md)
    + [先决条件和护栏](start/access-prerequisites.md)
    + [访问联合受众构成](start/feature-access.md)
@@ -24,14 +24,15 @@ ht-degree: 100%
 + 配置步骤 {#config}
    + [创建和管理连接](connections/connections.md)
    + [配置联合数据库](connections/federated-db.md)
+   + [FDA权限矩阵](connections/fda-rights.md)
    + 数据模型和架构{#datamodel}
       + [创建和配置架构](customer/schemas.md)
       + [配置数据模型 (beta)](data-management/gs-models-beta.md)
       + [配置数据模型](data-management/gs-models.md)
    + [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
-+ 组合受众{#compositions}
++ 组合受众 {#compositions}
    + [开始使用构成](compositions/gs-compositions.md)
-   + 创建并运行您的第一构成 {#create-composition}
+   + 创建并运行您的第一个合成 {#create-composition}
       + [创建构成的主要原则](compositions/gs-composition-creation.md)
       + [创建并配置构成](compositions/create-composition.md)
       + [安排活动](compositions/orchestrate-activities.md)
@@ -50,7 +51,7 @@ ht-degree: 100%
       + [调度程序](compositions/activities/scheduler.md)
       + [拆分](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)
-+ 查询数据库 {#query-database}
++ 查询数据库  {#query-database}
    + [使用查询建模器](query/query-modeler-overview.md)
    + [生成您的第一个查询](query/build-query.md)
    + [编辑表达式](query/expression-editor.md)
