@@ -3,15 +3,15 @@ title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 常见问题解答 {#faq}
 
-以下是有关 Adobe Experience Platform 联合受众构成的常见问题列表。[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}上也提供了适用于Adobe Experience Platform分段服务的全局常见问题解答。
+以下是有关 Adobe Experience Platform 联合受众构成的常见问题列表。[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}中还提供了有关 Adobe Experience Platform 细分服务的一般常见问题解答。
 
 
 +++访问联合受众构成需要哪些权限？
@@ -24,7 +24,7 @@ ht-degree: 93%
 
 +++支持哪些云仓库？
 
-[此页面](../start/access-prerequisites.md#supported-systems)上提供了联合受众组合支持的系统列表。
+[此页面](../start/access-prerequisites.md#supported-systems)提供了联合受众构成支持的系统列表。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 93%
 例如：
 
 * 对于受众创建，受众是在您的仓库中创建的，您可以使用联合受众构成执行其他构成任务和数据操作，然后通过 Adobe Experience Platform 众门户中发布生成的受众和相关属性。受众定义和相关属性都转移到了 Adobe Experience Platform。
-请注意，外部生成的受众的当前数据有效期限为 30 天。数据过期会减少组织内存储的多余数据量。数据过期期限过后，关联的数据集仍然在数据集库存中可见，但您无法激活受众，并且轮廓计数将显示为零。请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}以了解详情。
+请注意，外部生成的受众的当前数据有效期限为 30 天。数据过期会减少组织内存储的多余数据量。数据过期期限过后，关联的数据集仍然在数据集库存中可见，但您无法激活受众，并且轮廓计数将显示为零。在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}中了解详情。
 
 * 对于受众扩充而言，起点是现有的 Adobe Experience Platform 受众。这里可以看到两种情况：
    1. 从联合数据仓库中获取额外的受众负载属性：在这种情况下，所添加的额外属性将会作为此受众定义的一部分出现。外部生成的受众的数据有效期限与上面描述的相同，为 30 天。
@@ -96,7 +96,7 @@ ht-degree: 93%
 * 通过 Adobe Experience Platform **Privacy Service UI**。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
 * 通过 Adobe Experience Platform **Privacy Service API**。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-创建和管理&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的所有步骤均在[实时客户配置文件文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明。
+[实时客户轮廓文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明了创建和管理&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的所有步骤。
 
 +++
 

@@ -4,9 +4,9 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Experience Platform 联合受众构成允许客户从第三方数据仓库构建和扩充受众，并将受众导入到 Adobe Experience Platform 中。
 
-了解如何在[此页面](connections.md)上创建、配置、测试和保存与外部数据库的连接。 您可以在下面找到受支持的数据库列表以及每个数据库需要配置的详细设置。
+在[此页面](connections.md)中了解如何创建、配置、测试和保存与外部数据库的连接。您可以在下面找到受支持的数据库列表以及每个数据库需要配置的详细设置。
 
 ## 支持的数据库 {#supported-db}
 
@@ -73,7 +73,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 数据库]**：数据库的名称（如果未在 DSN 中指定）。如果已在 DSN 中指定，则可以将其留空
 
-   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。请参阅[Amazon文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}以了解详情
+   * **[!UICONTROL 工作架构]**：用于工作表的数据库架构的名称。请在 [Amazon 文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}中了解详情
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 | 选项 | 描述 |
 |---|---|
-| 身份验证 | 连接器支持的身份验证类型。当前支持的值：ActiveDirectoryMSI。有关详细信息，请参阅[Microsoft SQL文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（连接字符串n°8示例） |
+| 身份验证 | 连接器支持的身份验证类型。当前支持的值：ActiveDirectoryMSI。有关详细信息，请参阅 [Microsoft SQL 文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（示例连接字符串 n°8） |
 
 ## Google Big Query {#google-big-query}
 
@@ -145,7 +145,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
    * **[!UICONTROL 服务帐户]**：输入您的电子邮件&#x200B;**[!UICONTROL 服务帐户]**。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 项目]**：输入您的&#x200B;**[!UICONTROL 项目]** 的 ID。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
+   * **[!UICONTROL 项目]**：输入您的&#x200B;**[!UICONTROL 项目]**&#x200B;的 ID。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
    * **[!UICONTROL 数据集]**：输入您的&#x200B;**[!UICONTROL 数据集]**&#x200B;的名称。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 
@@ -226,11 +226,11 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 |---|---|
 | workschema | 用于工作表的数据库架构 |
 | 仓库 | 默认使用的数据仓库名称。它将会覆盖用户的默认值。 |
-| TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。<br>有关此内容的详细信息，请参阅[此页面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
-| WeekStart | WEEK_START 会话参数。默认设置为 0。<br>有关此内容的详细信息，请参阅[此页面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
-| UseCachedResult | USE_CACHED_RESULTS 会话参数。默认设置为真。此选项可用于禁用 Snowflake 缓存结果。<br>有关此内容的详细信息，请参阅[此页面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |
+| TimeZoneName | 默认为空，表示使用的是应用程序服务器的系统时区。该选项可用于强制使用 TIMEZONE 会话参数。<br>有关详细信息，请参阅[此页面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
+| WeekStart | WEEK_START 会话参数。默认设置为 0。<br>有关详细信息，请参阅[此页面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
+| UseCachedResult | USE_CACHED_RESULTS 会话参数。默认设置为真。此选项可用于禁用 Snowflake 缓存结果。<br>有关详细信息，请参阅[此页面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |
 | bulkThreads | 用于 Snowflake 批量加载器的线程数，线程越多，对于更大的批量加载，性能就越好。默认设置为 1。可以根据机器线程数调整数量。 |
-| chunkSize | 确定批量加载器块的文件大小。默认设置为 128MB。与 bulkThreads 一起使用时，可以进行修改，以获得更优化的性能。更多并发活动线程意味着性能更佳。<br>有关此类内容的更多信息，请参阅[Snowflake文档](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
+| chunkSize | 确定批量加载器块的文件大小。默认设置为 128MB。与 bulkThreads 一起使用时，可以进行修改，以获得更优化的性能。更多并发活动线程意味着性能更佳。<br>有关详细信息，请参阅 [Snowflake 文档](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
 | StageName | 预配置内部阶段的名称。它将会用于批量加载，而不是创建新的临时阶段。 |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 | 选项 | 描述 |
 |---|---|
-| 身份验证 | 连接器支持的身份验证类型。当前支持的值：ActiveDirectoryMSI。有关详细信息，请参阅[Microsoft SQL文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（连接字符串n°8示例） |
+| 身份验证 | 连接器支持的身份验证类型。当前支持的值：ActiveDirectoryMSI。有关详细信息，请参阅 [Microsoft SQL 文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（示例连接字符串 n°8） |
 

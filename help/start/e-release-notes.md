@@ -5,17 +5,17 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2025年4月版 {#fac-25-4}
+## 2025 年 4 月版本 {#fac-25-4}
 
 ### 改进 {#fac-25-4-improvements}
 
@@ -23,27 +23,27 @@ ht-degree: 77%
 
 * **数据模型画布视图**
 
-  数据模型部分的画布视图通过在画布布局中在现有表格视图之外启用数据模型及其链接的可视化来改善体验。 [了解详情](../data-management/gs-models.md)
+  数据模型部分的画布视图在画布布局中使用数据模型的可视化图表、数据模型的链接以及现有的表格视图，从而改进了使用体验。[了解详情](../data-management/gs-models.md)
 
 * **AI 助手**
 
-  AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概念，并获得您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括联合受众合成。 [了解详情](../start/audiences.md)
+  AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。[了解详情](../start/audiences.md)
 
 * **数据模型名称**
 
-  从“受众”菜单中，**Federated Compositions**&#x200B;选项卡现在显示数据模型名称而不是ID，从而提高清晰度和整体可用性。
+  在“受众”菜单中，**联合构成**&#x200B;选项卡现在显示数据模型名称而不是 ID，从而提高了清晰度和整体可用性。
 
 * **受众**
 
-  现在，当用户选择没有关联受众的数据模型时，“受众”菜单会显示所选数据模型的名称或标签。
+  当用户选择没有关联任何受众的数据模型时，受众菜单现在会显示所选数据模型的名称或标签。
 
 ### 兼容性 {#fac-25-4-compat}
 
 * **Snowflake 安全连接**
 
-  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Amazon Redshift数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#amazon-redshift)
+  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Amazon Redshift 数据库建立安全的私有链接连接。[了解详情](../connections/federated-db.md#amazon-redshift)
 
-## 2025 年 3 月版 {#fac-25-3}
+## 2025 年 3 月版本 {#fac-25-3}
 
 ### 改进 {#fac-25-3-improvements}
 
@@ -134,7 +134,7 @@ ht-degree: 77%
 
 * **Amazon Redshift Serverless 支持**
 
-  在此新版本中，联合受众组合支持[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+  通过此新版本，联合受众构成支持 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
 ### 改进 {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ ht-degree: 77%
 
 ## 2024 年 7 月版本：联合受众构成 (LA) {#fac-la}
 
-联合受众构成为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。使用此新方法，作为[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"}和/或[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充Adobe Experience Platform受众。
+联合受众构成为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
 
 联合受众构成满足了企业日益增长的市场需求，企业则需要灵活地利用仓库数据集来构成受众。这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。
 
-在[此页面](get-started.md)和[常见问题解答](faq.md)中了解有关联合受众组合功能的更多信息。
+要了解有关联合受众构成功能方面的更多信息，请参阅[此页面](get-started.md)以及[常见问题解答](faq.md)。
 
-有关访问联合受众构成的先决条件和当前护栏的详细信息，请参阅[该页面](access-prerequisites.md)。
+有关访问联合受众构成的先决条件和当前护栏的详细信息，请参阅[此页面](access-prerequisites.md)。

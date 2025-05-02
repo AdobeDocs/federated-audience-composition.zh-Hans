@@ -1,25 +1,25 @@
 ---
-title: 使用AI助手
-description: 了解如何利用AI助手
+title: 使用 AI 助手
+description: 了解如何使用 AI 助手
 source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# 使用AI助手 {#ai-assistant}
+# 使用 AI 助手 {#ai-assistant}
 
-AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概念，并获得您特定环境的操作见解。 在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。
+AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。
 
-要访问AI助手，请单击顶部栏上的图标。 AI助手将显示在屏幕的右侧部分。
+要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}上了解有关协议的更多信息。
+>您必须同意 Adobe Experience Cloud 生成式 AI 用户指南，然后才能使用 AI 助手。在[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中详细了解该协议。
 
 在联合受众构成中，您可以访问与该流程各个方面相关的 Adobe 概念的产品知识问题。此类问题的示例包括：
 
@@ -39,4 +39,4 @@ AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概
 
 1. 使用点赞或点踩来评价回答。
 
-要了解如何使用AI Assistant，请查看可以使用AI Assistant实现的示例目标，并了解AI Assistant的工作方式，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
+要了解如何使用 AI 助手，请查看使用 AI 助手可实现的目标示例，要了解 AI 助手如何工作，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
