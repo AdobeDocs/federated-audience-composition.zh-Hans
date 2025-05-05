@@ -89,7 +89,7 @@ ht-degree: 83%
 * **保存受众活动**
 
   已向&#x200B;**保存受众**&#x200B;活动添加注释，提醒用户与数据管理员协作，以将治理标签应用于在受众创建和扩充期间创建的新架构和数据集。
-  [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
 

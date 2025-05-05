@@ -38,11 +38,11 @@ ht-degree: 28%
 
 此活动主要用于通过将同一构成中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，如&#x200B;**构建受众**&#x200B;或&#x200B;**合并**&#x200B;活动。
 
-**[!UICONTROL 保存受众]**&#x200B;活动会生成新的受众架构和数据集。 创建受众后，请与管理员协调以分配适当的数据治理标签。 [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+**[!UICONTROL 保存受众]**&#x200B;活动会生成新的受众架构和数据集。 创建受众后，请与管理员协调以分配适当的数据治理标签。 [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->**保存受众**&#x200B;活动需要启用配置文件的架构和数据集。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+>**保存受众**&#x200B;活动需要启用配置文件的架构和数据集。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 
 ## 配置保存受众活动 {#save-audience-configuration}
 
