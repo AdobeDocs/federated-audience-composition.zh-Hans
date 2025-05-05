@@ -6,7 +6,7 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
 source-wordcount: '923'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
->title="“拆分”活动"
+>title="拆分活动"
 >abstract="通过&#x200B;**拆分**&#x200B;活动，可根据不同的选择标准（如筛选规则或群体大小）将传入的群体分为多个子集。"
 
 通过&#x200B;**拆分**&#x200B;活动，可根据不同的选择标准（如筛选规则或群体大小）将传入的群体分为多个子集。
 
-## 配置“拆分”活动 {#split-configuration}
+## 配置拆分活动 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
@@ -28,17 +28,17 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
->title="“拆分”活动筛选条件"
+>title="拆分活动筛选条件"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
->title="“拆分”活动限制"
+>title="拆分活动限制"
 >abstract="要限制子集选择的轮廓数，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包括的群体的数量或百分比。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
->title="“拆分”活动排序"
+>title="拆分活动排序"
 >abstract="在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。"
 
 >[!CONTEXTUALHELP]
@@ -69,7 +69,7 @@ ht-degree: 75%
 
    >[!IMPORTANT]
    >
-   >执行&#x200B;**拆分**&#x200B;活动时，将按填充添加到该活动的顺序跨不同的子集进行分段。 例如，如果第一个子集恢复初始群体的 70%，则下一个添加的子集仅将其选择标准应用于剩余的 30%，依此类推。
+   >执行&#x200B;**拆分**&#x200B;活动时，群体按照被添加到该活动的顺序被划分为不同的子集。例如，如果第一个子集恢复初始群体的 70%，则下一个添加的子集仅将其选择标准应用于剩余的 30%，依此类推。
    >
    >在开始合成之前，请确保已按照适合您需求的顺序对子集进行了排序。 要实现此目的，请使用箭头按钮更改子集的位置。
 

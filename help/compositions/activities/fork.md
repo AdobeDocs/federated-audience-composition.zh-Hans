@@ -14,12 +14,12 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
->title="“分叉”活动"
+>title="分叉活动"
 >abstract="利用&#x200B;**分叉**&#x200B;活动，可创建叫客过渡以同时开始若干活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
->title="“分叉”活动过渡"
+>title="分叉活动过渡"
 >abstract="默认情况下，使用&#x200B;**分叉**&#x200B;活动创建两个过渡。单击&#x200B;**添加过渡**&#x200B;按钮以定义其他叫客过渡并输入其标签。"
 
 利用&#x200B;**分叉**&#x200B;活动，可创建叫客过渡以同时开始若干活动。

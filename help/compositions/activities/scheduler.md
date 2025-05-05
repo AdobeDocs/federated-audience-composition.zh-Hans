@@ -23,7 +23,7 @@ ht-degree: 29%
 
 ![](../assets/scheduler.png)
 
-## 配置”调度程序“活动 {#scheduler-configuration}
+## 配置调度程序活动 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_validity"
