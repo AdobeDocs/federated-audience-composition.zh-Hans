@@ -2,53 +2,32 @@
 audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
+badge: label="Beta 版" type="Informative"
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 15%
+source-wordcount: '661'
+ht-degree: 2%
 
 ---
 
-# 开始使用数据模型 {#data-model}
+# 开始使用数据模型 {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="使用模型"
->abstract="此屏幕列出了架构和数据模型。您可以通过&#x200B;**创建**&#x200B;按钮创建架构和数据模型。"
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="选择架构"
->abstract="选择数据模型的架构。"
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="选择受众"
->abstract="选择数据模型的受众。"
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="数据模型属性"
->abstract="输入数据模型的标签。"
-
+>[!AVAILABILITY]
+>
+>带有画布视图的数据模型目前仅作为测试版提供给部分用户。
 
 ## 什么是数据模型 {#data-model-start}
 
 数据模型是一组架构、受众以及它们之间的链接。 它用于将受众与数据库数据联合起来。
 
-了解有关[架构](../customer/schemas.md#schema-start)的更多信息。
+在联合受众构成中，您可以直接在画布视图中创建和管理数据模型。 这包括添加架构和受众，以及根据用例定义它们之间的链接。
 
-了解有关[受众](../start/audiences.md)的更多信息。
+了解有关[架构](../customer/schemas.md#schema-start)和[受众](../start/audiences.md)的更多信息。
 
-例如，您可以在下方看到数据模型的表示形式：表及其名称和它们之间的链接。
+例如，您可以在下文中看到数据模型的表示形式：具有其名称的表以及它们之间的链接。
 
 ![](assets/datamodel.png){zoomable="yes"}
-
-在联合受众组合中，可以创建许多数据模型。
-
-将根据用例创建这些表：您选择必要的表，并根据需要链接这些表。
 
 ## 创建数据模型 {#data-model-create}
 
@@ -74,7 +53,11 @@ ht-degree: 15%
 
 ## 创建链接 {#data-model-links}
 
-要在数据模型的表之间创建链接，请执行以下步骤：
+>[!BEGINTABS]
+
+>[!TAB 表视图]
+
+要从“表”视图选项卡创建数据模型的表之间的链接，请执行以下步骤：
 
 1. 单击其中一个表的&#x200B;**[!UICONTROL 创建链接]**&#x200B;菜单，或单击&#x200B;**[!UICONTROL 创建链接]**&#x200B;按钮，然后选择2个表：
 
@@ -95,6 +78,45 @@ ht-degree: 15%
 为数据模型定义的所有链接如下所示：
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB 画布视图]
+
+要从“画布视图”选项卡创建数据模型表之间的链接，请执行以下步骤：
+
+1. 访问数据模型的“画布”视图，然后选择要链接的两个表
+
+1. 单击Source联接旁边的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按钮，然后拖动箭头并引导至Target联接以建立连接。
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. 填写给定表单以定义链接，配置完毕后单击&#x200B;**[!UICONTROL 应用]**。
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **基数**
+
+   * **1-N**：源表格的一个存在可以拥有目标表格的多个对应存在，但目标表格的一个存在最多可以拥有源表格的一个对应存在。
+
+   * **N-1**：目标表的一个存在可以具有源表的多个对应存在，但源表的一个存在最多可以具有目标表的一个对应存在。
+
+   * **1-1**：源表格的一个存在最多可以具有目标表格的一个对应存在。
+
+1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要删除链接。
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. 使用工具栏自定义和调整画布。
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL 放大]**：放大画布以更清楚地查看数据模型的详细信息。
+   * **[!UICONTROL 缩小]**：缩小画布大小，以便更全面地查看数据模型。
+   * **[!UICONTROL 适合视图]**：调整缩放以适合可见区域中的所有架构和/或受众。
+   * **[!UICONTROL 切换交互]**：启用或禁用用户与画布的交互。
+   * **[!UICONTROL 筛选器]**：选择要在画布中显示的架构。
+   * **[!UICONTROL 强制自动布局]**：自动排列架构和/或受众以更好地进行组织。
+
+>[!ENDTABS]
 
 ## 操作方法视频 {#data-model-video}
 

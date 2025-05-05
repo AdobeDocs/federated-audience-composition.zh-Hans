@@ -4,9 +4,9 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: ht
-source-wordcount: '969'
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '980'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 * **Databricks 连接**
 
   通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
-它还支持与 Amazon Web Services (AWS) 上托管的 Databricks 数据库的安全连接。[了解详情](../connections/federated-db.md#databricks)
+这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/federated-db.md#databricks)
 
 * **为 B2B CDP 客户提供支持**
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 使用活动
 description: 了解如何使用活动
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 16%
@@ -31,7 +31,7 @@ ht-degree: 16%
 ## 流量控制活动
 
 * [AND-join](and-join.md)：同步组合的多个执行分支。
-* **结束** ：以图形方式标记撰写的结束。 此活动没有功能影响，因此是可选的。
+* **结束**：以图形方式标记合成结束。 此活动无功能性影响，因此为可选活动。
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
 * [计划程序](scheduler.md)：计划何时开始合成。
 * [等待](wait.md)：暂时暂停执行部分合成。

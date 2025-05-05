@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 84%
+source-wordcount: '161'
+ht-degree: 83%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 84%
    + [先决条件和护栏](start/access-prerequisites.md)
    + [访问联合受众构成](start/feature-access.md)
    + [使用受众](start/audiences.md)
+   + [使用 AI 助手](start/ai-assistant.md)
    + [常见问题解答](start/faq.md)
 + 配置步骤 {#config}
    + [创建和管理连接](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 84%
    + [FDA权限矩阵](connections/fda-rights.md)
    + 数据模型和架构{#datamodel}
       + [创建和配置架构](customer/schemas.md)
-      + [配置数据模型 (beta)](data-management/gs-models-beta.md)
       + [配置数据模型](data-management/gs-models.md)
    + [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
 + 组合受众 {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 84%
       + [分叉](compositions/activities/fork.md)
       + [协调](compositions/activities/reconciliation.md)
       + [保存受众](compositions/activities/save-audience.md)
+      + [保存配置文件](compositions/activities/save-profiles.md)
       + [调度程序](compositions/activities/scheduler.md)
       + [拆分](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)

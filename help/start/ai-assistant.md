@@ -1,33 +1,36 @@
 ---
 title: 使用 AI 助手
 description: 了解如何使用 AI 助手
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 46%
 
 ---
 
 # 使用 AI 助手 {#ai-assistant}
 
-AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。
-
-要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
-
-![](assets/do-not-localize/ai-assistant-open.png)
-
+AI Assistant是一项用户界面功能，旨在帮助您导航和了解Adobe概念。 它可用于Adobe Experience Cloud中多个产品的产品知识用例，包括联合受众构成。
 
 >[!CAUTION]
 >
 >您必须同意 Adobe Experience Cloud 生成式 AI 用户指南，然后才能使用 AI 助手。在[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中详细了解该协议。
 
-在联合受众构成中，您可以访问与该流程各个方面相关的 Adobe 概念的产品知识问题。此类问题的示例包括：
+在联合受众构成中，您可以访问产品知识，以了解与流程各个部分相关的Adobe概念。 AI Assistant支持两种类型的产品知识：**开放式发现**(浏览基于Experience League文档的产品概念)和&#x200B;**有针对性的学习和故障排除**（询问有关特定特性或功能的问题）。
 
-* 在 Snowflake 和 Adobe Experience Platform 之间建立联合连接需要哪些配置设置？
-* 如何在联合受众构成中设置构成？
-* 如何使用 Query Modeler 中的预定义过滤器来细化我的受众选择？
+此类问题的示例包括：
+
+* 什么是联合受众构成？
+* 如何配置Snowflake联合数据库帐户？
+* 如何创建联合合成？
 
 要咨询问题，请执行以下操作：
+
+1. 通过单击顶部栏上的图标访问AI助手。
+
+   AI助手将显示在屏幕的右侧部分。 您可以单击![潜水图像替换文本](assets/do-not-localize/Smock_FullScreen_18_N.svg "展开")以展开AI助手窗口。
+
+   ![](assets/do-not-localize/ai-assistant-open.png)
 
 1. 将其输入到屏幕底部的字段中，然后按回车键。
 

@@ -2,10 +2,10 @@
 title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 92%
 
 ---
 
@@ -66,6 +66,6 @@ ht-degree: 100%
 
 * [Adobe Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}中列出的相关权限、产品限制和性能护栏适用于联合受众构成。
 
-<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
--->
+* 联合受众组合支持导出文件大小大于1 GB的大型受众。 为获得最佳性能，建议的最大文件大小为20 GB。
+
 

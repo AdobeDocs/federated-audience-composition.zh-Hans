@@ -2,10 +2,10 @@
 title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 1. 受众创建：无需复制基础数据，即可从企业数据集构建新的受众，并使用预先构建的目标激活这些受众。&#x200B;
 
 1. 受众扩充：利用从企业数据仓库联合而来的受众数据来扩充 Adobe Experience Platform 中的现有受众。该数据不会保留在 Adobe Experience Platform 客户轮廓中。
+
+1. 配置文件扩充：通过联合来自外部仓库的数据，丰富Adobe Experience Platform配置文件，允许您通过其他属性和见解增强客户配置文件。
 
 ![图表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 >title="选择目标市场选择维度"
 >abstract="通过目标市场选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="保存轮廓"
->abstract="保存轮廓"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="保存轮廓 AEP 架构列表"
->abstract="保存轮廓 AEP 架构列表"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="保存轮廓 AEP 架构属性"
->abstract="保存轮廓 AEP 架构属性"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="选择主要标识字段"
->abstract="用于轮廓的主要标识字段。"
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP 数据集"
->abstract="选择用于轮廓的 AEP 数据集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="保存轮廓选择 AEP 架构"
->abstract="选择用于轮廓的 AEP 架构。"

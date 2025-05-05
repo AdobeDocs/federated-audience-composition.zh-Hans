@@ -3,9 +3,9 @@ audience: end-user
 title: 使用协调活动
 description: 了解如何使用协调活动
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 39%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 39%
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 
    1. 要使用属性协调数据，请选择&#x200B;**简单属性**&#x200B;选项，然后单击&#x200B;**添加规则**&#x200B;按钮。
-   1. 为协调选择&#x200B;**Source**&#x200B;和&#x200B;**目标**&#x200B;字段。 **Source**&#x200B;字段。 **目标**&#x200B;字段对应于所选架构的字段。
+   1. 为协调选择&#x200B;**Source**&#x200B;和&#x200B;**目标**&#x200B;字段。 **目标**&#x200B;字段对应于所选架构的字段。
 
       当源和目标相等时，将协调数据。 例如，选择&#x200B;**电子邮件**&#x200B;字段，以根据用户档案的电子邮件地址删除重复的用户档案。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 审核记录
 description: 了解如何在审核记录中记录并访问操作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%
@@ -56,8 +56,8 @@ ht-degree: 12%
 
 1. **[!UICONTROL 审核实体]**&#x200B;窗口为您提供有关所选实体的更多详细信息，例如：
 
-   * **[!UICONTROL 类型]** ：工作流、选项、投放或架构。
-   * **[!UICONTROL 实体]** ：活动的内部名称。
-   * **[!UICONTROL 修改者]** ：上次修改此实体的人员的用户名。
-   * **[!UICONTROL 操作]** ：对此实体执行的最后一个操作，已创建、已修改或已删除。
-   * **[!UICONTROL 修改日期]** ：对此实体执行的上次操作的日期。
+   * **[!UICONTROL 类型]**：工作流、选项、投放或架构。
+   * **[!UICONTROL 实体]**：活动的内部名称。
+   * **[!UICONTROL 修改者]**：上次修改此实体的人员的用户名。
+   * **[!UICONTROL 操作]**：对此实体执行的最后一个操作，已创建、已修改或已删除。
+   * **[!UICONTROL 修改日期]**：对此实体执行的上次操作的日期。

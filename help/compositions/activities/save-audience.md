@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 31%
+source-wordcount: '508'
+ht-degree: 28%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 31%
 利用&#x200B;**保存受众**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 
 此活动主要用于通过将同一构成中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，如&#x200B;**构建受众**&#x200B;或&#x200B;**合并**&#x200B;活动。
+
+**[!UICONTROL 保存受众]**&#x200B;活动会生成新的受众架构和数据集。 创建受众后，请与管理员协调以分配适当的数据治理标签。 [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
@@ -71,7 +73,7 @@ ht-degree: 31%
 
 创建的受众包含“受众映射”部分中选择的所有字段。 您可以在Journey Optimizer中定位此受众，或将其激活到Adobe Experience Platform支持的任何目标。
 
-[在Adobe Experience Platform文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
