@@ -3,15 +3,15 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025 年 4 月版本 {#fac-25-4}
 
@@ -20,14 +20,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>数据模型画布视图 — Beta</strong><br/></th>
+<th><strong>数据模型画布视图 - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>数据模型部分的画布视图通过在画布布局中在现有表格视图之外启用数据模型及其链接的可视化来改善体验。 </p>
-<p>带有画布视图的数据模型目前仅作为测试版提供给部分用户。</p>
+<p>数据模型部分的画布视图在画布布局中使用数据模型的可视化图表、数据模型的链接以及现有的表格视图，从而改进了使用体验。 </p>
+<p>带有画布视图的数据模型目前仅供部分用户作为 Beta 版使用。</p>
 <p>有关更多信息，请参阅<a href="../data-management/gs-models.md">详细文档</a>。</p>
 </br>
 </td>
@@ -38,7 +38,7 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>产品知识的AI助手支持</strong><br/></th>
+<th><strong>产品知识的 AI 助手支持</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -55,13 +55,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>保存用户档案活动</strong><br/></th>
+<th><strong>保存轮廓活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 联合受众构成现在支持用户档案扩充用例，允许客户使用其外部数据仓库中的数据增强现有Experience Platform用户档案。
+<p> 联合受众构成现在支持轮廓扩充用例，允许客户使用来自其外部数据仓库的数据来增强现有的体验平台轮廓。
 </p>
 <p>有关更多信息，请参阅<a href="../compositions/activities/save-profiles.md">详细文档</a>。</p>
 </br>
@@ -84,22 +84,22 @@ ht-degree: 83%
 
 * **大型受众导出**
 
-  联合受众构成现在支持导出文件大小大于1 GB的大型受众。
+  联合受众构成现在支持导出大型受众，文件大小可超过 1GB。
 
 * **保存受众活动**
 
-  已向&#x200B;**保存受众**&#x200B;活动添加注释，提醒用户与数据管理员协作，以将治理标签应用于在受众创建和扩充期间创建的新架构和数据集。
-  [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
 
-* **Amazon Redshift安全连接**
+* **Amazon Redshift 安全连接**
 
-  在此新版本中，联合受众组合支持到Amazon Redshift数据库的安全专用链接连接。 [了解详情](../connections/federated-db.md#amazon-redshift)
+  这个新版本的联合受众构成支持与 Amazon Redshift 数据库建立安全的专用链接连接。[了解详情](../connections/federated-db.md#amazon-redshift)
 
 * **Google Big Query**
 
-  在此新版本中，联合受众组合支持到Google Big Query数据库的安全VPN连接。 [了解详情](../connections/federated-db.md#google-big-query)
+  这个新版本的联合受众构成支持与 Google Big Query 数据库建立安全的 VPN 连接。[了解详情](../connections/federated-db.md#google-big-query)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 

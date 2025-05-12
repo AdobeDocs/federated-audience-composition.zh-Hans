@@ -3,9 +3,9 @@ title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 1. 受众扩充：利用从企业数据仓库联合而来的受众数据来扩充 Adobe Experience Platform 中的现有受众。该数据不会保留在 Adobe Experience Platform 客户轮廓中。
 
-1. 配置文件扩充：通过联合来自外部仓库的数据，丰富Adobe Experience Platform配置文件，允许您通过其他属性和见解增强客户配置文件。
+1. 轮廓扩充：通过联合来自外部仓库的数据来扩充 Adobe Experience Platform 轮廓，您就能够使用附加属性和见解来增强客户轮廓。
 
 ![图表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

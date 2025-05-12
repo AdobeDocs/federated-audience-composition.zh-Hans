@@ -4,9 +4,9 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 >
 >* 仅支持 Amazon Redshift AWS、Amazon Redshift Spectrum 和 Amazon Redshift Serverless。
 >
->* 支持通过专用链接安全访问外部Amazon Redshift数据库。
+>* 支持通过专用链接安全访问您的外部 Amazon Redshift 数据库。
 
 使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Amazon Redshift 的访问权限。
 
