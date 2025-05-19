@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="审核记录"
->abstract="审核记录功能可实时按时间顺序详细记录对 Adobe Experience Platform 联合受众环境执行的所有操作和事件。"
+>abstract="审核记录功能可实时按时间顺序详细记录对 Adobe Experience Platform 联合受众构成环境执行的所有操作和事件。"
 
 **[!UICONTROL 审核跟踪]**&#x200B;功能会持续实时记录在Adobe联合构成实例中发生的操作和事件的详细日志。 它提供了一种方便的方法来访问按时间顺序排列的数据记录，从而解决各种查询，例如：工作流的状态、要修改它们的最新个人，或用户在实例中执行的活动。
 

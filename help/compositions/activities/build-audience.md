@@ -14,15 +14,15 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
->title="“构建受众”活动"
->abstract="通过&#x200B;**构建受众**&#x200B;活动，可定义将进入构成的受众。"
+>title="“生成受众”活动"
+>abstract="通过&#x200B;**生成受众**&#x200B;活动，可定义将进入构成的受众。"
 
 **构建受众**&#x200B;活动允许您定义将进入构成的受众。 要定义受众群体，您可以：
 
 * 选择现有Adobe Experience Platform受众。
 * 通过定义和组合筛选条件使用查询建模器创建新受众。
 
-## 配置“构建受众”活动 {#build-audience-configuration}
+## 配置生成受众活动 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"

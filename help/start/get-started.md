@@ -3,7 +3,7 @@ title: 开始使用 Experience Platform 联合受众构成
 description: 了解什么是 Adobe 联合受众构成以及如何在 Adobe Experience Platform 中使用它
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -142,6 +142,6 @@ Adobe 联合受众构成可帮助 Adobe Experience Platform 应用程序用户�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
->title="选择目标市场选择维度"
->abstract="通过目标市场选择维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
+>title="选择定位维度"
+>abstract="通过定位维度，可定义操作面向的群体：收件人、合同受益人、操作人员、订阅者等。默认情况下，对于电子邮件和 SMS，目标是在收件人内置表中进行选择的。对于推送通知，默认目标维度是订阅者应用程序。"
 

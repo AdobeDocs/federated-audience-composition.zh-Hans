@@ -2,34 +2,35 @@
 audience: end-user
 title: 使用保存用户档案活动
 description: 了解如何使用保存配置文件活动
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
-# 保存配置文件 {#save-profile}
+# 保存轮廓 {#save-profile}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="保存个人资料"
->abstract="利用保存用户档案活动，可通过联合来自外部仓库的数据来扩充Experience Platform用户档案，从而可通过附加属性增强客户用户档案。 "
+>title="保存轮廓"
+>abstract="保存轮廓活动允许您通过联合来自外部仓库的数据来扩充 Experience Platform 轮廓，您就能够使用附加属性来增强客户轮廓。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="选择AEP架构"
->abstract="为配置文件选择Experience Platform架构。"
+>title="选择 AEP 模式"
+>abstract="为轮廓选择 Experience Platform 架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="选择主要标识字段"
->abstract="选择用于标识数据库中目标用户档案的主标识。"
+>abstract="选择用于识别数据库中目标轮廓的主要标识。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="选择AEP架构"
->abstract="为配置文件选择Experience Platform架构。"
+>title="选择 AEP 模式"
+>abstract="为轮廓选择 Experience Platform 架构。"
 
 利用&#x200B;**保存配置文件**&#x200B;活动，可使用从外部仓库联合的数据扩充Adobe Experience Platform配置文件。
 

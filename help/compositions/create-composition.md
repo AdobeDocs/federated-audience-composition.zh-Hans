@@ -41,7 +41,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="构成分段"
->abstract="通过默认，仅保留最后一次构成执行的工作表。您可以启用此选项来保留工作表以供测试目的。它必须 **仅** 在开发或登台环境中使用。绝不能在生产环境中检查它。"
+>abstract="通过默认，仅保留最后一次构成执行的工作表。您可以启用此选项来保留工作表以供测试目的。它必须 **仅** 在开发或暂存环境中使用。绝不能在生产环境中检查它。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"

@@ -6,7 +6,7 @@ exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="查询建模器"
->abstract="为收件人或数据库中的任何其他架构（也称为目标市场选择维度）定义过滤条件。"
+>abstract="为收件人或数据库中的任何其他架构（也称为定位维度）定义筛选条件。"
 
 查询建模器简化了根据各种条件筛选数据库的过程。 此外，查询建模器可以高效地管理非常复杂和长的查询，提供增强的灵活性和精确度。 此外，它支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 
@@ -28,7 +28,7 @@ ht-degree: 13%
 | **定义受众**：指定要在合成中定位的群体，并根据您的需求轻松创建新受众。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **自定义活动**：在组合活动中应用规则（如&#x200B;**拆分**&#x200B;和&#x200B;**协调**）以符合您的特定要求。 [了解有关合成活动的更多信息](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-## 查询建模器接口 {#interface}
+## 查询建模器界面 {#interface}
 
 查询建模器提供了一个中央画布，您可以在其中构建查询，以及一个右窗格，提供有关查询的信息。
 

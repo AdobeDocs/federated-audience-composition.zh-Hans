@@ -43,22 +43,22 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="架构"
->abstract="选择要应用于数据的新架构。通过架构（也称为目标市场选择维度）可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择构成当前架构。"
+>abstract="选择要应用于数据的新架构。通过架构（也称为定位维度）可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择构成当前架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
->title="选择目标市场选择维度"
->abstract="选择要协调的入站数据的架构，也称为目标市场选择维度。"
+>title="选择定位维度"
+>abstract="选择要协调的入站数据的架构，也称为定位维度。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未调节的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
+>abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
