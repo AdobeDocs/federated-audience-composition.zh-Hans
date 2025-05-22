@@ -2,16 +2,48 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 93%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
+
+## 2025年5月版 {#fac-25-5}
+
+### 新功能 {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>数据模型画布视图 — 正式发布</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>具有画布视图的数据模型现在可供所有客户使用！</p>
+<p>数据模型部分的画布视图在画布布局中使用数据模型的可视化图表、数据模型的链接以及现有的表格视图，从而改进了使用体验。 </p>
+<p>有关画布视图的详细信息，请阅读<a href="../data-management/gs-models.md">数据模型概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-5-improvements}
+
+此版本附带以下改进。
+
+* **基于角色的访问控制**
+
+  从5月版本开始，[!DNL Federated Audience Composition]支持访问控制的新粒度权限。 用户可以将这些权限分配给用户角色，以便更精确地访问[!DNL Federated Audience Composition]。
+
+  要了解有关新权限的更多信息，请参阅[联合受众组合访问指南](feature-access.md)。
 
 ## 2025 年 4 月版本 {#fac-25-4}
 

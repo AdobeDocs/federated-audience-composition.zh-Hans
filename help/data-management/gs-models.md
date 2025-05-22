@@ -2,20 +2,25 @@
 audience: end-user
 title: 开始使用数据模型
 description: 了解如何开始使用数据模型
-badge: label="Beta 版" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
+
 
 # 开始使用数据模型 {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->带有画布视图的数据模型目前仅作为测试版提供给部分用户。
+>要访问数据模型，您需要以下权限之一：
+>
+>-**管理联合数据模型**
+>-**查看联合数据模型**
+>
+>有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
 
 ## 什么是数据模型 {#data-model-start}
 
@@ -45,7 +50,9 @@ ht-degree: 2%
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 添加受众]**&#x200B;以定义目标组。
+1. 此外，您还可以将受众添加到数据模型。 选择&#x200B;**[!UICONTROL 添加受众]**&#x200B;以定义目标组。
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. 在数据模型中的表之间建立连接，以确保准确的数据关系。 [了解详情](#data-model-links)
 

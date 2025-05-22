@@ -3,14 +3,23 @@ audience: end-user
 title: 开始使用构成
 description: 了解如何开始使用构成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
 # 开始使用构成 {#compositions}
+
+>[!AVAILABILITY]
+>
+>要访问合成，您需要以下权限之一：
+>
+>-**管理联合合成**
+>-**查看联合合成**
+>
+>有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
 
 ## 什么是构成 {#what}
 

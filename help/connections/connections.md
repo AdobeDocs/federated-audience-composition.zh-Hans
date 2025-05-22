@@ -3,14 +3,23 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
 
 # 创建连接 {#connections-fdb}
+
+>[!AVAILABILITY]
+>
+>要访问连接，您需要以下权限之一：
+>
+>-**管理联合数据库**
+>-**查看联合数据库**
+>
+>有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
 
 Experience Platform联合受众构成允许客户从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。 [此部分](../start/access-prerequisites.md#supported-systems)中列出了支持的数据仓库。
 
