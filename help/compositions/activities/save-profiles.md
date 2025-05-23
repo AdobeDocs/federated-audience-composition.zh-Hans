@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="保存轮廓"
->abstract="保存轮廓活动允许您通过联合来自外部仓库的数据来扩充 Experience Platform 轮廓，您就能够使用附加属性来增强客户轮廓。 "
+>abstract="利用“保存轮廓”活动，可通过联合来自外部仓库的数据来扩充 Experience Platform 轮廓，从而可通过附加属性增强客户轮廓。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
@@ -25,7 +25,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="选择主要标识字段"
->abstract="选择用于识别数据库中目标轮廓的主要标识。"
+>abstract="选择用于标识数据库中目标轮廓的主要标识。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"

@@ -15,7 +15,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性&#x200B;]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。"
+>abstract="在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL &#x200B;添加属性&#x200B;]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -42,7 +42,7 @@ ht-degree: 42%
 
 1. 如果活动具有多个集客过渡，请从&#x200B;**[!UICONTROL 主集]**&#x200B;下拉列表中选择用于执行重复数据删除的过渡
 
-1. 在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加属性&#x200B;]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。
+1. 在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL &#x200B;添加属性&#x200B;]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。
 
    ![](../assets/deduplication.png)
 
