@@ -2,10 +2,10 @@
 title: 访问联合受众构成
 description: 了解联合受众构成所需的权限
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ ht-degree: 40%
 
 1. 输入用户的姓名或电子邮件地址，或从可用列表中选择。完成后，选择&#x200B;**[!UICONTROL 保存]**。
 
-或者，您也可以根据用户所需的权限，为其分配预先存在的角色之一。 有关将预先存在的角色分配给用户的详细信息，请阅读有关管理产品用户档案的用户[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| 角色名称 | 权限 |
+| Role name | Permissions |
 | --------- | ----------- |
-| FAC数据管理器 | <ul><li>管理联合合成</li><li>查看联合数据库</li><li>查看联合架构</li><li>查看联合架构数据</li><li>查看联合数据模型</li></ul> |
-| FAC组合管理员 | <ul><li>管理联合合成</li></ul> |
-| FAC管理员 | <ul><li>管理联合数据</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 然后，用户会收到一封电子邮件，其中包含访问实例的说明。如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
