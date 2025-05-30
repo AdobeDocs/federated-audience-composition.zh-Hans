@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 ## 管理对联合受众构成的访问权限
 
-要访问&#x200B;**联合受众组合**，您必须首先确保分配所需的权限以访问联合受众组合的不同方面。 然后，必须将这些角色分配给需要访问&#x200B;**联合受众合成**&#x200B;的用户。
+要访问&#x200B;**联合受众构成**，您必须首先确保分配所需的权限来访问联合受众构成的不同方面。然后必须将这些角色分配给需要访问&#x200B;**联合受众构成**&#x200B;的用户。
 
 请注意，只有管理员才有分配权限的权力。
 
@@ -29,29 +29,29 @@ ht-degree: 46%
 
    ![](assets/access_fda_1.png)
 
-1. 选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以修改角色的权限。
+1. 选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以修改您的角色权限。
 
    ![](assets/access_fda_2.png)
 
-1. 为用户添加所需的权限。 您可以添加以下权限来访问联合受众合成：
+1. 为用户添加所需的权限。您可以添加以下权限来访问联合受众构成：
 
    | 权限 | 描述 |
    | ---------- | ----------- |
-   | 管理联合数据 | 使用此权限可管理联合受众组合的所有方面。 此权限包括管理联盟数据库、管理联盟架构、管理联盟数据模型以及管理联盟组合。 |
-   | 管理联合数据库 | 使用此权限可添加、查看、更新和删除与联合数据库的连接。 |
-   | 查看联合数据库 | 使用此权限可以查看与联合数据库的连接。 |
-   | 管理联合架构 | 使用此权限可创建、查看、更新、删除和刷新架构。 |
-   | 查看联合架构数据 | 使用此权限可以查看架构部分中的数据选项卡。 |
-   | 查看联合架构 | 使用此权限可以查看架构表。 |
-   | 管理联合数据模型 | 使用此权限可创建、查看、更新和删除数据模型。 |
-   | 查看联合数据模型 | 使用此权限可查看数据模型。 |
-   | 查看联合身份验证审核跟踪 | 使用此权限可以查看联合受众组合的审核跟踪。 |
-   | 管理联合合成 | 使用此权限可创建、查看、更新和删除联合合成。 |
-   | 查看联合合成 | 使用此权限可查看联合合成。 |
+   | 管理联合数据 | 使用此权限来管理联合受众构成的所有方面。此权限包含管理联合数据库、管理联合架构、管理联合数据模型和管理联合构成。 |
+   | 管理联合数据库 | 使用此权限来添加、查看、更新和删除与联合数据库的连接。 |
+   | 查看联合数据库 | 使用此权限来查看您与联合数据库的连接。 |
+   | 管理联合架构 | 使用此权限来创建、查看、更新、删除和刷新架构。 |
+   | 查看联合架构数据 | 使用此权限来查看架构部分内的数据选项卡。 |
+   | 查看联合架构 | 使用此权限来查看架构表。 |
+   | 管理联合数据模型 | 使用此权限来创建、查看、更新和删除数据模型。 |
+   | 查看联合数据模型 | 使用此权限来查看数据模型。 |
+   | 查看联合审核记录 | 使用此权限来查看联合受众构成的审核记录。 |
+   | 管理联合构成 | 使用此权限来创建、查看、更新和删除联合构成。 |
+   | 查看联合构成 | 使用此权限来查看联合构成。 |
 
    ![](assets/permissions.png)
 
-1. 进行必要的更改后，选择&#x200B;**[!UICONTROL 保存]**。
+1. 完成必要的更改后，请选择&#x200B;**[!UICONTROL 保存]**。
 
 任何已分配此角色的用户的权限都将自动更新，并可访问联合受众构成。
 
@@ -61,9 +61,9 @@ ht-degree: 46%
 
    ![](assets/access_fda_4.png)
 
-1. 输入用户的姓名或电子邮件地址，或从可用列表中选择。完成后，选择&#x200B;**[!UICONTROL 保存]**。
+1. 输入用户的姓名或电子邮件地址，或从可用列表中选择。完成后选择&#x200B;**[!UICONTROL 保存]**。
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
