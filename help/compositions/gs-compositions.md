@@ -4,9 +4,9 @@ title: 开始使用构成
 description: 了解如何开始使用构成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->要访问合成，您需要以下权限之一：
+>要访问构成，您需要以下权限之一：
 >
->-**管理联合合成**
->-**查看联合合成**
+>-**管理联合构成**
+>>-**查看联合构成**
 >
->有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
+>有关所需权限的更多信息，请阅读[访问联合受众构成指南](/help/start/feature-access.md)。
 
 ## 什么是构成 {#what}
 
@@ -42,7 +42,7 @@ Adobe Audience Composition 允许您创建构成，并且可以将各种活动�
 
 为了优化列表并轻松找到您正在寻找的构成，您可以搜索列表，并根据其状态或最后处理日期筛选构成。
 
-您还可以通过添加或移除列来自定义列表。为此，请单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮并添加或移除所需的输出列。
+您还可以通过添加或移除列来自定义列表。为此，请单击**[!UICONTROL 配置列]**按钮并添加或移除所需的输出列。
 
 ![](assets/compositions-columns.png)
 
