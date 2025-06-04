@@ -3,9 +3,9 @@ audience: end-user
 title: 利用外部数据丰富 Adobe Experience Platform 受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 8%
 
 ---
@@ -38,7 +38,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
    * Amazon Redshift
    * Azure Synapse Analytics
-   * Google Big Query
+   * Google BigQuery
    * Snowflake
    * Vertica Analytics
    * 数据块
@@ -50,7 +50,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
 1. 在&#x200B;**[!UICONTROL 警报]**&#x200B;部分中，您可以启用警报以接收有关数据流到目标的状态的通知。
 
-   有关警报的更多信息，请参阅Adobe Experience Platform关于使用UI [订阅目标警报的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   有关警报的更多信息，请参阅Adobe Experience Platform关于使用UI [订阅目标警报的文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. 在&#x200B;**[!UICONTROL 治理策略和实施操作]**&#x200B;步骤中，您可以定义数据治理策略，并确保在发送和激活受众时使用的数据是合规的。
 
@@ -74,10 +74,10 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
    >
    >有关如何配置计划和文件名的详细信息，请参阅Adobe Experience Platform文档的以下部分：
    >
-   >* [计划受众导出](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [配置文件名](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [计划受众导出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [配置文件名](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;步骤中，选择要为受众导出的属性和标识字段。 有关详细信息，请参阅Adobe Experience Platform文档中的[映射步骤](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;步骤中，选择要为受众导出的属性和标识字段。 有关详细信息，请参阅Adobe Experience Platform文档中的[映射步骤](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
    ![](assets/destination-attributes.png)
 

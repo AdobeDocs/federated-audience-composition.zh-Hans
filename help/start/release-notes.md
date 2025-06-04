@@ -2,16 +2,16 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 98%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025 年 5 月版 {#fac-25-5}
 
@@ -129,9 +129,9 @@ ht-degree: 100%
 
   这个新版本的联合受众构成支持与 Amazon Redshift 数据库建立安全的专用链接连接。[了解详情](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  这个新版本的联合受众构成支持与 Google Big Query 数据库建立安全的 VPN 连接。[了解详情](../connections/federated-db.md#google-big-query)
+  在此新版本中，联合受众组合支持到Google BigQuery数据库的安全VPN连接。 [了解详情](../connections/federated-db.md#google-bigquery)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 
