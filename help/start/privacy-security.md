@@ -27,7 +27,7 @@ ht-degree: 1%
 
 在Privacy Service中，您可以创建和管理个人隐私请求，以从联合受众构成中访问和删除客户数据。 Privacy Service提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，帮助您管理客户数据请求。
 
-有关创建和管理隐私请求的更多信息，请参阅Privacy Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的[隐私作业。
+有关创建和管理隐私请求的更多信息，请参阅Privacy Service UI指南[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的隐私作业。
 
 ## 同意策略实施 {#consent}
 
