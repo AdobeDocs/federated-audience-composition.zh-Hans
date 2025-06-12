@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存用户档案活动
 description: 了解如何使用保存配置文件活动
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 29%
+source-wordcount: '374'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="选择 AEP 模式"
+>title="选择Experience Platform架构"
 >abstract="为轮廓选择 Experience Platform 架构。"
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="选择 AEP 模式"
+>title="选择Experience Platform架构"
 >abstract="为轮廓选择 Experience Platform 架构。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="保存配置文件更新模式"
+>abstract="保存用户档案活动的可用更新模式包括完全更新和增量更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="完全更新"
+>abstract="完整更新模式会更新用于扩充的完整配置文件集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="增量更新"
+>abstract="增量更新模式会更新自上次扩充运行以来修改过的配置文件。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="主要身份标识字段"
+>abstract="主标识字段指示将用户档案合并在一起以进行扩充时的真实来源。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="必填字段条件"
+>abstract="导出数据时，必须为每个用户档案或记录填写必填字段。 如果缺少必填字段，则导出将不会完整或有效。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="主要身份字段条件"
+>abstract="每个配置文件或记录的唯一标识符。 这可以确保每个记录都可以被明确识别和匹配，从而防止数据重复。"
 
 利用&#x200B;**保存配置文件**&#x200B;活动，可使用从外部仓库联合的数据扩充Adobe Experience Platform配置文件。
 
-此活动通常用于通过引入其他属性和见解来增强客户配置文件，而无需将数据实际移动或复制到平台中
+此活动通常用于通过引入其他属性和见解来增强客户配置文件，而无需将数据实际移动或复制到平台中。
 
 ## 配置保存用户档案活动 {#save-profile-configuration}
 
