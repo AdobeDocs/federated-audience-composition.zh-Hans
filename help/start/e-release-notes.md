@@ -4,16 +4,36 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+
+## 2025年6月版 {#fac-25-6}
+
+此版本附带以下改进：
+
+* **医疗保健客户正式可用**
+
+  到6月底，联合受众构成将可供医疗保健客户用于受众创建、扩充和配置文件扩充用例。
+
+* **对象级访问控制**
+
+  联合受众合成现在支持对象级访问控制，以将访问标签应用于您指定的合成。
+
+* **默认角色**
+
+  您现在可以使用默认角色之一来管理联合受众合成访问的用户权限。
+
+* **配置文件扩充用例中的增量更新**
+
+  保存用户档案活动现在支持增量更新。 通过增量更新，您可以查询和更新增量数据，同时使用外部数据仓库中的数据扩充用户档案。
 
 ## 2025 年 4 月版本 {#fac-25-4}
 
