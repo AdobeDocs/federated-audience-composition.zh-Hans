@@ -4,9 +4,9 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 89%
 
 此版本附带以下改进：
 
-* **医疗保健客户正式可用**
+* **面向Adobe Healthcare Shield客户的正式发布**
 
-  到6月底，联合受众构成将可供医疗保健客户用于受众创建、扩充和配置文件扩充用例。
+  到6月底，Adobe Healthcare Shield客户将可以使用联合受众合成，以用于受众创建、扩充和配置文件扩充用例。
 
 * **对象级访问控制**
 
