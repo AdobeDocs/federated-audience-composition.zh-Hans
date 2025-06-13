@@ -4,9 +4,9 @@ title: 配置联合数据库
 description: 了解如何配置联合数据库
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 ## Google BigQuery {#google-bigquery}
 
-使用联合数据库处理存储在外部数据库中的信息。请按照以下步骤配置对Google BigQuery的访问权限。
+使用联合数据库处理存储在外部数据库中的信息。按照以下步骤配置对 Google BigQuery 的访问权限。
 
 1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;菜单下，选择&#x200B;**[!UICONTROL 联合数据库]**。
 
@@ -139,11 +139,11 @@ Experience Platform 联合受众构成允许客户从第三方数据仓库构建
 
 1. 为您的联合数据库输入一个&#x200B;**[!UICONTROL 名称]**。
 
-1. 从&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表中，选择Google BigQuery。
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;下拉菜单中，选择 Google BigQuery。
 
    ![](assets/federated_database_3.png)
 
-1. 配置Google BigQuery身份验证设置：
+1. 配置 Google BigQuery 身份验证设置：
 
    * **[!UICONTROL 服务帐户]**：输入您的电子邮件&#x200B;**[!UICONTROL 服务帐户]**。有关更多信息，请参阅 [Google Cloud 文档](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 

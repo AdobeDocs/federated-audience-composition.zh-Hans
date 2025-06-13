@@ -1,92 +1,92 @@
 ---
-title: 联合受众组合中的隐私和安全性
-description: 了解联合受众构成如何处理用户数据的隐私和安全性，包括数据管理、同意实施、访问控制、数据加密和隐私合规性等功能。
-source-git-commit: b505a4f0ac9ac7350e2879f4f54f93a69b73f96c
-workflow-type: tm+mt
+title: 联合受众构成中的隐私和安全
+description: 了解联合受众构成如何处理用户数据的隐私与安全问题，其中包括数据治理、同意管理、访问控制、数据加密及隐私合规等功能。
+exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
+source-git-commit: 8076a7851d0cd5cd84a7c48c6f1783b452864903
+workflow-type: ht
 source-wordcount: '1085'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# 联合受众构成中的隐私和安全
 
-# 联合受众组合中的隐私和安全性
-
-联合受众构成符合大量安全实践，可在处理期间保护您的数据。
+联合受众构成遵循多项安全规范，在数据处理过程中全方位保障您的数据安全。
 
 ## Privacy Service {#privacy}
 
-联合受众组合可为Adobe Experience Platform和Adobe Journey Optimizer提供联合数据以供使用。 但是，联合受众合成&#x200B;**不**&#x200B;存储任何数据仓库中的任何客户数据。 因此，您可以使用Adobe Experience Platform Privacy Service来遵守数据主体和数据删除请求。
+联合受众构成为 Adobe Experience Platform 和 Adobe Journey Optimizer 提供可用的联合数据。然而，联合受众构成并&#x200B;**不会**&#x200B;存储来自任何数据仓库的客户数据。因此，您可以使用 Adobe Experience Platform Privacy Service 来响应数据主体访问请求和数据删除请求。
 
-例如，在构成画布中使用保存活动块创建受众时，生成的受众将作为外部受众存储在Experience Platform的数据湖中。 此外部受众标记有其身份字段和身份命名空间。 因此，您可以使用Privacy Service通过外部受众访问和删除这些用户档案。
+例如，当您在组合画布中使用“保存”操作块创建受众时，生成的受众会作为外部受众存储在 Experience Platform 的数据湖中。该外部受众将标记其身份标识字段和身份标识命名空间。因此，您可以使用 Privacy Service 访问并移除包含在外部受众中的这些轮廓。
 
-或者，在通过组合画布中的保存配置文件活动创建配置文件扩充后，生成的扩充作为启用配置文件的架构和启用配置文件的数据集存储在Experience Platform中。 此扩充数据使用身份字段和身份命名空间进行标记。 因此，您可以使用Privacy Service来访问和清理这些配置文件。
+或者，当您在组合画布中使用“保存轮廓”操作创建轮廓扩充信息后，生成的扩充数据将作为启用轮廓的架构和启用轮廓的数据集存储在 Experience Platform 中。该扩充数据会标记其身份标识字段和身份标识命名空间。因此，您可以使用 Privacy Service 访问并清除这些轮廓。
 
-有关Privacy Service的更多信息，请阅读[Privacy Service概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}。
+有关 Privacy Service 的更多信息，请阅读 [Privacy Service 服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}。
 
 ### 隐私请求 {#privacy-requests}
 
-在Privacy Service中，您可以创建和管理个人隐私请求，以从联合受众构成中访问和删除客户数据。 Privacy Service提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，帮助您管理客户数据请求。
+在 Privacy Service 中，您可以创建和管理单独的隐私请求以访问和删除联合受众构成中的客户数据。Privacy Service 同时提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，以帮助您管理客户数据请求。
 
-有关创建和管理隐私请求的更多信息，请参阅Privacy Service UI指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的隐私作业。
+如需了解有关创建和管理隐私请求的更多信息，请参阅 [Privacy Service UI 指南中的隐私作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/ui/user-guide){target="_blank"}。
 
-## 同意策略实施 {#consent}
+## 同意政策执行 {#consent}
 
-联合受众构成通过Experience Platform提供了一些工具，可让您自动执行同意书，确保根据提供给客户的同意激活受众。
+联合受众构成通过 Experience Platform 提供相关工具，帮助您自动执行同意策略，确保仅基于客户所提供的同意来激活受众。
 
-例如，在构成画布中使用保存活动块创建受众时，生成的受众将作为外部受众存储在Experience Platform的数据湖中。 Experience Platform在激活期间自动支持同意验证。 有关详细信息，请阅读[分段服务常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#consent){target="_blank"}。
+例如，当您在组合画布中使用“保存”操作块创建受众时，生成的受众会作为外部受众存储在 Experience Platform 的数据湖中。Experience Platform 在激活过程中会自动支持同意验证。有关更多信息，请参阅 [Segmentation Service 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#consent){target="_blank"}。
 
-或者，在通过使用构成画布中的保存配置文件活动创建配置文件扩充后，生成的扩充将作为启用配置文件的架构和启用配置文件的数据集存储在Experience Platform中。 对于现有配置文件，激活期间会自动遵循可用的同意属性。 对于新用户档案，在激活期间自动遵循用户档案摄取期间提供的同意属性。 有关将同意应用于用户档案的详细信息，请阅读[同意和偏好设置字段组指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
+或者，当您在组合画布中使用“保存轮廓”操作创建轮廓扩充信息后，生成的扩充数据将作为启用轮廓的架构和启用轮廓的数据集存储在 Experience Platform 中。对于现有轮廓，系统将在激活过程中自动遵循其可用的同意属性。对于新建的轮廓，在轮廓摄取过程中提供的同意属性也将在激活时自动被遵循。如需了解有关如何将同意信息应用于轮廓的更多内容，请参阅[同意与偏好字段组指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
 
-有关应用同意的详细信息，请参阅[管理策略UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}。
+如需了解更多有关应用同意策略的信息，请参阅[管理策略用户界面指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}。
 
 ## 数据生命周期 {#data-lifecycle}
 
-由于联合受众合成&#x200B;**不**&#x200B;存储任何数据仓库中的任何客户数据，因此您可以使用Experience Platform处理数据生命周期。 利用高级数据生命周期管理，您可以在数据集和记录级别管理数据生命周期。
+由于联合受众构成&#x200B;**不会**&#x200B;存储来自任何数据仓库的客户数据，因此您可以通过 Experience Platform 管理数据生命周期。借助高级数据生命周期管理功能，您可以在数据集级别和记录级别上对数据生命周期进行管理。
 
-例如，在构成画布中使用保存活动块创建受众时，生成的受众将作为外部受众存储在Experience Platform的数据湖中。 由于此数据是&#x200B;**而不是**&#x200B;存储在联合受众构成中，因此当在受众门户中删除受众时，将自动删除受众数据和相应的数据集。
+例如，当您在组合画布中使用“保存”操作块创建受众时，生成的受众会作为外部受众存储在 Experience Platform 的数据湖中。由于这些数据&#x200B;**不会**&#x200B;存储在联合受众构成中，当您在受众门户中删除受众时，相关的受众数据及其对应数据集将被自动删除。
 
-或者，在通过使用构成画布中的保存配置文件活动创建配置文件扩充后，生成的扩充将作为启用配置文件的架构和启用配置文件的数据集存储在Experience Platform中。 因此，您可以使用数据生命周期来访问和清理用户档案。
+或者，当您在组合画布中使用“保存轮廓”操作创建轮廓扩充信息后，生成的扩充数据将作为启用轮廓的架构和启用轮廓的数据集存储在 Experience Platform 中。因此，您可以使用数据生命周期管理功能来访问并清除这些轮廓。
 
-有关使用数据生命周期的更多信息，请阅读[数据生命周期概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home){target="_blank"}。
+如需了解更多关于使用数据生命周期管理功能的信息，请参阅[数据生命周期概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home){target="_blank"}。
 
 ## 数据使用情况标签 {#data-usage-labels}
 
-您可以使用数据使用标签，根据应用于该数据的治理策略对数据集和字段进行分类。 使用合成创建受众后，您可以对生成的架构应用适当的数据标签，以确保其符合所需的使用限制。
+数据使用情况标签可根据适用于特定数据的治理策略，对数据集和字段进行分类。在使用构成功能创建受众后，您可以在生成的架构上应用相应的数据标签，以确保其遵循所需的使用限制。
 
-有关使用数据标签的详细信息，请阅读[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview){target="_blank"}。
+如需了解更多关于使用数据标签的信息，请参阅[数据使用情况标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview){target="_blank"}。
 
 ## 加密 {#encryption}
 
-灵活的受众组合通过静态数据加密、传输中加密和客户管理的密钥提供加密。
+Flexible Audience Composition 通过静态数据加密、传输中数据加密以及客户管理密钥（CMK）提供数据加密功能。
 
-静态数据是指在联合受众组合中使用的客户数据。 数据由云服务提供商加密，并以加密形式用于联合受众合成。
+静态数据是指在联合受众构成中使用的客户数据。该数据由云服务提供商进行加密，并在联合受众构成中以加密形式使用。
 
-在联合受众构成中，当数据从一个组件移动到另一个组件时，传输中的数据即指客户数据。 在整个联合受众组合组件中，数据会通过HTTPS使用TLS 1.3进行加密。
+传输中数据是指在联合受众构成中，客户数据在各组件之间传输时的状态。在联合受众构成的各个组件中，数据始终通过基于 HTTPS 的 TLS 1.3 协议保持加密状态。
 
-有关Adobe如何处理数据加密的更多信息，请阅读有关Experience Platform中[数据加密](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}的指南。
+如需了解 Adobe 如何处理数据加密的更多信息，请参阅 [Experience Platform 中的数据加密](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}。
 
-### 客户管理的密钥 {#customer-managed-keys}
+### 客户管理密钥 {#customer-managed-keys}
 
-客户管理的密钥允许您使用自己的加密密钥加密数据，从而控制数据。 由于联合受众合成&#x200B;**不会**&#x200B;存储任何客户数据，因此您可以直接对生成的受众和增强功能使用客户管理的密钥，因为它们将存储在Experience Platform上的数据湖中。
+客户管理密钥使您能够使用自有加密密钥对数据进行加密，从而实现对数据的自主控制。由于联合受众构成&#x200B;**不会**&#x200B;存储任何客户数据，您可以将客户管理密钥直接应用于生成的受众和扩充数据，因为这些数据将存储在 Experience Platform 的数据湖中。
 
-有关客户管理的密钥的详细信息，请阅读[客户管理的密钥指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}。
+如需了解更多关于客户管理密钥的信息，请参阅[客户管理密钥指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}。
 
 ## 审核日志 {#audit-log}
 
-在联合受众构成中执行的所有创建、读取、更新和删除操作都记录在审核跟踪中。 您可以使用此审核日志来跟踪这些操作、强制实施责任和支持合规性审核。
+在联合受众构成中执行的所有创建、读取、更新和删除操作都会记录在审计日志中。您可以利用审计日志追踪这些操作，强化责任归属，并支持合规性审计。
 
-有关详细信息，请阅读[审核记录概述](/help/admin/audit-trail.md){target="_blank"}。
+如需了解更多信息，请参阅[审计日志概述](/help/admin/audit-trail.md){target="_blank"}。
 
 ## 访问控制 {#access-control}
 
-您可以在基于字段和基于角色的级别控制对联合受众组合的访问。 您可以使用这些访问控制来强制实施数据治理策略、限制敏感信息的泄露，以及根据用户责任调整访问权限。
+您可以在字段级别和角色级别控制对联合受众构成的访问权限。您可以利用这些访问控制机制来执行数据治理策略、限制敏感信息的暴露，并确保访问权限与用户职责保持一致。
 
-有关联合受众组合中访问控制的详细信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md){target="_blank"}。
+如需了解更多关于联合受众构成中访问控制的信息，请参阅[访问联合受众构成指南](/help/start/feature-access.md){target="_blank"}。
 
 ## 数据本地化 {#data-localization}
 
-联合受众组合&#x200B;**不**&#x200B;存储任何客户数据。 因此，您需要确保&#x200B;**仅**&#x200B;将外部数据库与匹配的沙盒区域连接，以将数据保留在同一区域。 如果将其他区域的数据库连接到沙盒，则Adobe将&#x200B;**不负责**&#x200B;数据本地化。
+联合受众构成&#x200B;**不会**&#x200B;存储任何客户数据。 因此，您需要确保&#x200B;**仅**&#x200B;将外部数据库连接到相应的沙盒区域，以便将数据保留在同一地区。如果您将其他区域的数据库连接到某个沙盒，Adobe 将&#x200B;**不**&#x200B;对数据本地化负责。
 
 ## 后续步骤 {#next-steps}
 
-阅读本指南后，您可以更好地了解用于联合受众构成的隐私和安全功能，包括数据治理、隐私合规、同意实施、数据生命周期管理和访问控制。
+阅读本指南后，您将更全面地了解联合受众构成所采用的隐私与安全功能，包括数据治理、隐私合规、同意策略执行、数据生命周期管理以及访问控制。

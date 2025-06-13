@@ -3,9 +3,9 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
@@ -131,7 +131,7 @@ ht-degree: 98%
 
 * **Google BigQuery**
 
-  在此新版本中，联合受众组合支持到Google BigQuery数据库的安全VPN连接。 [了解详情](../connections/federated-db.md#google-bigquery)
+  这个新版本的联合受众构成支持与 Google BigQuery 数据库建立安全的 VPN 连接。[了解详情](../connections/federated-db.md#google-bigquery)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 
