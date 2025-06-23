@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 18%
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="选择Experience Platform架构"
+>title="选择 Experience Platform 架构"
 >abstract="为轮廓选择 Experience Platform 架构。"
 
 >[!CONTEXTUALHELP]
@@ -29,38 +29,38 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="选择Experience Platform架构"
+>title="选择 Experience Platform 架构"
 >abstract="为轮廓选择 Experience Platform 架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
->title="保存配置文件更新模式"
->abstract="保存用户档案活动的可用更新模式包括完全更新和增量更新。"
+>title="保存轮廓更新模式"
+>abstract="保存轮廓活动可用的更新模式包括完整更新和增量更新。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
->title="完全更新"
->abstract="完整更新模式会更新用于扩充的完整配置文件集。"
+>title="完整更新"
+>abstract="完整更新模式会更新完整的轮廓集以进行扩充。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_incremental"
 >title="增量更新"
->abstract="增量更新模式会更新自上次扩充运行以来修改过的配置文件。"
+>abstract="增量更新模式会更新自上次扩充运行以来已修改的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="主要身份标识字段"
->abstract="主标识字段指示将用户档案合并在一起以进行扩充时的真实来源。"
+>abstract="主要身份标识字段指示将轮廓合并在一起以进行扩充时的真实来源。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
->title="必填字段条件"
->abstract="导出数据时，必须为每个用户档案或记录填写必填字段。 如果缺少必填字段，则导出将不会完整或有效。"
+>title="必填字段推荐准则"
+>abstract="必填字段是导出数据时每个轮廓或记录必须填写的属性。如果缺少必填字段，则导出将不完整或无效。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="主要身份字段条件"
->abstract="每个配置文件或记录的唯一标识符。 这可以确保每个记录都可以被明确识别和匹配，从而防止数据重复。"
+>title="主要身份标识字段推荐准则"
+>abstract="每个轮廓或记录的唯一标识符。这确保每条记录都能被清楚地识别和匹配，防止数据重复。"
 
 利用&#x200B;**保存配置文件**&#x200B;活动，可使用从外部仓库联合的数据扩充Adobe Experience Platform配置文件。
 
