@@ -72,7 +72,7 @@ ht-degree: 37%
 >
 >**保存配置文件**&#x200B;活动需要启用配置文件的架构和数据集。 要了解如何启用您的数据集以启用配置文件，请阅读[数据集用户指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 >
->此外，如果所选数据集&#x200B;**未**&#x200B;启用upsert，则来自用户档案的数据将被替换&#x200B;****。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
+>此外，如果所选数据集&#x200B;**未**&#x200B;启用upsert，则来自用户档案的数据将被替换&#x200B;**&#x200B;**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 按照以下步骤配置&#x200B;**[!UICONTROL 保存配置文件]**&#x200B;活动：
 

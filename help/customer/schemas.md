@@ -17,7 +17,7 @@ ht-degree: 18%
 >要访问架构，您需要以下权限之一：
 >
 >-**管理联合架构**
->>-**查看联合架构**
+>&#x200B;>-**查看联合架构**
 >
 >有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
