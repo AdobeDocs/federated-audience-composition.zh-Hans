@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 28%
+source-wordcount: '532'
+ht-degree: 19%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 28%
 >abstract="选择要用于轮廓的命名空间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="在 Experience Platform 文档中了解详情。"
 
-利用&#x200B;**保存受众**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
+利用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 
 此活动主要用于通过将同一构成中计算得出的群体组转换为可重复使用的受众，将其保留下来。 将其连接到其他定向活动，如&#x200B;**构建受众**&#x200B;或&#x200B;**合并**&#x200B;活动。
 
-**[!UICONTROL 保存受众]**&#x200B;活动会生成新的受众架构和数据集。 创建受众后，请与管理员协调以分配适当的数据治理标签。 [了解有关数据使用标签的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->**保存受众**&#x200B;活动需要启用配置文件的架构和数据集。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+**[!UICONTROL 保存受众]**&#x200B;活动会生成一个新的受众架构和相关的数据集，其中可能包含个人身份信息(PII)或受保护的健康信息(PHI)。 创建受众后，请与管理员合作，确保根据组织的数据策略应用适当的数据治理标签。 有关如何应用数据使用标签的详细信息，请参阅[数据使用标签用户指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)。
 
 ## 配置保存受众活动 {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ ht-degree: 28%
 
 ## 访问 Adobe Experience Platform 中的受众 {#access-audience}
 
-执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platorm 和/或 Adobe Journey Optimizer。它可在&#x200B;**受众**&#x200B;菜单中访问。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+执行组合后，生成的受众将作为外部受众保存在Adobe Experience Platform中，并在Audience Portal的Adobe Real-Time CDP和/或Adobe Journey Optimizer中可用。 有关受众门户的更多信息，请阅读[受众门户概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}。
 
 创建的受众包含“受众映射”部分中选择的所有字段。 您可以在Journey Optimizer中定位此受众，或将其激活到Adobe Experience Platform支持的任何目标。
 

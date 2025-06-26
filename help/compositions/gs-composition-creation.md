@@ -3,7 +3,7 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 58%
@@ -19,11 +19,11 @@ ht-degree: 58%
 
 ## 构成中的内容 {#gs-composition-inside}
 
-Experience Platform联合受众构成提供了一个可视画布，通过该画布可以利用各种活动（拆分、扩充等）来创建受众。
+Experience Platform联合受众构成提供了一个可视画布，允许您利用各种活动（拆分、扩充等）来创建受众。
 
 组合图是应发生情况的表示形式。 它描述要执行的各种任务及其如何链接在一起。
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 每个构成都包含：
 
@@ -36,5 +36,5 @@ Experience Platform联合受众构成提供了一个可视画布，通过该画�
 创建合成的主要步骤如下：
 
 1. [创建和配置合成](../compositions/create-composition.md)
-1. [安排活动](../compositions/orchestrate-activities.md)
+1. [策划活动](../compositions/orchestrate-activities.md)
 1. [执行构成并监视其执行](../compositions/start-monitor-composition.md)

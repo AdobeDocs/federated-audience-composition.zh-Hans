@@ -2,16 +2,46 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 95%
 
 ---
 
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+
+## 2025年6月版 {#fac-25-6}
+
+### 改进 {#fac-25-06-improvements}
+
+此版本包含以下改进：
+
+* **Adobe Healthcare Shield 正式面向客户发布**
+
+  联合受众构成将于 6 月底向 Adobe Healthcare Shield 客户开放，用于受众创建、扩充和轮廓扩充用例。
+
+  有关联合受众组合中隐私和安全的更多信息，请参阅[数据管理、隐私和安全指南](/help/governance-privacy-security/home.md)。
+
+* **对象级别的访问控制**
+
+  “联合受众构成”现已支持对象级访问控制，可为您指定的构成项应用访问标签。
+
+  有关使用对象级访问标签的详细信息，请参阅[合成指南](/help/compositions/gs-compositions.md)。
+
+* **默认角色**
+
+  您现在可以使用默认角色之一来管理对“联合受众构成”的访问权限。
+
+  有关默认角色的详细信息，请参阅[访问联合受众组合指南](/help/governance-privacy-security/access-control.md)。
+
+* **轮廓扩充用例现已支持增量更新。**
+
+  保存轮廓活动现在支持增量更新。借助增量更新，您可以在从外部数据仓库扩充轮廓的同时，对增量数据进行查询与更新。
+
+  有关使用保存配置文件活动的更多信息，请参阅[保存配置文件活动指南](/help/compositions/activities/save-profiles.md)。
 
 ## 2025 年 5 月版 {#fac-25-5}
 
@@ -43,7 +73,7 @@ ht-degree: 100%
 
   从 5 月版开始，[!DNL Federated Audience Composition] 支持新的细粒度权限访问控制。用户可以将这些权限分配给用户角色，以实现更精确的访问 [!DNL Federated Audience Composition]。
 
-  要了解有关新权限的更多信息，请阅读[联合受众构成访问指南](feature-access.md)。
+  要了解有关新权限的更多信息，请阅读[联合受众构成访问指南](/help/governance-privacy-security/access-control.md)。
 
 ## 2025 年 4 月版本 {#fac-25-4}
 
@@ -145,7 +175,7 @@ ht-degree: 100%
 
   我们建议用户联系管理员将此权限添加到他们的角色中，以便继续访问 [!DNL Federated Audience Composition] 用户界面。
 
-  要了解如何分配此权限，请参阅[详细说明文档](feature-access.md)。
+  要了解如何分配此权限，请参阅[详细说明文档](/help/governance-privacy-security/access-control.md)。
 
 <!--
 * **Data model Canvas view**

@@ -4,10 +4,10 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 89%
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2025年6月版 {#fac-25-6}
+## 2025 年 6 月版本 {#fac-25-6}
 
-此版本附带以下改进：
+此版本包含以下改进：
 
-* **面向Adobe Healthcare Shield客户的正式发布**
+* **Adobe Healthcare Shield 正式面向客户发布**
 
-  到6月底，Adobe Healthcare Shield客户将可以使用联合受众合成，以用于受众创建、扩充和配置文件扩充用例。
+  联合受众构成将于 6 月底向 Adobe Healthcare Shield 客户开放，用于受众创建、扩充和轮廓扩充用例。
 
-* **对象级访问控制**
+* **对象级别的访问控制**
 
-  联合受众合成现在支持对象级访问控制，以将访问标签应用于您指定的合成。
+  “联合受众构成”现已支持对象级访问控制，可为您指定的构成项应用访问标签。
 
 * **默认角色**
 
-  您现在可以使用默认角色之一来管理联合受众合成访问的用户权限。
+  您现在可以使用默认角色之一来管理对“联合受众构成”的访问权限。
 
-* **配置文件扩充用例中的增量更新**
+* **轮廓扩充用例现已支持增量更新。**
 
-  保存用户档案活动现在支持增量更新。 通过增量更新，您可以查询和更新增量数据，同时使用外部数据仓库中的数据扩充用户档案。
+  保存轮廓活动现在支持增量更新。借助增量更新，您可以在从外部数据仓库扩充轮廓的同时，对增量数据进行查询与更新。
 
 ## 2025 年 4 月版本 {#fac-25-4}
 
@@ -75,7 +75,7 @@ ht-degree: 89%
 
   我们建议用户联系管理员将此权限添加到他们的角色中，以便继续访问 [!DNL Federated Audience Composition] 用户界面。
 
-  要了解如何分配此权限，请参阅[详细说明文档](feature-access.md)。
+  要了解如何分配此权限，请参阅[详细说明文档](/help/governance-privacy-security/access-control.md)。
 
 <!--
 * **Data model Canvas view**

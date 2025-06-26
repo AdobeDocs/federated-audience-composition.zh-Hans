@@ -3,9 +3,9 @@ audience: end-user
 title: 审核记录
 description: 了解如何在审核记录中记录并访问操作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >-**查看审核记录**
 >
->有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
+>有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

@@ -3,9 +3,9 @@ audience: end-user
 title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 18%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 18%
 >要访问架构，您需要以下权限之一：
 >
 >-**管理联合架构**
->-**查看联合架构**
+>>-**查看联合架构**
 >
->有关所需权限的更多信息，请参阅[访问联合受众组合指南](/help/start/feature-access.md)。
+>有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 18%
 >id="dc_schema_create_schema_name"
 >title="架构的名称。"
 >abstract="输入架构的名称。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

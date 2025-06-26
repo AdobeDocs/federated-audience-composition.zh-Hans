@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 100%
 + 开始使用联合受众构成 {#start}
    + [什么是联合受众构成](start/get-started.md)
    + [先决条件和护栏](start/access-prerequisites.md)
-   + [访问联合受众构成](start/feature-access.md)
    + [使用受众](start/audiences.md)
    + [使用 AI 助手](start/ai-assistant.md)
-   + [隐私和安全性](start/privacy-security.md)
    + [常见问题解答](start/faq.md)
++ 治理、隐私、安全 {#governance-privacy-security}
+   + [概述](./governance-privacy-security/home.md)
+   + [访问控制](governance-privacy-security/access-control.md)
 + 配置步骤 {#config}
    + [创建和管理连接](connections/connections.md)
    + [配置联合数据库](connections/federated-db.md)
@@ -53,7 +54,7 @@ ht-degree: 100%
       + [调度程序](compositions/activities/scheduler.md)
       + [拆分](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)
-+ 查询数据库  {#query-database}
++ 查询数据库 {#query-database}
    + [使用查询建模器](query/query-modeler-overview.md)
    + [生成您的第一个查询](query/build-query.md)
    + [编辑表达式](query/expression-editor.md)
