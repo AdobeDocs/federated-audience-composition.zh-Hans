@@ -6,7 +6,7 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 >要访问构成，您需要以下权限之一：
 >
 >-**管理联合构成**
->&#x200B;>-**查看联合构成**
+>>-**查看联合构成**
 >
 >有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 ![联合受众组合中显示了示例组合工作流。](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
-## 访问和管理组合 {#access}
+## 访问和管理构成 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -73,7 +73,7 @@ ht-degree: 16%
 | 敏感标签 | 敏感标签（“S”标签）用于对您和/或您的组织视为敏感的内容进行分类。 |
 | 合作伙伴生态系统标签 | 合作伙伴生态系统标签用于对来自组织外部来源的数据进行分类。 |
 
-有关访问和数据治理标签的详细信息，请阅读[数据使用标签术语表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference)。
+有关访问和数据治理标签的详细信息，请阅读[数据使用标签术语表](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)。
 
 ## 后续步骤
 
