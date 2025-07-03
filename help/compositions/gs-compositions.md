@@ -17,7 +17,7 @@ ht-degree: 17%
 >要访问构成，您需要以下权限之一：
 >
 >-**管理联合构成**
->>-**查看联合构成**
+>&#x200B;>-**查看联合构成**
 >
 >有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
