@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
 source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [使用受众](start/audiences.md)
    + [使用 AI 助手](start/ai-assistant.md)
    + [常见问题解答](start/faq.md)
-+ 治理、隐私、安全 {#governance-privacy-security}
++ 管理、隐私和安全 {#governance-privacy-security}
    + [概述](./governance-privacy-security/home.md)
    + [访问控制](governance-privacy-security/access-control.md)
 + 配置步骤 {#config}
