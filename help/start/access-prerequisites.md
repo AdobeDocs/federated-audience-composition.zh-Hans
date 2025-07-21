@@ -61,7 +61,7 @@ ht-degree: 86%
 
 要使用联合受众组合生成受众，您&#x200B;**必须**&#x200B;使用顺序为&#x200B;**的合并策略的**&#x200B;时间戳。 如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀部门以继续。
 
-有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
 
 ## 护栏和限制 {#fac-guardrails}
 
