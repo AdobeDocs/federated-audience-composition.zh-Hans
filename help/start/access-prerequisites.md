@@ -2,10 +2,10 @@
 title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 100%
 要安全地启用联合受众构成来访问您的数据库，您必须授权将会访问这些数据库的联合受众构成服务器的 IP 地址。在 Adobe Experience Platform 用户界面中添加联合数据库时会显示这些 IP 地址。[了解详情](../connections/connections.md)
 
 将这些 IP 地址添加到您的允许列表中，以授予联合受众构成访问权限。
+
+## 合并策略 {#merge-policies}
+
+要使用联合受众组合生成受众，您&#x200B;**必须**&#x200B;使用顺序为&#x200B;**的合并策略的**&#x200B;时间戳。 如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀部门以继续。
+
+有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
 
 ## 护栏和限制 {#fac-guardrails}
 

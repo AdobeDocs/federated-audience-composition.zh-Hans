@@ -3,10 +3,10 @@ audience: end-user
 title: 使用保存受众活动
 description: 了解如何使用保存受众活动
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 19%
+source-wordcount: '578'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 19%
 >title="身份标识命名空间"
 >abstract="选择要用于轮廓的命名空间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces" text="在 Experience Platform 文档中了解详情。"
+
+>[!IMPORTANT]
+>
+>要使用保存受众活动，您的受众必须使用顺序为&#x200B;**的**&#x200B;时间戳合并策略。 如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀部门以继续。
+>
+>有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
 
 利用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 

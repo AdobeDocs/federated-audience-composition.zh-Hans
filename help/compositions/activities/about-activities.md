@@ -1,25 +1,26 @@
 ---
 audience: end-user
-title: 使用活动
+title: '使用活动 '
 description: 了解如何使用活动
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '289'
+ht-degree: 17%
 
 ---
 
-# 使用活动 {#activities}
+# 使用活动  {#activities}
 
 在联合受众合成中，您可以使用两种类型的活动创建合成：
 
 * **定位活动**&#x200B;允许您通过定义受众并使用交集、并集或排除操作拆分或组合这些受众来构建一个或多个目标。
 * **流量控制**&#x200B;活动特定于组织和执行合成。 他们的主要任务是协调其他活动。
 
-## 定位活动
+## 目标选择活动
 
 * [构建受众活动](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
+* [更改数据源](./change-data-source.md)：更改合成使用的数据源。
 * [更改维度](change-dimension.md)：在构建组合时更改架构，也称为定向维度。
 * [合并](combine.md)：对入站群体执行分段。 您可以使用并集、交集或差集。
 * [重复数据删除](deduplication.md)：删除集客活动结果中的重复项。
