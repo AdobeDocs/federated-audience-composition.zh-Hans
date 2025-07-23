@@ -38,7 +38,7 @@ ht-degree: 23%
 >
 >如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀团队以将`Halos UPS`数据集添加到您的合并策略。
 >
->有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+>有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
 
 利用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 
