@@ -4,16 +4,28 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 95%
 
 ---
 
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+
+## 2025年7月版 {#fac-25-7}
+
+此版本附带以下更改和改进：
+
+* **Oracle连接器可用性**
+
+  Oracle连接器现在可用于联合受众合成。
+
+* **组合状态警报**
+
+  您可以订阅警报，以发出合成运行成功和失败的警报。
 
 ## 2025 年 6 月版本 {#fac-25-6}
 

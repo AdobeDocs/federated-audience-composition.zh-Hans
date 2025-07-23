@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 使用保存受众活动
+title: 使用“保存受众”活动
 description: 了解如何使用保存受众活动
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 23%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->要使用保存受众活动，您的受众必须使用顺序为&#x200B;**的**&#x200B;时间戳合并策略。 如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀部门以继续。
+>如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀团队以将`Halos UPS`数据集添加到您的合并策略。
 >
->有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
+>有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
 
 利用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动，可使用组合上游计算的群体创建新受众。 创建的受众将添加到Adobe Experience Platform受众列表，并可通过&#x200B;**受众**&#x200B;菜单使用。 [了解如何使用受众](../../start/audiences.md)
 
@@ -46,9 +46,9 @@ ht-degree: 18%
 
 **[!UICONTROL 保存受众]**&#x200B;活动会生成一个新的受众架构和相关的数据集，其中可能包含个人身份信息(PII)或受保护的健康信息(PHI)。 创建受众后，请与管理员合作，确保根据组织的数据策略应用适当的数据治理标签。 有关如何应用数据使用标签的详细信息，请参阅[数据使用标签用户指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)。
 
-## 配置保存受众活动 {#save-audience-configuration}
+## 配置“保存受众”活动 {#save-audience-configuration}
 
-按照以下步骤配置&#x200B;**保存受众**&#x200B;活动：
+请按照以下步骤配置&#x200B;**保存受众**&#x200B;活动：
 
 1. 将&#x200B;**保存受众**&#x200B;活动添加到合成。
 
@@ -75,7 +75,7 @@ ht-degree: 18%
 
 创建的受众包含“受众映射”部分中选择的所有字段。 您可以在Journey Optimizer中定位此受众，或将其激活到Adobe Experience Platform支持的任何目标。
 
-[请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}。
 
 <!--
 
