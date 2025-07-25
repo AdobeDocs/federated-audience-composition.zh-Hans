@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 90%
 
 如果您的受众使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀团队以将`Halos UPS`数据集添加到您的合并策略。
 
-有关合并策略的更多信息，请阅读[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
+如需了解有关合并策略的更多信息，请参阅[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
 
 ## 护栏和限制 {#fac-guardrails}
 
