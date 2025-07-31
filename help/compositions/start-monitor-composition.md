@@ -3,7 +3,7 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 8%
@@ -95,3 +95,4 @@ ht-degree: 8%
 * **[!UICONTROL 停止]**&#x200B;正在执行的合成，该合成随后将呈现&#x200B;**[!UICONTROL 已完成]**&#x200B;状态。 如果可能，正在执行的操作会被中断。 您无法从停止的同一位置恢复合成。
 
 * **[!UICONTROL 重新启动]**：停止然后重新启动合成。 在大多数情况下，由于停止操作需要花费一定的时间，因此可让您更快地重新启动，并且&#x200B;**[!UICONTROL 启动]**&#x200B;按钮仅在停止操作生效时才可用。
+

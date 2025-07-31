@@ -2,7 +2,7 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 92%
@@ -11,7 +11,7 @@ ht-degree: 92%
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年7月版 {#fac-25-7}
 
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
@@ -274,7 +274,6 @@ ht-degree: 92%
 >[!AVAILABILITY]
 >
 >Adobe 体验平台联合受众构成（Adobe Experience Platform Federated Audience Composition）以前面向一组组织（LA），现在面向所有用户（GA）。此功能根据您的产品激活，并且只有具有相关权限时才可见。[了解详情](access-prerequisites.md)
->
 
 ### 兼容性 {#fac-24-10-compat}
 
