@@ -3,10 +3,10 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 合成过渡 {#transitions}
 
-在组合中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。 可以为每个过渡显示此数据。 要实现此目的，请选择过渡以在屏幕右侧打开其属性。
+在组合中，通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。 可以为每个过渡显示此数据。要实现此目的，请选择过渡以在屏幕右侧打开其属性。
 
 * 单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以显示工作表的架构。
 * 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;以可视化在所选过渡中传输的数据。 仅当启用了&#x200B;**[!UICONTROL 保留两次执行之间的临时群体的结果]**&#x200B;选项时，此选项才可用。 [了解详情](create-composition.md#settings)。
@@ -35,11 +35,11 @@ ht-degree: 1%
 
 通过每个活动框右上角的视觉指示器，可检查其执行情况：
 
-| 视觉指示器 | 描述 |
+| 可视化指示器 | 描述 |
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 当前正在执行活动。 |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或采取必要操作。 |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。 要解决此问题，请打开组合日志以获取更多信息。 |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。这可能涉及确认发送投放或执行必要操作。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。要解决此问题，请打开组合日志以获取更多信息。 |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功执行活动。 |
 
 ## 监测日志和任务 {#logs-tasks}
@@ -61,6 +61,22 @@ ht-degree: 1%
 ![](assets/logs-tasks.png)
 
 在所有选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。
+
+## 订阅警报 {#alerts}
+
+此外，您可以订阅警报，以便在联合合成执行成功或失败时接收通知。
+
+要订阅警报，请选择![通知图标](/help/assets/icons/bell.png)，然后选择![设置图标](/help/assets/icons/settings.png)。
+
+![通知和设置图标均突出显示。](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+此时会显示通知设置页面。 在此页面上，选择&#x200B;**[!UICONTROL Experience Platform]**，然后选择您想要的警报渠道。 要在UI中查看通知，请选择&#x200B;**[!UICONTROL 应用程序内]**。
+
+![在Experience Platform部分中选择了“应用程序内”复选框。](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+选择&#x200B;**[!UICONTROL 应用程序内]**&#x200B;后，您现在将收到有关组合执行成功和失败的通知。
+
+![将显示警报，显示合成成功和失败。](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## 组合执行命令 {#execution-commands}
 

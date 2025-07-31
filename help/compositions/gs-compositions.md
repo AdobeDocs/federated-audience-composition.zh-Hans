@@ -3,8 +3,8 @@ audience: end-user
 title: 开始使用构成
 description: 了解如何开始使用构成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ ht-degree: 100%
 
 您可在[启动与监控构成指南](./start-monitor-composition.md)中了解如何启动或停止构成项目。
 
-![系统会显示一份可用构成项目的列表。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![系统会显示一份可用构成项目的列表。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 您可以通过搜索列表，并按状态或最近处理日期进行筛选，从而优化列表并快速找到所需的构成项目。
 
 您还可以通过添加或移除列来自定义该列表。为此，请点击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮，添加或移除所需的输出列。
 
-![系统会显示可添加到构成项目浏览页面的列的列表。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![系统会显示可添加到构成项目浏览页面的列的列表。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 应用访问标签 {#access-labels}
 
 要为特定构成项目应用访问标签，请先选择该构成项目，然后点击&#x200B;**[!UICONTROL 管理访问权限]**。
 
-![在构成画布中，“管理访问权限”按钮已高亮显示。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![在构成画布中，“管理访问权限”按钮已高亮显示。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL 管理访问权限]**&#x200B;弹出窗口将会显示。在此页面，您可以为构成项目应用相应的访问权限标签和数据治理标签。
 
-![“管理访问权限”弹出窗口会显示。该窗口显示了可应用于构成项目的所有可用标签列表。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![“管理访问权限”弹出窗口会显示。该窗口显示了可应用于构成项目的所有可用标签列表。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 标签类型 | 描述 |
 | ---------- | ----------- |

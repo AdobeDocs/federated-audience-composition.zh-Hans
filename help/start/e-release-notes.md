@@ -4,7 +4,7 @@ description: 最新更新和发行说明。
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 * **Snowflake 安全连接**
 
-  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Amazon Redshift 数据库建立安全的私有链接连接。[了解详情](../connections/federated-db.md#amazon-redshift)
+  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Amazon Redshift 数据库建立安全的私有链接连接。[了解详情](../connections/home.md#amazon-redshift)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 * **Databricks 连接**
 
   通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
-这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/federated-db.md#databricks)
+这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/home.md#databricks)
 
 * **为 B2B CDP 客户提供支持**
 
@@ -113,7 +113,7 @@ ht-degree: 95%
 
 * **Snowflake 安全连接**
 
-  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。[了解详情](../connections/federated-db.md#snowflake)
+  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。[了解详情](../connections/home.md#snowflake)
 
 ## 2025 年 2 月版本 {#fac-25-2}
 
@@ -121,11 +121,11 @@ ht-degree: 95%
 
 * **Microsoft Fabric 支持**
 
-  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/federated-db.md)
+  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/home.md)
 
 * **Amazon Redshift Spectrum 支持**
 
-  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/home.md#amazon-redshift)
 
 * **架构创建体验增强**
 
@@ -143,7 +143,7 @@ ht-degree: 95%
 
 * **IP 地址允许列表**
 
-  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。[了解详情](../connections/connections.md)
+  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。[了解详情](../connections/home.md)
 
 ## 2024 年 10 月版本 {#fac-24-10}
 
@@ -158,11 +158,11 @@ ht-degree: 95%
 
 * **Databricks 支持**
 
-  您现在可以通过联合受众构成建立与 Databricks 数据库的连接。[了解详情](../connections/federated-db.md#databricks)
+  您现在可以通过联合受众构成建立与 Databricks 数据库的连接。[了解详情](../connections/home.md#databricks)
 
 * **支持通过 AWS PrivateLink 安全访问 Snowflake**
 
-  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。[了解详情](../connections/federated-db.md#snowflake)
+  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。[了解详情](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支持**
 

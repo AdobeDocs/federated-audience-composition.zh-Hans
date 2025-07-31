@@ -2,13 +2,13 @@
 audience: end-user
 title: 更改数据Source活动
 description: 了解如何使用更改数据源活动来更改构成所使用的数据源，从而更灵活地管理构成中的数据。
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
-
 
 # 更改数据源
 
@@ -22,12 +22,12 @@ ht-degree: 3%
 
 将&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动添加到画布后，可以为工作流定义数据源。
 
-![数据源选项在联合受众组合工作区中突出显示。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![数据源选项在联合受众组合工作区中突出显示。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
 
 | 来源 | 描述 |
 | ------ | ----------- |
-| FDA外部帐户 | 外部云数据库通过联合受众组合连接到Adobe Campaign。 |
+| FDA外部帐户 | 连接到联合受众组合的外部云数据库。 |
 
 选择&#x200B;**[!UICONTROL 联合数据访问(FDA)外部帐户]**&#x200B;后，您可以选择要与哪个外部帐户连接。
 
-![显示外部帐户选项的弹出框已显示。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
+![显示外部帐户选项的弹出框已显示。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}

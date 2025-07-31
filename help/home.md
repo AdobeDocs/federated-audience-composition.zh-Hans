@@ -2,8 +2,8 @@
 title: Adobe Experience Platform 联合受众构成文档主页
 description: 联合受众构成文档
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey 
 
 创建、配置、测试并保存与外部数据库的连接。
 
-[![图像](assets/learn-more-button.svg)](connections/federated-db.md)
+[![图像](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB 组成受众]
 

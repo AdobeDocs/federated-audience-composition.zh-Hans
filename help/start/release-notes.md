@@ -2,16 +2,63 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
+
+## 2025年7月版 {#fac-25-7}
+
+### 新功能 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>新连接器 — Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oracle连接器现在可用于联合受众合成。</p>
+<p>您可以使用Oracle连接器创建受众和扩充受众用例。</p>
+<p>有关Oracle连接的更多信息，请阅读<a href="../connections/home.md#create">连接概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>组合警报</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以订阅警报，了解合成的成功和失败运行</p>
+<p>有关订阅合成运行通知的详细信息，请阅读<a href="../compositions/start-monitor-composition.md#alerts">开始并监视合成指南</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-07-improvements}
+
+此版本附带以下改进：
+
+* **服务器字符长度增加**
+
+  配置联合数据库时，现在最多可以使用255个字符，而不是以前的80个字符。
 
 ## 2025 年 6 月版本 {#fac-25-6}
 
@@ -157,11 +204,11 @@ ht-degree: 100%
 
 * **Amazon Redshift 安全连接**
 
-  这个新版本的联合受众构成支持与 Amazon Redshift 数据库建立安全的专用链接连接。[了解详情](../connections/federated-db.md#amazon-redshift)
+  这个新版本的联合受众构成支持与 Amazon Redshift 数据库建立安全的专用链接连接。[了解详情](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  这个新版本的联合受众构成支持与 Google BigQuery 数据库建立安全的 VPN 连接。[了解详情](../connections/federated-db.md#google-bigquery)
+  这个新版本的联合受众构成支持与 Google BigQuery 数据库建立安全的 VPN 连接。[了解详情](../connections/home.md#google-bigquery)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 
@@ -177,23 +224,12 @@ ht-degree: 100%
 
   要了解如何分配此权限，请参阅[详细说明文档](/help/governance-privacy-security/access-control.md)。
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### 兼容性 {#fac-25-3-compat}
 
 * **Databricks 连接**
 
   通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
-这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/federated-db.md#databricks)
+这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/home.md#databricks)
 
 * **为 B2B CDP 客户提供支持**
 
@@ -201,7 +237,7 @@ ht-degree: 100%
 
 * **Snowflake 安全连接**
 
-  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。[了解详情](../connections/federated-db.md#snowflake)
+  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。[了解详情](../connections/home.md#snowflake)
 
 ## 2025 年 2 月版本 {#fac-25-2}
 
@@ -209,11 +245,11 @@ ht-degree: 100%
 
 * **Microsoft Fabric 支持**
 
-  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/federated-db.md)
+  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/home.md)
 
 * **Amazon Redshift Spectrum 支持**
 
-  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/home.md#amazon-redshift)
 
 * **架构创建体验增强**
 
@@ -231,7 +267,7 @@ ht-degree: 100%
 
 * **IP 地址允许列表**
 
-  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。[了解详情](../connections/connections.md)
+  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。[了解详情](../connections/home.md)
 
 ## 2024 年 10 月版本 {#fac-24-10}
 
@@ -246,11 +282,11 @@ ht-degree: 100%
 
 * **Databricks 支持**
 
-  您现在可以通过联合受众构成建立与 Databricks 数据库的连接。[了解详情](../connections/federated-db.md#databricks)
+  您现在可以通过联合受众构成建立与 Databricks 数据库的连接。[了解详情](../connections/home.md#databricks)
 
 * **支持通过 AWS PrivateLink 安全访问 Snowflake**
 
-  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。[了解详情](../connections/federated-db.md#snowflake)
+  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。[了解详情](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支持**
 

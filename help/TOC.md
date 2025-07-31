@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 100%
    + [概述](./governance-privacy-security/home.md)
    + [访问控制](governance-privacy-security/access-control.md)
 + 配置步骤 {#config}
-   + [创建和管理连接](connections/connections.md)
-   + [配置联合数据库](connections/federated-db.md)
+   + [连接概述](connections/home.md)
    + [FDA 权限矩阵](connections/fda-rights.md)
    + 数据模型和架构{#datamodel}
       + [创建和配置架构](customer/schemas.md)

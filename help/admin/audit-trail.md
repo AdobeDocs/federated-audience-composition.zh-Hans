@@ -3,10 +3,10 @@ audience: end-user
 title: 审核记录
 description: 了解如何在审核记录中记录并访问操作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >-**查看审核记录**
 >
->有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
+>有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -48,7 +48,7 @@ ht-degree: 11%
 
 * **外部帐户**&#x200B;允许您检查对Adobe受众组合实例中的外部帐户所做的修改。
 
-  有关外部帐户的详细信息，请参阅此[页面](../connections/federated-db.md)。
+  有关外部帐户的详细信息，请参阅此[页面](../connections/home.md)。
 
 +++
 

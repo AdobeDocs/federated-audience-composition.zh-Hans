@@ -3,10 +3,10 @@ audience: end-user
 title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 18%
 >要访问架构，您需要以下权限之一：
 >
 >-**管理联合架构**
->&#x200B;>-**查看联合架构**
+>>-**查看联合架构**
 >
->有关所需权限的详细信息，请参阅[访问控制指南](/help/governance-privacy-security/access-control.md)。
+>有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -69,7 +69,7 @@ ht-degree: 18%
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   通过此步骤，您可以使用下拉列表访问新屏幕，其中可查找连接到环境的数据库。 在[本节](../connections/connections.md#connections-fdb)中了解有关数据库连接的更多信息。
+   通过此步骤，您可以使用下拉列表访问新屏幕，其中可查找连接到环境的数据库。 在[本节](../connections/home.md#connections-fdb)中了解有关数据库连接的更多信息。
 
 1. 在列表中选择源数据库，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
