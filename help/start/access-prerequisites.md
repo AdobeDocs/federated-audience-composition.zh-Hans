@@ -3,9 +3,9 @@ title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 ## 合并策略 {#merge-policies}
 
-如果您的沙盒使用&#x200B;**数据集优先级**&#x200B;合并策略，请联系Adobe客户关怀团队以将`Halos UPS`数据集添加到您的合并策略。
+如果您的沙盒使用&#x200B;**数据集优先**&#x200B;的合并策略，请联系 Adobe 客户服务部门以将 `Halos UPS` 数据集添加到您的合并策略中。
 
 如需了解有关合并策略的更多信息，请参阅[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)。
 

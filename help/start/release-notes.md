@@ -3,32 +3,32 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
-## 2025年7月版 {#fac-25-7}
+## 2025 年 7 月版 {#fac-25-7}
 
 ### 新功能 {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>新连接器 — Oracle</strong><br/></th>
+<th><strong>新连接器 - Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Oracle连接器现在可用于联合受众合成。</p>
-<p>您可以使用Oracle连接器创建受众和扩充受众用例。</p>
-<p>有关Oracle连接的更多信息，请阅读<a href="../connections/home.md#create">连接概述</a>。</p>
+<p>Oracle 连接器现在可与联合受众构成一起使用。</p>
+<p>您可以将 Oracle 连接器用于受众创建以及受众扩充用例。</p>
+<p>有关 Oracle 连接的更多信息，请阅读<a href="../connections/home.md#create">连接概述</a>。</p>
 </br>
 </td>
 </tr>
@@ -38,14 +38,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>组合警报</strong><br/></th>
+<th><strong>构成提醒</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以订阅警报，了解合成的成功和失败运行</p>
-<p>有关订阅合成运行通知的详细信息，请阅读<a href="../compositions/start-monitor-composition.md#alerts">开始并监视合成指南</a>。</p>
+<p>您现在可以订阅提醒，以了解构成运行的成功与失败情况</p>
+<p>要详细了解如何订阅构成运行情况的通知，请参阅<a href="../compositions/start-monitor-composition.md#alerts">启动并监控构成指南</a>。</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### 改进 {#fac-25-07-improvements}
 
-此版本附带以下改进：
+此版本包含以下改进：
 
-* **服务器字符长度增加**
+* **增加了服务器字符长度**
 
-  配置联合数据库时，现在最多可以使用255个字符，而不是以前的80个字符。
+  配置联合数据库时，现在最多可以使用 255 个字符，而不是之前的 80 个字符。
 
 ## 2025 年 6 月版本 {#fac-25-6}
 
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
