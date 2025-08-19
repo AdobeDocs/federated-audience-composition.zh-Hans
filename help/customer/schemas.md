@@ -3,10 +3,10 @@ audience: end-user
 title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 >要访问架构，您需要以下权限之一：
 >
 >-**管理联合架构**
->&#x200B;>-**查看联合架构**
+>>-**查看联合架构**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -59,80 +59,70 @@ ht-degree: 20%
 >[!CAUTION]
 >
 >使用同一数据库连接多个沙盒时，必须使用不同的工作架构。
->
 
 ## 创建架构 {#schema-create}
 
-要在联合受众构成中创建架构，请执行以下步骤：
+要在联合受众组合中创建架构，请在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中选择&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 创建架构]**。
 
-1. 在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中，访问&#x200B;**[!UICONTROL 模型]**&#x200B;菜单。 浏览到&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建架构]**。
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+出现&#x200B;**[!UICONTROL Select federated database]**&#x200B;弹出框。 在此弹出窗口中，您可以选择[源数据库](/help/connections/home.md)，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-   通过此步骤，您可以使用下拉列表访问新屏幕，其中可查找连接到环境的数据库。 在[本节](../connections/home.md#connections-fdb)中了解有关数据库连接的更多信息。
 
-1. 在列表中选择源数据库，然后单击&#x200B;**[!UICONTROL 下一步]**。
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+出现&#x200B;**选择表**&#x200B;弹出框。 在此弹出窗口中，可以选择要用于创建方案的表。
 
-   然后，可以查看数据库中所有表的列表。
+![将显示“选择表”弹出框。](assets/select-table.png){zoomable="yes"}
 
-1. 选择要为其创建方案的表。
+每个选定的表都生成一个包含选定列的模式。 对于每个表，可以更改方案的标签、添加说明、重命名字段标签、设置字段标签可见性并选择方案主键。
 
-1. 每个选定的表都生成一个包含选定列的模式。 根据需要配置架构及其列。
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>如果启用&#x200B;**[!UICONTROL 使用组合键]**，但只选择一个要使用的键，则该键将被视为标准架构主键。
 
-   对于每个表，您可以：
+此外，您可以创建一个由多个架构列组成的键。 打开&#x200B;**[!UICONTROL 使用复合键]**，并标记要用作复合键的键。
 
-   * 更改架构的标签
-   * 添加描述
-   * 重命名所有字段标签，并设置其可见性
-   * 选择架构主键
+![](assets/composite-key.png)
 
-   可以按如下方式定义架构：
-
-   ![](assets/schema_example.png)
-
-1. 完成配置后，单击&#x200B;**[!UICONTROL 完成]**。
+完成配置后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成架构创建。
 
 ## 编辑架构 {#schema-edit}
 
-要编辑架构，请执行以下步骤：
+要编辑架构，请在&#x200B;**架构**&#x200B;页面上选择您之前创建的架构。
 
-1. 访问您之前创建的架构。
+此时将显示“方案详细资料”页。 选择![铅笔图标](/help/assets/icons/edit.png)以编辑架构。
 
-1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+在&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口中，您可以访问和配置与[创建架构](#schema-create)时相同的选项。
 
-1. 从&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口，您可以访问和配置与[创建架构](#schema-create)时相同的选项。
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## 在架构中预览数据 {#schema-preview}
 
 要预览架构所代表的表中的数据，请浏览到&#x200B;**[!UICONTROL 数据]**&#x200B;选项卡，如下所示。
 
-单击&#x200B;**[!UICONTROL 计算]**&#x200B;链接预览录制总数。
+选择&#x200B;**[!UICONTROL 计算]**&#x200B;链接以预览录制总数。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-单击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮更改数据显示。
+选择&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮以更改数据显示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## 刷新架构 {#schema-refresh}
 
-可以更新、添加或删除联合数据库中的表。 在这种情况下，您必须刷新Adobe Experience Platform中的架构以符合最新更改。 要执行此操作，请单击要更新的架构名称旁边的三个圆点，然后选择&#x200B;**刷新架构**。
+可以更新、添加或删除联合数据库中的表。 在这种情况下，您必须刷新Adobe Experience Platform中的架构以符合最新更改。 要执行此操作，请选择架构名称旁边的![三个圆点图标](/help/assets/icons/more.png)，然后选中&#x200B;**[!UICONTROL 刷新架构]**。
 
 您也可以在编辑架构定义时更新该定义。
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## 删除架构 {#schema-delete}
 
-要删除架构，请单击“**[!UICONTROL 更多]**”按钮，然后选择“**[!UICONTROL 删除]**”。
+要删除架构，请选择![三个圆点图标](/help/assets/icons/more.png)，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 ![](assets/schema_delete.png){zoomable="yes"}

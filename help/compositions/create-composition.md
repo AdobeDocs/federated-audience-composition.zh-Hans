@@ -3,33 +3,35 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 21%
+source-wordcount: '515'
+ht-degree: 20%
 
 ---
 
-# 创建并配置构成 {#create}
+# 创建和配置合成 {#create}
 
 创建构图的第一步是定义其标签并根据需要配置其他设置。
 
 ## 创建合成 {#create-the-composition}
 
-1. 访问&#x200B;**[!UICONTROL 受众]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 联合合成]**&#x200B;选项卡。
+要创建合成，请在&#x200B;**[!UICONTROL 客户]**&#x200B;部分中选择&#x200B;**[!UICONTROL 受众]**，然后选择&#x200B;**[!UICONTROL 联合合成]**&#x200B;选项卡。
 
-1. 单击&#x200B;**[!UICONTROL 创建合成]**&#x200B;按钮。
+图像
 
-   ![](assets/composition-create.png)
+此时将显示“联合合成”浏览页面。 选择&#x200B;**[!UICONTROL 创建合成]**&#x200B;以继续合成创建过程。
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为合成指定标签并选择数据模型。 只有与此数据模型关联的架构才会在合成的活动中可用。
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+在&#x200B;**[!UICONTROL 属性]**&#x200B;部分，为您的组合指定标签并选择数据模型。 只有与此数据模型关联的架构才会在合成的活动中可用。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。组合画布随即显示。 您现在可以通过在执行构成之前根据需要添加任意数量的活动来配置构成：
+![](assets/composition-select-schema.png)
 
-   * [了解如何编排活动](orchestrate-activities.md)
-   * [了解如何启动和监视合成](start-monitor-composition.md)
+选择&#x200B;**[!UICONTROL 创建]**。将显示合成画布。 您现在可以通过在执行构成之前根据需要添加任意数量的活动来配置构成：
+
+* [了解如何编排活动](orchestrate-activities.md)
+* [了解如何启动和监视合成](start-monitor-composition.md)
 
 ## 配置构成设置。 {#settings}
 
@@ -48,7 +50,9 @@ ht-degree: 21%
 >title="错误管理设置"
 >abstract="在本部分中，您可以定义在执行期间应如何管理错误。您可以选择暂停流程、忽略一定数量的错误或停止构成执行。"
 
-在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。 要访问这些其他选项，请单击位于合成创建屏幕上部的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
+在访问构成时，您可以访问高级设置，例如，这些设置允许您定义构成在出现错误时的行为。
+
+要访问这些附加选项，请在合成创建屏幕的上半部分中选择&#x200B;**[!UICONTROL 设置]**。
 
 ![](assets/composition-create-settings.png)
 

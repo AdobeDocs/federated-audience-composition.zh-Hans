@@ -3,16 +3,16 @@ audience: end-user
 title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 53%
+source-wordcount: '2075'
+ht-degree: 78%
 
 ---
 
 # 编辑表达式 {#expression}
 
-编辑表达式需要手动输入条件以形成规则。 利用此模式，可使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
+编辑表达式需要手动输入条件以形成规则。利用此模式，可使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
 ## 使用表达式编辑器 {#edit}
 
@@ -26,9 +26,9 @@ ht-degree: 53%
 
 * 定义了表达式的&#x200B;**输入字段(1)**。
 * 可用&#x200B;**字段(2)**&#x200B;的列表，这些字段可用于表达式中，并与查询的架构（也称为定向维度）相对应。
-* **辅助函数(3)**，按类别排序。
+* **辅助函数 (3)**，按类别排序。
 
-通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
+通过直接在输入字段中输入表达式来编辑表达式。要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击 + 按钮。
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -40,9 +40,9 @@ ht-degree: 53%
 
 ## 辅助函数
 
-利用查询编辑工具，可使用高级功能根据所需结果和操作数据的类型执行复杂筛选。 可以使用以下函数：
+利用查询编辑工具，可使用高级函数根据所需结果和所处理数据的类型执行复杂筛选。可以使用以下函数：
 
-### 总计
+### 聚合
 
 聚合函数用于对一组值执行计算。
 
@@ -56,12 +56,12 @@ ht-degree: 53%
   <tr> 
    <td> <strong>平均</strong><br /> </td> 
    <td> 返回数字类型列<br />的平均值 </td> 
-   <td> Avg（&lt;值&gt;）<br /></td> 
+   <td> Avg(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>计数</strong><br /> </td> 
    <td> 计算列<br />的非空值 </td> 
-   <td> Count（&lt;值&gt;）<br /></td>  
+   <td> Count(&lt;值&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -71,32 +71,32 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> 计算列<br />的不同非空值 </td> 
-   <td> Countdistinct（&lt;值&gt;）<br /></td> 
+   <td> Countdistinct(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>最大</strong><br /> </td> 
    <td> 返回数字、字符串或日期类型列<br />的最大值 </td> 
-   <td> Max（&lt;值&gt;）<br /></td>  
+   <td> Max(&lt;值&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>分钟</strong><br /> </td> 
    <td> 返回数字、字符串或日期类型列<br />的最小值 </td> 
-   <td> Min（&lt;值&gt;）<br /></td> 
+   <td> Min(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> 返回数字、字符串或日期列<br />的标准偏差 </td> 
-   <td> StdDev（&lt;值&gt;）<br /></td> 
+   <td> StdDev(&lt;值&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
    <td> 返回字符串类型列的值的串联，由第二个参数<br />中的字符分隔 </td> 
-   <td> StringAgg（&lt;值&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> StringAgg(&lt;值&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>总和</strong><br /> </td> 
    <td> 返回数字、字符串或日期类型列<br />的值的总和 </td> 
-   <td> Sum（&lt;值&gt;）<br /></td> 
+   <td> Sum(&lt;值&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -382,7 +382,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> 返回由经度和纬度定义的两点之间的距离，以度表示。<br /> </td> 
+   <td> 返回由经度和纬度定义的两点之间的距离（以度表示）<br /> </td> 
    <td> Distance(&lt;经度 A&gt;, &lt;纬度 A&gt;, &lt;经度 B&gt;, &lt;纬度 B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -411,7 +411,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 返回大于或等于数字<br />的最大整数 </td> 
+   <td> 返回大于或等于某个数字的最大整数<br /> </td> 
    <td> Floor(&lt;数字&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -426,7 +426,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> 返回n1除以n2<br />的整数除余数 </td> 
+   <td> 返回 n1 除以 n2 的整数除法的余数<br /> </td> 
    <td> Mod(&lt;数字 1&gt;, &lt;数字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -472,9 +472,9 @@ ht-degree: 53%
  </tbody> 
 </table>
 
-### 其他 
+### 其他
 
-此表包含剩余的可用函数。
+此表还包含其余一些可用的函数。
 
 <table> 
  <tbody> 
@@ -485,12 +485,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> 加密参数<br />中提供的字符串 </td> 
-   <td> AESEncrypt（&lt;值&gt;）<br /> </td> 
+   <td> 对参数中提供的字符串进行加密<br /> </td> 
+   <td> AESEncrypt(&lt;值&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 如果条件为true，则返回值1。 如果不存在，则返回值2.<br /> </td> 
+   <td> 如果条件为真，则返回值 1。如果为假，则返回值 2。<br /> </td> 
    <td> Case(When(&lt;条件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -505,7 +505,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值1 =值2，则返回值3。 如果未返回值4.<br /> </td> 
+   <td> 如果值 1 = 值 2，则返回值 3。否则返回值 4。<br /> </td> 
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -516,7 +516,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 返回值 1（只能用作 case 函数的参数）<br /> </td> 
-   <td> Else（&lt;值1&gt;， &lt;值2&gt;）<br /> </td>  
+   <td> Else(&lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -530,7 +530,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果表达式为true，则返回值1。 如果不存在，则返回值2<br /> </td> 
+   <td> 如果表达式为真，则返回值 1。否则，则返回值 2<br /> </td> 
    <td> Iif(&lt;条件&gt;, &lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -540,12 +540,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> 如果字符串1为空，则返回值2，否则返回值3<br /> </td> 
-   <td> IsEmptyString（&lt;值1&gt;， &lt;值2&gt;， &lt;值3&gt;）<br /> </td>  
+   <td> 如果字符串 1 为空，则返回值 2，否则返回值 3<br /> </td> 
+   <td> IsEmptyString(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> 返回唯一ID<br /> </td> 
+   <td> 返回唯一 ID<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -570,7 +570,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果表达式为true，则返回值1。 如果不是，则返回值2（只能用作case函数的参数）<br /> </td> 
+   <td> 如果表达式为真，则返回值 1。否则，返回值 2（只能用作 case 函数的参数）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;值 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -590,107 +590,107 @@ ht-degree: 53%
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> 指示所有参数是否为非 null 且不为空<br /> </td> 
-   <td> AllNonNull2（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> AllNonNull2(&lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> 指示所有参数是否为非 null 且不为空<br /> </td> 
-   <td> AllNonNull3（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> AllNonNull3(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
-   <td> 返回字符串中第一个字符的ASCII值。<br /> </td> 
-   <td> Ascii（&lt;字符串&gt;）<br /></td> 
+   <td> 返回字符串中第一个字符的 ASCII 值。<br /> </td> 
+   <td> Ascii(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> 返回与 ASCII 代码"n"对应的字符<br /> </td> 
-   <td> Char（&lt;数字&gt;）<br /></td>  
+   <td> Char(&lt;数字&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> 返回字符串1中字符串2的位置。<br /> </td> 
-   <td> Charindex（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> 返回字符串 1 中字符串 2 的位置。<br /> </td> 
+   <td> Charindex(&lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>数据长度</strong><br /> </td> 
-   <td> 返回字符串<br />的大小（以字节为单位） </td> 
-   <td> dataLength（&lt;字符串&gt;）<br /></td> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 返回字符串的大小（以字节为单位）<br /> </td> 
+   <td> dataLength(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 返回字符串的 n（从 1 到 n）行<br /> </td> 
-   <td> GetLine（&lt;字符串&gt;）<br /></td> 
+   <td> GetLine(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前两个参数相等，则返回第三个参数。 如果不是，则返回最后一个参数<br /> </td> 
-   <td> IfEquals（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> 如果前两个参数相等，则返回第三个参数。否则返回最后一个参数<br /> </td> 
+   <td> IfEquals(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> 指示作为参数传递的 Memo 是否为 null<br /> </td> 
-   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;备注&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 将作为参数传递的字符串连接起来。 如有必要，在字符串之间添加空格。<br /> </td> 
-   <td> JuxtWords（&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> 将作为参数传递的字符串连接起来。必要时在字符串之间添加空格。<br /> </td> 
+   <td> JuxtWords(&lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 将作为参数传递的字符串连接起来。 如有必要，在字符串之间添加空格<br /> </td> 
-   <td> JuxtWords3（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br /></td>  
+   <td> 将作为参数传递的字符串连接起来。必要时在字符串之间添加空格<br /> </td> 
+   <td> JuxtWords3(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 返回字符串的前 n 个字符<br /> </td> 
-   <td> Left（&lt;字符串&gt;， &lt;数字&gt;）<br /></td> 
+   <td> Left(&lt;字符串&gt;, &lt;数字&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 返回字符串<br />的长度 </td> 
-   <td> Length（&lt;字符串&gt;）<br /></td> 
+   <td> 返回字符串的长度<br /> </td> 
+   <td> Length(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>行</strong><br /> </td> 
-   <td> 从字符串<br />中提取行n </td> 
-   <td> Line（&lt;字符串&gt;，&lt;数字&gt;）<br /></td> 
+   <td> 从字符串中提取第 n 行<br /> </td> 
+   <td> Line(&lt;字符串&gt;, &lt;数字&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 以小写形式返回字符串<br /> </td> 
-   <td> Lower（&lt;字符串&gt;）<br /></td> 
+   <td> Lower(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 返回左侧的已完成字符串<br /> </td> 
-   <td> LPad （&lt;字符串&gt;， &lt;数字&gt;， &lt;字符&gt;）<br /></td> 
+   <td> LPad (&lt;字符串&gt;, &lt;数字&gt;, &lt;字符&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 删除字符串左侧的空格<br /> </td> 
-   <td> Ltrim（&lt;字符串&gt;）<br /></td> 
+   <td> Ltrim(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 返回字符串以十六进制表示的 MD5 键值<br /> </td> 
-   <td> Md5Digest（&lt;字符串&gt;）<br /></td> 
+   <td> Md5Digest(&lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> 指定 Memo 是否包含作为参数传递的字符串<br /> </td> 
-   <td> MemoContains（&lt;memo&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> MemoContains(&lt;备注&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>节点值</strong><br /> </td> 
-   <td> 从其XPath和字段数据提取XML字段的值<br /> </td> 
-   <td> NodeValue （&lt;字符串&gt;， &lt;字符串&gt;）<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> 从 XML 字段的 XPath 和字段数据中提取 XML 字段的值<br /> </td> 
+   <td> NodeValue (&lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> 将指定字符串值的所有匹配项替换为其他字符串值。<br /> </td> 
-   <td> Replace（&lt;字符串&gt;，&lt;字符串&gt;，&lt;字符串&gt;）<br /></td> 
+   <td> 将指定字符串值（字符串2）的所有匹配项替换为字符串（字符串1）中的另一个字符串值（字符串3）。<br /> </td> 
+   <td> Replace（&lt;字符串1&gt;，&lt;字符串2&gt;，&lt;字符串3&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -700,7 +700,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 返回右侧的已完成字符串<br /> </td> 
-   <td> RPad（&lt;字符串&gt;， &lt;数字&gt;， &lt;字符&gt;）<br /></td> 
+   <td> RPad(&lt;字符串&gt;, &lt;数字&gt;, &lt;字符&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -709,13 +709,13 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 字符串的SHA256键的十六进制表示形式。<br /> </td> 
-   <td> Sha256Digest （&lt;字符串&gt;）<br /> </td> 
+   <td> 以十六进制表示的字符串的 SHA256 键。<br /> </td> 
+   <td> Sha256Digest (&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 字符串的SHA512键的十六进制表示形式。<br /> </td> 
-   <td> Sha512Digest （&lt;字符串&gt;）<br /> </td> 
+   <td> 以十六进制表示的字符串的 SHA512 键。<br /> </td> 
+   <td> Sha512Digest (&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -724,13 +724,13 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 提取从字符串的字符n1开始的、长度为n2<br />的子字符串 </td> 
+   <td> 提取从字符串的字符 n1 开始、长度为 n2 的子字符串<br /> </td> 
    <td> Substring(&lt;字符串&gt;, &lt;偏移&gt;, &lt;长度&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> 将数字转换为字符串<br /> </td> 
-   <td> ToString（&lt;数字&gt;， &lt;数字&gt;）<br /> </td>  
+   <td> ToString(&lt;数字&gt;, &lt;数字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -760,9 +760,9 @@ ht-degree: 53%
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_超过__</strong><br /> </td> 
-   <td> 执行作为第1参数输入的SQL函数调用，通过Partition或Order By作为第2参数<br />输入的字段 </td> 
-   <td> 超过_ （&lt;值&gt;， &lt;值&gt;）<br />(_Over_) </td>  
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> 相对于作为第二个参数输入的“分区”或“排序依据”字段，优先执行作为第一个参数输入的 SQL 函数调用<br /> </td> 
+   <td> _Over_ (&lt;值&gt;, &lt;值&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
@@ -781,7 +781,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 根据表分区和排序顺序生成行号。<br /> </td> 
+   <td> 根据表分区和排序序列生成行号。<br /> </td> 
    <td> RowNum(PartitionBy(&lt;值 1&gt;), OrderBy(&lt;值 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

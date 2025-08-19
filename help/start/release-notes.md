@@ -2,16 +2,78 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1542'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
+
+## ’25年8月版 {#fac-25-8}
+
+### 新功能 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>模式发现中的复合密钥支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将列组合在一起，为架构创建组合键。</p>
+<p>有关架构的详细信息，请阅读<a href="../customer/schemas.md#create">架构概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在模型的链接中添加多个联接</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在单个链接中为模型添加多个联接。</p>
+<p>有关模型的详细信息，请阅读<a href="../data-management/gs-models.md#create">模型概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-8-improvements}
+
+此版本包含以下改进：
+
+* **已添加`StringAgg`函数**
+
+  现在，您可以在以下情况下对Amazon Redshift光谱数据库使用`StringAgg`函数： 使用表达式编辑器。
+
+* **`Replace`函数**
+
+  文档中阐明了`Replace`函数的描述和语法。
+
+### 兼容性 {#fac-25-8-compatibility}
+
+* **Azure Synapse数据库**
+
+  您现在可以使用PrivateLink或VPN安全地连接到Azure Synapse数据库。 有关更多信息，请联系Adobe客户关怀部门。
+
+* **Oracle数据库**
+
+  您现在可以安全地连接到Oracle数据库。 有关更多信息，请联系Adobe客户关怀部门。
+
+有关联合受众组合中支持的数据库的详细信息，请阅读[连接概述](../connections/home.md)。
 
 ## 2025 年 7 月版 {#fac-25-7}
 
