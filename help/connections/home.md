@@ -3,9 +3,9 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >要访问连接，您需要以下权限之一：
 >
 >-**管理联合数据库**
->&#x200B;>-**查看联合数据库**
+>>-**查看联合数据库**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -71,6 +71,10 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 工作模式 | 用于工作表的数据库模式的名称。 有关此功能的更多信息，请参阅[Amazon架构文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}。<br/><br/>**注意：**&#x200B;您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>如果要使用Azure Synapse Analytics创建安全连接，请联系您的Adobe客户关怀代表。
 
 选择Azure Synapse Analytics后，您可以添加以下详细信息：
 
@@ -151,9 +155,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!IMPORTANT]
 >
->Oracle数据库连接器当前只能&#x200B;**1&rbrace;用于创建受众和扩充受众用例。**
+>Oracle数据库连接器当前只能&#x200B;**1}用于创建受众和扩充受众用例。**
 >
->此外，在设置Oracle数据库之前，请联系您的Adobe客户关怀代表。
+>在设置Oracle数据库(包括设置Oracle连接以使用安全连接)之前，请与Adobe客户关怀代表联系。
 
 选择Oracle后，您可以添加以下详细信息：
 

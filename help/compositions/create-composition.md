@@ -3,10 +3,10 @@ audience: end-user
 title: 创建合成
 description: 了解如何创建合成
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '524'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 要创建合成，请在&#x200B;**[!UICONTROL 客户]**&#x200B;部分中选择&#x200B;**[!UICONTROL 受众]**，然后选择&#x200B;**[!UICONTROL 联合合成]**&#x200B;选项卡。
 
-图像
+![访问联合合成部分的路径已突出显示。](assets/create/access-compositions.png)
 
 此时将显示“联合合成”浏览页面。 选择&#x200B;**[!UICONTROL 创建合成]**&#x200B;以继续合成创建过程。
 

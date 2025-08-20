@@ -3,9 +3,9 @@ audience: end-user
 title: 架构入门
 description: 了解如何开始使用架构
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >要访问架构，您需要以下权限之一：
 >
 >-**管理联合架构**
->&#x200B;>-**查看联合架构**
+>>-**查看联合架构**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -64,7 +64,7 @@ ht-degree: 19%
 
 要在联合受众组合中创建架构，请在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中选择&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 创建架构]**。
 
-![](assets/schema_create.png){zoomable="yes"}
+![“创建架构”按钮在“联合受众组合”架构部分中突出显示。](assets/schema_create.png){zoomable="yes"}
 
 出现&#x200B;**[!UICONTROL Select federated database]**&#x200B;弹出框。 在此弹出窗口中，您可以选择[源数据库](/help/connections/home.md)，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
@@ -77,7 +77,7 @@ ht-degree: 19%
 
 每个选定的表都生成一个包含选定列的模式。 对于每个表，可以更改方案的标签、添加说明、重命名字段标签、设置字段标签可见性并选择方案主键。
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 19%
 
 此外，您可以创建一个由多个架构列组成的键。 打开&#x200B;**[!UICONTROL 使用复合键]**，并标记要用作复合键的键。
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 完成配置后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成架构创建。
 
