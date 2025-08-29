@@ -3,31 +3,31 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
-## ’25年8月版 {#fac-25-8}
+## 2025 年 8 月版本 {#fac-25-8}
 
 ### 新功能 {#fac-25-08-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>模式发现中的复合密钥支持</strong><br/></th>
+<th><strong>在架构发现中支持复合键</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以将列组合在一起，为架构创建组合键。</p>
-<p>有关架构的详细信息，请阅读<a href="../customer/schemas.md#create">架构概述</a>。</p>
+<p>您现在可以将多个列组合在一起，为架构创建复合键。</p>
+<p>有关架构的更多信息，请阅读<a href="../customer/schemas.md#create">架构概述</a>。</p>
 </br>
 </td>
 </tr>
@@ -37,14 +37,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>在模型的链接中添加多个联接</strong><br/></th>
+<th><strong>在模型链接中添加多个连接</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在单个链接中为模型添加多个联接。</p>
-<p>有关模型的详细信息，请阅读<a href="../data-management/gs-models.md#create">模型概述</a>。</p>
+<p>您现在可以在模型的一个链接中同时添加多个连接。</p>
+<p>有关模型的更多信息，请阅读<a href="../data-management/gs-models.md#create">模型概述</a>。</p>
 </br>
 </td>
 </tr>
@@ -55,25 +55,25 @@ ht-degree: 91%
 
 此版本包含以下改进：
 
-* **已添加`StringAgg`函数**
+* **增加了 `StringAgg` 功能**
 
-  现在，您可以在以下情况下对Amazon Redshift光谱数据库使用`StringAgg`函数： 使用表达式编辑器。
+  您现在可以在使用表达式编辑器时，为 Amazon Redshift Spectrum 数据库使用 `StringAgg`函数。
 
 * **`Replace`函数**
 
-  文档中阐明了`Replace`函数的描述和语法。
+  文档中介绍了 `Replace` 函数的描述和语法。
 
 ### 兼容性 {#fac-25-8-compatibility}
 
-* **Azure Synapse数据库**
+* **Azure Synapse 数据库**
 
-  您现在可以使用PrivateLink或VPN安全地连接到Azure Synapse数据库。 有关更多信息，请联系Adobe客户关怀部门。
+  您现在可以通过 PrivateLink 或 VPN 安全连接到 Azure Synapse 数据库。有关详细信息，请联系 Adobe 客户关怀。
 
-* **Oracle数据库**
+* **Oracle 数据库**
 
-  您现在可以安全地连接到Oracle数据库。 有关更多信息，请联系Adobe客户关怀部门。
+  您现在可以安全地与 Oracle 数据库连接。有关详细信息，请联系 Adobe 客户关怀。
 
-有关联合受众组合中支持的数据库的详细信息，请阅读[连接概述](../connections/home.md)。
+有关联合受众构成中受支持的数据库的更多信息，请参阅[连接概述](../connections/home.md)。
 
 ## 2025 年 7 月版 {#fac-25-7}
 
@@ -259,7 +259,7 @@ ht-degree: 91%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
