@@ -3,9 +3,9 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
+source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1990'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >要访问连接，您需要以下权限之一：
 >
 >-**管理联合数据库**
->&#x200B;>-**查看联合数据库**
+>>-**查看联合数据库**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -155,7 +155,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!IMPORTANT]
 >
->在设置Oracle数据库(包括设置Oracle连接以使用安全连接)之前，请与Adobe客户关怀代表联系。
+>联合受众组合支持使用Oracle数据库版本11g或更高版本进行联合连接设置，并托管在AWS、Azure、Exadata或私有云上（只要它可以由外部网络访问）。 如果您有与Oracle数据库设置相关的任何进一步查询或需要创建与Oracle的安全连接，请联系您的Adobe客户关怀代表。
 
 选择Oracle后，您可以添加以下详细信息：
 
