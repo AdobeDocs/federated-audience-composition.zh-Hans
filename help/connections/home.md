@@ -3,9 +3,9 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2298'
 ht-degree: 10%
 
 ---
@@ -127,11 +127,15 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
 
+>[!NOTE]
+>
+>在使用OAuth 2.0连接到Google BigQuery之前，您需要在Google Cloud项目中配置重定向URL。 在OAuth 2.0客户端ID配置下，将重定向URL `https://fac-oauth.adobe.io/oauth`添加到您的Google Cloud项目。
+
 | 字段 | 描述 |
 | ----- | ----------- |
 | 客户端 ID | Google BigQuery项目中的客户端ID。 此字段充当项目的用户名。 |
 | 客户端密码 | Google BigQuery项目的客户端密钥。 此字段充当项目的密码。 |
-| 重定向URL | 成功授权后应用程序将重定向的URL。 |
+| 访问范围 | 预填充的信息，该信息列出您的OAuth令牌在Google云资源中有权使用的范围。 |
 
 选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
 
@@ -176,7 +180,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >联合受众组合支持联合连接设置，该连接设置可与11g或更高版本上的Oracle数据库配合使用，并托管在AWS、Azure、Exadata或私有云上（只要该数据库可由外部网络访问）。 如果您有与Oracle数据库设置相关的任何进一步查询或需要创建与Oracle的安全连接，请联系您的Adobe客户关怀代表。
 
@@ -205,6 +209,10 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 密码 | 帐户的密码。 |
 
 如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
+
+>[!NOTE]
+>
+>在使用OAuth 2.0连接到Snowflake之前，您需要在Snowflake OAuth集成对象中配置重定向URL。 将重定向URL `https://fac-oauth.adobe.io/oauth`添加到您的Snowflake OAuth集成配置。
 
 | 字段 | 描述 |
 | ----- | ----------- |
