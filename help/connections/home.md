@@ -3,10 +3,10 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 11%
+source-wordcount: '2224'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 >要访问连接，您需要以下权限之一：
 >
 >-**管理联合数据库**
->&#x200B;>-**查看联合数据库**
+>-**查看联合数据库**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -59,6 +59,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >[!AVAILABILITY]
 >
 >仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
+>
+>此外，支持通过专用链接安全访问外部Amazon Redshift数据仓库。
 
 选择Amazon Redshift后，您可以添加以下详细信息：
 
@@ -111,11 +113,32 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!TAB Google BigQuery]
 
-选择Google BigQuery后，您可以添加以下详细信息：
+>[!NOTE]
+>
+>支持通过VPN安全访问外部Google BigQuery Data Warehouse。
+
+选择Google BigQuery后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
+
+如果选择&#x200B;**[!UICONTROL 帐户/密码身份验证]**，则可以添加以下登录信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
 | 服务帐户 | 服务帐户的电子邮件地址。 有关详细信息，请阅读[Google Cloud Service帐户文档](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}。 |
+
+如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| 客户端 ID | Google BigQuery项目中的客户端ID。 此字段充当项目的用户名。 |
+| 客户端密码 | Google BigQuery项目的客户端密钥。 此字段充当项目的密码。 |
+| 重定向URL | 成功授权后应用程序将重定向的URL。 |
+
+选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
+
+输入登录详细信息后，您可以添加以下详细信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
 | 项目 | 项目的ID。 有关详细信息，请阅读[Google Cloud项目文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 数据集 | 数据集的名称。 有关详细信息，请参阅[Google Cloud数据集文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
 | 密钥文件路径 | 到服务器的密钥文件。 仅支持`json`个文件。 |
@@ -171,13 +194,30 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >
 >支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 
-选择Snowflake后，您可以添加以下详细信息：
+选择Snowflake后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
+
+如果选择&#x200B;**[!UICONTROL 帐户/密码身份验证]**，则可以添加以下登录信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | 服务器的名称。 |
 | 用户 | 帐户的用户名。 |
 | 密码 | 帐户的密码。 |
+
+如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| Server | 服务器的名称。 |
+| 客户端 ID | Snowflake项目中的客户端ID。 此字段充当项目的用户名。 |
+| 客户端密码 | Snowflake项目中的客户端密钥。 此字段充当项目的密码。 |
+
+选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
+
+输入登录详细信息后，您可以添加以下详细信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 私钥 | 数据库连接的私钥。 您可以从本地系统上传`.pem`文件。 |
