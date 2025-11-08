@@ -3,7 +3,7 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
+source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 10%
@@ -277,3 +277,4 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 测试连接 | 允许您验证配置详细信息。 |
 
 现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
+
