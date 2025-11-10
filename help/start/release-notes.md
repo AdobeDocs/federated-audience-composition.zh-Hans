@@ -2,7 +2,7 @@
 title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
@@ -11,7 +11,7 @@ ht-degree: 98%
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年10月版 {#fac-25-10}
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -299,7 +299,7 @@ ht-degree: 98%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
@@ -414,3 +414,4 @@ ht-degree: 98%
 要了解有关联合受众构成功能方面的更多信息，请参阅[此页面](get-started.md)以及[常见问题解答](faq.md)。
 
 有关访问联合受众构成的先决条件和当前护栏的详细信息，请参阅[此页面](access-prerequisites.md)。
+
