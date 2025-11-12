@@ -5,15 +5,15 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
-## 2025年10月版 {#fac-25-10}
+## 2025 年 10 月版本 {#fac-25-10}
 
 ### 新功能 {#fac-25-10-feature}
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -39,14 +39,14 @@ ht-degree: 98%
 <table>
 <thead>
 <tr>
-<th><strong>适用于Google BigQuery和Snowflake的OAuth身份验证</strong><br/></th>
+<th><strong>适用于 Google BigQuery 和 Snowflake 的 OAuth 身份验证</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用OAuth连接到Google BigQuery和Snowflake。</p>
-<p>有关创建连接的详细信息，请阅读<a href="../connections/home.md#create">连接概述</a>。</p>
+<p>您现在可以使用 OAuth 连接到 Google BigQuery 和 Snowflake。</p>
+<p>有关创建连接的更多信息，请参阅<a href="../connections/home.md#create">连接概述</a>。</p>
 </br>
 </td>
 </tr>
@@ -299,7 +299,7 @@ ht-degree: 98%
 
 * **保存受众活动**
 
-  **保存受众**&#x200B;活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
   [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 兼容性 {#fac-25-4-compat}
