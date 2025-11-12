@@ -3,7 +3,7 @@ title: Experience Platform 联合受众构成中的新增功能
 description: 最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1740'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # 发行说明 {#rn-new}
 
-[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025 年 10 月版本 {#fac-25-10}
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
