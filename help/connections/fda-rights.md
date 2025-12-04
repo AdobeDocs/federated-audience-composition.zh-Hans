@@ -2,7 +2,7 @@
 title: 访问外部数据库的权限
 description: 了解您需要在每个数据库引擎上访问和执行任务所需的权限
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: 530a8709a67fabec1a36e1661b922f3e9a9e6996
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 5%
