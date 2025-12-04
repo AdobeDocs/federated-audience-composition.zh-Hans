@@ -3,7 +3,7 @@ audience: end-user
 title: 开始使用构成
 description: 了解如何开始使用构成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >要访问构成，您需要以下权限之一：
 >
 >-**管理联合构成**
->>-**查看联合构成**
+>-**查看联合构成**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
