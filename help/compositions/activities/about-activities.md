@@ -3,10 +3,10 @@ audience: end-user
 title: '使用活动 '
 description: 了解如何使用活动
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+source-git-commit: 95f262e44c392c1e3c861a2b77b7736657cb9371
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '301'
+ht-degree: 35%
 
 ---
 
@@ -19,20 +19,24 @@ ht-degree: 17%
 
 ## 目标选择活动
 
-* [构建受众活动](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
+>[!NOTE]
+>
+>处理合成活动时，属性名称&#x200B;**不能**&#x200B;包含任何空格。
+
+* [构建受众活动](build-audience.md)：定义目标群体。 您可以选择现有受众或使用查询建模器来定义您自己的查询。
 * [更改数据源](./change-data-source.md)：更改合成使用的数据源。
 * [更改维度](change-dimension.md)：在构建组合时更改架构，也称为定向维度。
-* [合并](combine.md)：对入站群体执行分段。 您可以使用并集、交集或差集。
-* [重复数据删除](deduplication.md)：删除集客活动结果中的重复项。
-* [扩充](enrichment.md)：定义要在合成中处理的附加数据。 通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。
+* [合并](combine.md)：对入站群体执行细分。您可以使用合并、交叉或排除。
+* [重复数据删除](deduplication.md)：删除入站活动结果中的重复项。
+* [扩充](enrichment.md)：定义要在合成中处理的附加数据。 通过此活动，您可以应用入站过渡并配置活动以使用其他数据完成输出过渡的设置。
 * [协调](reconciliation.md)：定义数据库中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 * [保存受众](save-audience.md)：更新现有受众，或从组合中上游计算的群体创建新受众。
 * [拆分](split.md)：将传入的群体划分到多个子集中。
 
-## 流量控制活动
+## 流程控制活动
 
 * [AND-join](and-join.md)：同步组合的多个执行分支。
 * **结束**：以图形方式标记合成结束。 此活动无功能性影响，因此为可选活动。
-* [分支](fork.md)：创建叫客过渡以同时启动多个活动。
+* [分叉](fork.md)：创建出站过渡以同时启动多个活动。
 * [计划程序](scheduler.md)：计划何时开始合成。
 * [等待](wait.md)：暂时暂停执行部分合成。
