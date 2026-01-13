@@ -2,10 +2,10 @@
 title: 使用 AI 助手
 description: 了解如何使用 AI 助手
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ AI 助手是一种用户界面功能，旨在帮助您浏览和理解 Adobe 概�
 
 要提出问题，请执行以下操作：
 
-1. 点击顶部栏上相应的图标访问 AI 助手。
+1. 通过选择顶栏上的图标访问AI助手。
 
-   AI 助手显示在屏幕右侧。您可以点击![潜水图像替代文本](assets/do-not-localize/Smock_FullScreen_18_N.svg "展开")来展开 AI 助手窗口。
+   AI 助手显示在屏幕右侧。您可以选择![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand")以展开AI助手窗口。
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

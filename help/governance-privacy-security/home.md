@@ -2,7 +2,7 @@
 title: 联合受众构成中的隐私和安全
 description: 了解联合受众构成如何处理用户数据的隐私与安全问题，其中包括数据治理、同意管理、访问控制、数据加密及隐私合规等功能。
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Federated Audience Composition提供了多种服务和工具，使您能够遵�
 
 您可以使用数据使用标签，根据应用于该数据的治理策略对数据集和字段进行分类。 在使用构成功能创建受众后，您可以在生成的架构上应用相应的数据标签，以确保其遵循所需的使用限制。
 
-有关在联合受众组合中使用数据标签的更多信息，请阅读[应用访问标签部分](../compositions/gs-compositions.md#access-labels){target="_blank"}。
+有关在联合受众组合中使用数据标签的更多信息，请阅读[应用访问标签部分](../compositions/home.md#access-labels){target="_blank"}。
 
 ## 隐私
 

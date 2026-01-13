@@ -2,7 +2,7 @@
 title: 联合受众组合中的访问控制
 description: 了解如何在联合受众组合中管理用户的数据访问。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -80,4 +80,4 @@ ht-degree: 80%
 
 您可以通过应用访问标签来管理对特定构图的访问。
 
-有关对合成应用访问标签的详细信息，请阅读合成指南的[应用访问标签部分](/help/compositions/gs-compositions.md#access-labels)。
+有关对合成应用访问标签的详细信息，请阅读合成指南的[应用访问标签部分](/help/compositions/home.md#access-labels)。

@@ -1,0 +1,362 @@
+---
+title: Federated受众组合发行说明
+description: 联合受众组合的最新更新和发行说明。
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 95%
+
+---
+
+# 发行说明 {#rn-new}
+
+[!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。所有变更均已纳入本发行说明中。[!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
+
+## 2025 年 10 月版本 {#fac-25-10}
+
+### 新功能 {#fac-25-10-feature}
+
+<!-- 
+<table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>适用于 Google BigQuery 和 Snowflake 的 OAuth 身份验证</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用 OAuth 连接到 Google BigQuery 和 Snowflake。</p>
+<p>有关创建连接的更多信息，请参阅<a href="../connections/home.md#create">连接概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 2025 年 8 月版本 {#fac-25-8}
+
+### 新功能 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>在架构发现中支持复合键</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将多个列组合在一起，为架构创建复合键。</p>
+<p>有关架构的更多信息，请阅读<a href="../data-modelling/schemas.md#create">架构概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在模型链接中添加多个连接</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在模型的一个链接中同时添加多个连接。</p>
+<p>有关模型的更多信息，请阅读<a href="../data-modelling/models.md#create">模型概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-8-improvements}
+
+此版本包含以下改进：
+
+* **增加了 `StringAgg` 功能**
+
+  您现在可以在使用表达式编辑器时，为 Amazon Redshift Spectrum 数据库使用 `StringAgg`函数。
+
+* **`Replace`函数**
+
+  文档中介绍了 `Replace` 函数的描述和语法。
+
+### 兼容性 {#fac-25-8-compatibility}
+
+* **Azure Synapse 数据库**
+
+  您现在可以通过 PrivateLink 或 VPN 安全连接到 Azure Synapse 数据库。有关详细信息，请联系 Adobe 客户关怀。
+
+* **Oracle 数据库**
+
+  您现在可以安全地与 Oracle 数据库连接。有关详细信息，请联系 Adobe 客户关怀。
+
+有关联合受众构成中受支持的数据库的更多信息，请参阅[连接概述](../connections/home.md)。
+
+## 2025 年 7 月版 {#fac-25-7}
+
+### 新功能 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>新连接器 - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oracle 连接器现在可与联合受众构成一起使用。</p>
+<p>您可以将 Oracle 连接器用于受众创建以及受众扩充用例。</p>
+<p>有关 Oracle 连接的更多信息，请阅读<a href="../connections/home.md#create">连接概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>构成提醒</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以订阅提醒，以了解构成运行的成功与失败情况</p>
+<p>有关订阅合成运行通知的详细信息，请阅读<a href="../compositions/create-composition.md#alerts">创建合成指南</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-07-improvements}
+
+此版本包含以下改进：
+
+* **增加了服务器字符长度**
+
+  配置联合数据库时，现在最多可以使用 255 个字符，而不是之前的 80 个字符。
+
+## 2025 年 6 月版本 {#fac-25-6}
+
+### 改进 {#fac-25-06-improvements}
+
+此版本包含以下改进：
+
+* **Adobe Healthcare Shield 正式面向客户发布**
+
+  联合受众构成将于 6 月底向 Adobe Healthcare Shield 客户开放，用于受众创建、扩充和轮廓扩充用例。
+
+  关于联合受众构成中的隐私与安全性的更多信息，请参阅[数据治理、隐私与安全指南](/help/governance-privacy-security/home.md)。
+
+* **对象级别的访问控制**
+
+  “联合受众构成”现已支持对象级访问控制，可为您指定的构成项应用访问标签。
+
+  关于使用对象级访问标签的更多信息，请参阅[构成指南](/help/compositions/home.md)。
+
+* **默认角色**
+
+  您现在可以使用默认角色之一来管理对“联合受众构成”的访问权限。
+
+  关于默认角色的更多信息，请参阅[访问联合受众构成指南](/help/governance-privacy-security/access-control.md)。
+
+* **轮廓扩充用例现已支持增量更新。**
+
+  保存轮廓活动现在支持增量更新。借助增量更新，您可以在从外部数据仓库扩充轮廓的同时，对增量数据进行查询与更新。
+
+  有关使用保存配置文件活动的更多信息，请参阅活动指南[的](/help/compositions/activities.md#save-profiles)保存配置文件部分。
+
+## 2025 年 5 月版 {#fac-25-5}
+
+### 新功能 {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>数据模型画布视图 - 正式发布</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>带有画布视图的数据模型现在可供所有客户使用！</p>
+<p>数据模型部分的画布视图在画布布局中使用数据模型的可视化图表、数据模型的链接以及现有的表格视图，从而改进了使用体验。 </p>
+<p>有关画布视图的更多信息，请阅读<a href="../data-modelling/models.md">数据模型概述</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-5-improvements}
+
+此版本包含以下改进。
+
+* **基于角色的访问控制**
+
+  从 5 月版开始，[!DNL Federated Audience Composition] 支持新的细粒度权限访问控制。用户可以将这些权限分配给用户角色，以实现更精确的访问 [!DNL Federated Audience Composition]。
+
+  要了解有关新权限的更多信息，请阅读[联合受众构成访问指南](/help/governance-privacy-security/access-control.md)。
+
+## 2025 年 4 月版本 {#fac-25-4}
+
+### 新功能 {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>数据模型画布视图 - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>数据模型部分的画布视图在画布布局中使用数据模型的可视化图表、数据模型的链接以及现有的表格视图，从而改进了使用体验。 </p>
+<p>带有画布视图的数据模型目前仅供部分用户作为 Beta 版使用。</p>
+<p>有关更多信息，请参阅<a href="../data-modelling/models.md">详细文档</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>产品知识的 AI 助手支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的操作洞察。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。</p>
+<p>有关更多信息，请参阅<a href="../start/ai-assistant.md">详细文档</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>保存轮廓活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 联合受众构成现在支持轮廓扩充用例，允许客户使用来自其外部数据仓库的数据来增强现有的体验平台轮廓。
+</p>
+<p>有关更多信息，请参阅<a href="../compositions/activities.md#save-profiles">详细文档</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#fac-25-4-improvements}
+
+此版本包含以下改进：
+
+* **数据模型名称**
+
+  在“受众”菜单中，**联合构成**&#x200B;选项卡现在显示数据模型名称而不是 ID，从而提高了清晰度和整体可用性。
+
+* **受众**
+
+  当用户选择没有关联任何受众的数据模型时，受众菜单现在会显示所选数据模型的名称或标签。
+
+* **大型受众导出**
+
+  联合受众构成现在支持导出大型受众，文件大小可超过 1GB。
+
+* **保存受众活动**
+
+  **保存受众**活动中添加了一条备注，提醒用户与数据管理员合作，将治理标签应用于在受众创建和扩充期间创建的新架构和新数据集。
+  [了解有关数据使用情况标签的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/user-guide)
+
+### 兼容性 {#fac-25-4-compat}
+
+* **Amazon Redshift 安全连接**
+
+  这个新版本的联合受众构成支持与 Amazon Redshift 数据库建立安全的专用链接连接。[了解详情](../connections/home.md#amazon-redshift)
+
+* **Google BigQuery**
+
+  这个新版本的联合受众构成支持与 Google BigQuery 数据库建立安全的 VPN 连接。[了解详情](../connections/home.md#google-bigquery)
+
+## 2025 年 3 月版本 {#fac-25-3}
+
+### 改进 {#fac-25-3-improvements}
+
+此版本包含以下改进：
+
+* **联合受众构成权限**
+
+  从 3 月份版本开始，[!DNL Federated Audience Composition] 将开始强制要求已获得&#x200B;**管理联合数据**&#x200B;权限的用户访问&#x200B;**联合数据管理**&#x200B;和&#x200B;**联合构成**&#x200B;界面。
+
+  我们建议用户联系管理员将此权限添加到他们的角色中，以便继续访问 [!DNL Federated Audience Composition] 用户界面。
+
+  要了解如何分配此权限，请参阅[详细说明文档](/help/governance-privacy-security/access-control.md)。
+
+### 兼容性 {#fac-25-3-compat}
+
+* **Databricks 连接**
+
+  通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
+这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。[了解详情](../connections/home.md#databricks)
+
+* **为 B2B CDP 客户提供支持**
+
+  联合受众构成现在可供企业对企业 (B2B) 客户数据平台 (CDP) 客户使用，支持基于人员的受众用例。
+
+* **Snowflake 安全连接**
+
+  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。[了解详情](../connections/home.md#snowflake)
+
+## 2025 年 2 月版本 {#fac-25-2}
+
+此版本附带以下更改：
+
+* **Microsoft Fabric 支持**
+
+  您现在可以通过联合受众构成建立与 Microsoft Fabric 数据库的连接。[了解详情](../connections/home.md)
+
+* **Amazon Redshift Spectrum 支持**
+
+  Amazon Redshift Spectrum 现已支持连接 Amazon Redshift 数据库。[了解详情](../connections/home.md#amazon-redshift)
+
+* **架构创建体验增强**
+
+  通过更新的用户界面，创建架构的过程得到了改进，该界面设计得更加直观且易于导航。这些增强功能为数据从业者提供了一种更顺畅、更高效的数据模型开发方法。[了解详情](../data-modelling/schemas.md)
+
+* **Databricks 的受众扩充支持**
+
+  您现在可以在“读取受众”流程中使用 Databricks，从而激活 Databricks 数据库的活动，并允许将其设置为新的目标。[了解详情](../connections/destinations.md)

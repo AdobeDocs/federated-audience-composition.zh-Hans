@@ -3,7 +3,7 @@ audience: end-user
 title: 审核记录
 description: 了解如何在审核记录中记录并访问操作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 * **Source架构审核跟踪**&#x200B;允许您在Adobe联合受众组合实例中监视活动以及最近对架构所做的修改。
 
-  有关架构的详细信息，请参阅此[页面](../customer/schemas.md)。
+  有关架构的详细信息，请参阅此[页面](../data-modelling/schemas.md)。
 
 * **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
 
@@ -44,7 +44,7 @@ ht-degree: 14%
    * 唤醒等于操作立即执行待处理任务
    * 无条件停止
 
-  有关工作流的详细信息，请参阅此[页面](../compositions/gs-compositions.md)。
+  有关工作流的详细信息，请参阅此[页面](../compositions/home.md)。
 
 * **外部帐户**&#x200B;允许您检查对Adobe受众组合实例中的外部帐户所做的修改。
 
