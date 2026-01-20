@@ -4,9 +4,9 @@ title: 使用受众
 description: 了解如何使用受众
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platorm 和/或 Adobe Journey Optimizer。
 
-您可以将这些受众激活到 Adobe Experience Platform 支持的任何目标。了解如何在[Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}中使用目标
+您可以将这些受众激活到 Adobe Experience Platform 支持的任何目标。了解如何在 [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"} 中使用目标
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ ht-degree: 96%
 
 ![](assets/audiences-list.png)
 
-有关如何在 Adobe Experience Platform 中与受众合作的更多信息，请参阅[受众门户文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+有关如何在 Adobe Experience Platform 中处理受众的更多信息，请参阅[受众门户文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

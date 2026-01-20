@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 82%
 
 - [Experience Platform 联合受众构成文档](landing.md)
 - [联合受众构成概述](./overview.md)
-- 开始使用联合受众构成 {#start}
+- 联合受众构成快速入门 {#start}
    - [先决条件和护栏](start/access-prerequisites.md)
    - [使用受众](start/audiences.md)
    - [使用 AI 助手](start/ai-assistant.md)
@@ -34,7 +34,7 @@ ht-degree: 82%
    - [活动概述](compositions/activities.md)
 - 查询建模器 {#query-database}
    - [查询建模器概述](query/home.md)
-   - [构建查询](query/build-query.md)
+   - [生成查询](query/build-query.md)
    - [编辑表达式](query/expression-editor.md)
 - [审核记录](admin/audit-trail.md)
 - [常见问题](./faq.md)

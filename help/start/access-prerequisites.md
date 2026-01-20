@@ -3,9 +3,9 @@ title: 联合受众构成的先决条件和护栏
 description: 了解联合受众构成的先决条件、权限和护栏
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 * Vertica Analytics
 * Microsoft Fabric
 
-您可以在[连接概述](../connections/home.md)中了解如何创建与这些系统的连接。
+您可以在[连接概述](../connections/home.md)上了解如何创建与这些系统的连接。
 
 ## 沙盒
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 1. 从联合受众构成中，访问&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 许可证使用情况]**&#x200B;菜单。
 
-1. 从![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)总数据出口量&#x200B;**[!UICONTROL 中选择]**&#x200B;图标以访问沙盒属性。
+1. 选择&#x200B;**[!UICONTROL 总数据流出量]**&#x200B;中的 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 图标，以访问您的沙盒属性。
 
    ![](assets/sandbox_1.png)
 

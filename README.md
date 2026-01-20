@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 贡献文章
@@ -26,8 +26,8 @@ ht-degree: 93%
 如果您要贡献一项次要更新：
 
 1. 导航到要编辑的主题。
-2. 在“该内容有帮助吗？”在浏览器窗口底部显示的横幅，选择&#x200B;**详细的反馈选项**。
-3. 选择&#x200B;**建议编辑**，并在GitHub UI中提交包含所做更改的拉取请求(PR)。
+2. 在“该内容有帮助吗？”横幅中（在浏览器窗口底部出现），选择&#x200B;**详细反馈选项**。
+3. 选择&#x200B;**建议编辑**&#x200B;并在 GitHub UI 中提交包含您更改的提取请求 (PR)。
 
    有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
