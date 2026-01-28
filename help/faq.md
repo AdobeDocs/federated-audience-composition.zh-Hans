@@ -2,14 +2,14 @@
 title: 常见问题解答
 description: 有关 Adobe Experience Platform 联合受众构成的常见问题解答
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 84%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
-# 常见问题解答 {#faq}
+# 常见问题 {#faq}
 
 以下是有关 Adobe Experience Platform 联合受众构成的常见问题列表。[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}中还提供了有关 Adobe Experience Platform 细分服务的一般常见问题解答。
 
@@ -106,7 +106,7 @@ ht-degree: 84%
 
 +++ 回答
 
-不可以，在当前版本中您无法删除联合受众构成的受众。
+能，您可以在受众门户中删除联合受众组合受众。
 
 +++
 

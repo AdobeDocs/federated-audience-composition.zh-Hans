@@ -3,10 +3,10 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 10%
+source-wordcount: '2616'
+ht-degree: 9%
 
 ---
 
@@ -27,14 +27,14 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 要使用联合数据库和Adobe Experience Platform，必须首先在这两个源之间建立连接。 使用联合受众合成，您可以连接到以下数据库。
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* 数据块
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+- Amazon Redshift
+- Azure Synapse Analytics
+- 数据块
+- Google BigQuery
+- Microsoft Fabric
+- Oracle
+- Snowflake
+- Vertica Analytics
 
 ## 创建连接 {#create}
 
@@ -83,10 +83,50 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | Azure Synapse服务器的URL。 |
-| 帐户 | Azure Synapse帐户的用户名。 |
-| 密码 | Azure synapse帐户的密码。 |
+| 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
+| 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档[中的](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}示例连接字符串部分。 |
+
+或者，您也可以使用服务主体身份验证安全地配置Azure Synapse Analytics连接。 您应该将服务主体身份验证用于生产级集成以及自动化方案。
+
++++ 先决条件
+
+在设置服务主体身份验证之前，请注意以下先决条件：
+
+- 有权访问Microsoft Entra ID的Azure订阅
+- Azure Synapse工作区和数据库
+- 创建应用程序注册的权限
+- 管理Azure Synapse数据库角色的权限
+- 更新联合数据库配置的权限
+
++++
+
+在Azure Portal中，你首先需要创建新的应用程序注册。 在为应用程序指定唯一名称后，选择&#x200B;**注册**。 此时会显示&#x200B;**概述**&#x200B;页面。 确保记下&#x200B;**应用程序（客户端） ID**&#x200B;和&#x200B;**目录（租户） ID**&#x200B;值。
+
+![概述页面中的应用程序（客户端）ID已突出显示。](/help/connections/assets/home/azure-client-id.png)
+
+在新注册的应用程序中，选择&#x200B;**证书和密钥**。 在此处，选择&#x200B;**客户端密钥**&#x200B;部分中的&#x200B;**新建客户端密钥**&#x200B;以创建新的客户端密钥。 提供说明并过期后，选择&#x200B;**添加**&#x200B;以生成客户端密钥。
+
+>[!IMPORTANT]
+>
+>生成客户端密钥后，复制并安全存储您的&#x200B;**客户端密钥值**。 此值将&#x200B;**不**&#x200B;再次可见。
+
+现在您已生成客户端密钥，您需要确保已将&#x200B;**服务主体**&#x200B;身份授予资源。
+
+有关将标识分配给资源的详细信息，请阅读[Azure Synapse Analytics托管标识指南](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity)。
+
+由于您已完成所有Azure端配置，因此现在可以设置联合受众合成端配置。
+
+在Azure Synapse连接中，设置以下配置详细信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| Server | Azure Synapse服务器的URL。 |
+| 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
+| 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
+| 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
+| 选项 | 用于连接的其他选项。 若要使用服务主体身份验证，您需要设置`Authentication="ActiveDirectoryServicePrincipal"`。 |
 
 >[!TAB 数据库]
 

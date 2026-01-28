@@ -2,9 +2,9 @@
 audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4619'
+source-wordcount: '4662'
 ht-degree: 33%
 
 ---
@@ -420,6 +420,8 @@ ht-degree: 33%
 现在，您可以指定映射以选择要转移到新创建的受众的字段。 选择&#x200B;**添加受众映射**，然后选择源受众和目标受众字段，并根据需要重复任意次数。
 
 添加映射后，您可以选择主身份和命名空间以标识数据库中的目标用户档案。 主身份字段用于识别用户档案，而身份命名空间用作识别身份的键。
+
+此外，您还可以设置受众的数据过期时间。 数据过期时间决定受众成员资格过期后的天数。 数据到期范围为1到90天。 默认情况下，此值设置为30。
 
 +++
 
