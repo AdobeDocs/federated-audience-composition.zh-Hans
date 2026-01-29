@@ -2,7 +2,7 @@
 title: Adobe Experience Platform 联合受众构成文档主页
 description: 联合受众构成文档
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -78,4 +78,3 @@ Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey 
 ## 其他资源  {#additional-resources}
 
 [Real-Time Customer Data Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe 受众门户文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教程](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
