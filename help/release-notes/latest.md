@@ -1,7 +1,8 @@
 ---
 title: Federated受众组合发行说明
 description: 联合受众组合的最新更新和发行说明。
-source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 77591055e0561de07053c1ca5a0c6ab9551a5dfe
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -25,7 +26,7 @@ ht-degree: 24%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 

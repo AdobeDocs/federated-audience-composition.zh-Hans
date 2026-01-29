@@ -2,7 +2,7 @@
 audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 33%
@@ -23,7 +23,7 @@ ht-degree: 33%
 
 利用定向活动，可定义构成构成受众的内容是什么。
 
-#### 构建受众
+#### 构建受众 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ ht-degree: 33%
 
 +++
 
-#### 更改数据源
+#### 更改数据源 {#change-data-source}
 
 通过&#x200B;**更改数据源**&#x200B;活动，可更改合成正在使用的数据源。
 
@@ -80,7 +80,7 @@ ht-degree: 33%
 
 +++
 
-#### 更改维度
+#### 更改维度 {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ ht-degree: 33%
 
 +++
 
-#### 合并
+#### 合并 {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ ht-degree: 33%
 
 +++
 
-#### 重复数据删除
+#### 重复数据删除 {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ ht-degree: 33%
 
 +++
 
-#### 扩充
+#### 扩充 {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ ht-degree: 33%
 
 +++
 
-#### 协调
+#### 协调 {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ ht-degree: 33%
 
 +++
 
-#### 保存受众
+#### 保存受众 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ ht-degree: 33%
 
 将&#x200B;**保存受众**&#x200B;活动添加到合成后，您可以指定新创建受众的名称。
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 现在，您可以指定映射以选择要转移到新创建的受众的字段。 选择&#x200B;**添加受众映射**，然后选择源受众和目标受众字段，并根据需要重复任意次数。
 
@@ -425,7 +425,7 @@ ht-degree: 33%
 
 +++
 
-#### 拆分
+#### 拆分 {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ ht-degree: 33%
 
 流量控制活动允许您定义构成的组织和协调。
 
-#### 并加入
+#### 并加入 {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ ht-degree: 33%
 
 +++
 
-#### 终止 
+#### 终止  {#end}
 
 **End**&#x200B;活动以图形方式标记构成结束，且没有功能影响。
 
-#### 分叉
+#### 分叉 {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ ht-degree: 33%
 
 +++
 
-#### 调度程序
+#### 调度程序 {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ ht-degree: 33%
 
 +++
 
-#### 等待
+#### 等待 {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
