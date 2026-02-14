@@ -42,7 +42,7 @@ ht-degree: 51%
 
 ![图表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/cn/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 关键步骤 {#gs-steps}
 
