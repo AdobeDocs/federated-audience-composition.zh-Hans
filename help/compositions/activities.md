@@ -2,10 +2,11 @@
 audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ ht-degree: 33%
 有&#x200B;**两个**&#x200B;不同类型的活动可在联合受众组合中使用：定位活动和流量控制活动。
 
 ### 目标选择活动 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="扩充字段"
+>abstract="利用扩充字段活动，您可以通过联合来自外部仓库的数据来扩充Experience Platform架构，从而使用其他属性增强Experience Platform架构。 "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="主标识命名空间字段"
+>abstract="主标识的命名空间。 命名空间有助于提供描述主要身份分类的上下文。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="选择Experience Platform架构"
+>abstract="选择要扩充的Experience Platform架构。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="丰富字段更新模式"
+>abstract="扩充字段活动的可用更新模式包括完整更新和增量更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="完整更新"
+>abstract="完全更新模式更新选定架构中的完整属性集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="增量更新"
+>abstract="增量更新模式会更新自上次扩充运行以来修改的字段。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="主要身份标识字段"
+>abstract="主要身份标识字段指示将轮廓合并在一起以进行扩充时的真实来源。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="必填字段推荐准则"
+>abstract="必填字段是导出数据时每个轮廓或记录必须填写的属性。如果缺少必填字段，则导出将不完整或无效。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="主要身份标识字段推荐准则"
+>abstract="每个轮廓或记录的唯一标识符。这确保每条记录都能被清楚地识别和匹配，防止数据重复。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="架构列表"
+>abstract="沙盒中可用的架构列表。 可以选择标准或关系架构。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="选择属性"
+>abstract="您可以为字段创建源/目标映射。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="选择数据集"
+>abstract="属于该架构的数据集列表。 您可以选择要将扩充数据保存到的数据集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="主键"
+>abstract="关系模式的主键。 此值通过阻止摄取重复记录，确保数据集内的唯一性。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="版本描述符"
+>abstract="关系架构的版本描述符。 该值有助于确定在多个值共享相同主键时哪个属性优先，从而确保应用最新更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="时间戳描述符"
+>abstract="关系架构的时间戳描述符。 此值有助于设置用于排序的事件时间，并且仅在您使用时间序列数据时存在。"
 
 利用定向活动，可定义构成构成受众的内容是什么。
 
