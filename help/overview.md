@@ -5,7 +5,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 51%
 
 ![图表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/cn/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 关键步骤 {#gs-steps}
 

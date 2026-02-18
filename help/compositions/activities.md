@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
 source-wordcount: '5001'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="排除合并选项"
->abstract="**排除项**&#x200B;允许您根据特定条件从一个群体中排除某些元素。 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
+>abstract="**差集**&#x200B;可根据特定条件从一个群体中排除某些元素。 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
