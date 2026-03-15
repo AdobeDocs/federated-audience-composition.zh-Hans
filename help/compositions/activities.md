@@ -3,10 +3,10 @@ audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 33%
+source-wordcount: '5477'
+ht-degree: 36%
 
 ---
 
@@ -21,81 +21,6 @@ ht-degree: 33%
 有&#x200B;**两个**&#x200B;不同类型的活动可在联合受众组合中使用：定位活动和流量控制活动。
 
 ### 目标选择活动 {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="扩充字段"
->abstract="利用扩充字段活动，您可以通过联合来自外部仓库的数据来扩充Experience Platform架构，从而使用其他属性增强Experience Platform架构。 "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="主标识命名空间字段"
->abstract="主标识的命名空间。 命名空间有助于提供描述主要身份分类的上下文。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="选择Experience Platform架构"
->abstract="选择要扩充的Experience Platform架构。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="丰富字段更新模式"
->abstract="扩充字段活动的可用更新模式包括完整更新和增量更新。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="完整更新"
->abstract="完全更新模式更新选定架构中的完整属性集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="增量更新"
->abstract="增量更新模式会更新自上次扩充运行以来修改的字段。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="主要身份标识字段"
->abstract="主要身份标识字段指示将轮廓合并在一起以进行扩充时的真实来源。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="必填字段推荐准则"
->abstract="必填字段是导出数据时每个轮廓或记录必须填写的属性。如果缺少必填字段，则导出将不完整或无效。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="主要身份标识字段推荐准则"
->abstract="每个轮廓或记录的唯一标识符。这确保每条记录都能被清楚地识别和匹配，防止数据重复。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="架构列表"
->abstract="沙盒中可用的架构列表。 可以选择标准或关系架构。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="选择属性"
->abstract="您可以为字段创建源/目标映射。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="选择数据集"
->abstract="属于该架构的数据集列表。 您可以选择要将扩充数据保存到的数据集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="主键"
->abstract="关系模式的主键。 此值通过阻止摄取重复记录，确保数据集内的唯一性。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="版本描述符"
->abstract="关系架构的版本描述符。 该值有助于确定在多个值共享相同主键时哪个属性优先，从而确保应用最新更新。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="时间戳描述符"
->abstract="关系架构的时间戳描述符。 此值有助于设置用于排序的事件时间，并且仅在您使用时间序列数据时存在。"
 
 利用定向活动，可定义构成构成受众的内容是什么。
 
@@ -161,12 +86,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="生成补集"
->abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项 为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="更改维度活动"
->abstract="通过此活动，可在生成受众时更改架构，也称为定位维度。它根据数据模板和输入架构移动轴。例如，您可以从“合同”架构切换到“客户端”架构。"
+>abstract="通过此活动，可在生成受众时更改架构，也称为定位维度。 它根据数据模板和输入架构移动轴。 例如，您可以从“合同”架构切换到“客户端”架构。"
 
 通过&#x200B;**更改维度**&#x200B;活动，您可以更改构成的结构描述（也称为定向维度）。
 
@@ -185,22 +110,22 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
 >title="合并活动"
->abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
+>abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。 因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="交叉合并选项"
->abstract="**交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
+>abstract="**交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="排除合并选项"
->abstract="**差集**&#x200B;可根据特定条件从一个群体中排除某些元素。 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
+>abstract="**排除**&#x200B;可根据特定条件从一个群体中排除某些元素。 在&#x200B;**要加入的集合**&#x200B;部分中，选中您之前想要加入的所有活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="选择分段类型"
->abstract="选择合并受众的方式：并集、交叉或排除。"
+>abstract="选择受众的组合方式：并集、交集或排除。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -210,22 +135,22 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
 >title="“协调”选项"
->abstract="选择&#x200B;**协调**&#x200B;类型以定义如何处理重复项。"
+>abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为定位维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请在E **排除规则**&#x200B;部分中选择&#x200B;**添加规则**&#x200B;并指定架构更改条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。 事实上，要从另一个架构（也称为定位维度）排除一个目标，必须将该目标返回到与主目标相同的架构。 为此，请在&#x200B;**排除规则**&#x200B;部分选择&#x200B;**添加规则**，并指定架构变更条件。 数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="选择要合并的集合"
->abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主要设置**。这是排除了元素的集合。其他集合用于匹配从主要设置中排除之前的元素。"
+>abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主要设置**。 这是排除了元素的集合。 其他集合用于匹配从主要设置中排除之前的元素。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个架构（也称为定位维度）排除一个目标，必须将该目标返回到与主目标相同的架构。为此，请在&#x200B;**排除规则**&#x200B;部分中选择&#x200B;**添加规则**&#x200B;并指定架构更改条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。 事实上，要从另一个架构（也称为定位维度）排除一个目标，必须将该目标返回到与主目标相同的架构。 为此，请在&#x200B;**排除规则**&#x200B;部分选择&#x200B;**添加规则**，并指定架构变更条件。 数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -287,22 +212,22 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="用于识别重复项的字段"
->abstract="在&#x200B;**[!UICONTROL 用于标识重复项的字段]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮以指定相同值允许标识重复项的字段，例如：电子邮件地址、名字、姓氏等。 栏位的顺序可让您指定首要处理的条件。"
+>abstract="在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分，选择&#x200B;**[!UICONTROL 添加属性]**&#x200B;按钮，指定可用于识别重复项的字段（例如：电子邮件地址、名字、姓氏等）。字段顺序可用于指定优先处理的字段。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="重复数据删除活动"
->abstract="**重复数据删除活动可让您删除**&#x200B;入站活动结果中的重复项。主要在定位活动之后且在允许使用目标数据的活动之前使用。"
+>abstract="**重复数据删除活动可让您删除**&#x200B;入站活动结果中的重复项。 主要在定位活动之后且在允许使用目标数据的活动之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="生成补集"
->abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
+>abstract="可使用剩余群体（已排除的重复项）生成额外的出站过渡。为此，请打开生成补集选项 为此，请打开&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="重复数据删除设置"
->abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。默认情况下，只会保留一条记录。您还应该根据表达式或属性选择重复数据删除模式。默认情况下，要避免重复的记录是随机选择的。"
+>abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只会保留一条记录。 您还应该根据表达式或属性选择重复数据删除模式。 默认情况下，要避免重复的记录是随机选择的。"
 
 **重复数据删除**&#x200B;活动会删除受众中的任何重复结果。
 
@@ -332,7 +257,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="扩充活动"
->abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。通常在分段活动之后的构成中使用它。"
+>abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。 通常在分段活动之后的构成中使用它。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -352,11 +277,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充您的构成的数据。可选择两种类型的扩充数据：架构（也称为定位维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择用于扩充您的构成的数据。 可选择两种类型的扩充数据：架构（也称为定位维度）中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 利用&#x200B;**扩充**&#x200B;活动，可通过从联合数据库中添加其他数据来增强合成。
 
-如果已配置与联合受众组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../connections/destinations.md)
+如果已配置与联合受众组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。[了解如何使用外部数据扩充Adobe Experience Platform受众](../connections/destinations.md)
 
 +++ 配置详情
 
@@ -375,7 +300,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="协调活动"
->abstract=" **协调**&#x200B;活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
+>abstract="**协调**&#x200B;活动允许您定义数据库中的数据与工作表中的数据之间的链接。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -395,12 +320,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="架构"
->abstract="选择要应用于数据的新架构。通过架构（也称为定位维度）可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择构成当前架构。"
+>abstract="选择要应用于数据的新架构。 架构（也称为目标维度）允许您定义目标群体，例如收件人、应用程序订阅者、操作员、订阅者等。默认情况下，将选择当前构成的架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于重复数据删除的协调规则。 若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。 若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
@@ -410,7 +335,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
+>abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。 要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
@@ -456,7 +381,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="保存受众"
->abstract="使用此活动从构成中的上游计算得出的群体创建新受众。创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
+>abstract="使用此活动从构成中的上游计算得出的群体创建新受众。 创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -501,6 +426,138 @@ ht-degree: 33%
 
 +++
 
+#### 保存字段 {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="保存字段"
+>abstract="利用保存字段活动，您可以通过联合来自外部仓库的数据来扩充Experience Platform架构，从而使用其他属性增强Experience Platform架构。 "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="主要身份标识命名空间字段"
+>abstract="用于主要身份标识的命名空间。 该命名空间用于提供上下文，以描述主要身份标识的分类。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="选择 Experience Platform 架构"
+>abstract="选择您要增强的 Experience Platform 架构。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="保存字段更新模式"
+>abstract="保存字段活动的可用更新模式包括完全更新和增量更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="完整更新"
+>abstract="完整更新模式会更新所选架构中的全部属性。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="增量更新"
+>abstract="增量更新模式会更新自上次增强运行以来发生更改的字段。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="主要身份标识字段"
+>abstract="主要身份标识字段指示将轮廓合并在一起以进行扩充时的真实来源。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="必填字段推荐准则"
+>abstract="必填字段是导出数据时每个轮廓或记录必须填写的属性。 如果缺少必填字段，则导出将不完整或无效。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="主要身份标识字段推荐准则"
+>abstract="每个轮廓或记录的唯一标识符。 这确保每条记录都能被清楚地识别和匹配，防止数据重复。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="架构列表"
+>abstract="您当前沙盒中可用架构的列表。 您可以选择标准架构或关系架构。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="选择属性"
+>abstract="您可以为字段创建源/目标映射。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="选择数据集"
+>abstract="属于该架构的数据集列表。 您可以选择要将增强数据保存到哪个数据集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="主键"
+>abstract="关系架构的主键。 该值通过防止重复记录被摄取，从而确保数据集中的唯一性。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="版本描述符"
+>abstract="关系架构的版本描述符。 当多个值共享同一主键时，该值用于确定哪个属性具有优先级，从而确保应用最新更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="时间戳描述符"
+>abstract="关系架构的时间戳描述符。 该值用于设置事件时间以进行排序，仅在处理时间序列数据时存在。"
+
+通过&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动，您可以通过联合来自外部仓库的数据来扩充Experience Platform架构，从而使用其他属性扩充Experience Platform架构。
+
+此活动用于通过引入其他属性和见解来丰富模式，而无需将数据实际移动或复制到平台中。
+
++++ 配置详情
+
+>[!IMPORTANT]
+>
+>如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
+
+将&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动添加到合成后，您可以为该活动提供一个标签，并选择要使用的Adobe Experience Platform架构。 架构可以是标准架构或关系架构。
+
+![显示可用的架构。](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB 标准架构]
+
+如果您选择标准架构，则需要选择扩充功能保存到的数据集。
+
+![选定数据集部分已突出显示。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+选择数据集后，您可以看到将用于标识数据库中的用户档案的主标识字段。 但是，您需要映射主字段和必填字段。 选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;并为要映射的每个属性指定&#x200B;**[!UICONTROL Source]**&#x200B;字段（外部数据）和&#x200B;**[!UICONTROL 目标]**&#x200B;字段（架构字段）。
+
+![添加字段按钮和字段映射部分突出显示。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+您还可以指定扩充的更新模式。
+
+![显示更新模式类型。](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| 更新模式 | 描述 |
+| ----------- | ----------- |
+| 完整更新 | 将更新选定架构中的完整属性集以进行扩充。 |
+| 增量更新 | 仅更新自上次扩充运行以来修改的字段以进行扩充。 |
+
+如果选择[!UICONTROL 增量更新]，则还需要选择上次修改日期以确定发送的数据。
+
+>[!TAB 关系架构]
+
+如果选择关系架构，则需要选择扩充保存到的数据集。
+
+![选定数据集部分已突出显示。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+选择数据集后，您可以查看数据库的主键和版本描述符。  但是，您需要映射主键和必填字段。 选择&#x200B;**[!UICONTROL 添加字段]s**&#x200B;并为要映射的每个属性指定&#x200B;**[!UICONTROL Source]**&#x200B;字段（外部数据）和&#x200B;**[!UICONTROL 目标]**&#x200B;字段（架构字段）。
+
+![添加字段按钮和字段映射部分突出显示。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+由于关系架构仅支持增量更新，因此您需要选择上次修改日期以确定要发送的数据。 增量更新仅更新自上次扩充运行以来修改的字段。
+
+![显示更新模式，增量更新。](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### 拆分 {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,12 +568,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始构成之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
+>abstract="根据需要添加多个子集，以细分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将按照添加顺序，将群体划分到不同的子集中。 在开始构成之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="拆分活动筛选条件"
->abstract="要将筛选条件应用到子集，请选择&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;并使用查询建模器配置所需的筛选规则。 例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
+>abstract="若要对某个子集应用筛选条件，请选择&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。 例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -526,12 +583,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="拆分活动排序"
->abstract="在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。"
+>abstract="在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。 为此，请打开&#x200B;**启用排序**&#x200B;选项。 例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
 >title="拆分生成补集"
->abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。为此，请打开&#x200B;**生成补集**&#x200B;选项。"
+>abstract="配置完所有子集后，您可以选择与任何子集均不匹配的剩余群体，并将其包含到附加出站过渡中。 为此，请打开&#x200B;**生成补集**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
@@ -546,7 +603,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="启用输出群体的重叠"
->abstract="**[!UICONTROL 启用输出群体重叠]**&#x200B;选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 "
+>abstract="**[!UICONTROL 启用输出群体重叠]**&#x200B;选项可让您管理属于多个子集的群体。 当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。 它们将位于符合条件的第一个选项卡的目标中。 选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。 "
 
 **拆分**&#x200B;活动根据给定的条件将传入的群体分成多个部分。
 
@@ -582,12 +639,12 @@ ht-degree: 33%
 
 流量控制活动允许您定义构成的组织和协调。
 
-#### 并加入 {#and-join}
+#### 以及联接 {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="AND-join 活动"
->abstract="利用 **And-join** 活动，允许你同步构成的多个执行分支。一旦完成所有之前的活动，即会触发该活动。这使您能够在继续执行构成之前确保某些活动已完成。"
+>abstract="利用 **And-join** 活动，允许你同步构成的多个执行分支。 一旦完成所有之前的活动，即会触发该活动。 这使您能够在继续执行构成之前确保某些活动已完成。"
 
 **AND-join**&#x200B;活动允许您将组合的多个分支组合在一起。 此活动仅在激活&#x200B;**所有**&#x200B;集客过渡后触发。
 
@@ -601,7 +658,7 @@ ht-degree: 33%
 
 +++
 
-#### 终止  {#end}
+#### 终止 {#end}
 
 **End**&#x200B;活动以图形方式标记构成结束，且没有功能影响。
 
@@ -615,7 +672,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="分叉活动过渡"
->abstract="默认情况下，使用&#x200B;**分叉**&#x200B;活动创建两个过渡。选择&#x200B;**添加过渡**&#x200B;按钮以定义其他出站过渡，并输入其标签。"
+>abstract="默认情况下，使用&#x200B;**分叉**&#x200B;活动创建两个过渡。 选择&#x200B;**添加过渡**&#x200B;按钮以定义一个额外的外向过渡，并输入其标签。"
 
 通过&#x200B;**分支**&#x200B;活动，可创建同时启动多个活动的多个叫客过渡。
 
@@ -632,17 +689,17 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="“调度程序”活动"
->abstract="通过&#x200B;**调度程序**&#x200B;活动，可计划何时开始受众构成。应将此活动视为已计划的一次开始。只能将它用作构成的第一个活动。"
+>abstract="通过&#x200B;**调度程序**&#x200B;活动，可计划何时开始受众构成。 应将此活动视为已计划的一次开始。 只能将它用作构成的第一个活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_validity"
 >title="调度程序有效期"
->abstract="可定义调度程序的有效期。它可为永久（默认），也可一直有效至特定日期。"
+>abstract="可定义调度程序的有效期。 它可为永久（默认），也可一直有效至特定日期。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_options"
 >title="调度程序选项"
->abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
+>abstract="定义调度程序的频率。 可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
 
 **调度程序**&#x200B;活动允许您安排何时开始撰写的执行。 您&#x200B;**必须**&#x200B;将此项用作合成的第一个活动。
 
