@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
 source-wordcount: '5477'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="保存字段"
->abstract="利用保存字段活动，您可以通过联合来自外部仓库的数据来扩充Experience Platform架构，从而使用其他属性增强Experience Platform架构。 "
+>abstract="保存字段活动允许通过联合来自外部数据仓库的数据来增强 Experience Platform 架构，从而为 Experience Platform 架构添加更多属性。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -446,7 +446,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
 >title="保存字段更新模式"
->abstract="保存字段活动的可用更新模式包括完全更新和增量更新。"
+>abstract="保存字段活动可用的更新模式包括完整更新和增量更新。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -511,7 +511,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 将&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动添加到合成后，您可以为该活动提供一个标签，并选择要使用的Adobe Experience Platform架构。 架构可以是标准架构或关系架构。
 
