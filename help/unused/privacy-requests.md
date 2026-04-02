@@ -2,10 +2,10 @@
 audience: end-user
 title: 隐私请求
 description: 了解如何通过Privacy Service管理隐私请求
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+source-git-commit: 29b4a540849df1999322a5aad54e1558a24ad182
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 92%
+source-wordcount: '147'
+ht-degree: 93%
 
 ---
 
@@ -15,24 +15,27 @@ ht-degree: 92%
 
 然后，您可以通过 Adobe Experience Platform **Privacy Service** 提出隐私请求，以访问和/或删除与这些受众相对应的轮廓数据，该服务提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和 [RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"} 来帮助您管理客户数据请求。
 
-<!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
+<!--
+With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
 Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.
 
-![](assets/requests.png)-->
+![](assets/requests.png)
+-->
 
 >[!NOTE]
 >
 >关于 Privacy Service 的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
 
-您可以创建和管理单独的请求以访问和删除 Adobe 联合受众构成中的客户数据。[实时客户轮廓文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明了提交&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的步骤。
+您可以创建和管理单独的请求以访问和删除 Adobe 联合受众构成中的客户数据。 [实时客户轮廓文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy){target="_blank"}中详细说明了提交&#x200B;**访问请求**&#x200B;和&#x200B;**删除请求**&#x200B;的步骤。
 
-<!--## Manage individual data privacy requests {#data-privacy-requests}
+<!--
+## Manage individual data privacy requests {#data-privacy-requests}
 
 You can submit individual requests to access and delete consumer data from Adobe Federated Audience Composition in two ways:
 
-* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
-* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
+* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 ///More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).
 
@@ -51,7 +54,7 @@ For **access requests** and **delete requests**, specify the three following ser
 To make requests to Access and Delete data for Adobe Federated Audience Composition, you must have:
 
 * an Adobe organization ID
-* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces).
+* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
 
 ### Required field values for API requests
 

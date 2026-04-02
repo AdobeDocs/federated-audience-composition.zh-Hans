@@ -3,9 +3,9 @@ audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '5477'
+source-wordcount: '5478'
 ht-degree: 37%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 37%
 
 利用&#x200B;**扩充**&#x200B;活动，可通过从联合数据库中添加其他数据来增强合成。
 
-如果已配置与联合受众组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。[了解如何使用外部数据扩充Adobe Experience Platform受众](../connections/destinations.md)
+如果已配置与联合受众组合目标的连接，则可以使用扩充活动通过外部数据库中的属性扩充来自Adobe Experience Platform的数据。 [了解如何使用外部数据扩充Adobe Experience Platform受众](../connections/destinations.md)
 
 +++ 配置详情
 
@@ -511,7 +511,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 将&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动添加到合成后，您可以为该活动提供一个标签，并选择要使用的Adobe Experience Platform架构。 架构可以是标准架构或关系架构。
 
@@ -568,7 +568,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="根据需要添加多个子集，以细分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将按照添加顺序，将群体划分到不同的子集中。 在开始构成之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。 在开始构成之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
