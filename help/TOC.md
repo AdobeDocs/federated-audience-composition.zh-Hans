@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 97%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 100%
    - [最新发行说明](./release-notes/latest.md)
    - [2024](./release-notes/2024.md)
    - [2025](./release-notes/2025.md)
-   - [预发行说明](./release-notes/e-release-notes.md)
+   - {hide-from-toc}[预发行说明](./release-notes/e-release-notes.md)
