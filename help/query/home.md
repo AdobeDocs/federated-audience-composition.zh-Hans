@@ -5,8 +5,8 @@ description: 了解如何使用查询建模器定义规则以筛选数据库。
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 17%
+source-wordcount: '349'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="查询建模器"
->abstract="为收件人或数据库中的任何其他架构（也称为定位维度）定义筛选条件。"
+>abstract="为收件人或数据库中的任何其他架构（也称为目标选择维度）定义过滤条件。"
 
 查询建模器简化了根据各种条件筛选数据库的过程。 此外，查询建模器可以高效地管理非常复杂和长的查询，提供增强的灵活性和精确度。 此外，它支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 
@@ -48,4 +48,4 @@ ht-degree: 17%
 
 ### 规则属性窗格 {#rule-properties}
 
-在右侧，**[!UICONTROL 规则属性]**&#x200B;窗格提供有关查询的信息。 它允许您执行各种操作来检查查询并确保查询符合您的需求。 在生成查询以创建受众时，会显示此窗格。[了解如何检查和验证您的查询](build-query.md#check-and-validate-your-query)
+在右侧，**[!UICONTROL 规则属性]**&#x200B;窗格提供有关查询的信息。 它允许您执行各种操作来检查查询并确保查询符合您的需求。 在生成查询以创建受众时，会显示此窗格。 [了解如何检查和验证您的查询](build-query.md#check-and-validate-your-query)

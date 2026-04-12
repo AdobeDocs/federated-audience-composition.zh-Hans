@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="架构描述"
->abstract="架构描述列出了列、类型和标签。您还可以检查架构的协调密钥。要更新架构定义，请选择铅笔图标。"
+>abstract="架构描述列出了列、类型和标签。 您还可以检查架构的协调密钥。 要更新架构定义，请选择铅笔图标。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="选择要过滤的源数据库"
->abstract="您可以根据架构的来源对其进行过滤。选择一个或多个联合数据库来显示其架构。"
+>abstract="您可以根据架构的来源对其进行过滤。 选择一个或多个联合数据库来显示其架构。"
 
 架构是数据库表的表示形式。 它是应用程序中的一个对象，用于定义数据如何与数据库表绑定。
 
