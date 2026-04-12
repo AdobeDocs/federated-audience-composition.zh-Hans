@@ -5,7 +5,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -17,24 +17,24 @@ ht-degree: 54%
 
 联合受众构成通过全面的受众管理和激活方法扩展了 Real-Time CDP 和 Journey Optimizer 的价值：
 
-* **扩展对基于数据仓库的关键数据集的访问权限以创建高价值受众**：您可以将现有数据仓库用作主要记录系统，同时利用同类最佳的应用程序来改善出色的客户体验。
+* **扩展对基于仓库的关键数据集的访问权限以创建高价值受众**：您可以使用现有数据仓库作为主要记录系统，同时利用同类最佳应用程序来改善优秀的客户体验。
 
-* **全面支持强力参与用例**：联合受众合成，与Real-Time CDP或Journey Optimizer配对，支持由品牌发起的具有联合受众的个性化体验，并提供由实时事件触发的即时体验以及人员属性，以满足跨团队的用例要求。
+* **全面支持高级参与用例**：联合受众合成，与Real-Time CDP或Journey Optimizer配对，支持由品牌发起的具有联合受众的个性化体验，并提供由实时事件触发的即刻体验，以及人员属性，以满足跨团队的用例要求。
 
 * **最大程度地减少数据移动和重复**：您可以从企业数据仓库中的数据集创建受众，而无需复制基础数据来管理可操作的营销用户档案和受众。
 
-* **将单个系统用于体验驱动的工作流**：您可以在Adobe Experience Platform中策划已摄取和已联合的受众，并协调所有渠道的出站体验。
+* **为体验驱动的工作流利用单个系统**：您可以在Adobe Experience Platform中策划已摄取和联合的受众，并协调所有渠道的出站体验。
 
-* **多版本支持**： B2C和B2B CDP客户可以通过集成来自受支持企业数据仓库的数据，利用联合受众组合构建基于人员的受众。 此外，他们可以通过整合企业数据仓库中提供的相关属性来丰富现有的Experience Platform基于人员的受众，提升其受众配置文件以实现更加个性化和有针对性的参与。
+* **多版本支持**： B2C和B2B CDP客户可以通过集成来自受支持的企业数据仓库的数据，利用联合受众组合构建基于人员的受众。 此外，他们可以通过整合企业数据仓库中提供的相关属性来丰富现有的Experience Platform基于人员的受众，提升其受众配置文件以实现更加个性化和有针对性的参与。
 
 ## 用例 {#use-cases}
 
 联合受众构成支持&#x200B;**三类**&#x200B;使用场景：受众创建、受众扩充和客户轮廓扩充。
 
-* **受众创建**：您可以通过便于营销人员使用的拖放用户界面，从数据仓库创建受众并将这些受众联合到Experience Platform中，以便在Real-Time CDP或Journey Optimizer中使用。 因此，您无需复制敏感的底层数据或重复现有数据，即可查询数据仓库。
+* **受众创建**：您可以通过营销人员友好的拖放用户界面，从数据仓库创建受众并将这些受众联合到Experience Platform中，以便在Real-Time CDP或Journey Optimizer中使用。 因此，您无需复制敏感的底层数据或重复现有数据，即可查询数据仓库。
    * **示例：**&#x200B;利用数据仓库中的历史交易数据创建高价值历史购买者受众，而无需将这些交易数据复制到 Experience Platform 中。
 
-* **受众扩充**：您可以使用数据仓库中的其他数据集向Experience Platform中的现有受众添加更多详细信息，并用此信息叠加受众 — 所有这些操作都不需要将基础数据复制到Experience Platform中。 通过受众扩展，您可以借助扩充后的受众实现更出色的个性化体验。
+* **受众扩充**：通过使用数据仓库中的其他数据集并使用此信息叠加受众，您可以向Experience Platform中的现有受众添加更多详细信息 — 所有这些操作都不需要将基础数据复制到Experience Platform中。 通过受众扩展，您可以借助扩充后的受众实现更出色的个性化体验。
    * **示例：**&#x200B;将 Experience Platform 中的购物车放弃者受众与联合受众构成中的高价值历史购买者受众进行整合，以实现精准的产品建议投放。
 
 * **配置文件扩充**：您可以从数据仓库中选择单个客户属性以增强Experience Platform配置文件。 通过将联合数据添加到这些轮廓中，您可以更有效地响应客户的实时信号，从而驱动即时体验。
@@ -42,7 +42,7 @@ ht-degree: 54%
 
 ![图表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/cn/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需了解更多联合受众构成的使用案例，请参阅[《联合受众构成白皮书》](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 关键步骤 {#gs-steps}
 
@@ -50,17 +50,17 @@ ht-degree: 54%
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
-1. **创建连接**：将来自各种来源的数据合并到一个统一的数据集中。 有关将Adobe Experience Platform应用程序连接到您的企业数据仓库、支持的数据库，以及配置连接的详细信息，请阅读[连接概述](./connections/home.md)。
+1. **创建连接**：将来自各种源的数据合并到一个统一的数据集中。 有关将Adobe Experience Platform应用连接到您的企业数据仓库、支持的数据库，以及配置连接的详细信息，请阅读[连接概述](./connections/home.md)。
 
-2. **为您的数据建模**：设计和创建用于定义数据的结构、关系和约束的架构和数据模型。 有关架构的更多信息，请阅读[架构概述](./data-modelling/schemas.md)。 有关数据模型的详细信息，请阅读[数据模型概述](./data-modelling/models.md)。
+2. **为您的数据建模**：设计和创建定义数据的结构、关系和约束的架构和数据模型。 有关架构的详细信息，请阅读[架构概述](./data-modelling/schemas.md)。 有关数据模型的详细信息，请阅读[数据模型概述](./data-modelling/models.md)。
 
 3. **转换数据**：应用数据操作技术来修改数据元素的格式、结构或值，使其兼容或适用于特定的分析或应用程序。
 
-4. **撰写受众**：创建、编排和构建受众。 有关撰写受众的更多信息，请阅读[撰写概述](./compositions/home.md)。 您还可以通过 Adobe Experience Platform 受众门户和目标更新或重复使用现有受众。 请参阅[此页面](./connections/destinations.md)了解详情。
+4. **撰写受众**：创建、编排和构建受众。 有关合成受众的详细信息，请阅读[合成概述](./compositions/home.md)。 您还可以通过 Adobe Experience Platform 受众门户和目标更新或重复使用现有受众。 请参阅[此页面](./connections/destinations.md)了解详情。
 
 >[!NOTE]
 >
->执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。 它可在&#x200B;**受众**&#x200B;菜单中访问。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>执行构成后，生成的受众将会作为外部受众保存在 Adobe Experience Platform 中，并可进入 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。 它可在&#x200B;**受众**&#x200B;菜单中访问。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 管理、隐私和安全 {#governance-privacy-security}
 
