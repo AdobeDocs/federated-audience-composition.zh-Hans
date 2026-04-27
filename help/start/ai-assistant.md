@@ -75,4 +75,4 @@ AI 助手是一种用户界面功能，旨在帮助您浏览和理解 Adobe 概�
 
 有关AI Assistant的更多信息，包括您可以使用AI Assistant实现的示例目标，以及了解AI Assistant的工作方式，请阅读[AI Assistant概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
-有关可向Federated Audience Composition询问的Insight操作问题的完整列表，请阅读[操作分析部分](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}。
+有关可向Federated Audience Composition询问的Insight操作问题的完整列表，请阅读[操作分析部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}。
