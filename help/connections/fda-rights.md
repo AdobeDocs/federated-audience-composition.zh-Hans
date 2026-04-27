@@ -2,10 +2,13 @@
 title: 访问外部数据库的权限
 description: 了解您需要在每个数据库引擎上访问和执行任务所需的权限
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: 418
+ht-degree: 6%
 
 ---
 

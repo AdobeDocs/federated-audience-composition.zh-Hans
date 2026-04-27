@@ -2,10 +2,13 @@
 title: 联合受众组合中的访问控制
 description: 了解如何在联合受众组合中管理用户的数据访问。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+TQID: https://experienceleague.adobe.com/Ld1rXMaY21NGXSuPtCo2MbYZUubjJBJZedBFRJ7jsDc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 80%
+source-wordcount: 631
+ht-degree: 81%
 
 ---
 
@@ -15,9 +18,9 @@ ht-degree: 80%
 
 ## 管理对沙盒的访问 {#access-sandboxes}
 
-当您购买联合 Adobe Experience Platform 联合受众构成时，系统会为每个活跃沙盒创建一个产品轮廓。此产品轮廓是在 Admin Console 中的 **Adobe Experience Platform** 产品卡下创建的，并遵循以下命名惯例：`ACP_FAC - <<SandboxName>> - admin.`要访问特定沙盒的联合受众构成，必须将用户添加到为该沙盒创建的产品轮廓中。
+当您购买联合 Adobe Experience Platform 联合受众构成时，系统会为每个活跃沙盒创建一个产品轮廓。 此产品轮廓是在 Admin Console 中的 **Adobe Experience Platform** 产品卡下创建的，并遵循以下命名惯例：`ACP_FAC - <<SandboxName>> - admin.`要访问特定沙盒的联合受众构成，必须将用户添加到为该沙盒创建的产品轮廓中。
 
-例如，如果激活了一个名为“fac-test”的新沙盒，则会创建相应的产品轮廓“ACP_FAC - fac-test - admin”。为了使用此沙盒访问联合受众构成，需要将用户添加到此产品轮廓中。
+例如，如果激活了一个名为“fac-test”的新沙盒，则会创建相应的产品轮廓“ACP_FAC - fac-test - admin”。 为了使用此沙盒访问联合受众构成，需要将用户添加到此产品轮廓中。
 
 ## 管理对联合受众构成的访问权限
 
@@ -36,11 +39,11 @@ ht-degree: 80%
 
    ![](assets/access_fda_2.png)
 
-1. 为用户添加所需的权限。您可以添加以下权限来访问联合受众构成：
+1. 为用户添加所需的权限。 您可以添加以下权限来访问联合受众构成：
 
    | 权限 | 描述 |
    | ---------- | ----------- |
-   | 管理联合数据 | 使用此权限来管理联合受众构成的所有方面。此权限包含管理联合数据库、管理联合架构、管理联合数据模型和管理联合构成。 |
+   | 管理联合数据 | 使用此权限来管理联合受众构成的所有方面。 此权限包含管理联合数据库、管理联合架构、管理联合数据模型和管理联合构成。 |
    | 管理联合数据库 | 使用此权限来添加、查看、更新和删除与联合数据库的连接。 |
    | 查看联合数据库 | 使用此权限来查看您与联合数据库的连接。 |
    | 管理联合架构 | 使用此权限来创建、查看、更新、删除和刷新架构。 |
@@ -64,9 +67,9 @@ ht-degree: 80%
 
    ![](assets/access_fda_4.png)
 
-1. 输入用户的姓名或电子邮件地址，或从可用列表中选择。完成后选择&#x200B;**[!UICONTROL 保存]**。
+1. 输入用户的姓名或电子邮件地址，或从可用列表中选择。 完成后选择&#x200B;**[!UICONTROL 保存]**。
 
-或者，您可以根据用户所需的权限，为其分配一个预先存在的角色。有关为用户分配预先存在的角色的更多信息，请阅读[产品配置文件用户管理指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
+或者，您可以根据用户所需的权限，为其分配一个预先存在的角色。 有关为用户分配预先存在的角色的更多信息，请阅读[产品配置文件用户管理指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
 
 | 角色名称 | 权限 |
 | --------- | ----------- |
@@ -74,7 +77,7 @@ ht-degree: 80%
 | FAC 构成管理器 | <ul><li>管理联合构成</li></ul> |
 | FAC 管理员 | <ul><li>管理联合数据</li></ul> |
 
-然后，用户会收到一封电子邮件，其中包含访问实例的说明。如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
+然后，用户会收到一封电子邮件，其中包含访问实例的说明。 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 ## 管理对特定组合的访问
 
