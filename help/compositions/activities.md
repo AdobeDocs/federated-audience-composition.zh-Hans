@@ -3,9 +3,12 @@ audience: end-user
 title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: 5478
 ht-degree: 37%
 
 ---
@@ -745,11 +748,11 @@ ht-degree: 37%
 
 选择运行计划当月的哪一天后，您可以选择&#x200B;**预览启动时间**&#x200B;以检查组合中接下来十次执行的计划。
 
->[!TAB 每周]
+>[!TAB Weekly]
 
-如果选择&#x200B;**每周**，则按设置的每周频率执行合成。 如果将每周频率设置为大于1的数字，则还可以选择执行开始的日期。
+If you select **Weekly**, the composition is executed on the weekly frequency that is set. If you set the weekly frequency as a number larger than 1, you can also choose the date the execution starts from.
 
-选择评估频率后，您可以选择在每月的&#x200B;**天**&#x200B;部分下运行的频率。
+After choosing the evaluation frequency, you can choose how often the execution is run under the **Day of the month** section.
 
 | 日期 | 描述 |
 | ---------------- | ----------- |
@@ -758,11 +761,11 @@ ht-degree: 37%
 
 选择运行计划当月的哪一天后，您可以选择&#x200B;**预览启动时间**&#x200B;以检查组合中接下来十次执行的计划。
 
->[!TAB 每月]
+>[!TAB Monthly]
 
-如果选择&#x200B;**每月**，则按设置的每月频率执行合成。 您可以将其设置为每月或某些月。
+If you select **Monthly**, the composition is executed on the monthly frequency that is set. You can either set it to be every month or on certain months.
 
-选择每月频率后，您可以选择每月的&#x200B;**天**&#x200B;运行执行。
+After choosing the monthly frequency, you can choose the **Day of the month** the execution is run.
 
 | 日期 | 描述 |
 | ---------------- | ----------- |

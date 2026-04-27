@@ -3,9 +3,18 @@ audience: end-user
 title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: 2970
 ht-degree: 9%
 
 ---
@@ -320,24 +329,24 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
-对于Vertica Analytics，您可以设置以下其他选项：
+For Vertica Analytics, you can set the following additional options:
 
 | 选项 | 描述 |
 | ------- | ----------- |
-| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 有关时区的更多信息，请阅读[Vertica Analytics关于时区的文档](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
+| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 For more information on timezones, please read the [Vertica Analytics documentation on timezones](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
 
 >[!ENDTABS]
 
-添加连接的详细信息后，请注意以下其他设置：
+After adding the connection&#39;s details, please note the following additional settings:
 
 >[!NOTE]
 >
->要对给定数据库使用联合受众合成，必须允许列表与该数据库关联的&#x200B;**所有** IP地址。
+>To use Federated Audience Composition for a given database, you must allow list **all** of the IP addresses associated with that database.
 
 | 设置 | 详细信息 |
 | -------- | ------- |
-| 启用连接 | 布尔值切换，确定是否自动启用连接。 |
-| 服务器IP | 一个弹出窗口，显示连接数据库需要列入允许列表的IP地址。 |
-| 测试连接 | 允许您验证配置详细信息。 |
+| 启用连接 | A boolean toggle that determines whether the connection will automatically be enabled. |
+| Server IPs | A popover that displays what IP addresses need to be allowlisted to connect to the database. |
+| Test connection | Lets you verify your configuration details. |
 
-现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
+You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
