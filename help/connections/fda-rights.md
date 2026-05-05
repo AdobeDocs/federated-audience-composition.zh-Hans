@@ -3,14 +3,11 @@ title: 访问外部数据库的权限
 description: 了解您需要在每个数据库引擎上访问和执行任务所需的权限
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 447
 ht-degree: 6%
 
 ---
@@ -29,21 +26,21 @@ ht-degree: 6%
 | **正在删除对象（表、索引、函数、过程）** | 拥有对象 | 拥有对象或成为超级用户 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`、`bigquery.routines.delete`、`bigquery.tables.delete`和`bigquery.tables.deleteIndex`权限 | 不适用 |
 | **正在监视执行** | 所需对象的`MONITOR`权限 | 使用`EXPLAIN`命令不需要权限 | `monitoring.viewer`角色 | `CAN_VIEW`权限 |
 | **正在写入数据** | `INSERT`和/或`UPDATE`权限（取决于写入操作） | `INSERT`和`UPDATE`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`和`bigquery.tables.updateData` | `MODIFY`权限 |
-| **将数据加载到表中** | 目标表权限上的`CREATE STAGE ON SCHEMA`、`SELECT`和`INSERT` | `SELECT`和`INSERT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`权限 |
+| **将数据加载到表中** | 目标表权限上的`CREATE STAGE ON SCHEMA`、`Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT`和`INSERT` | `SELECT`和`INSERT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`权限 |
 | **正在访问客户端数据** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`特权 | `SELECT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`和`bigquery.tables.getData` （对于表或`bigquery.dataViewer`角色） | `SELECT`权限 |
 | **正在访问元数据** | `SELECT on INFORMATION_SCHEMA SCHEMA`特权 | `SELECT`权限 | `bigquery.metadataViewer`角色 |  `SELECT on INFORMATION_SCHEMA SCHEMA`权限 |
 
 
-|   | Microsoft Fabric | Azure Synapse Analytics | Vertica |
-|:-:|:-:|:-:|:-:|
-| **正在连接到远程数据库** | 读取（默认）权限 | `CONNECT`权限 | 无需权限 |
-| **正在创建表** | `CREATE TABLE ON DATABASE` （仓库）和`ALTER ON SCHEMA` | `CREATE TABLE`权限 | `CREATE ON SCHEMA`特权 |
-| **正在创建索引** | 不适用 | `ALTER`权限 | 不适用 |
-| **正在创建函数** | 不适用 | `CREATE FUNCTION`权限 | `CREATE ON SCHEMA`特权 |
-| **正在创建过程** | `CREATE PROCEDURE ON DATABASE` （仓库）和`ALTER ON SCHEMA` | `CREATE PROCEDURE`权限 | `CREATE ON SCHEMA`特权 |
-| **正在删除对象（表、索引、函数、过程）** | `ALTER ON SCHEMA` | `ALTER`权限 | 拥有对象或对象的`DROP`权限 |
-| **正在监视执行** | Workspace参与者或更高权限(`queryinsights.exec_requests_history`) | `CONTROL`权限 | 使用`EXPLAIN`语句不需要任何特权 |
-| **正在写入数据** | `INSERT`和/或`UPDATE ON OBJECT` | `INSERT`和`UPDATE`权限 | `INSERT`和`UPDATE`权限 |
-| **将数据加载到表中** | `SELECT ON OBJECT` 和 `INSERT ON OBJECT` | `CREATE TABLE`、`EXECUTE`、`SELECT`、`INSERT`、`UPDATE`和`ALTER`权限 | 对表的`INSERT`权限，对架构的`USAGE`权限 |
-| **正在访问客户端数据** | `SELECT ON OBJECT` | `SELECT`权限 | `SELECT`特权 |
-| **正在访问元数据** | `SELECT ON INFORMATION_SCHEMA` | 无需权限即可描述表 | `USAGE ON SCHEMA`、`SELECT on TABLE`以及表`v_catalog.columns`和`v_catalog.view_columns`的权限 |
+|   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
+|:-:|:-:|:-:|:-:|:-:|
+| **正在连接到远程数据库** | 读取（默认）权限 | `CONNECT`权限 | 无需权限 | `CONNECT`特权 |
+| **正在创建表** | `CREATE TABLE ON DATABASE` （仓库）和`ALTER ON SCHEMA` | `CREATE TABLE`权限 | `CREATE ON SCHEMA`特权 | `CREATE TABLE`或`TABLE`关键字 |
+| **正在创建索引** | 不适用 | `ALTER`权限 | 不适用 | `CREATE INDEX`或`INDEX`关键字 |
+| **正在创建函数** | 不适用 | `CREATE FUNCTION`权限 | `CREATE ON SCHEMA`特权 | `CREATE FUNCTION`或`FUNCTION`关键字 |
+| **正在创建过程** | `CREATE PROCEDURE ON DATABASE` （仓库）和`ALTER ON SCHEMA` | `CREATE PROCEDURE`权限 | `CREATE ON SCHEMA`特权 | `CREATE PROCEDURE`或`PROCEDURE`关键字 |
+| **正在删除对象（表、索引、函数、过程）** | `ALTER ON SCHEMA` | `ALTER`权限 | 拥有对象或对象的`DROP`权限 | 对象类型或相关关键字上的`DROP` |
+| **正在监视执行** | Workspace参与者或更高权限(`queryinsights.exec_requests_history`) | `CONTROL`权限 | 使用`EXPLAIN`语句不需要任何特权 | 使用`EXPLAIN`不需要额外的特权 |
+| **正在写入数据** | `INSERT`和/或`UPDATE ON OBJECT` | `INSERT`和`UPDATE`权限 | `INSERT`和`UPDATE`权限 | `INSERT`和`UPDATE`权限 |
+| **将数据加载到表中** | `SELECT ON OBJECT` 和 `INSERT ON OBJECT` | `CREATE TABLE`、`EXECUTE`、`SELECT`、`INSERT`、`UPDATE`和`ALTER`权限 | 对表的`INSERT`权限，对架构的`USAGE`权限 | `SELECT`和`INSERT`（例如`COPY TO`/`COPY FROM`） |
+| **正在访问客户端数据** | `SELECT ON OBJECT` | `SELECT`权限 | `SELECT`特权 | `SELECT`特权 |
+| **正在访问元数据** | `SELECT ON INFORMATION_SCHEMA` | 无需权限即可描述表 | `USAGE ON SCHEMA`、`SELECT on TABLE`以及表`v_catalog.columns`和`v_catalog.view_columns`的权限 | `SHOW`特权 |

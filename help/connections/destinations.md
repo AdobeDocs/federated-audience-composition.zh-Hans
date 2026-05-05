@@ -4,15 +4,12 @@ title: 利用外部数据丰富 Adobe Experience Platform 受众
 description: 了解如何使用联合受众构成目标通过联合数据库中的数据优化和丰富Adobe Experience Platform受众。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 7%
+source-wordcount: 773
+ht-degree: 5%
 
 ---
 
@@ -29,66 +26,62 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
 例如，假设您要将购买信息存储在数据仓库中，并且最近两个月内有一个Adobe Experience Platform受众定位对特定产品感兴趣的客户。 使用联合受众合成目标，您可以：
 
-* 根据购买信息优化受众。 例如，您可以筛选受众以仅定向购买超过150$的客户。
+* 根据购买信息优化受众。 例如，您可以筛选受众，以定位仅购买超过$150的客户。
 * 使用与购买相关的字段（如产品名称和购买数量）扩充受众。
 
-将Adobe Experience Platform受众发送到Adobe联合受众组合的主要步骤如下：
+## 将受众激活到目标 {#activate}
 
-1. 访问Adobe Experience Platform目标目录并选择联合受众组合目标。
+在Adobe Experience Platform目标目录中，选择联合受众组合目标。 在右窗格中，选择&#x200B;**[!UICONTROL 配置新目标]**。
 
-   在右窗格中，选择&#x200B;**[!UICONTROL 配置新目标]**。
+![目标目录中突出显示“配置新目标”按钮。](assets/destinations/new.png)
 
-   ![](assets/destination-new.png)
+此时会显示&#x200B;**[!UICONTROL 配置新目标]**&#x200B;页面。 在此页上，可以配置目标的详细信息，包括名称、说明、连接类型和联合数据库。
 
-1. 输入新连接的名称，然后从以下可用连接中选择&#x200B;**[!UICONTROL 连接类型]**：
+![将显示“配置新目标”页面，其中显示创建目标需要添加哪些详细信息。](assets/destinations/configure.png)
 
-   * Amazon Redshift
-   * Azure Synapse Analytics
-   * Google BigQuery
-   * Snowflake
-   * Vertica Analytics
-   * 数据块
-   * Microsoft Fabric
+在&#x200B;**[!UICONTROL 警报]**&#x200B;部分中，您可以启用警报以接收有关数据流到目标的状态的通知。 其中包括数据流运行延迟、运行失败、运行成功、运行启动和激活跳过等警报。
 
-1. 选择要连接的&#x200B;**[!UICONTROL 联合数据库]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
+有关警报的详细信息，请阅读有关Adobe Experience Platform文档[使用UI订阅目标警报](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}。
 
-   ![](assets/destination-configure.png)
+![将显示目标的可用警报。](assets/destinations/alerts.png)
 
-1. 在&#x200B;**[!UICONTROL 警报]**&#x200B;部分中，您可以启用警报以接收有关数据流到目标的状态的通知。
+完成目标的详细信息配置后，请选择&#x200B;**[!UICONTROL 下一步]**。 出现&#x200B;**[!UICONTROL 治理策略和实施操作]**&#x200B;步骤。 在此页面上，您可以定义数据管理策略，并确保在发送和激活受众时使用的数据符合要求。
 
-   有关警报的更多信息，请参阅Adobe Experience Platform关于使用UI [订阅目标警报的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+完成选择目标所需的营销操作后，选择&#x200B;**[!UICONTROL 创建]**。
 
-1. 在&#x200B;**[!UICONTROL 治理策略和实施操作]**&#x200B;步骤中，您可以定义数据治理策略，并确保在发送和激活受众时使用的数据是合规的。
+将创建到目标的新连接。 您现在可以激活受众以发送到目标。 选择要激活受众的目标，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-   完成选择目标所需的营销操作后，选择&#x200B;**[!UICONTROL 创建]**。
+![激活按钮高亮显示。](assets/destinations/activate.png)
 
-1. 将创建到目标的新连接。 您现在可以激活受众以发送到目标。 若要执行此操作，请从列表中选择它，然后选择&#x200B;**[!UICONTROL 下一步]**
+显示&#x200B;**[!UICONTROL 计划]**&#x200B;步骤。 您可以选择要激活到目标的所需受众。 要设置计划，请选择![铅笔图标](assets/do-not-localize/Smock_Edit_18_N.svg)以编辑您的导出计划。
 
-   ![](assets/destination-activate.png)
+![显示“激活”目标页。](assets/destinations/schedule.png)
 
-1. 选择要发送的所需受众。
+出现&#x200B;**[!UICONTROL 计划]**&#x200B;弹出框。 在此弹出窗口中，您可以定义文件导出选项、频率并设置计划。
 
-1. 选择![](assets/do-not-localize/Smock_Edit_18_N.svg)图标以编辑导出计划。
+![计划弹出框已显示。](assets/destinations/schedule-2.png)
 
-   ![](assets/destination-schedule.png)
+>[!NOTE]
+>
+>要更快地激活受众，请选择&#x200B;**[!UICONTROL 区段评估后]**&#x200B;选项，以便在每日平台批量分段作业完成后立即触发激活作业。
+>
+>有关如何配置计划和文件名的详细信息，请参阅Adobe Experience Platform文档的以下部分：
+>
+>* [计划受众导出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [配置文件名](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. 定义导出文件选项。 要更快地激活受众，请选择&#x200B;**[!UICONTROL 区段评估后]**&#x200B;选项，以便在每日平台批量分段作业完成后立即触发激活作业。
+在&#x200B;**[!UICONTROL 映射]**&#x200B;步骤中，选择要为受众导出的属性和标识字段。
 
-   ![](assets/destination-schedule-2.png)
+>[!IMPORTANT]
+>
+>激活目标时，您&#x200B;**无法**&#x200B;使用系统生成的列。 选择系统生成的列将导致激活失败。
 
-   >[!NOTE]
-   >
-   >有关如何配置计划和文件名的详细信息，请参阅Adobe Experience Platform文档的以下部分：
-   >
-   >* [计划受众导出](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [配置文件名](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+有关详细信息，请参阅Adobe Experience Platform文档中的[映射部分](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
-1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;步骤中，选择要为受众导出的属性和标识字段。 有关详细信息，请参阅Adobe Experience Platform文档中的[映射步骤](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+![显示映射属性页。](assets/destinations/attributes.png)
 
-   ![](assets/destination-attributes.png)
+查看目标配置和受众设置，然后选择&#x200B;**[!UICONTROL 完成]**。
 
-1. 查看目标配置和受众设置，然后选择&#x200B;**[!UICONTROL 完成]**。
-
-   ![](assets/destination-review.png)
+![将显示审核目标页面。](assets/destinations/review.png)
 
 现在将为新连接激活选定的受众。 您可以通过导航回&#x200B;**[!UICONTROL 激活受众]**&#x200B;页面，添加更多要通过此连接发送的受众。 激活受众后，您无法删除这些受众。

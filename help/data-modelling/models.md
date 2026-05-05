@@ -4,16 +4,12 @@ title: 开始使用数据模型
 description: 了解如何开始使用数据模型
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +28,11 @@ ht-degree: 34%
 
 在联合受众构成中，您可以直接在画布视图中创建和管理数据模型。 这包括添加架构和受众，以及根据用例定义它们之间的链接。
 
-了解有关[架构](../data-modelling/schemas.md#schema-start)和[受众](../start/audiences.md)的更多信息。
+要了解有关架构的更多信息，请阅读[架构概述](../data-modelling/schemas.md)。 要了解有关受众的更多信息，请阅读[使用受众指南](../start/audiences.md)。
 
 例如，您可以在下文中看到数据模型的表示形式：具有其名称的表以及它们之间的链接。
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![数据模型的示例表示形式，其中显示了表与表之间的链接。](assets/models/datamodel.png){zoomable="yes"}
 
 ## 创建数据模型 {#data-model-create}
 

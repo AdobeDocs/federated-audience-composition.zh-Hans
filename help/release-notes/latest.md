@@ -3,18 +3,37 @@ title: Federated受众组合发行说明
 description: 联合受众组合的最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 13%
+source-wordcount: 545
+ht-degree: 11%
 
 ---
 
 # 发行说明
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。 所有变更均已纳入本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+
+## 2026年4月版 {#fac-26-04}
+
+4月版的联合受众构成支持以下功能和改进：
+
+### 新功能 {#fac=26-04-feature}
+
+| 新连接器 — Teradata |
+| --- |
+| Teradata连接器现在可用于联合受众合成。 您可以使用Teradata连接器创建受众和扩充受众用例。 有关Teradata连接器的更多信息，请阅读[连接概述](/help/connections/home.md)。 |
+
+### 改进 {#fac-26-04-improvements}
+
+此版本附带以下改进。
+
+- 对Snowflake的&#x200B;**未加密密钥支持**
+
+  现在，在使用密钥对身份验证与Snowflake数据仓库连接时，您可以使用未加密的密钥。
+
+  若要了解有关将未加密密钥与Snowflake结合使用的更多信息，请阅读[连接概述](/help/connections/home.md)。
 
 ## 2026年3月版 {#fac-26-03}
 
@@ -56,7 +75,7 @@ ht-degree: 13%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 
