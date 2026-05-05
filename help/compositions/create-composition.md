@@ -6,7 +6,7 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 19%
@@ -73,6 +73,7 @@ ht-degree: 19%
 * **[!UICONTROL 暂停]/[!UICONTROL 恢复]**：暂停或恢复活动。 执行合成时，它会在暂停的活动中暂停。 相应的任务以及同一路径中后续的所有任务都不会执行。
 * **[!UICONTROL 复制]**：复制活动以将其粘贴到合成中的其他位置。 为此，请选择过渡上的&#x200B;**+**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 粘贴X活动]**。<!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * 为所选活动配置&#x200B;**[!UICONTROL 执行选项]**。 可用的执行选项包括：
+
   +++可用的执行选项
 
   **[!UICONTROL 属性]**&#x200B;部分允许您配置有关活动执行的常规设置：
@@ -88,6 +89,7 @@ ht-degree: 19%
   **[!UICONTROL 初始化脚本]**&#x200B;部分允许您初始化变量或修改活动属性。 选择&#x200B;**[!UICONTROL 编辑代码]**&#x200B;按钮并键入要执行的代码片段。 活动执行时将调用脚本。
 
   +++
+
 * **日志和任务**：查看选定活动的日志和任务。
 
 ## 启动和监测构成 {#start-and-monitor}

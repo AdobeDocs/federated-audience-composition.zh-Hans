@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
 workflow-type: tm+mt
-source-wordcount: 2970
+source-wordcount: 3189
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## 创建连接 {#create}
@@ -54,6 +55,10 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 此时将显示“联合数据库”部分。 选择&#x200B;**[!UICONTROL 添加联合数据库]**&#x200B;以创建连接。
 
 ![“添加联合数据库”按钮在“联合数据库”显示页中突出显示。](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+
+>[!NOTE]
+>
+>要使用专用链接或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
 
 出现“connection properties（连接属性）”弹出框。 您可以命名连接并选择要创建哪种类型的数据库。
 
@@ -281,6 +286,15 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 用户 | 帐户的用户名。 |
 | 密码 | 帐户的密码。 |
 
+或者，您也可以提供私钥而不是提供密码。 如果添加私钥，则需要提供以下信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| Server | 服务器的名称。 |
+| 用户 | 帐户的用户名。 |
+| 私钥 | 帐户的私钥。 仅支持`.pem`个文件。 |
+| 密码 | （可选）帐户的密码。 |
+
 如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
 
 >[!NOTE]
@@ -316,6 +330,29 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | chunkSize | 每个批量加载程序块的文件大小。 与更多线程同时使用时，您可以提高批量加载的性能。 默认情况下，此值设置为128 MB。 有关区块大小的更多信息，请阅读有关准备数据文件的[Snowflake文档](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 预配置的内部暂存环境的名称。 这可用于批量加载，而不是创建新的临时阶段。 |
 
+>[!TAB Teradata]
+
+>[!NOTE]
+>
+>要与Teradata连接，您&#x200B;**必须**&#x200B;完成各种先决条件，包括安装数据库驱动程序。 有关更多信息，请联系您的Adobe客户关怀代表。
+
+选择Teradata后，您可以添加以下详细信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| Server | Teradata服务器的URL。 |
+| 帐户 | 数据库用于开放式数据库连接(ODBC)会话的用户名。 |
+| 密码 | 用于连接到ODBC会话的口令。 |
+| 数据库 | 数据库的名称。 |
+| 选项 | 用于连接的其他选项。 对于Teradata，列出的两个选项都是&#x200B;**必须添加**。 下表列出了可用的选项。 |
+
+对于Teradata，您可以设置以下其他选项：
+
+| 选项 | 描述 |
+| ------- | ----------- |
+| `workTableSchema` | 工作表模式的名称。 |
+| `ODBCLib` | 系统ODBC库的位置，如果您将Teradata与其他ODBC混合，则可以使用该库。 |
+
 >[!TAB Vertica Analytics]
 
 选择Vertica Analytics后，您可以添加以下详细信息：
@@ -329,24 +366,24 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
-For Vertica Analytics, you can set the following additional options:
+对于Vertica Analytics，您可以设置以下其他选项：
 
 | 选项 | 描述 |
 | ------- | ----------- |
-| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 For more information on timezones, please read the [Vertica Analytics documentation on timezones](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
+| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 有关时区的更多信息，请阅读[Vertica Analytics关于时区的文档](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
 
 >[!ENDTABS]
 
-After adding the connection&#39;s details, please note the following additional settings:
+添加连接的详细信息后，请注意以下其他设置：
 
 >[!NOTE]
 >
->To use Federated Audience Composition for a given database, you must allow list **all** of the IP addresses associated with that database.
+>要对给定数据库使用联合受众合成，必须允许列表与该数据库关联的&#x200B;**所有** IP地址。
 
 | 设置 | 详细信息 |
 | -------- | ------- |
-| 启用连接 | A boolean toggle that determines whether the connection will automatically be enabled. |
-| Server IPs | A popover that displays what IP addresses need to be allowlisted to connect to the database. |
-| Test connection | Lets you verify your configuration details. |
+| 启用连接 | 布尔值切换，确定是否自动启用连接。 |
+| 服务器IP | 一个弹出窗口，显示连接数据库需要列入允许列表的IP地址。 |
+| 测试连接 | 允许您验证配置详细信息。 |
 
-You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
+现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。

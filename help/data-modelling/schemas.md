@@ -10,7 +10,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 18%
@@ -72,7 +72,6 @@ ht-degree: 18%
 ![“创建架构”按钮在“联合受众组合”架构部分中突出显示。](assets/schemas/schema_create.png){zoomable="yes"}
 
 出现&#x200B;**[!UICONTROL Select federated database]**&#x200B;弹出框。 在此弹出窗口中，您可以选择[源数据库](/help/connections/home.md)，然后选择&#x200B;**[!UICONTROL 下一步]**。
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 
