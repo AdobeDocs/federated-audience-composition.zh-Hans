@@ -4,8 +4,7 @@ title: 活动概述
 description: 了解可在联合受众构成中使用的各种活动和过渡。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -516,7 +515,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 将&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动添加到合成后，您可以为该活动提供一个标签，并选择要使用的Adobe Experience Platform架构。 架构可以是标准架构或关系架构。
 

@@ -4,8 +4,7 @@ title: 使用查询建模器构建您的第一个查询
 description: 了解如何在查询建模器中构建您的第一个查询
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 2084
@@ -27,7 +26,7 @@ ht-degree: 35%
 
 * **组运算符**(AND、OR、EXCEPT)允许您将图中的筛选组件组合在一起。 它们会添加到现有过渡中，然后是筛选组件。 [了解如何使用操作员](#filtering)
 
-  示例：*订阅了“体育”新闻稿&#x200B;**和**&#x200B;且居住在&#x200B;**OR**&#x200B;旧金山的收件人*。
+  示例：*订阅了“体育”新闻稿&#x200B;**和**且居住在&#x200B;**OR**旧金山的收件人*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

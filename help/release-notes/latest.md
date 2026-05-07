@@ -3,12 +3,11 @@ title: Federated受众组合发行说明
 description: 联合受众组合的最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 11%
 
   若要了解有关将未加密密钥与Snowflake结合使用的更多信息，请阅读[连接概述](/help/connections/home.md)。
 
-## 2026年3月版 {#fac-26-03}
+## 2026 年 3 月版本 {#fac-26-03}
 
 3月版的联合受众构成支持以下功能：
 
@@ -50,7 +49,7 @@ ht-degree: 11%
 | --- |
 | 现在，您可以向AI助手询问有关联合受众构成中操作见解的问题。 支持的区域包括连接、架构和数据模型。 此版本不支持&#x200B;**联合合成**。 有关联合受众组合中的AI助手的详细信息，请阅读[AI助手概述](/help/start/ai-assistant.md)。 |
 
-## 2026年2月版 {#fac-26-02}
+## 2026 年 2 月版本 {#fac-26-02}
 
 2月版的联合受众构成支持以下功能：
 
@@ -64,7 +63,7 @@ ht-degree: 11%
 | --- |
 | 您现在可以使用服务主体身份验证或使用OAuth 2.0通过数据库连接到联合受众合成。 有关创建连接的详细信息，请阅读[连接概述](../connections/home.md#create)。 |
 
-## 2026年1月版 {#fac-26-01}
+## 2026 年 1 月版本 {#fac-26-01}
 
 1月版的联合受众构成支持以下新功能和改进：
 
@@ -76,7 +75,7 @@ ht-degree: 11%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 

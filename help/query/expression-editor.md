@@ -4,8 +4,7 @@ title: 表达式编辑器概述
 description: 了解如何使用表达式编辑器中的函数在查询建模器中构建查询。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM75FU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 4215
@@ -436,10 +435,10 @@ Geomarketing functions are not available.
 | **Percent** | 计算第一个数字占第二个数字的百分比。 | Percent（&lt;数字>， &lt;数字>） | 百分比(1， 2) |
 | **Random** | 返回介于0（包含）和1（不包含）之间的随机数。 | Random() | 随机() |
 | **Round** | 将提供的数字返回到请求的最接近的小数位。 | Round（&lt;数字>， &lt;数字>） | Round(4.5394， 2) |
-| **ToDouble** | Converts the provided number to a double. | ToDouble(&lt;NUMBER>) | ToDouble(5) |
-| **ToInteger** | Converts the provided number to an integer. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
-| **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
-| **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER>, &lt;NUMBER>) | Trunc(36.9348934, 3) |
+| **ToDouble** | 将提供的数字转换为双精度类型。 | ToDouble（&lt;数字>） | ToDouble(5) |
+| **ToInteger** | 将提供的数字转换为整数。 | ToInteger（&lt;数字>） | ToInteger(45) |
+| **ToInt64** | 将提供的数字转换为64位整数。 | ToInt64（&lt;数字>） | ToInt64(493) |
+| **Trunc** | 将提供的数字截断为请求的小数位数。 | Trunc（&lt;数字>， &lt;数字>） | 中经(36.9348934， 3) |
 
 <!-- 
 | **Ceil** | Rounds up the provided number to the nearest integer. For example, if the provided number is 2.3, it will return 3. | Ceil(&lt;NUMBER&gt;) | Ceil(2.3) |
@@ -487,7 +486,7 @@ Numeric functions are not available.
 | **Mod** | 返回第一个数字的余数除以第二个数字。 | Mod（&lt;数字>， &lt;数字>） | Mod (3， 2) |
 | **Percent** | 计算第一个数字占第二个数字的百分比。 | Percent（&lt;数字>， &lt;数字>） | 百分比(1， 2) |
 | **Random** | 返回介于0（包含）和1（不包含）之间的随机数。 | Random() | 随机() |
-| **ToDouble** | Converts the provided number to a double. | ToDouble(&lt;NUMBER>) | ToDouble(5) |
+| **ToDouble** | 将提供的数字转换为双精度类型。 | ToDouble（&lt;数字>） | ToDouble(5) |
 | **ToInteger** | 将提供的数字转换为整数。 | ToInteger（&lt;数字>） | ToInteger(45) |
 | **ToInt64** | 将提供的数字转换为64位整数。 | ToInt64（&lt;数字>） | ToInt64(493) |
 | **Trunc** | 将提供的数字截断为请求的小数位数。 | Trunc（&lt;数字>， &lt;数字>） | 中经(36.9348934， 3) |
@@ -651,9 +650,9 @@ Other functions are not available.
 | **Right** | 采用一个字符串并按指定返回最右边的字符。 | Right（&lt;字符串>， &lt;数字>） | 右(“Substring”， 3) |
 | **Smart** | 返回字符串，每个单词的首字母均大写。 | Smart（&lt;字符串>） | Smart(“hello world”) |
 | **Substring** | 获取一个字符串并根据给定的位置返回所提供的字符串的一部分。 | Substring（&lt;字符串>， &lt;左边数字>， RIGHT_NUMBER>） | Substring(&quot;Substring&quot;， 3， 5) |
-| **Sha256Digest** | 将SHA256散列字符串转换为十六进制表示形式。 | Sha256Digest（&lt;字符串>） | Sha256Digest(&quot;string&quot;) |
-| **Sha512Digest** | Converts the SHA512-hashed string into its hexadecimal representation. | Sha512Digest(&lt;STRING>) | Sha512Digest(&quot;string&quot;) |
-| **ToString** | Returns the value as a string. | ToString(&lt;VALUE>) | ToString(123) |
+| **Sha256Digest** | 将SHA256散列字符串转换为十六进制表示形式。 | Sha256Digest（&lt;字符串>） | Sha256Digest（“字符串”） |
+| **Sha512Digest** | 将SHA512散列字符串转换为十六进制表示形式。 | Sha512Digest（&lt;字符串>） | Sha512Digest（“字符串”） |
+| **ToString** | 以字符串形式返回值。 | ToString（&lt;值>） | ToString(123) |
 
 <!-- 
 
@@ -712,8 +711,8 @@ String functions are not available.
 
 | 名称 | 描述 | 句法 | 示例 |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. | AllNonNull2(&lt;STRING>, &lt;STRING>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
-| **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | AllNonNull3(&quot;&quot;, &quot;one&quot;, &quot;three&quot;) |
+| **AllNonNull2** | 接受两个字符串并检查它们是否全部不为null且不为空。 | AllNonNull2（&lt;字符串>， &lt;字符串>） | AllNonNull2(&quot;， &quot;string2&quot;) |
+| **AllNonNull3** | 接受三个字符串并检查它们是否全部不为null且不为空 | AllNonNull3（&lt;字符串>， &lt;字符串>， &lt;字符串>） | AllNonNull3(&quot;， &quot;one&quot;， &quot;three&quot;) |
 | **Char** | 采用一系列Unicode代码点并返回生成的字符串。 | Char（&lt;数组>） | Char([65， 68， 79， 66， 69]) |
 | **Charindex** | 查找指定子字符串在主字符串中的第一次出现。 | Charindex（&lt;字符串>， &lt;子字符串>） | Charindex (&quot;bar@example.com&quot;， &quot;@&quot;) |
 | **dataLength** | 返回字符串中的字节数。 | dataLength（&lt;字符串>） | dataLength(&quot;My string&quot;) |
@@ -721,11 +720,11 @@ String functions are not available.
 | **IfEquals** | 如果前两个字符串相等，则接受四个字符串并返回第三个字符串；如果前两个字符串不相等，则返回第四个字符串。 | IfEquals（&lt;字符串>， &lt;字符串>， &lt;字符串>， &lt;字符串>） | IfEquals(&quot;a&quot;， &quot;a&quot;， &quot;yes&quot;， &quot;no&quot;) |
 | **IsMemoNull** | 如果字符串为null，则返回1，否则返回0。 | IsMemoNull（&lt;字符串>） | IsMemoNull(&quot;hello&quot;) |
 | **JuxtWords** | 采用两个字符串并将它们组合为一个字符串。 如果需要，字符串之间会添加空格。 | JuxtWords（&lt;字符串>， &lt;字符串>） | JuxtWords(“Hello”、“World”) |
-| **JuxtWords3** | 采用三个字符串并将它们组合为一个字符串。 如果需要，字符串之间会添加空格。 | JuxtWords3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
-| **Left** | Takes a string and returns the leftmost characters as specified. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
-| **Length** | Returns the length of the string. | Length(&lt;STRING>) | Length(&quot;MyString&quot;) |
-| **行** | Returns the specified numbered line from the string. | Line(&lt;STRING>, &lt;NUMBER>) | Line(multilinestring, 5) |
-| **Md5Digest** | Converts the MD5-hashed string into its hexadecimal representation. | Md5Digest（&lt;字符串>） | Md5Digest(&quot;String&quot;) |
+| **JuxtWords3** | 采用三个字符串并将它们组合为一个字符串。 如果需要，字符串之间会添加空格。 | JuxtWords3（&lt;字符串>， &lt;字符串>， &lt;字符串>） | JuxtWords3(“Hello”、“New”、“World”) |
+| **Left** | 采用一个字符串并按指定返回最左侧的字符。 | Left（&lt;字符串>， &lt;数字>） | Left(“Substring”， 3) |
+| **Length** | 返回字符串的长度。 | Length（&lt;字符串>） | Length(&quot;MyString&quot;) |
+| **行** | 返回字符串中的指定编号行。 | Line（&lt;字符串>， &lt;数字>） | Line(multilinestring， 5) |
+| **Md5Digest** | 将MD5散列字符串转换为十六进制表示形式。 | Md5Digest（&lt;字符串>） | Md5Digest(&quot;String&quot;) |
 | **Replace** | 采用一个字符串并将子字符串的所有实例替换为替换子字符串。 | Replace（&lt;字符串>， &lt;字符串&amp;gt， &lt;字符串&amp;gt） | Replace(“Captain Steve”、“Captain”、“Engineer”) |
 | **Right** | 采用一个字符串并按指定返回最右边的字符。 | Right（&lt;字符串>， &lt;数字>） | 右(“Substring”， 3) |
 | **Sha256Digest** | 将SHA256散列字符串转换为十六进制表示形式。 | Sha256Digest（&lt;字符串>） | Sha256Digest（“字符串”） |

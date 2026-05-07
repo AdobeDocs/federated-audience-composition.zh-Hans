@@ -3,13 +3,8 @@ title: AI助手概述
 description: 了解如何使用AI Assistant，包括产品知识、操作见解和创建联合受众合成。
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 651
@@ -75,4 +70,4 @@ AI 助手是一种用户界面功能，旨在帮助您浏览和理解 Adobe 概�
 
 有关AI Assistant的更多信息，包括您可以使用AI Assistant实现的示例目标，以及了解AI Assistant的工作方式，请阅读[AI Assistant概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
-有关可向Federated Audience Composition询问的Insight操作问题的完整列表，请阅读[操作分析部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}。
+有关可向Federated Audience Composition询问的Insight操作问题的完整列表，请阅读[操作分析部分](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}。
