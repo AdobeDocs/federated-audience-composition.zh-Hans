@@ -4,18 +4,13 @@ title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 9%
+source-wordcount: 3543
+ht-degree: 8%
 
 ---
 
@@ -100,7 +95,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
 | 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的示例连接字符串部分。 |
+| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[示例连接字符串部分。 |
 
 或者，您也可以使用服务主体身份验证安全地配置Azure Synapse Analytics连接。 您应该将服务主体身份验证用于生产级集成以及自动化方案。
 
@@ -178,8 +173,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的数据库文档。 |
-| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的数据库文档 |
+| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[数据库文档。 |
+| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[数据库文档 |
 | 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -217,6 +212,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
 
+如果您选择&#x200B;**[!UICONTROL WIF]**，则&#x200B;**不**&#x200B;需要提供任何登录信息。 但是，您&#x200B;**必须**&#x200B;将客户端库配置添加为&#x200B;**[!UICONTROL 密钥文件路径]**。 有关客户端库配置的更多信息，请阅读[Google BigQuery （工作负载标识联合）配置部分](#wif-configuration)。
+
 输入登录详细信息后，您可以添加以下详细信息：
 
 | 字段 | 描述 |
@@ -246,8 +243,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | Microsoft Fabric服务器的URL。 |
-| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric文档。 |
-| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft Fabric文档。 |
+| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric文档。 |
+| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft Fabric文档。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Microsoft Fabric ，可以设置以下附加选项：
@@ -324,8 +321,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ------- | ----------- |
 | workschema | 用于工作表的数据库模式的名称。 |
 | TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 默认情况下，将使用系统时区。 有关时区的更多信息，请阅读[Snowflake关于时区的文档](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}。 |
-| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake文档 |
-| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake文档。 |
+| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake文档 |
+| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake文档。 |
 | bulkThreads | 用于Snowflake批量加载器的线程数。 添加线程越多，批量负载越大，性能越好。 默认情况下，此值设置为1。 |
 | chunkSize | 每个批量加载程序块的文件大小。 与更多线程同时使用时，您可以提高批量加载的性能。 默认情况下，此值设置为128 MB。 有关区块大小的更多信息，请阅读有关准备数据文件的[Snowflake文档](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 预配置的内部暂存环境的名称。 这可用于批量加载，而不是创建新的临时阶段。 |
@@ -387,3 +384,46 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 测试连接 | 允许您验证配置详细信息。 |
 
 现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
+
+## 附录 {#appendix}
+
+以下附录介绍如何设置外部帐户端的连接。
+
+### Google BigQuery（工作负载标识联合）配置 {#wif-configuration}
+
+在配置Google Cloud Platform设置之前，您需要以下值：
+
+- AWS帐户ID
+   - 请联系您的Adobe代表以获取此值。
+- AWS IAM角色名称
+   - AWS IAM角色名称遵循后续格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+在Google Cloud Console的&#x200B;**IAM和管理部分**&#x200B;中创建一个&#x200B;**工作负载标识池**。 这使您能够组织和管理外部身份。
+
+选择&#x200B;**添加提供程序**&#x200B;以创建标识提供程序。 这通过提供有关身份提供程序的相关元数据，在Google Cloud中的身份提供程序和工作者身份池之间配置单向信任。
+
+![Google Cloud中突出显示“添加提供程序”按钮。](/help/connections/assets/home/select-add-provider.png)
+
+在创建提供程序时，您需要提供以下信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| 名称 | 工作量标识池提供程序的名称。 |
+| ID | 将自动生成提供程序ID。 |
+| AWS帐户ID | 之前提供的AWS帐户ID。 |
+| 启用的提供程序 | 一个布尔值，用于确定是启用还是禁用了提供程序。 |
+| 属性映射 | 要与角色匹配的映射。 此信息已存在。 |
+
+创建提供程序后，您需要创建一个IAM策略，让工作负载标识池标识模拟服务帐户。 选择&#x200B;**授予访问权限**&#x200B;以打开“授予对服务帐户的访问权限”对话框。
+
+在该对话框中，选择&#x200B;**使用服务帐户模拟**&#x200B;授予访问权限。 在&#x200B;**选择承担者**&#x200B;部分中，您需要创建属性映射。
+
+选择&#x200B;**aws_role**&#x200B;并添加`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`作为值，使用之前提供的值替换`AWSAccountID`和`AWSRoleName`。
+
+![显示“授予访问权限”对话框。](/help/connections/assets/home/aws_role.png)
+
+在授予对服务帐户的访问权限后，请下载客户端库配置。
+
+![将显示下载库配置的位置。](/help/connections/assets/home/download-config.png)
+
+下载客户端库配置后，您现在可以使用联合受众配置设置WIF连接。
