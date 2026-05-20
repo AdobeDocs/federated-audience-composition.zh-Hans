@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 6%
 | **正在监视执行** | 所需对象的`MONITOR`权限 | 使用`EXPLAIN`命令不需要权限 | `monitoring.viewer`角色 | `CAN_VIEW`权限 |
 | **正在写入数据** | `INSERT`和/或`UPDATE`权限（取决于写入操作） | `INSERT`和`UPDATE`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`和`bigquery.tables.updateData` | `MODIFY`权限 |
 | **将数据加载到表中** | 目标表权限上的`CREATE STAGE ON SCHEMA`、`Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT`和`INSERT` | `SELECT`和`INSERT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`权限 |
-| **正在访问客户端数据** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`特权 | `SELECT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`和`bigquery.tables.getData` （对于表或`bigquery.dataViewer`角色） | `SELECT`权限 |
+| **正在访问客户端数据** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`特权 | `SELECT`权限 | 分配给服务帐户的角色必须包含： `bigquery.jobs.create`、`bigquery.readsessions.create`和`bigquery.tables.getData`（对于表或`bigquery.dataViewer`角色） | `SELECT`权限 |
 | **正在访问元数据** | `SELECT on INFORMATION_SCHEMA SCHEMA`特权 | `SELECT`权限 | `bigquery.metadataViewer`角色 |  `SELECT on INFORMATION_SCHEMA SCHEMA`权限 |
 
 

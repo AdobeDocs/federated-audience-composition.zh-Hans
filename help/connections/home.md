@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 9%
+source-wordcount: 3543
+ht-degree: 8%
 
 ---
 
@@ -217,6 +217,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
 
+如果您选择&#x200B;**[!UICONTROL WIF]**，则&#x200B;**不**&#x200B;需要提供任何登录信息。 但是，您&#x200B;**必须**&#x200B;将客户端库配置添加为&#x200B;**[!UICONTROL 密钥文件路径]**。 有关客户端库配置的更多信息，请阅读[Google BigQuery （工作负载标识联合）配置部分](#wif-configuration)。
+
 输入登录详细信息后，您可以添加以下详细信息：
 
 | 字段 | 描述 |
@@ -387,3 +389,46 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 测试连接 | 允许您验证配置详细信息。 |
 
 现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
+
+## 附录 {#appendix}
+
+以下附录介绍如何设置外部帐户端的连接。
+
+### Google BigQuery（工作负载标识联合）配置 {#wif-configuration}
+
+在配置Google Cloud Platform设置之前，您需要以下值：
+
+- AWS帐户ID
+   - 请联系您的Adobe代表以获取此值。
+- AWS IAM角色名称
+   - AWS IAM角色名称遵循后续格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+在Google Cloud Console的&#x200B;**IAM和管理部分**&#x200B;中创建一个&#x200B;**工作负载标识池**。 这使您能够组织和管理外部身份。
+
+选择&#x200B;**添加提供程序**&#x200B;以创建标识提供程序。 这通过提供有关身份提供程序的相关元数据，在Google Cloud中的身份提供程序和工作者身份池之间配置单向信任。
+
+![Google Cloud中突出显示“添加提供程序”按钮。](/help/connections/assets/home/select-add-provider.png)
+
+在创建提供程序时，您需要提供以下信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| 名称 | 工作量标识池提供程序的名称。 |
+| ID | 将自动生成提供程序ID。 |
+| AWS帐户ID | 之前提供的AWS帐户ID。 |
+| 启用的提供程序 | 一个布尔值，用于确定是启用还是禁用了提供程序。 |
+| 属性映射 | 要与角色匹配的映射。 此信息已存在。 |
+
+创建提供程序后，您需要创建一个IAM策略，让工作负载标识池标识模拟服务帐户。 选择&#x200B;**授予访问权限**&#x200B;以打开“授予对服务帐户的访问权限”对话框。
+
+在该对话框中，选择&#x200B;**使用服务帐户模拟**&#x200B;授予访问权限。 在&#x200B;**选择承担者**&#x200B;部分中，您需要创建属性映射。
+
+选择&#x200B;**aws_role**&#x200B;并添加`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`作为值，使用之前提供的值替换`AWSAccountID`和`AWSRoleName`。
+
+![显示“授予访问权限”对话框。](/help/connections/assets/home/aws_role.png)
+
+在授予对服务帐户的访问权限后，请下载客户端库配置。
+
+![将显示下载库配置的位置。](/help/connections/assets/home/download-config.png)
+
+下载客户端库配置后，您现在可以使用联合受众配置设置WIF连接。
