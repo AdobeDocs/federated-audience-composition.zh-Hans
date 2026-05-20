@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 12%
@@ -24,16 +24,6 @@ ht-degree: 12%
 | --- |
 | 您现在可以使用WIF身份验证连接到Google Big Query。 有关使用WIF身份验证进行连接的更多详细信息，请阅读[连接概述](/help/connections/home.md#wif-configuration)。 |
 
-## 2026年4月版 {#fac-26-04}
-
-4月版的联合受众构成支持以下功能和改进：
-
-### 新功能 {#fac=26-04-feature}
-
-| 新连接器 — Teradata |
-| --- |
-| Teradata连接器现在可用于联合受众合成。 您可以使用Teradata连接器创建受众和扩充受众用例。 有关Teradata连接器的更多信息，请阅读[连接概述](/help/connections/home.md)。 |
-
 ### 改进 {#fac-26-05-improvements}
 
 此版本附带以下改进。
@@ -43,6 +33,16 @@ ht-degree: 12%
   您现在可以在Journey Optimizer读取受众历程中将FAC受众属性用作补充标识符。 这使您可以在多个实体（如帐户或订阅级别）激活受众。
 
   有关详细信息，请参阅历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
+
+## 2026年4月版 {#fac-26-04}
+
+4月版的联合受众构成支持以下功能和改进：
+
+### 新功能 {#fac=26-04-feature}
+
+| 新连接器 — Teradata |
+| --- |
+| Teradata连接器现在可用于联合受众合成。 您可以使用Teradata连接器创建受众和扩充受众用例。 有关Teradata连接器的更多信息，请阅读[连接概述](/help/connections/home.md)。 |
 
 ### 改进 {#fac-26-04-improvements}
 
