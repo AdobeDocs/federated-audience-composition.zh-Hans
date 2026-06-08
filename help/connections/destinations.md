@@ -44,7 +44,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
 在&#x200B;**[!UICONTROL 警报]**&#x200B;部分中，您可以启用警报以接收有关数据流到目标的状态的通知。 其中包括数据流运行延迟、运行失败、运行成功、运行启动和激活跳过等警报。
 
-有关警报的详细信息，请阅读有关Adobe Experience Platform文档[使用UI订阅目标警报](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}。
+有关警报的详细信息，请阅读有关Adobe Experience Platform文档[使用UI订阅目标警报](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/alerts){target="_blank"}。
 
 ![将显示目标的可用警报。](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 >
 >有关如何配置计划和文件名的详细信息，请参阅Adobe Experience Platform文档的以下部分：
 >
->* [计划受众导出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [配置文件名](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [计划受众导出](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [配置文件名](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 在&#x200B;**[!UICONTROL 映射]**&#x200B;步骤中，选择要为受众导出的属性和标识字段。
 
@@ -79,7 +79,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 >
 >激活到目标时，您&#x200B;**无法**&#x200B;使用系统生成的列。 选择系统生成的列将导致出现错误。
 
-有关详细信息，请参阅Adobe Experience Platform文档中的[映射部分](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+有关详细信息，请参阅Adobe Experience Platform文档中的[映射部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
 ![显示映射属性页。](assets/destinations/attributes.png)
 
