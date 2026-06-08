@@ -56,5 +56,5 @@ ht-degree: 3%
 
 ## 后续步骤 {#next-steps}
 
-阅读本指南后，您现在了解如何在Journey Optimizer历程中使用联合受众组合受众中的补充标识符。 有关使用补充历程的详细信息，请阅读历程指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用补充标识符。
+阅读本指南后，您现在了解如何在Journey Optimizer历程中使用联合受众组合受众中的补充标识符。 有关使用补充历程的详细信息，请阅读历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
 
