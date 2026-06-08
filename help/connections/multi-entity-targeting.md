@@ -2,7 +2,7 @@
 audience: end-user
 title: 在Adobe Journey Optimizer中使用联合受众组合受众进行多实体定位
 description: 了解如何在Adobe Journey Optimizer历程中定位联合受众组合受众的用户档案。
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ ht-degree: 3%
 ## 后续步骤 {#next-steps}
 
 阅读本指南后，您现在了解如何在Journey Optimizer历程中使用联合受众组合受众中的补充标识符。 有关使用补充历程的详细信息，请阅读历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
+
