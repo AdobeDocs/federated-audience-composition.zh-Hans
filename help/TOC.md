@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 联合受众构成
 title: Experience Platform 联合受众构成文档
 breadcrumb-title: Experience Platform 联合受众构成
-source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
    - [连接概述](connections/home.md)
    - [数据访问权限矩阵](connections/fda-rights.md)
    - [利用外部数据丰富 Adobe Experience Platform 受众](connections/destinations.md)
+   - [多实体定位](connections/multi-entity-targeting.md)
 - 数据模型和架构 {#models}
    - [架构概述](data-modelling/schemas.md)
    - [数据模型概述](data-modelling/models.md)
