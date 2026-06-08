@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ Adobe Experience Platform允许使用&#x200B;**Adobe联合受众组合目标**�
 
 >[!IMPORTANT]
 >
->激活目标时，您&#x200B;**无法**&#x200B;使用系统生成的列。 选择系统生成的列将导致激活失败。
+>激活到目标时，您&#x200B;**无法**&#x200B;使用系统生成的列。 选择系统生成的列将导致出现错误。
 
 有关详细信息，请参阅Adobe Experience Platform文档中的[映射部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
