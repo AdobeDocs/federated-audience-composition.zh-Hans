@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3947
 ht-degree: 8%
 
 ---
@@ -225,6 +225,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 项目 | 项目的ID。 有关详细信息，请阅读[Google Cloud项目文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 数据集 | 数据集的名称。 有关详细信息，请参阅[Google Cloud数据集文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
+| Google Bucket位置 | Google Bucket的位置。 只有在构成中使用&#x200B;**更改维度**&#x200B;活动时才需要添加此字段。 有关详细信息，请阅读[Google Cloud存储段位置文档](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}。 |
 | 密钥文件路径 | 到服务器的密钥文件。 仅支持`json`个文件。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -240,6 +241,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | GCloudConfigName | **注意：**&#x200B;这仅适用于7.3.4以上版本的&#x200B;**批量加载工具** (Cloud SDK)。<br/><br/> 存储用于加载数据的参数的配置的名称。 默认情况下，此值为`accfda`。 |
 | GCloudDefaultConfigName | **注意：**&#x200B;这仅适用于7.3.4以上版本的&#x200B;**批量加载工具** (Cloud SDK)。<br/><br/> 用于为加载数据重新创建主配置的临时配置的名称。 默认情况下，此值为`default`。 |
 | GCloudRecreateConfig | **注意：**&#x200B;这仅适用于7.3.4以上版本的&#x200B;**批量加载工具** (Cloud SDK)。<br/><br/> 一个布尔值，通过它，可决定批量加载机制是否应自动重新创建、删除或修改Google Cloud SDK配置。 如果此值设置为`false`，则批量加载机制将使用计算机上的现有配置来加载数据。 如果此值设置为`true`，请确保您的配置设置正确 — 否则，将显示`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`错误，加载机制将还原为默认的加载机制。 |
+| **restEndpoint** | Apigee代理的端点。 只有在将REST-API连接器与Apigee代理结合使用时，才需要使用此项。 如果您使用的是Apigee代理，请启用&#x200B;**使用REST API连接器**&#x200B;设置。 有关设置的详细信息，请阅读[Google BigQuery Apigee网关支持部分](#apigee)。 |
 
 >[!TAB Microsoft结构]
 
@@ -254,7 +256,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 对于Microsoft Fabric ，可以设置以下附加选项：
 
-| 选项 | 描述 |
+| 选项 | 说明 |
 | ------ | ----------- |
 | 身份验证 | 连接器使用的身份验证类型。 支持的值包括： `ActiveDirectoryMSI`。 有关详细信息，请阅读有关仓库连接的[Microsoft文档](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}。 |
 
@@ -425,10 +427,39 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 选择&#x200B;**aws_role**&#x200B;并添加`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`作为值，使用之前提供的值替换`AWSAccountID`和`AWSRoleName`。
 
-![显示“授予访问权限”对话框。](/help/connections/assets/home/aws_role.png)
+![显示“授予访问权限”对话框。](/help/connections/assets/home/aws-role.png)
 
 在授予对服务帐户的访问权限后，请下载客户端库配置。
 
 ![将显示下载库配置的位置。](/help/connections/assets/home/download-config.png)
 
 下载客户端库配置后，您现在可以使用联合受众配置设置WIF连接。
+
+### Google BigQuery [!DNL Apigee]网关支持 {#apigee}
+
+您可以使用Google Cloud的本机API管理平台[!DNL Apigee]将您的API调用代理到Google BigQuery。
+
+您首先需要在[!DNL Apigee] UI中创建代理。 在Google Cloud中，依次转到&#x200B;**Apigee**、**代理开发**、**API代理**&#x200B;和&#x200B;**创建**&#x200B;以调出&#x200B;**创建代理**&#x200B;面板。 在面板上，您可以填写以下详细信息：
+
+![将显示Apigee代理创建屏幕。](/help/connections/assets/home/create-proxy-apigee.png)
+
+| 详细信息 | 描述 |
+| ------- | ----------- |
+| 代理模板 | 要创建的代理的类型。 对于此用例，您应该选择&#x200B;**反向代理（最常见）**。 |
+| 代理名称 | 代理的名称。 此值&#x200B;**只能**&#x200B;包含字母数字字符、破折号(`-`)或下划线(`_`)。 |
+| 基本路径 | 显示API代理的主机地址的URI片段。 此基本路径基于代理名称，**必须**&#x200B;是唯一的。 |
+| 描述 | API代理的可选描述。 |
+| Target | API代理调用的后端服务的URL（包括HTTP或HTTPS）。 |
+
+对于联合受众合成，为Google BigQuery连接器使用的&#x200B;**每个**&#x200B;端点创建代理端点规则，如下所示：
+
+| 基本路径 | 目标端点 | 描述 |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Google BigQuery的主端点。 此端点用于获取查询和列表表等数据。 |
+| `/token` | `https://oauth2.googleapis.com/token` | 此端点用于服务帐户身份验证。 |
+| `/storage` | `https://storage.googleapis.com/storage` | 此存储端点用于删除临时批量加载文件。 |
+| `/upload` | `https://storage.googleapis.com/upload` | 此存储端点用于批量加载文件。 |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | 此端点用于工作负载身份联合(WIF)流以获取令牌。 |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | 此端点用于模拟工作负载标识联合(WIF)流中的服务帐户。 |
+
+创建代理后，即可将其用于连接联合受众合成。 部署代理后，当您在&#x200B;**管理员**&#x200B;部分中选择&#x200B;**环境**，然后选择&#x200B;**组**&#x200B;时，可以在&#x200B;**主机名**&#x200B;下找到代理的完整URL。
