@@ -3,9 +3,8 @@ title: Federated受众组合发行说明
 description: 联合受众组合的最新更新和发行说明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: null
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
 workflow-type: tm+mt
 source-wordcount: 726
 ht-degree: 12%
@@ -40,7 +39,7 @@ ht-degree: 12%
 
   您现在可以在Journey Optimizer读取受众历程中将FAC受众属性用作补充标识符。 这使您可以在多个实体（如帐户或订阅级别）激活受众。
 
-  有关详细信息，请参阅历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
+  有关详细信息，请参阅历程指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用补充标识符。
 
 ## 2026 年 4 月版本 {#fac-26-04}
 
@@ -102,7 +101,7 @@ ht-degree: 12%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 
