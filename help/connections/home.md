@@ -4,17 +4,12 @@ title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 8%
 
 ---
@@ -25,8 +20,7 @@ ht-degree: 8%
 >
 >要访问连接，您需要以下权限之一：
 >
->-**管理联合数据库**
->-**查看联合数据库**
+>-**管理联合数据库-**&#x200B;查看联合数据库&#x200B;**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -84,7 +78,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | 帐户的用户名。 |
 | 密码 | 帐户的密码。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 工作模式 | 用于工作表的数据库模式的名称。 有关此功能的详细信息，请参阅[Amazon架构文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}。<br/><br/>**注意：**&#x200B;您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
+| 工作架构 | 用于工作表的数据库模式的名称。 有关此功能的详细信息，请参阅[Amazon架构文档](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}。<br/><br/>**注意：**&#x200B;您可以使用数据库中的任何架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -100,7 +94,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
 | 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的示例连接字符串部分。 |
+| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[示例连接字符串部分。 |
 
 或者，您也可以使用服务主体身份验证安全地配置Azure Synapse Analytics连接。 您应该将服务主体身份验证用于生产级集成以及自动化方案。
 
@@ -178,9 +172,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的数据库文档。 |
-| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的数据库文档 |
-| 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
+| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[数据库文档。 |
+| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[数据库文档 |
+| 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于数据库，可以设置以下附加选项：
@@ -225,8 +219,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 项目 | 项目的ID。 有关详细信息，请阅读[Google Cloud项目文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 数据集 | 数据集的名称。 有关详细信息，请参阅[Google Cloud数据集文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
-| Google Bucket位置 | Google Bucket的位置。 只有在构成中使用&#x200B;**更改维度**&#x200B;活动时才需要添加此字段。 有关详细信息，请阅读[Google Cloud存储段位置文档](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}。 |
 | 密钥文件路径 | 到服务器的密钥文件。 仅支持`json`个文件。 |
+| Google Bucket位置 | Google Bucket的位置。 只有在构成中使用&#x200B;**更改维度**&#x200B;活动时才需要添加此字段。 有关详细信息，请阅读[Google Cloud存储段位置文档](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}。 |
+| 使用REST API连接器 | 启用使用REST API连接器的切换。 如果您使用帐户/密码身份验证，则此选项仅&#x200B;**可用**。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Google BigQuery，您可以设置以下附加选项：
@@ -250,8 +245,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | Microsoft Fabric服务器的URL。 |
-| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric文档。 |
-| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft Fabric文档。 |
+| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric文档。 |
+| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft Fabric文档。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Microsoft Fabric ，可以设置以下附加选项：
@@ -318,7 +313,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
+| 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 私钥 | 数据库连接的私钥。 您可以从本地系统上传`.pem`文件。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -328,8 +323,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ------- | ----------- |
 | workschema | 用于工作表的数据库模式的名称。 |
 | TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 默认情况下，将使用系统时区。 有关时区的更多信息，请阅读[Snowflake关于时区的文档](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}。 |
-| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake文档 |
-| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake文档。 |
+| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake文档 |
+| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake文档。 |
 | bulkThreads | 用于Snowflake批量加载器的线程数。 添加线程越多，批量负载越大，性能越好。 默认情况下，此值设置为1。 |
 | chunkSize | 每个批量加载程序块的文件大小。 与更多线程同时使用时，您可以提高批量加载的性能。 默认情况下，此值设置为128 MB。 有关区块大小的更多信息，请阅读有关准备数据文件的[Snowflake文档](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 预配置的内部暂存环境的名称。 这可用于批量加载，而不是创建新的临时阶段。 |
@@ -367,7 +362,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | 帐户的用户名。 |
 | 密码 | 帐户的密码。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 工作模式 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
+| 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Vertica Analytics，您可以设置以下其他选项：
@@ -387,7 +382,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 设置 | 详细信息 |
 | -------- | ------- |
 | 启用连接 | 布尔值切换，确定是否自动启用连接。 |
-| 服务器IP | 一个弹出窗口，显示连接数据库需要列入允许列表的IP地址。 |
+| 服务器 IP | 一个弹出窗口，显示连接数据库需要列入允许列表的IP地址。 |
 | 测试连接 | 允许您验证配置详细信息。 |
 
 现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
