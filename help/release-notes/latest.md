@@ -30,7 +30,7 @@ ht-degree: 11%
 
 - **在历程模拟中支持联合受众组合受众**
 
-  通过历程模拟，您现在可以在使用模拟用户发布之前，测试使用联合受众构成受众创建的历程。 有关详细信息，请阅读[历程模拟入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
+  通过历程模拟，您现在可以在使用模拟用户发布之前，测试使用联合受众构成受众创建的历程。 有关详细信息，请阅读[历程模拟入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
 
 ## 2026 年 6 月版本 {#fac-26-06}
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 
