@@ -5,10 +5,10 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 12%
+source-wordcount: 825
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,23 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。 所有变更均已纳入本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## ’26年6月版 {#fac-26-06}
+## 2026年7月版 {#fac-26-07}
+
+联合受众构成的7月版本支持以下功能：
+
+| CHE2（瑞士）区域全面提供 |
+| --- |
+| 您现在可以在CHE2（瑞士）区域中配置联合受众组合实例。 |
+
+### 改进 {#fac-26-07-improvements}
+
+此版本附带以下改进。
+
+- **在历程模拟中支持联合受众组合受众**
+
+  通过历程模拟，您现在可以在使用模拟用户发布之前，测试使用联合受众构成受众创建的历程。 有关详细信息，请阅读[历程模拟入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
+
+## 2026 年 6 月版本 {#fac-26-06}
 
 联合受众组合的6月版本支持以下功能：
 
