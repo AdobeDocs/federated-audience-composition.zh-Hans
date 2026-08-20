@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +25,30 @@ ht-degree: 8%
 >
 >要访问连接，您需要以下权限之一：
 >
->-**管理联合数据库-**&#x200B;查看联合数据库&#x200B;**
+>-**管理联合数据库**
+>-**查看联合数据库**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
 
 Experience Platform联合受众构成允许您从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
 
 ## 支持的数据库 {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="私钥"
+>abstract="临时空白内容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="密钥文件路径"
+>abstract="临时空白内容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="服务器 IP"
+>abstract="临时空白内容。"
+
 
 要使用联合数据库和Adobe Experience Platform，必须首先在这两个源之间建立连接。 使用联合受众合成，您可以连接到以下数据库。
 
@@ -401,9 +418,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 在配置Google Cloud Platform设置之前，您需要以下值：
 
 - AWS帐户ID
-   - 请联系您的Adobe代表以获取此值。
+  - 请联系您的Adobe代表以获取此值。
 - AWS IAM角色名称
-   - AWS IAM角色名称遵循后续格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - AWS IAM角色名称遵循后续格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 在Google Cloud Console的&#x200B;**IAM和管理部分**&#x200B;中创建一个&#x200B;**工作负载标识池**。 这使您能够组织和管理外部身份。
 
@@ -449,7 +466,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 代理名称 | 代理的名称。 此值&#x200B;**只能**&#x200B;包含字母数字字符、破折号(`-`)或下划线(`_`)。 |
 | 基本路径 | 显示API代理的主机地址的URI片段。 此基本路径基于代理名称，**必须**&#x200B;是唯一的。 |
 | 描述 | API代理的可选描述。 |
-| Target | API代理调用的后端服务的URL（包括HTTP或HTTPS）。 |
+| 目标 | API代理调用的后端服务的URL（包括HTTP或HTTPS）。 |
 
 对于联合受众合成，为Google BigQuery连接器使用的&#x200B;**每个**&#x200B;端点创建代理端点规则，如下所示：
 
