@@ -4,18 +4,13 @@ title: 创建和管理与联合数据库的连接
 description: 了解如何创建和管理与联合数据库的连接
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +69,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->要使用专用链接或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
+>要使用PrivateLink或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
 
 出现“connection properties（连接属性）”弹出框。 您可以命名连接并选择要创建哪种类型的数据库。
 
@@ -90,7 +85,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >
 >仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，支持通过专用链接安全访问外部Amazon Redshift数据仓库。
+>此外，支持通过PrivateLink安全访问外部Amazon Redshift数据仓库。
 
 选择Amazon Redshift后，您可以添加以下详细信息：
 
@@ -116,7 +111,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
 | 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的示例连接字符串部分。 |
+| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[示例连接字符串部分。 |
 
 或者，您也可以使用服务主体身份验证安全地配置Azure Synapse Analytics连接。 您应该将服务主体身份验证用于生产级集成以及自动化方案。
 
@@ -162,7 +157,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->支持通过私有链接安全访问您的外部 Databricks 数据仓库。 这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
+>支持通过PrivateLink安全访问您的外部Databricks数据仓库。 这包括通过PrivateLink与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
 
 选择数据库后，您可以选择与联合受众组合连接时要使用的身份验证方法。
 
@@ -194,8 +189,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的数据库文档。 |
-| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的数据库文档 |
+| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[数据库文档。 |
+| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[数据库文档 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -267,13 +262,13 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | Microsoft Fabric服务器的URL。 |
-| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric文档。 |
-| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft Fabric文档。 |
+| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric文档。 |
+| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft Fabric文档。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Microsoft Fabric ，可以设置以下附加选项：
 
-| 选项 | 说明 |
+| 选项 | 描述 |
 | ------ | ----------- |
 | 身份验证 | 连接器使用的身份验证类型。 支持的值包括： `ActiveDirectoryMSI`。 有关详细信息，请阅读有关仓库连接的[Microsoft文档](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}。 |
 
@@ -295,7 +290,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
+>支持通过PrivateLink安全访问外部Snowflake数据仓库。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 
 选择Snowflake后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
 
@@ -345,8 +340,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ------- | ----------- |
 | workschema | 用于工作表的数据库模式的名称。 |
 | TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 默认情况下，将使用系统时区。 有关时区的更多信息，请阅读[Snowflake关于时区的文档](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}。 |
-| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake文档 |
-| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake文档。 |
+| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake文档 |
+| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake文档。 |
 | bulkThreads | 用于Snowflake批量加载器的线程数。 添加线程越多，批量负载越大，性能越好。 默认情况下，此值设置为1。 |
 | chunkSize | 每个批量加载程序块的文件大小。 与更多线程同时使用时，您可以提高批量加载的性能。 默认情况下，此值设置为128 MB。 有关区块大小的更多信息，请阅读有关准备数据文件的[Snowflake文档](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 预配置的内部暂存环境的名称。 这可用于批量加载，而不是创建新的临时阶段。 |
