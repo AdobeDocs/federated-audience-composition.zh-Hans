@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +74,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->要使用专用链接或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
+>要使用PrivateLink或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
 
 出现“connection properties（连接属性）”弹出框。 您可以命名连接并选择要创建哪种类型的数据库。
 
@@ -90,7 +90,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >
 >仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，支持通过专用链接安全访问外部Amazon Redshift数据仓库。
+>此外，支持通过PrivateLink安全访问外部Amazon Redshift数据仓库。
 
 选择Amazon Redshift后，您可以添加以下详细信息：
 
@@ -162,7 +162,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->支持通过私有链接安全访问您的外部 Databricks 数据仓库。 这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
+>支持通过PrivateLink安全访问您的外部Databricks数据仓库。 这包括通过PrivateLink与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
 
 选择数据库后，您可以选择与联合受众组合连接时要使用的身份验证方法。
 
@@ -273,7 +273,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 对于Microsoft Fabric ，可以设置以下附加选项：
 
-| 选项 | 说明 |
+| 选项 | 描述 |
 | ------ | ----------- |
 | 身份验证 | 连接器使用的身份验证类型。 支持的值包括： `ActiveDirectoryMSI`。 有关详细信息，请阅读有关仓库连接的[Microsoft文档](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}。 |
 
@@ -295,7 +295,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
+>支持通过PrivateLink安全访问外部Snowflake数据仓库。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 
 选择Snowflake后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
 

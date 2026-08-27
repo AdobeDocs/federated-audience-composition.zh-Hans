@@ -13,10 +13,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
 * **Snowflake 安全连接**
 
-  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Amazon Redshift 数据库建立安全的私有链接连接。 [了解详情](../connections/home.md#amazon-redshift)
+  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Amazon Redshift数据库的安全PrivateLink连接。 [了解详情](../connections/home.md#amazon-redshift)
 
 ## 2025 年 3 月版本 {#fac-25-3}
 
@@ -113,8 +113,8 @@ ht-degree: 97%
 
 * **Databricks 连接**
 
-  通过这个新版本，联合受众构成现在支持 Databricks 数据库连接的私有链接连接。
-这包括通过私有链接与 Amazon Web Services (AWS) 上托管的 Databricks 数据库建立安全连接，以及通过 VPN 与 Microsoft Azure 上托管的 Databricks 数据库建立安全连接。 [了解详情](../connections/home.md#databricks)
+  在此新版本中，联合受众组合现在支持用于Databricks数据库连接的PrivateLink连接。
+  这包括通过PrivateLink与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 [了解详情](../connections/home.md#databricks)
 
 * **为 B2B CDP 客户提供支持**
 
@@ -122,7 +122,7 @@ ht-degree: 97%
 
 * **Snowflake 安全连接**
 
-  通过这个新版本，联合受众构成支持与 Microsoft Azure 上托管的 Snowflake 数据库建立安全的私有链接连接。 [了解详情](../connections/home.md#snowflake)
+  在此新版本中，联合受众组合支持到Microsoft Azure上托管的Snowflake数据库的安全PrivateLink连接。 [了解详情](../connections/home.md#snowflake)
 
 ## 2025 年 2 月版本 {#fac-25-2}
 
@@ -171,7 +171,7 @@ ht-degree: 97%
 
 * **支持通过 AWS PrivateLink 安全访问 Snowflake**
 
-  现在支持通过私有链接安全访问您的外部 Snowflake Data Warehouse。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。 [了解详情](../connections/home.md#snowflake)
+  现在支持通过PrivateLink安全访问外部Snowflake数据仓库。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。 [了解详情](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支持**
 
