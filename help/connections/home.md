@@ -6,19 +6,22 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 3987
+source-wordcount: '3999'
 ht-degree: 7%
-
 ---
-
 # 创建连接 {#connections-fdb}
 
 >[!AVAILABILITY]
@@ -45,10 +48,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >abstract="临时空白内容。"
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="服务器 IP"
->abstract="临时空白内容。"
-
+>abstract="为连接到数据库而需要列入允许列表的IP地址。"
 
 要使用联合数据库和Adobe Experience Platform，必须首先在这两个源之间建立连接。 使用联合受众合成，您可以连接到以下数据库。
 
@@ -273,7 +275,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 对于Microsoft Fabric ，可以设置以下附加选项：
 
-| 选项 | 描述 |
+| 选项 | 说明 |
 | ------ | ----------- |
 | 身份验证 | 连接器使用的身份验证类型。 支持的值包括： `ActiveDirectoryMSI`。 有关详细信息，请阅读有关仓库连接的[Microsoft文档](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}。 |
 
