@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: 创建和管理与联合数据库的连接
-description: 了解如何创建和管理与联合数据库的连接
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: 在Experience Platform UI中创建和管理与联合数据库的连接
+description: 了解如何在Experience Platform UI中创建和管理与联合数据库的连接。
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4385'
 ht-degree: 7%
 ---
-# 创建连接 {#connections-fdb}
+# 在Experience Platform UI中创建连接
 
 >[!AVAILABILITY]
+>
+>新的统一连接体验仅向部分客户提供。 有关更多信息，请联系Adobe客户关怀部门。
+>
+>如果您无权访问新的连接体验，请阅读[连接概述](./home.md)。
 >
 >要访问连接，您需要以下权限之一：
 >
@@ -37,6 +39,16 @@ ht-degree: 7%
 Experience Platform联合受众构成允许您从第三方数据仓库构建和丰富受众，并将受众导入到Adobe Experience Platform。
 
 ## 支持的数据库 {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="私钥"
+>abstract="临时空白内容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="密钥文件路径"
+>abstract="临时空白内容。"
 
 要使用联合数据库和Adobe Experience Platform，必须首先在这两个源之间建立连接。 使用联合受众合成，您可以连接到以下数据库。
 
@@ -52,23 +64,34 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 ## 创建连接 {#create}
 
-要创建连接，请在联合数据部分中选择&#x200B;**[!UICONTROL 联合数据库]**。
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="服务器 IP"
+>abstract="为连接到数据库而需要列入允许列表的IP地址。"
 
-![左侧导航中突出显示“联合数据库”按钮。](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+要创建连接，请在&#x200B;**[!UICONTROL 连接]**&#x200B;部分中选择&#x200B;**[!UICONTROL 源]**。
 
-此时将显示“联合数据库”部分。 选择&#x200B;**[!UICONTROL 添加联合数据库]**&#x200B;以创建连接。
+此时将显示“源”目录。 选择&#x200B;**[!UICONTROL 联合数据]**&#x200B;可查看组织可用的联合数据库列表。
 
-![“添加联合数据库”按钮在“联合数据库”显示页中突出显示。](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![源目录中的联合数据部分突出显示。](/help/connections/assets/integrated/federated-data-sources.png)
+
+选择联合数据库类型后，如果要建立新连接，请选择&#x200B;**[!UICONTROL 设置]**；如果要使用现有连接，请选择&#x200B;**[!UICONTROL 添加数据]**。
+
+此时会显示“连接帐户”页面。 您可以使用&#x200B;**现有**&#x200B;帐户或创建&#x200B;**新**&#x200B;帐户。
+
+### 现有账户 {#existing-account}
+
+如果选择&#x200B;**[!UICONTROL 现有帐户]**，则可以选择以前创建的源连接之一。
+
+![显示现有帐户节的示例。](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->要使用PrivateLink或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
+>要使用专用链接或VPN请求安全连接，您&#x200B;**必须**&#x200B;已获得Privacy and Security Shield或Healthcare Shield的许可。
 
-出现“connection properties（连接属性）”弹出框。 您可以命名连接并选择要创建哪种类型的数据库。
+### 新帐户 {#new-account}
 
-![显示联合数据库类型。](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-选择类型后，将显示&#x200B;**[!UICONTROL 详细信息]**&#x200B;部分。 此部分根据之前选择的数据库类型而有所不同。
+如果选择&#x200B;**[!UICONTROL 新帐户]**，则会显示连接详细信息页面。 在此页面中，您可以设置有关连接的详细信息，包括帐户名称、说明和帐户身份验证详细信息。 帐户身份验证部分因之前选择的数据库类型而异。
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >
 >仅支持Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，支持通过PrivateLink安全访问外部Amazon Redshift数据仓库。
+>此外，支持通过专用链接安全访问外部Amazon Redshift数据仓库。
 
 选择Amazon Redshift后，您可以添加以下详细信息：
 
@@ -146,52 +169,52 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 选项 | 用于连接的其他选项。 若要使用服务主体身份验证，您需要设置`Authentication="ActiveDirectoryServicePrincipal"`。 |
 
->[!TAB 数据库]
+>[!TAB 数据块]
 
 >[!NOTE]
 >
->支持通过PrivateLink安全访问您的外部Databricks数据仓库。 这包括通过PrivateLink与Amazon Web Services (AWS)上托管的Databricks数据库的安全连接，以及通过VPN与Microsoft Azure上托管的Databricks数据库的安全连接。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
+>支持通过专用链接安全访问外部DataBricks数据仓库。 这包括通过VPN安全连接到Amazon Web Services (AWS)上托管的DataBricks数据库以及Microsoft Azure上托管的DataBricks数据库。 请联系您的 Adobe 代表，以获取有关设置安全访问权限的帮助。
 
-选择数据库后，您可以选择与联合受众组合连接时要使用的身份验证方法。
+选择DataBricks后，您可以选择与联合受众合成连接时要使用的身份验证方法。
 
-如果选择&#x200B;**帐户/密码身份验证**，则可以添加以下登录详细信息：
-
-| 字段 | 描述 |
-| ----- | ----------- |
-| Server | Databricks服务器的名称。 |
-| 密码 | 数据库服务器的访问令牌。 有关此值的更多信息，请阅读有关个人访问令牌的[数据库文档](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}。 |
-
-如果选择&#x200B;**服务主体身份验证**，则可以添加以下详细信息：
+如果选择&#x200B;**[!UICONTROL 基本身份验证]**，则可以添加以下登录详细信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| Server | Databricks服务器的名称。 |
-| 客户端 ID | 来自数据库服务器的客户端ID。 此字段充当项目的用户名。 |
-| 客户端密码 | 来自数据库服务器的客户端密钥。 此字段充当项目的密码。 |
+| Server | DataBricks服务器的名称。 |
+| 密码 | DataBricks服务器的访问令牌。 有关此值的更多信息，请阅读有关个人访问令牌的[DataBricks文档](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}。 |
 
-如果选择&#x200B;**OAuth 2.0**，则可以添加以下详细信息：
+如果选择&#x200B;**[!UICONTROL OAuth2身份验证代码]**，则可以添加以下详细信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| Server | Databricks服务器的名称。 |
-| 客户端 ID | 来自数据库服务器的客户端ID。 此字段用于在OAuth 2.0身份验证期间标识应用程序，并充当项目的用户名。 |
-| 客户端密码 | 来自数据库服务器的客户端密钥。 此机密凭据与客户端ID一起签发，并充当项目的密码。 |
-| 访问范围 | 预填充的信息列出您的OAuth令牌在数据库服务器中授权的作用域。 |
+| Server | DataBricks服务器的名称。 |
+| 客户端 ID | 来自DataBricks服务器的客户端ID。 此字段用于在OAuth 2.0身份验证期间标识应用程序，并充当项目的用户名。 |
+| 客户端密码 | 来自DataBricks服务器的客户端密钥。 此机密凭据与客户端ID一起签发，并充当项目的密码。 |
+| 访问范围 | 预填充的信息列出您的OAuth令牌在DataBricks服务器中授权的作用域。 |
+
+如果选择&#x200B;**[!UICONTROL 服务主体身份验证]**，则可以添加以下详细信息：
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| Server | DataBricks服务器的名称。 |
+| 客户端 ID | 来自DataBricks服务器的客户端ID。 此字段充当项目的用户名。 |
+| 客户端密码 | 来自DataBricks服务器的客户端密钥。 此字段充当项目的密码。 |
 
 输入登录详细信息后，您可以添加以下信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[数据库文档。 |
-| Catalog | 数据库目录的名称。 有关数据库目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[数据库文档 |
+| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[DataBricks文档。 |
+| Catalog | DataBriks目录的名称。 有关DataBricks中目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[DataBricks文档 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
-对于数据库，可以设置以下附加选项：
+对于DataBricks，可以设置以下附加选项：
 
 | 选项 | 描述 |
 | ------- | ----------- |
-| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 有关时区的详细信息，请阅读[关于时区的Databricks文档](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}。 |
+| TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 有关时区的详细信息，请阅读[时区](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}的DataBricks文档。 |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 选择Google BigQuery后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
 
-如果选择&#x200B;**[!UICONTROL 帐户/密码身份验证]**，则可以添加以下登录信息：
+如果选择&#x200B;**[!UICONTROL 基本身份验证]**，则可以添加以下登录信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
 | 服务帐户 | 服务帐户的电子邮件地址。 有关详细信息，请阅读[Google Cloud Service帐户文档](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}。 |
 
-如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
+如果选择&#x200B;**[!UICONTROL OAuth2授权代码]**，则可以添加以下登录信息：
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 选择&#x200B;**[!UICONTROL 登录]**&#x200B;以完成您的身份验证。
 
-如果您选择&#x200B;**[!UICONTROL WIF]**，则&#x200B;**不**&#x200B;需要提供任何登录信息。 但是，您&#x200B;**必须**&#x200B;将客户端库配置添加为&#x200B;**[!UICONTROL 密钥文件路径]**。 有关客户端库配置的更多信息，请阅读[Google BigQuery （工作负载标识联合）配置部分](#wif-configuration)。
+如果您选择&#x200B;**[!UICONTROL WIF]**，则&#x200B;**不**&#x200B;需要提供任何登录信息。 但是，您&#x200B;**必须**&#x200B;将客户端库配置添加为&#x200B;**[!UICONTROL 配置文件路径]**。 有关客户端库配置的更多信息，请阅读[Google BigQuery （工作负载标识联合）配置部分](#wif-configuration)。
 
 输入登录详细信息后，您可以添加以下详细信息：
 
@@ -229,9 +252,9 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 项目 | 项目的ID。 有关详细信息，请阅读[Google Cloud项目文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 数据集 | 数据集的名称。 有关详细信息，请参阅[Google Cloud数据集文档](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
-| 密钥文件路径 | 到服务器的密钥文件。 仅支持`json`个文件。 |
+| 配置文件路径 | 到服务器的配置文件。 仅支持`json`个文件。 |
 | Google Bucket位置 | Google Bucket的位置。 只有在构成中使用&#x200B;**更改维度**&#x200B;活动时才需要添加此字段。 有关详细信息，请阅读[Google Cloud存储段位置文档](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}。 |
-| 使用REST API连接器 | 启用使用REST API连接器的切换。 如果您使用帐户/密码身份验证，则此选项仅&#x200B;**可用**。 |
+| 使用REST API连接器 | 启用使用REST API连接器的切换。 如果您使用的是基本身份验证，则此选项仅&#x200B;**可用**。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Google BigQuery，您可以设置以下附加选项：
@@ -283,11 +306,11 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 >[!NOTE]
 >
->支持通过PrivateLink安全访问外部Snowflake数据仓库。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
+>支持通过私有链接安全访问您的外部 Snowflake 数据仓库。 请注意，您的 Snowflake 帐户必须在 Amazon Web Services (AWS) 或 Azure 上托管，并且与您的联合受众构成环境位于同一区域。 请联系您的 Adobe 代表，以获取有关设置 Snowflake 帐户安全访问权限的帮助。
 
 选择Snowflake后，您可以选择在与联合受众构成连接时要使用的身份验证方法。
 
-如果选择&#x200B;**[!UICONTROL 帐户/密码身份验证]**，则可以添加以下登录信息：
+如果选择&#x200B;**[!UICONTROL 基本身份验证]**，则可以添加以下登录信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 用户 | 帐户的用户名。 |
 | 密码 | 帐户的密码。 |
 
-或者，您也可以提供私钥而不是提供密码。 如果添加私钥，则需要提供以下信息：
+如果选择&#x200B;**[!UICONTROL 密钥对身份验证]**，则可以添加以下登录信息：
 
 | 字段 | 描述 |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 私钥 | 帐户的私钥。 仅支持`.pem`个文件。 |
 | 密码 | （可选）帐户的密码。 |
 
-如果选择&#x200B;**[!UICONTROL OAuth 2.0]**，则可以添加以下登录信息：
+如果选择&#x200B;**[!UICONTROL OAuth2授权代码]**，则可以添加以下登录信息：
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
-| 私钥 | 数据库连接的私钥。 您可以从本地系统上传`.pem`文件。 |
+| 私钥 | Snowflake帐户的Base64编码私钥。 您可以生成加密或未加密的私钥。 如果您使用的是加密的私钥，那么在针对Experience Platform进行身份验证时，还必须提供私钥密码。 阅读有关[检索Snowflake私钥](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)的指南以了解更多信息。 |
+| 私钥的密码短语 | 私钥密码是附加的安全层，在使用加密的私钥进行身份验证时必须使用该安全层。 如果您使用未加密的私钥，则无需提供密码。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Snowflake，您可以设置以下其他选项：
@@ -395,7 +419,39 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 服务器 IP | 一个弹出窗口，显示连接数据库需要列入允许列表的IP地址。 |
 | 测试连接 | 允许您验证配置详细信息。 |
 
-现在，您可以依次选择&#x200B;**[!UICONTROL 部署函数]**&#x200B;和&#x200B;**[!UICONTROL 添加]**&#x200B;以完成联合数据库与Experience Platform之间的连接。
+您现在可以选择&#x200B;**[!UICONTROL 连接到源]**&#x200B;来设置数据库连接的架构详细信息。
+
+## 架构选择 {#schema-selection}
+
+此时将显示&#x200B;**[!UICONTROL 架构选择]**&#x200B;页。 在此页上，可以为联合数据库连接定义方案。
+
+![“添加表”按钮在“添加数据”屏幕中高亮显示。](/help/data-modelling/assets/integrated/select-add-table.png)
+
+有关设置架构详细信息的详细信息，请阅读[架构指南](/help/data-modelling/schemas-integrated.md)。
+
+选择架构后，选择&#x200B;**[!UICONTROL 下一步]**&#x200B;继续。
+
+## 审阅 {#review}
+
+此时会显示&#x200B;**[!UICONTROL 审核]**&#x200B;页面。 在此页上，您可以查看联合数据库连接的详细信息。 如果详细信息正确，请选择&#x200B;**[!UICONTROL 完成]**&#x200B;以创建连接。
+
+![将显示“审阅”页。 此页面显示连接详细信息和架构信息。](/help/connections/assets/integrated/review.png)
+
+将创建连接。 出现一个弹出窗口，要求您&#x200B;**[!UICONTROL 查看架构]**&#x200B;或&#x200B;**[!UICONTROL 创建关系]**。 如果选择&#x200B;**[!UICONTROL 查看架构]**，则会显示[架构浏览](/help/data-modelling/schemas-integrated.md#edit-a-schema)页面。 如果选择&#x200B;**[!UICONTROL 创建关系]**，则会显示[实体图](/help/data-modelling/schemas-integrated.md#edit-relationships)页面。
+
+## 编辑连接 {#edit-connection}
+
+如果需要编辑源连接的登录详细信息，请选择&#x200B;**[!UICONTROL 源]**，然后选择&#x200B;**[!UICONTROL 帐户]**。
+
+![“帐户”按钮突出显示，显示源帐户浏览页。](/help/connections/assets/integrated/select-accounts.png)
+
+出现“source connectors browse（源连接器浏览）”页面。 查找要更新的源连接器，选择![三个圆点](/help/assets/icons/more.png)，然后选择&#x200B;**[!UICONTROL 编辑详细信息]**。
+
+![已突出显示“编辑详细信息”按钮。](/help/connections/assets/integrated/select-edit-details.png)
+
+出现&#x200B;**[!UICONTROL 编辑帐户详细信息]**&#x200B;弹出框。 在此弹出窗口中，可以更新联合数据库源连接的详细信息。
+
+![将显示“编辑帐户详细信息”弹出框。](/help/connections/assets/integrated/edit-account-details.png)
 
 ## 附录 {#appendix}
 

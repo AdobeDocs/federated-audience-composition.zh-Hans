@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '580'
 ht-degree: 18%
 ---
 # 架构概述 {#schemas}
@@ -29,11 +29,6 @@ ht-degree: 18%
 >-**查看联合架构**
 >
 >有关所需权限的更多信息，请阅读[访问控制指南](/help/governance-privacy-security/access-control.md)。
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="管理配置"
->abstract="临时空白内容。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ ht-degree: 18%
 >使用同一数据库连接多个沙盒时，必须使用不同的工作架构。
 
 ## 创建架构 {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="复合密钥"
->abstract="由多个架构列组成的架构键。 标记要用作组合键的列。"
 
 要在联合受众组合中创建架构，请在&#x200B;**[!UICONTROL 联合数据]**&#x200B;部分中选择&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 创建架构]**。
 
