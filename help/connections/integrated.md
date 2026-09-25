@@ -127,7 +127,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 帐户 | Azure应用程序注册的应用程序ID （**客户端ID**）。 |
 | 密码 | Azure应用程序的&#x200B;**客户端密钥**&#x200B;值。 |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
-| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的示例连接字符串部分。 |
+| 选项 | 用于连接的其他选项。 对于Azure Synapse Analytics，您可以指定连接器支持的身份验证类型。 目前，联合受众组合支持`ActiveDirectoryMSI`。 有关连接字符串的更多信息，请参阅Microsoft文档](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[示例连接字符串部分。 |
 
 或者，您也可以使用服务主体身份验证安全地配置Azure Synapse Analytics连接。 您应该将服务主体身份验证用于生产级集成以及自动化方案。
 
@@ -205,8 +205,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 
 | 字段 | 描述 |
 | ----- | ----------- |
-| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的DataBricks文档。 |
-| Catalog | DataBriks目录的名称。 有关DataBricks中目录的详细信息，请阅读有关目录[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的DataBricks文档 |
+| HTTP 路径 | 群集或仓库的路径。 有关路径的详细信息，请阅读有关连接详细信息](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[DataBricks文档。 |
+| Catalog | DataBriks目录的名称。 有关DataBricks中目录的详细信息，请阅读有关目录](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[DataBricks文档 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -278,8 +278,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | 字段 | 描述 |
 | ----- | ----------- |
 | Server | Microsoft Fabric服务器的URL。 |
-| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric文档。 |
-| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft Fabric文档。 |
+| 应用程序Id | Microsoft结构的应用程序ID。 有关应用程序ID的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric文档。 |
+| 客户端密码 | 应用程序的客户端密码。 有关客户端密钥的详细信息，请阅读有关应用程序设置](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft Fabric文档。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
 对于Microsoft Fabric ，可以设置以下附加选项：
@@ -347,7 +347,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
-| 私钥 | Snowflake帐户的Base64编码私钥。 您可以生成加密或未加密的私钥。 如果您使用的是加密的私钥，那么在针对Experience Platform进行身份验证时，还必须提供私钥密码。 阅读有关[检索Snowflake私钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/databases/snowflake)的指南以了解更多信息。 |
+| 私钥 | Snowflake帐户的Base64编码私钥。 您可以生成加密或未加密的私钥。 如果您使用的是加密的私钥，那么在针对Experience Platform进行身份验证时，还必须提供私钥密码。 阅读有关[检索Snowflake私钥](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)的指南以了解更多信息。 |
 | 私钥的密码短语 | 私钥密码是附加的安全层，在使用加密的私钥进行身份验证时必须使用该安全层。 如果您使用未加密的私钥，则无需提供密码。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
@@ -357,8 +357,8 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ------- | ----------- |
 | workschema | 用于工作表的数据库模式的名称。 |
 | TimeZoneName | 要使用的时区的名称。 此值表示`TIMEZONE`会话参数。 默认情况下，将使用系统时区。 有关时区的更多信息，请阅读[Snowflake关于时区的文档](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}。 |
-| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake文档 |
-| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake文档。 |
+| WeekStart | 您希望一周开始的那一天。 此值表示`WEEK_START`会话参数。 有关周开始的详细信息，请阅读有关周开始参数](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake文档 |
+| UseCachedResult | 一个布尔值，确定是否使用Snowflake缓存的结果。 此值表示`USE_CACHED_RESULTS`会话参数。 默认情况下，此值设置为true。 有关此参数的更多信息，请阅读有关保留结果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake文档。 |
 | bulkThreads | 用于Snowflake批量加载器的线程数。 添加线程越多，批量负载越大，性能越好。 默认情况下，此值设置为1。 |
 | chunkSize | 每个批量加载程序块的文件大小。 与更多线程同时使用时，您可以提高批量加载的性能。 默认情况下，此值设置为128 MB。 有关区块大小的更多信息，请阅读有关准备数据文件的[Snowflake文档](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 预配置的内部暂存环境的名称。 这可用于批量加载，而不是创建新的临时阶段。 |

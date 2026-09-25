@@ -99,7 +99,7 @@ ht-degree: 3%
 
 ![已突出显示“编辑架构”按钮。](/help/data-modelling/assets/integrated/edit-schema.png)
 
-在&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口中，您可以看到架构编辑器。 有关使用架构编辑器的更多信息，请阅读[架构UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
+在&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口中，您可以看到架构编辑器。 有关使用架构编辑器的更多信息，请阅读[架构UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
 
 ![将显示架构编辑器。](/help/data-modelling/assets/integrated/schema-editor.png)
 
