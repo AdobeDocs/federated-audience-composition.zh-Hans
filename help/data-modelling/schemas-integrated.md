@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # 架构概述 {#schemas}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="复合密钥"
->abstract="由多个架构列组成的架构键。 标记要用作组合键的列。"
+>abstract="由多个架构列组成的架构键。 标记要用作复合键的列。"
 
 选择联合数据库后，您现在可以定义架构。 出现&#x200B;**[!UICONTROL 添加数据]**&#x200B;屏幕。 在此页上，可以选择&#x200B;**[!UICONTROL 添加表]**&#x200B;以选择要添加到架构中的表。
 
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 ![已突出显示“编辑架构”按钮。](/help/data-modelling/assets/integrated/edit-schema.png)
 
-在&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口中，您可以看到架构编辑器。 有关使用架构编辑器的更多信息，请阅读[架构UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
+在&#x200B;**[!UICONTROL 编辑架构]**&#x200B;窗口中，您可以看到架构编辑器。 有关使用架构编辑器的更多信息，请阅读[架构UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
 
 ![将显示架构编辑器。](/help/data-modelling/assets/integrated/schema-editor.png)
 
