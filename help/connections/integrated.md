@@ -347,7 +347,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 | ----- | ----------- |
 | 数据库 | 数据库的名称。 如果在服务器名称中指定此字段，可将此字段留空。 |
 | 工作架构 | 用于工作表的数据库模式的名称。 <br/><br/>**注意：**&#x200B;您可以从数据库使用&#x200B;**any**&#x200B;架构，包括用于临时数据处理的架构，只要您具有连接到此架构所需的权限。 但是，在使用同一数据库连接多个沙盒时，**必须**&#x200B;使用不同的工作架构。 |
-| 私钥 | Snowflake帐户的Base64编码私钥。 您可以生成加密或未加密的私钥。 如果您使用的是加密的私钥，那么在针对Experience Platform进行身份验证时，还必须提供私钥密码。 阅读有关[检索Snowflake私钥](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)的指南以了解更多信息。 |
+| 私钥 | Snowflake帐户的Base64编码私钥。 您可以生成加密或未加密的私钥。 如果您使用的是加密的私钥，那么在针对Experience Platform进行身份验证时，还必须提供私钥密码。 阅读有关[检索Snowflake私钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/databases/snowflake)的指南以了解更多信息。 |
 | 私钥的密码短语 | 私钥密码是附加的安全层，在使用加密的私钥进行身份验证时必须使用该安全层。 如果您使用未加密的私钥，则无需提供密码。 |
 | 选项 | 用于连接的其他选项。 下表列出了可用的选项。 |
 
