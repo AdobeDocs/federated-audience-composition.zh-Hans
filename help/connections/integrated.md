@@ -67,7 +67,7 @@ Experience Platform联合受众构成允许您从第三方数据仓库构建和�
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="服务器 IP"
->abstract="为连接到数据库而需要列入允许列表的IP地址。"
+>abstract="连接数据库所需添加到允许列表的 IP 地址。"
 
 要创建连接，请在&#x200B;**[!UICONTROL 连接]**&#x200B;部分中选择&#x200B;**[!UICONTROL 源]**。
 

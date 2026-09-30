@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # 架构概述 {#schemas}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="复合密钥"
->abstract="由多个架构列组成的架构键。 标记要用作组合键的列。"
+>abstract="由多个架构列组成的架构键。 标记要用作复合键的列。"
 
 选择联合数据库后，您现在可以定义架构。 出现&#x200B;**[!UICONTROL 添加数据]**&#x200B;屏幕。 在此页上，可以选择&#x200B;**[!UICONTROL 添加表]**&#x200B;以选择要添加到架构中的表。
 
