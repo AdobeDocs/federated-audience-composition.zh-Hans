@@ -6,17 +6,19 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 TQID: https://experienceleague.adobe.com/-SzMG0wJnEcqFJPJZqBWKD8y22d4Z525Obe5CnyhcfE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 655
+source-wordcount: '655'
 ht-degree: 84%
-
 ---
-
 # 合成概述
 
 >[!AVAILABILITY]
@@ -44,7 +46,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="构成"
->abstract="在此屏幕中可访问整个构成列表、检查他们当前的状态、上次/下次执行日期以及创建新构成。"
+>abstract="在此屏幕中可访问整个构成列表、检查它们当前的状态、上次/下次执行日期以及创建新构成。"
 
 您可以通过 Adobe Experience Platform 中的&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，进入&#x200B;**[!UICONTROL 客户]**&#x200B;部分下的&#x200B;**[!UICONTROL 联合构成]**&#x200B;标签页访问构成项目。
 
@@ -56,9 +58,9 @@ ht-degree: 84%
 | ------ | ----------- |
 | **[!UICONTROL 草稿]** | 该构成已创建并保存。 |
 | **[!UICONTROL 进行中]** | 该构成已执行并且正在运行。 |
-| **[!UICONTROL 已停止]** | 对该构成的执行已完成并停止。 |
+| **[!UICONTROL 已停止]** | 该构成执行已完成并已停止。 |
 | **[!UICONTROL 暂停]** | 对该构成的执行已暂停。 |
-| **[!UICONTROL 错误]** | 对该构成的执行遇到错误。 如需查看有关错误的详细信息，请打开该构成项目并访问日志。 |
+| **[!UICONTROL 错误]** | 该构成执行过程中遇到错误。 如需查看有关错误的详细信息，请打开该构成项目并访问日志。 |
 
 您可以在[创建合成指南](./create-composition.md#monitor-logs)中了解如何启动或停止合成。
 

@@ -5,17 +5,19 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 TQID: https://experienceleague.adobe.com/Ld1rXMaY21NGXSuPtCo2MbYZUubjJBJZedBFRJ7jsDc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: '631'
 ht-degree: 81%
-
 ---
-
 # 联合受众组合中的访问控制
 
 您可以使用访问控制提供对沙盒和联合受众组合的基于角色的访问。
@@ -81,7 +83,7 @@ ht-degree: 81%
 | FAC 构成管理器 | <ul><li>管理联合构成</li></ul> |
 | FAC 管理员 | <ul><li>管理联合数据</li></ul> |
 
-然后，用户会收到一封电子邮件，其中包含访问实例的说明。 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
+然后，用户会收到一封电子邮件，其中包含访问您的实例的说明。 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 ## 管理对特定组合的访问
 

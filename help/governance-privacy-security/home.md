@@ -5,17 +5,19 @@ exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1286
+source-wordcount: '1286'
 ht-degree: 79%
-
 ---
-
 # 数据治理、隐私和安全性
 
 >[!IMPORTANT]
@@ -50,17 +52,17 @@ Federated Audience Composition提供了多种服务和工具，使您能够遵�
 
 例如，当您在组合画布中使用“保存”操作块创建受众时，生成的受众会作为外部受众存储在 Experience Platform 的数据湖中。 该外部受众将标记其身份标识字段和身份标识命名空间。 因此，您可以使用 Privacy Service 访问并移除包含在外部受众中的这些轮廓。
 
-或者，当您在组合画布中使用“保存轮廓”操作创建轮廓扩充信息后，生成的扩充数据将作为启用轮廓的架构和启用轮廓的数据集存储在 Experience Platform 中。 该扩充数据会标记其身份标识字段和身份标识命名空间。 因此，您可以使用 Privacy Service 访问并清除这些轮廓。
+或者，当您在构成画布中使用“保存轮廓”操作创建轮廓扩充信息后，生成的扩充数据将作为启用轮廓的架构和启用轮廓的数据集存储在 Experience Platform 中。 该扩充数据会使用身份标识字段和身份标识命名空间进行标记。 因此，您可以使用 Privacy Service 访问并清除这些轮廓。
 
 有关 Privacy Service 的更多信息，请阅读 [Privacy Service 服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}。
 
 ### 隐私请求 {#privacy-requests}
 
-在 Privacy Service 中，您可以创建和管理单独的隐私请求以访问和删除联合受众构成中的客户数据。 Privacy Service 同时提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，以帮助您管理客户数据请求。
+在 Privacy Service 中，您可以创建和管理个体隐私请求，以访问和删除联合受众构成中的客户数据。 Privacy Service 同时提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}，以帮助您管理客户数据请求。
 
 如需了解有关创建和管理隐私请求的更多信息，请参阅 [Privacy Service UI 指南中的隐私作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/ui/user-guide){target="_blank"}。
 
-### 同意政策执行 {#consent}
+### 同意策略执行 {#consent}
 
 联合受众构成通过 Experience Platform 提供相关工具，帮助您自动执行同意策略，确保仅基于客户所提供的同意来激活受众。
 
@@ -102,7 +104,7 @@ Federated Audience Composition提供了多种服务和工具，使您能够遵�
 
 ### 审核日志 {#audit-log}
 
-在联合受众构成中执行的所有创建、读取、更新和删除操作都会记录在审计日志中。 您可以利用审计日志追踪这些操作，强化责任归属，并支持合规性审计。
+在联合受众构成中执行的所有创建、读取、更新和删除操作都会记录在审核记录中。 您可以利用审计日志追踪这些操作，强化责任归属，并支持合规性审计。
 
 如需了解更多信息，请参阅[审计日志概述](/help/admin/audit-trail.md){target="_blank"}。
 

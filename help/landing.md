@@ -5,20 +5,20 @@ exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Data management
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 94%
-
 ---
-
 # 联合受众构成文档 {#fac-home}
 
 欢迎来到 Adobe Experience Platform 联合受众构成文档
 
-Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey Optimizer 用户提供了数据管理的灵活性和高效性。 借助联合受众构成，您可以使用易于营销人员使用的 UI 访问企业数据仓库，以构建受众并利用 Adobe Experience Platform 工作流中的数据集，而无需保留底层企业数据。 这有助于您在访问数据仓库以获取体验用例时减少数据移动。
+Experience Platform 联合受众构成为 Adobe Real-Time CDP 和 Adobe Journey Optimizer 用户提供了数据管理的灵活性和高效性。 借助联合受众构成，您可以使用易于营销人员使用的 UI 访问企业数据仓库，以构建受众并利用 Adobe Experience Platform 工作流中的数据集，而无需保留底层企业数据。 这有助于您在针对体验用例访问数据仓库时减少数据移动。
 
 >[!BEGINTABS]
 
