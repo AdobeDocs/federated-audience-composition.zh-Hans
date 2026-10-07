@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # 联合受众构成概述
 
 联合受众构成允许您从第三方数据仓库构建和丰富受众，并将受众导入Adobe Experience Platform。 这带来了一个简单而强大的解决方案，用于直接在Adobe Real-Time Customer Data Platform或Adobe Journey Optimizer等下游服务中连接企业数据仓库，并对数据仓库的表执行查询。 因此，您可以访问存储在数据仓库和云存储平台（如Amazon Redshift和Azure Synapse Analytics）中的客户数据。
@@ -41,13 +45,13 @@ ht-degree: 55%
 联合受众构成支持&#x200B;**三类**&#x200B;使用场景：受众创建、受众扩充和客户轮廓扩充。
 
 * **受众创建**：您可以通过营销人员友好的拖放用户界面，从数据仓库创建受众并将这些受众联合到Experience Platform中，以便在Real-Time CDP或Journey Optimizer中使用。 因此，您无需复制敏感的底层数据或重复现有数据，即可查询数据仓库。
-   * **示例：**&#x200B;利用数据仓库中的历史交易数据创建高价值历史购买者受众，而无需将这些交易数据复制到 Experience Platform 中。
+  * **示例：**&#x200B;利用数据仓库中的历史交易数据创建高价值历史购买者受众，而无需将这些交易数据复制到 Experience Platform 中。
 
 * **受众扩充**：通过使用数据仓库中的其他数据集并使用此信息叠加受众，您可以向Experience Platform中的现有受众添加更多详细信息 — 所有这些操作都不需要将基础数据复制到Experience Platform中。 通过受众扩展，您可以借助扩充后的受众实现更出色的个性化体验。
-   * **示例：**&#x200B;将 Experience Platform 中的购物车放弃者受众与联合受众构成中的高价值历史购买者受众进行整合，以实现精准的产品建议投放。
+  * **示例：**&#x200B;将 Experience Platform 中的购物车放弃者受众与联合受众构成中的高价值历史购买者受众进行整合，以实现精准的产品建议投放。
 
-* **配置文件扩充**：您可以从数据仓库中选择单个客户属性以增强Experience Platform配置文件。 通过将联合数据添加到这些轮廓中，您可以更有效地响应客户的实时信号，从而驱动即时体验。
-   * **示例：**&#x200B;使用联合受众中的信息丰富 Experience Platform 中的轮廓。 现在，您可以根据站点访客的在站行为，向其投放定向产品优惠——前提是该访客属于高价值历史购买者联合受众。
+* **配置文件扩充**：您可以从数据仓库中选择单个客户属性以增强Experience Platform配置文件。 通过将联合数据添加到这些轮廓中，您可以更好地支持由传入客户信号触发的即时体验。
+  * **示例：**&#x200B;使用联合受众中的信息丰富 Experience Platform 中的轮廓。 现在，您可以根据网站访客的在站行为，向其投放定向产品建议，前提是该访客属于高价值历史购买者联合受众。
 
 ![图表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -75,7 +79,7 @@ ht-degree: 55%
 
 ### 隐私请求 {#gov-privacy-requests}
 
-您创建一个构成后，生成的受众就会保存在 Adobe Experience Platform 中。
+创建构成后，生成的受众就会保存在 Adobe Experience Platform 中。
 
 然后，您可以通过 Adobe Experience Platform **Privacy Service** 提出隐私请求，以访问和/或删除与这些受众相对应的轮廓数据，该服务提供[用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}和 [RESTful API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"} 来帮助您管理客户数据请求。
 

@@ -6,14 +6,13 @@ exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: '2084'
 ht-degree: 35%
-
 ---
-
-# 生成您的第一个查询 {#build-query}
+# 构建您的第一个查询 {#build-query}
 
 要开始构建查询，请从您选择的位置访问查询建模器，具体取决于您要执行的操作。 此时将打开查询建模器，并显示一个空白画布。 选择&#x200B;**+**&#x200B;按钮以配置查询的第一个节点。
 

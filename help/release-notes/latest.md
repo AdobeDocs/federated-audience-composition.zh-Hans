@@ -5,18 +5,17 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: '825'
 ht-degree: 11%
-
 ---
-
 # 发行说明
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。 所有变更均已纳入本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2026年7月版 {#fac-26-07}
+## 2026 年 7 月版本 {#fac-26-07}
 
 联合受众构成的7月版本支持以下功能：
 

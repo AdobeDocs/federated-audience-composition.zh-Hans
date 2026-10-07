@@ -5,16 +5,17 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # 常见问题 {#faq}
 
 以下是有关 Adobe Experience Platform 联合受众构成的常见问题列表。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}中还提供了有关 Adobe Experience Platform 细分服务的一般常见问题解答。
@@ -80,7 +81,7 @@ ht-degree: 75%
 
 +++ 回答
 
-没有，联合受众构成仅会存储元数据（架构描述）。 没有客户数据在传输。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+不，联合受众构成仅存储元数据（架构描述）。 没有客户数据在传输。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -96,8 +97,8 @@ ht-degree: 75%
 请注意，外部生成的受众的当前数据有效期限为 30 天。 数据过期会减少组织内存储的多余数据量。 数据过期期限过后，关联的数据集仍然在数据集库存中可见，但您无法激活受众，并且轮廓计数将显示为零。 在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}中了解详情。
 
 * 对于受众扩充而言，起点是现有的 Adobe Experience Platform 受众。 这里可以看到两种情况：
-   1. 从联合数据仓库中获取额外的受众负载属性：在这种情况下，所添加的额外属性将会作为此受众定义的一部分出现。 外部生成的受众的数据有效期限与上面描述的相同，为 30 天。
-   1. 根据数据仓库中存在的其他属性来优化现有的 Adobe Experience Platform 受众。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. 从联合数据仓库中获取额外的受众负载属性：在这种情况下，所添加的额外属性将会作为此受众定义的一部分出现。 外部生成的受众的数据有效期限与上面描述的相同，为 30 天。
+  1. 根据数据仓库中存在的其他属性来优化现有的 Adobe Experience Platform 受众。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## 如果用于受众创建和受众扩充用例模式的数据未保留，那么它是如何临时存储的？
@@ -120,7 +121,7 @@ ht-degree: 75%
 
 +++ 回答
 
-不，构成过程中不会利用身份标识服务。 组合中使用的各种源之间的数据通过用户定义的逻辑（如底层模型中表示的）进行连接，例如CRM ID、用户帐户号等。您必须选择用作受众中标识符的标识，以供在数据仓库中选择。 在联合受众构成产生的受众中，您需要在生成的数据集中身份标识该身份标识的身份标识命名空间。
+不，构成过程中不会利用身份标识服务。 组合中使用的各种源之间的数据通过用户定义的逻辑（如底层模型中表示的）进行连接，例如CRM ID、用户帐户号等。您必须选择用作受众中标识符的标识，以供在数据仓库中选择。 对于联合受众构成生成的受众，您需要识别生成的数据集中该身份标识对应的身份标识命名空间。
 
 +++
 

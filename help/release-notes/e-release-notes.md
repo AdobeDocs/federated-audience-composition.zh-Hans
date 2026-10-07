@@ -7,26 +7,30 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: '1191'
 ht-degree: 90%
-
 ---
-
 # 发行说明 {#rn-new}
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。 所有变更均已纳入本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025 年 7 月版 {#fac-25-7}
 
-此发布版本包含以下变化和改进：
+此版本包含以下变更和改进：
 
 * **Oracle 连接器可用性**
 
@@ -68,7 +72,7 @@ ht-degree: 90%
 
 * **AI 助手**
 
-  AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的操作洞察。 在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。 [了解详情](../start/audiences.md)
+  AI 助手是一项用户界面功能，用于帮助您导航并了解 Adobe 概念，获取针对特定环境的运营洞察。 在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括联合受众构成。 [了解详情](../start/audiences.md)
 
 * **数据模型名称**
 
@@ -152,7 +156,7 @@ ht-degree: 90%
 
 * **IP 地址允许列表**
 
-  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。 这使您能够轻松复制并授权这些 IPS 连接到您的数据库，以提高安全性和灵活性。 [了解详情](../connections/home.md)
+  在 Adobe Experience Platform 用户界面中添加联合数据库时，您现在可以直接查看与联合受众构成实例关联的 IP 地址。 这使您能够轻松复制这些 IP 并授权其连接到您的数据库，以提高安全性和灵活性。 [了解详情](../connections/home.md)
 
 ## 2024 年 10 月版本 {#fac-24-10}
 
@@ -193,7 +197,7 @@ ht-degree: 90%
 
 联合受众构成为企业访问企业数据仓库提供了灵活、扩大的权限，以使用关键企业数据集构成受众，并为由品牌发起的即时体验提供支持。 通过这种新方法，作为 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} 用户，您可以直接从现有数据仓库联合受众数据，以在一个系统中扩充 Adobe Experience Platform 受众。
 
-联合受众构成满足了企业日益增长的市场需求，企业则需要灵活地利用仓库数据集来构成受众。 这有助于企业减少数据移动，同时向营销团队提供关键受众数据，以满足用例要求并提供个性化体验。
+联合受众构成满足了需要灵活利用仓库数据集来构成受众的企业日益增长的市场需求。 这有助于企业减少数据移动，同时向营销团队提供重要的受众数据，以满足用例要求并提供个性化体验。
 
 要了解有关联合受众构成功能方面的更多信息，请参阅[此页面](../overview.md)以及[常见问题解答](../faq.md)。
 

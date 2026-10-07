@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 37%
-
 ---
-
 # 活动概述
 
 在联合受众构成中，您可以添加有助于定义受众的活动和过渡。
@@ -94,7 +93,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="更改维度活动"
->abstract="通过此活动，可在生成受众时更改架构，也称为定位维度。 它根据数据模板和输入架构移动轴。 例如，您可以从“合同”架构切换到“客户端”架构。"
+>abstract="通过此活动，可在生成受众时更改架构，也称为定位维度。 它根据数据模板和输入架构移动轴。 例如，您可以从“合同”架构切换到“客户”架构。"
 
 通过&#x200B;**更改维度**&#x200B;活动，您可以更改构成的结构描述（也称为定向维度）。
 
@@ -143,12 +142,12 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。 事实上，要从另一个架构（也称为定位维度）排除一个目标，必须将该目标返回到与主目标相同的架构。 为此，请在&#x200B;**排除规则**&#x200B;部分选择&#x200B;**添加规则**，并指定架构变更条件。 数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。 事实上，要从另一个架构（也称为目标维度）排除一个目标，必须将该目标返回到与主目标相同的架构。 为此，请在&#x200B;**排除规则**&#x200B;部分选择&#x200B;**添加规则**，并指定架构变更条件。 数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="选择要合并的集合"
->abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主要设置**。 这是排除了元素的集合。 其他集合用于匹配从主要设置中排除之前的元素。"
+>abstract="在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主要设置**。 这是从中排除元素的集合。 其他集合会先匹配元素，然后再将其从主集合中排除。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
@@ -232,7 +231,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="重复数据删除设置"
->abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只会保留一条记录。 您还应该根据表达式或属性选择重复数据删除模式。 默认情况下，要避免重复的记录是随机选择的。"
+>abstract="要删除传入数据中的重复项，请在以下字段中定义重复数据删除方法。 默认情况下，只会保留一条记录。 根据表达式或属性选择重复数据删除模式。 默认情况下，要排除重复项的记录是随机选择的。"
 
 **重复数据删除**&#x200B;活动会删除受众中的任何重复结果。
 
@@ -272,7 +271,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="链接定义"
->abstract="在表数据和联合数据库之间创建链接。"
+>abstract="在工作表数据和联合数据库之间创建链接。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
@@ -335,7 +334,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
->abstract="选择要协调的入站数据的架构，也称为定位维度。"
+>abstract="选择要协调的入站数据的架构，也称为目标维度。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -461,7 +460,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="增量更新"
->abstract="增量更新模式会更新自上次增强运行以来发生更改的字段。"
+>abstract="增量更新模式会更新自上次扩充运行以来发生更改的字段。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -598,7 +597,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
 >title="在同一个表中生成所有子集"
->abstract="切换该选项可将所有子集组合到单个输出过渡中。"
+>abstract="切换此选项可将所有子集组合到单个输出过渡中。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_emptytransition"
@@ -627,7 +626,7 @@ ht-degree: 37%
 创建筛选条件后，可以应用以下附加规则：
 
 - **启用限制**：限制允许拆分为子集的用户档案数。 您可以将其设置为群体的一个数字或百分比。
-   - 如果启用限制，则还可以根据特定配置文件属性对选定的配置文件进行排名。 打开&#x200B;**启用排序**，您可以按升序或降序对属性进行排序。
+  - 如果启用限制，则还可以根据特定配置文件属性对选定的配置文件进行排名。 打开&#x200B;**启用排序**，您可以按升序或降序对属性进行排序。
 - **跳过空过渡**：如果传入的群体为空，则禁用该过渡。
 
 现在，子集已配置完毕，您还可以设置其他几个选项。
@@ -694,7 +693,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="“调度程序”活动"
->abstract="通过&#x200B;**调度程序**&#x200B;活动，可计划何时开始受众构成。 应将此活动视为已计划的一次开始。 只能将它用作构成的第一个活动。"
+>abstract="通过&#x200B;**调度程序**&#x200B;活动，可计划何时开始受众构成。 应将此活动视为计划的开始。 只能将它用作构成的第一个活动。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_validity"

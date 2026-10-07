@@ -6,17 +6,19 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 TQID: https://experienceleague.adobe.com/5NHFZk5acjL5Ix-MlqSYzjKzgvpEcVsK3YoX73dq040
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '371'
 ht-degree: 15%
-
 ---
-
 # 审核记录 {#audit-trail}
 
 >[!AVAILABILITY]
@@ -42,14 +44,14 @@ ht-degree: 15%
 
 * **工作流审核跟踪**&#x200B;允许您跟踪活动以及对工作流所做的最新更改，包括其当前状态，例如：
 
-   * 开始
-   * 暂停
-   * 停止
-   * 重新启动
-   * 清除等于操作清除历史记录
-   * 模拟在模拟模式下等于操作“开始”的项
-   * 唤醒等于操作立即执行待处理任务
-   * 无条件停止
+  * 开始
+  * 暂停
+  * 停止
+  * 重新启动
+  * 清除等于操作清除历史记录
+  * 模拟在模拟模式下等于操作“开始”的项
+  * 唤醒等于操作立即执行待处理任务
+  * 无条件停止
 
   有关工作流的详细信息，请参阅此[页面](../compositions/home.md)。
 
