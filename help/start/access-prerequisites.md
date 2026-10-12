@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # 先决条件和护栏 {#fac-access}
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
    ![](assets/sandbox_2.png)
 
-如果要在其他沙盒上使用联合受众合成，请联系Adobe客户关怀部门以请求沙盒切换。
+如果要在其他沙盒上使用联合受众构成，请联系 Adobe 客户关怀部门以请求沙盒切换。
 
 ## 权限 {#permissions}
 
