@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # 发行说明
 
 [!DNL Federated Audience Composition] 不断地提供新功能、对现有功能进行增强和修复错误。 所有变更均已纳入本发行说明中。 [!DNL Federated Audience Composition] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+
+## 2026年9月版 {#fac-26-09}
+
+9月版的Federated Audience Composition支持以下功能：
+
+| 联合连接和架构的新统一体验 |
+| --- |
+| 您现在可以直接在Adobe Experience Platform UI中访问联合连接和架构。 要了解如何创建联合连接，请参阅Experience Platform UI指南中的[创建连接](/help/connections/integrated.md)。 要了解如何创建架构，请阅读[架构概述](/help/data-modelling/schemas-integrated.md)。 |
+
+| 对联合受众组合受众的沙盒工具支持 |
+| --- |
+| 您现在可以使用Experience Platform沙盒工具功能将联合受众组合受众从一个沙盒移动到另一个沙盒。 有关使用沙盒工具的更多信息，请阅读[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
+
+### 改进 {#fac-26-09-improvements}
+
+此版本附带以下改进。
+
+- 联合受众组合受众的数据过期时间增加&#x200B;****
+
+  联合受众组合受众的数据过期时间现已增加到3650天（10年）。
 
 ## 2026 年 7 月版本 {#fac-26-07}
 
@@ -29,7 +49,7 @@ ht-degree: 11%
 
 - **在历程模拟中支持联合受众组合受众**
 
-  通过历程模拟，您现在可以在使用模拟用户发布之前，测试使用联合受众构成受众创建的历程。 有关详细信息，请阅读[历程模拟入门指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
+  通过历程模拟，您现在可以在使用模拟用户发布之前，测试使用联合受众构成受众创建的历程。 有关详细信息，请阅读[历程模拟入门指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
 
 ## 2026 年 6 月版本 {#fac-26-06}
 
@@ -55,7 +75,7 @@ ht-degree: 11%
 
   您现在可以在Journey Optimizer读取受众历程中将FAC受众属性用作补充标识符。 这使您可以在多个实体（如帐户或订阅级别）激活受众。
 
-  有关详细信息，请参阅历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
+  有关详细信息，请参阅历程指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用补充标识符。
 
 ## 2026 年 4 月版本 {#fac-26-04}
 
@@ -117,7 +137,7 @@ ht-degree: 11%
 
 | Adobe Experience Platform客户在Amazon Web Services (AWS)上的可用性 |
 | --- |
-| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform实例位于AWS上，则现在可以使用联合受众合成。 有关AWS上Experience Platform的更多信息，请阅读[多云概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改进 {#fac-26-01-improvements}
 

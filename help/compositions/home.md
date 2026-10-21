@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 84%
+source-wordcount: '765'
+ht-degree: 59%
 ---
 # 合成概述
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 联合受众构成功能可让您创建构成项目，通过在可视化画布中组合各类活动，以构建受众。 在创建构成项目后，生成的受众将被保存至 Adobe Experience Platform，并可用于 Experience Platform 的目标定位功能以及 Adobe Journey Optimizer，实现精准客户投放。
 
-![联合受众构成中展示了一个示例构成工作流。](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![联合受众构成中展示了一个示例构成工作流。](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## 组合组件 {#components}
 
@@ -50,37 +50,42 @@ ht-degree: 84%
 
 您可以通过 Adobe Experience Platform 中的&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，进入&#x200B;**[!UICONTROL 客户]**&#x200B;部分下的&#x200B;**[!UICONTROL 联合构成]**&#x200B;标签页访问构成项目。
 
-从此屏幕中，您可以创建新的构成并访问现有的构成。 您还可以点击名称旁的![省略号](/help/assets/icons/more.png)按钮，复制或删除现有的构成项目。
+![已突出显示“联合合成”和“受众”按钮，显示如何访问“联合合成”部分。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-您还可以查看有关构成项目的信息，包括名称、状态、创建者和上次修改日期。
+在此屏幕中，您可以查看有关合成的信息并创建新合成。
 
-| 状态 | 描述 |
+![将显示联合合成列表。](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| 字段 | 描述 |
+| ----- | ----------- |
+| **[!UICONTROL 名称]** | 构成的名称。 如果选择构成，则可以编辑构成。 有关创建和编辑合成的详细信息，请阅读[创建合成指南](/help/compositions/create-composition.md)。 |
+| **[!UICONTROL 状态]** | 构成状态。 可能的值包括[!UICONTROL 草稿]、[!UICONTROL 进行中]、[!UICONTROL 已停止]、[!UICONTROL 已暂停]和[!UICONTROL 错误]。 <ul><li>**[!UICONTROL 草稿]**：已创建并保存合成。</li><li>**[!UICONTROL 进行中]**：合成已执行，当前正在运行。</li><li>**[!UICONTROL 已停止]**：组合执行已完成并已停止。</li><li>**[!UICONTROL 已暂停]**：合成执行已暂停。</li><li>**[!UICONTROL 错误]**：合成执行遇到错误。 如需查看有关错误的详细信息，请打开该构成项目并访问日志。</li></ul> 要了解如何启动或停止合成，请阅读[创建合成指南](./create-composition.md#monitor-logs)。 |
+| **[!UICONTROL 创建者]** | 创建构成的人的姓名和电子邮件地址。 |
+| **[!UICONTROL 已修改]** | 上次更新构成时的日期和时间。 |
+
+您还可以通过选择合成名称旁边的![省略号](/help/assets/icons/more.png)按钮对该合成执行快速操作。
+
+| 操作 | 描述 |
 | ------ | ----------- |
-| **[!UICONTROL 草稿]** | 该构成已创建并保存。 |
-| **[!UICONTROL 进行中]** | 该构成已执行并且正在运行。 |
-| **[!UICONTROL 已停止]** | 该构成执行已完成并已停止。 |
-| **[!UICONTROL 暂停]** | 对该构成的执行已暂停。 |
-| **[!UICONTROL 错误]** | 该构成执行过程中遇到错误。 如需查看有关错误的详细信息，请打开该构成项目并访问日志。 |
-
-您可以在[创建合成指南](./create-composition.md#monitor-logs)中了解如何启动或停止合成。
-
-![系统会显示一份可用构成项目的列表。](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL 重复]** | 复制所选合成。 |
+| **[!UICONTROL 删除]** | 删除所选合成。 |
+| **[!UICONTROL 添加到包]** | 在沙盒之间移动合成。 有关此功能的详细信息，请阅读[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
 
 您可以通过搜索列表，并按状态或最近处理日期进行筛选，从而优化列表并快速找到所需的构成项目。
 
 您还可以通过添加或移除列来自定义该列表。 为此，请点击&#x200B;**[!UICONTROL 配置列]**&#x200B;按钮，添加或移除所需的输出列。
 
-![系统会显示可添加到构成项目浏览页面的列的列表。](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![系统会显示可添加到构成项目浏览页面的列的列表。](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 应用访问标签 {#access-labels}
 
 要为特定构成项目应用访问标签，请先选择该构成项目，然后点击&#x200B;**[!UICONTROL 管理访问权限]**。
 
-![在构成画布中，“管理访问权限”按钮已高亮显示。](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![在构成画布中，“管理访问权限”按钮已高亮显示。](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL 管理访问权限]**&#x200B;弹出窗口将会显示。 在此页面，您可以为构成项目应用相应的访问权限标签和数据治理标签。
 
-![“管理访问权限”弹出窗口会显示。 该窗口显示了可应用于构成项目的所有可用标签列表。](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![“管理访问权限”弹出窗口会显示。 该窗口显示了可应用于构成项目的所有可用标签列表。](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 标签类型 | 描述 |
 | ---------- | ----------- |
