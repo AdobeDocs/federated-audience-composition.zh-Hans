@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # 活动概述
@@ -426,7 +426,7 @@ ht-degree: 37%
 
 添加映射后，您可以选择主身份和命名空间以标识数据库中的目标用户档案。 主身份字段用于识别用户档案，而身份命名空间用作识别身份的键。
 
-此外，您还可以设置受众的数据过期时间。 数据过期时间决定受众成员资格过期后的天数。 数据到期范围为1到90天。 默认情况下，此值设置为30。
+此外，您还可以设置受众的数据过期时间。 数据过期时间决定受众成员资格过期后的天数。 数据到期时间范围为1到3650天（10年）。 默认情况下，此值设置为30。
 
 +++
 
@@ -435,17 +435,17 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="保存字段"
->abstract="保存字段活动允许通过联合来自外部数据仓库的数据来增强 Experience Platform 架构，从而为 Experience Platform 架构添加更多属性。 "
+>abstract="保存字段活动允许通过联接外部数据仓库的数据来丰富 Experience Platform 架构，从而为 Experience Platform 架构添加更多属性。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="主要身份标识命名空间字段"
->abstract="用于主要身份标识的命名空间。 该命名空间用于提供上下文，以描述主要身份标识的分类。"
+>title="主身份命名空间字段"
+>abstract="主身份的命名空间。 命名空间有助于提供上下文，以描述主身份的分类。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
 >title="选择 Experience Platform 架构"
->abstract="选择您要增强的 Experience Platform 架构。"
+>abstract="选择您要丰富的 Experience Platform 架构。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
@@ -460,12 +460,12 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="增量更新"
->abstract="增量更新模式会更新自上次扩充运行以来发生更改的字段。"
+>abstract="增量更新模式会更新自上次丰富运行以来发生更改的字段。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="主要身份标识字段"
->abstract="主要身份标识字段指示将轮廓合并在一起以进行扩充时的真实来源。"
+>abstract="主身份字段指示在合并受众档案以进行丰富时的单一事实来源。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
@@ -474,8 +474,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitycheck"
->title="主要身份标识字段推荐准则"
->abstract="每个轮廓或记录的唯一标识符。 这确保每条记录都能被清楚地识别和匹配，防止数据重复。"
+>title="主身份字段标准"
+>abstract="每个受众档案或记录的唯一标识符。 这可确保每条记录都能被唯一识别和匹配，以防止数据重复。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
