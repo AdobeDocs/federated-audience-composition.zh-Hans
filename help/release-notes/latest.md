@@ -31,7 +31,7 @@ ht-degree: 9%
 
 此版本附带以下改进。
 
-- 联合受众组合受众的数据过期时间增加&#x200B;****
+- 联合受众组合受众的数据过期时间增加&#x200B;**&#x200B;**
 
   联合受众组合受众的数据过期时间现已增加到3650天（10年）。
 
@@ -75,7 +75,7 @@ ht-degree: 9%
 
   您现在可以在Journey Optimizer读取受众历程中将FAC受众属性用作补充标识符。 这使您可以在多个实体（如帐户或订阅级别）激活受众。
 
-  有关详细信息，请参阅历程指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用补充标识符。
+  有关详细信息，请参阅历程指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用补充标识符。
 
 ## 2026 年 4 月版本 {#fac-26-04}
 
