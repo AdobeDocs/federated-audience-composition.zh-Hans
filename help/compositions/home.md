@@ -69,7 +69,7 @@ ht-degree: 59%
 | ------ | ----------- |
 | **[!UICONTROL 重复]** | 复制所选合成。 |
 | **[!UICONTROL 删除]** | 删除所选合成。 |
-| **[!UICONTROL 添加到包]** | 在沙盒之间移动合成。 有关此功能的详细信息，请阅读[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
+| **[!UICONTROL 添加到包]** | 在沙盒之间移动合成。 有关此功能的详细信息，请阅读[沙盒工具指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
 
 您可以通过搜索列表，并按状态或最近处理日期进行筛选，从而优化列表并快速找到所需的构成项目。
 
