@@ -100,8 +100,8 @@ ht-degree: 2%
 不要应用到URL、文件名、目录名称、代码块、首字母缩略词或术语
 在“不翻译”数据库中。
 
-在链接文本中，移除标记括号： `[Adobe](https://www.adobe.com)`，而不是
-`[[!DNL Adobe]](https://www.adobe.com)`.
+在链接文本中，移除标记括号： `[Adobe](https://www.adobe.com/cn)`，而不是
+`[[!DNL Adobe]](https://www.adobe.com/cn)`.
 
 ### `[!UICONTROL Label]`： UI控件
 
@@ -362,7 +362,7 @@ call to action。 请勿以产品名称开头或逐字复制第一段。
 >id="platform_destinations_activate_filename"
 >title="Configure file name"
 >abstract="For file-based destinations, a unique file name is generated per segment. Use the file name editor to create and edit a unique file name or keep the default name."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html#file-names" text="Learn more in documentation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html?lang=zh-Hans#file-names" text="Learn more in documentation"
 ```
 
 必填字段： `id`、`title`、`abstract`。 其他所有选项都是可选的。
