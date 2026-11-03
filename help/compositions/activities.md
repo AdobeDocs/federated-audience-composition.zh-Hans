@@ -454,8 +454,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
->title="完整更新"
->abstract="完整更新模式会更新所选架构中的全部属性。"
+>title="完全更新"
+>abstract="完全更新模式会更新所选架构中的完整属性集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
@@ -515,7 +515,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果选定的数据集&#x200B;**未**&#x200B;启用upsert，则数据将被&#x200B;**替换**。 要了解如何为数据集启用更新插入，请阅读[启用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 将&#x200B;**[!UICONTROL 保存字段]**&#x200B;活动添加到合成后，您可以为该活动提供一个标签，并选择要使用的Adobe Experience Platform架构。 架构可以是标准架构或关系架构。
 
