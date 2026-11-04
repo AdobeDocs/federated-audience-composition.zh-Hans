@@ -454,8 +454,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
->title="完整更新"
->abstract="完整更新模式会更新所选架构中的全部属性。"
+>title="完全更新"
+>abstract="完全更新模式会更新所选架构中的完整属性集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
