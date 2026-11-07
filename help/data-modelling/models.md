@@ -143,4 +143,4 @@ ht-degree: 33%
 
 请在此视频中了解如何创建数据模型：
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507570?captions=chi_hans)
