@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # 先决条件和护栏 {#fac-access}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 沙盒
 
-购买联合受众构成时，您有权使用两个沙盒。 对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
+购买联合受众构成时，您有权使用五个沙盒。 对于任何其他沙盒设置请求，请联系您的 Adobe 代表。
 
 要查看活跃的联合受众构成沙盒列表，请按照以下步骤操作：
 
